@@ -54,11 +54,12 @@ public class WaterAndJugProblem365 {
     }
 
 
-    /* ------------------------------------------------------------------- */
-    /* Top Solution:
-    /* https://discuss.leetcode.com/topic/49238/math-solution-java-solution
-    /* https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity
-    /* ------------------------------------------------------------------- */
+    /** -------------------------------------------------------------------
+     * Top Solution:
+     * https://discuss.leetcode.com/topic/49238/math-solution-java-solution
+     * https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity
+     * --------------------------------------------------------------------
+     */
 
 
     public boolean canMeasureWaterMath(int x, int y, int z) {
@@ -85,10 +86,10 @@ public class WaterAndJugProblem365 {
 
     public static void main(String[] args) {
         WaterAndJugProblem365 wjp = new WaterAndJugProblem365();
-        System.out.println(wjp.canMeasureWater(3, 5, 4));
-        System.out.println(wjp.canMeasureWater(4, 6, 8));
-        System.out.println(wjp.canMeasureWater(1, 2, 3));
-        System.out.println(wjp.canMeasureWater(2, 6, 5));
+        System.out.println(wjp.canMeasureWaterMath(3, 5, 4));
+        System.out.println(wjp.canMeasureWaterMath(4, 6, 8));
+        System.out.println(wjp.canMeasureWaterMath(1, 2, 3));
+        System.out.println(wjp.canMeasureWaterMath(2, 6, 5));
     }
 
 }

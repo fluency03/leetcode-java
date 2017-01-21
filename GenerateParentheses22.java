@@ -29,10 +29,11 @@ public class GenerateParentheses22 {
     }
 
 
-    /* ------------------------------------------------------------------- */
-    /* Top Solution:
-    /* https://discuss.leetcode.com/topic/8724/easy-to-understand-java-backtracking-solution
-    /* ------------------------------------------------------------------- */
+    /** -------------------------------------------------------------------
+     * Top Solution:
+     * https://discuss.leetcode.com/topic/8724/easy-to-understand-java-backtracking-solution
+     * --------------------------------------------------------------------
+     */
 
     public List<String> generateParenthesis2(int n) {
         List<String> list = new ArrayList<String>();
@@ -52,10 +53,11 @@ public class GenerateParentheses22 {
             backtrack(list, str+")", open, close+1, max);
     }
 
-    /* ------------------------------------------------------------------- */
-    /* Top Solution (same idea above, but more efficient):
-    /* https://discuss.leetcode.com/topic/8724/easy-to-understand-java-backtracking-solution
-    /* ------------------------------------------------------------------- */
+    /** -------------------------------------------------------------------
+     * Top Solution (same idea above, but more efficient):
+     * https://discuss.leetcode.com/topic/8724/easy-to-understand-java-backtracking-solution
+     * --------------------------------------------------------------------
+     */
 
     public List<String> generateParenthesis3(int n) {
          List<String> res = new ArrayList<>();
