@@ -40,7 +40,7 @@ public class GenerateParentheses22 {
         return list;
     }
 
-    public void backtrack(List<String> list, String str, int open, int close, int max){
+    private void backtrack(List<String> list, String str, int open, int close, int max){
         if(str.length() == max*2){
             list.add(str);
             return;
@@ -82,13 +82,11 @@ public class GenerateParentheses22 {
     }
 
 
-
-
     public static void main(String[] args) {
-      GenerateParentheses22 gp = new GenerateParentheses22();
-      System.out.println(gp.generateParenthesis(3));
-      System.out.println(gp.generateParenthesis2(3));
-      System.out.println(gp.generateParenthesis3(3));
+        GenerateParentheses22 gp = new GenerateParentheses22();
+        System.out.println(gp.generateParenthesis(3));
+        System.out.println(gp.generateParenthesis2(3));
+        System.out.println(gp.generateParenthesis3(3));
     }
 
 }
