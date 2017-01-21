@@ -26,7 +26,7 @@ public class TreeNode {
 
 public class ConvertSortedListToBST109 {
     public TreeNode sortedListToBST(ListNode head) {
-        List<TreeNode> nodes = new ArrayList<TreeNode>()
+        List<TreeNode> nodes = new ArrayList<TreeNode>();
         storeBSTNodes(head, nodes);
 
         int n = nodes.size();
