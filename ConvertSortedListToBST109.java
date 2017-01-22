@@ -6,26 +6,27 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+  The following classes are defined in seperate files.
+ */
 /**
  * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
  */
-public class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
-
-
 /**
  * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
  */
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
-
 
 
 public class ConvertSortedListToBST109 {
