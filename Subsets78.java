@@ -19,43 +19,40 @@
  */
 
 
- import java.util.ArrayList;
- import java.util.HashSet;
- import java.util.List;
- import java.util.Set;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 
 public class Subsets78 {
-    public List<List<Integer>> subsets(int[] nums) {
-        Set<List<Integer>> returned = new HashSet<List<Integer>>();
-        int size = nums.size();
-        int mid = size / 2;
 
-        subsetsOneSize(nums, mid, returned);
-        return new ArrayList(returned);
+    /**
+     * https://leetcode.com/problems/subsets/#/solutions
+     */
+
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> list = new ArrayList<>();
+        Arrays.sort(nums);
+        backtrack(list, new ArrayList<>(), nums, 0);
+        return list;
     }
 
-    private List<List<Integer>> subsetsOneSize(int[] nums, int i, List<List<Integer>> returned) {
-        if (i == 0) {
-            returned.add([]);
-            returned.add(nums);
-            List<List<Integer>> tmp = new ArrayList<List<Integer>>();
-            tmp.add([]);
-            return tmp;
+    private void backtrack(List<List<Integer>> list , List<Integer> tempList, int [] nums, int start){
+        list.add(new ArrayList<>(tempList));
+        for(int i = start; i < nums.length; i++){
+            tempList.add(nums[i]);
+            backtrack(list, tempList, nums, i + 1);
+            tempList.remove(tempList.size() - 1);
         }
-
-        List<List<Integer>> tmp = subsetsOneSize(nums, i - 1, returned);
-
-
-
-
-        return tmp;
     }
 
     public static void main(String[] args) {
         Subsets78 ss = new Subsets78();
 
-        System.out.println(ss.subsets);
+        System.out.println(ss.subsets(new int[]{1, 2, 3, 4}));
+        System.out.println(ss.subsets(new int[]{1, 2, 3}));
     }
 
 
