@@ -29,7 +29,7 @@ import java.util.Set;
 public class Subsets78 {
 
     /**
-     * https://leetcode.com/problems/subsets/#/solutions
+     * https://discuss.leetcode.com/topic/46159/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning
      */
 
     public List<List<Integer>> subsets(int[] nums) {
