@@ -180,7 +180,7 @@ public class NQueens51 {
         }
     }
 
-    public List<List<String>> solveNQueens(int n) {
+    public List<List<String>> solveNQueens2(int n) {
         List<List<String>> res = new ArrayList<>();
         helper(0, new boolean[n], new boolean[2*n], new boolean[2*n], new String[n], res);
         return res;
