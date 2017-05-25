@@ -9,9 +9,7 @@
  * c) Replace a character
  */
 
-
-
-
+import java.util.Arrays;
 
 public class EditDistance72 {
     // time: O(mn); space: O(mn)
@@ -41,14 +39,45 @@ public class EditDistance72 {
     }
 
 
-    // time: O(mn); space: O(m)
+    // time: O(mn); space: O(n)
+    public int minDistance2(String word1, String word2) {
+        int m = word1.length();
+        int n = word2.length();
+
+        if (n == 0) {
+            return m;
+        }
+
+        int[] d = new int[n + 1];
+
+        for (int j = 0; j <= n; j++)
+            d[j] = j;
+
+        for (int i = 1; i <= m; i++) {
+            int last = d[0];
+            for (int j = 1; j <= n; j++) {
+                int saveLast = d[j];
+                d[0] = i;
+                if (word1.charAt(i-1) == word2.charAt(j-1)) {
+                    d[j] = last;
+                } else {
+                    d[j] = Math.min(d[j], d[j-1]) + 1;
+                    d[j] = Math.min(d[j], last + 1);
+                }
+                last = saveLast;
+            }
+        }
+
+        return d[n];
+    }
 
 
     public static void main(String[] args) {
         EditDistance72 ed = new EditDistance72();
 
-        System.out.println(ed.minDistance("word1", "word3"));
-        System.out.println(ed.minDistance("aaabbb", "aababb"));
-        System.out.println(ed.minDistance("b", ""));
+        System.out.println(ed.minDistance2("word1", "word3"));
+        System.out.println(ed.minDistance2("aaabbb", "aababb"));
+        System.out.println(ed.minDistance2("b", ""));
+        System.out.println(ed.minDistance2("", "b"));
     }
 }
