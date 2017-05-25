@@ -3,6 +3,7 @@
 
 - [ListNode](https://github.com/fluency03/leetcode-java/blob/master/ListNode.java)
 - [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/TreeNode.java)
+- [Interval](https://github.com/fluency03/leetcode-java/blob/master/Interval.java)
 
 
 Leetcode solution in Java
