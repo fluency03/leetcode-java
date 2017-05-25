@@ -9,9 +9,10 @@ Leetcode solution in Java
 
 - Question: [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/TwoSum1.java).
 - Question: [15. 3Sum](https://leetcode.com/problems/3sum/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/ThreeSum15.java).
-- - Question: [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/ThreeSumClosest16.java).
+- Question: [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/ThreeSumClosest16.java).
 - Question: [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/GenerateParentheses22.java).
 - Question: [51. N-Queens](https://leetcode.com/problems/n-queens/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/NQueens51.java).
+- Question: [57. Insert Interval](https://leetcode.com/problems/insert-interval/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/InsertInterval57.java).
 - Question: [78. Subsets](https://leetcode.com/problems/subsets/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/Subsets78.java).
 - Question: [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/ConvertSortedListToBST109.java).
 - Question: [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) - [Solution](https://github.com/fluency03/leetcode-java/blob/master/FlattenBinaryTreeToLinkedList114.java).
