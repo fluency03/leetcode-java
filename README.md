@@ -7,8 +7,9 @@
 | [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/TreeNode.java) |
 | [Interval](https://github.com/fluency03/leetcode-java/blob/master/Interval.java) |
 
-Leetcode solution in Java
 
+
+Total: **20**
 
 | Question                                                                                                                   | Solution                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -23,9 +24,12 @@ Leetcode solution in Java
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)                                                      | [Solution](https://github.com/fluency03/leetcode-java/blob/master/InsertInterval57.java)                 |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)                                                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/EditDistance72.java)                   |
 | [78. Subsets](https://leetcode.com/problems/subsets/)                                                                      | [Solution](https://github.com/fluency03/leetcode-java/blob/master/Subsets78.java)                        |
+| [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/BinaryTreeInorderTraversal94.java)     |
 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/ConvertSortedListToBST109.java)        |
+| [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                           | [Solution](https://github.com/fluency03/leetcode-java/blob/master/BalancedBinaryTree110.java)            |
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)               | [Solution](https://github.com/fluency03/leetcode-java/blob/master/FlattenBinaryTreeToLinkedList114.java) |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                           | [Solution](https://github.com/fluency03/leetcode-java/blob/master/BinaryTreeMaximumPathSum124.java)      |
 | [219. Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/)                                        | [Solution](https://github.com/fluency03/leetcode-java/blob/master/ContainsDuplicatesII219.java)          |
+| [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)                                                       | [Solution](https://github.com/fluency03/leetcode-java/blob/master/WiggleSortII324.java)                  |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)                                         | [Solution](https://github.com/fluency03/leetcode-java/blob/master/WaterAndJugProblem365.java)            |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)                                         | [Solution](https://github.com/fluency03/leetcode-java/blob/master/SlidingWindowMedian480.java)           |
