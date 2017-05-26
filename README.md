@@ -9,7 +9,7 @@
 
 
 
-Total: **21**
+Total: **22**
 
 | Question                                                                                                                   | Solution                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -17,6 +17,7 @@ Total: **21**
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                       | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java)                   |
 | [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSum15.java)                       |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java)                |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                  | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java)               |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GenerateParentheses22.java)            |
 | [51. N-Queens](https://leetcode.com/problems/n-queens/)                                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java)                        |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                              | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java)                      |
