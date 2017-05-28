@@ -9,7 +9,8 @@
 
 
 
-Total: **25**
+Total: **26**
+
 
 | Question                                                                                                                   | Solution                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -24,6 +25,7 @@ Total: **25**
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                              | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java)                      |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java)                |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)                                                      | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java)                 |
+| [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java)                 |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)                                                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java)                   |
 | [78. Subsets](https://leetcode.com/problems/subsets/)                                                                      | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java)                        |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java)     |
