@@ -9,7 +9,7 @@
 
 
 
-Total: **23**
+Total: **24**
 
 | Question                                                                                                                   | Solution                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -29,6 +29,7 @@ Total: **23**
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                 | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) |
 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedListToBST109.java)        |
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                           | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BalancedBinaryTree110.java)            |
+| [112. Path Sum](https://leetcode.com/problems/path-sum/)                                                                   | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PathSum112.java)                       |
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)               | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlattenBinaryTreeToLinkedList114.java) |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                           | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeMaximumPathSum124.java)      |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/)                                                             | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java)                    |
