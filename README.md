@@ -9,7 +9,7 @@
 
 
 
-Total: **27**
+Total: **28**
 
 
 | Question                                                                                                                   | Solution                                                                                                     |
@@ -21,6 +21,7 @@ Total: **27**
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                  | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java)               |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GenerateParentheses22.java)            |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                        | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java)           |
+| [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                        | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java)           |
 | [46. Permutations](https://leetcode.com/problems/permutations/)                                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Permutations46.java)                   |
 | [51. N-Queens](https://leetcode.com/problems/n-queens/)                                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java)                        |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                              | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java)                      |
