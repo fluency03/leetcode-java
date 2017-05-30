@@ -9,7 +9,7 @@
 
 
 
-Total: **29**
+Total: **30**
 
 
 | Question                                                                                                                   | Solution                                                                                                     |
@@ -31,6 +31,7 @@ Total: **29**
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java)                 |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)                                                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java)                   |
 | [78. Subsets](https://leetcode.com/problems/subsets/)                                                                      | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java)                        |
+| [86. Partition List](https://leetcode.com/problems/partition-list/)                                                        | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java)                  |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java)     |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                 | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) |
 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedListToBST109.java)        |
