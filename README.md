@@ -9,13 +9,14 @@
 
 
 
-Total: **28**
+Total: **29**
 
 
 | Question                                                                                                                   | Solution                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/)                                                                       | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSum1.java)                          |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                       | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java)                   |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                           | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestPalindromicSubstring5.java)     |
 | [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSum15.java)                       |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                                            | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java)                |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                  | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java)               |
