@@ -9,7 +9,7 @@
 
 
 
-Total: **30**
+Total: **31**
 
 
 | Question                                                                                                                   | Solution                                                                                                     |
@@ -27,6 +27,7 @@ Total: **30**
 | [51. N-Queens](https://leetcode.com/problems/n-queens/)                                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java)                        |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                              | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java)                      |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java)                |
+| [55. Jump Game](https://leetcode.com/problems/jump-game/)                                                                  | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JumpGame55.java)                       |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)                                                      | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java)                 |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)                                                    | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java)                 |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)                                                          | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java)                   |
