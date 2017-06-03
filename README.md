@@ -9,11 +9,11 @@
 
 
 
-Total: **32**
+Total: **33**
 
 
 | Question | Solution | Difficulty |
-|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------|
+|------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------:|:----------:|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSum1.java) |  |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java) |  |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithoutRepeatingCharacters3.java) | Medium |
@@ -36,6 +36,7 @@ Total: **32**
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) |  |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java) |  |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) |  |
+| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumDepthOfBinaryTree104.java) | Easy |
 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedListToBST109.java) |  |
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BalancedBinaryTree110.java) |  |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PathSum112.java) |  |
