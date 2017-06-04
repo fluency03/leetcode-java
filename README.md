@@ -9,7 +9,7 @@
 
 
 
-Total: **33**
+Total: **34**
 
 
 | Question | Solution | Difficulty |
@@ -34,6 +34,7 @@ Total: **33**
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java) |  |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java) |  |
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) |  |
+| [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWays91.java) | Medium |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java) |  |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) |  |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumDepthOfBinaryTree104.java) | Easy |
