@@ -9,7 +9,7 @@
 
 
 
-Total: **34**
+Total: **35**
 
 
 | Question | Solution | Difficulty |
@@ -44,6 +44,7 @@ Total: **34**
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlattenBinaryTreeToLinkedList114.java) | Medium |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeMaximumPathSum124.java) | Hard |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java) | Medium |
+| [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [219. Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
