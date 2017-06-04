@@ -9,7 +9,7 @@
 
 
 
-Total: **37**
+Total: **38**
 
 
 | Question | Solution | Difficulty |
@@ -35,6 +35,7 @@ Total: **37**
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java) | Hard |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java) | Medium |
+| [79. Word Search](https://leetcode.com/problems/word-search/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearch79.java) | Medium |
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) | Medium |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWays91.java) | Medium |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java) | Medium |
