@@ -5,6 +5,7 @@
 |----------------------------------------------------------------------------------|
 | [ListNode](https://github.com/fluency03/leetcode-java/blob/master/src/ListNode.java) |
 | [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeNode.java) |
+| [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/TrieNode.java) |
 | [Interval](https://github.com/fluency03/leetcode-java/blob/master/src/Interval.java) |
 
 
