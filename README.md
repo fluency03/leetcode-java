@@ -1,8 +1,8 @@
 # leetcode-java
 
 
-| Class Definition                                                                 |
-|----------------------------------------------------------------------------------|
+| Class Definition |
+|:----------------------------------------------------------------------------------:|
 | [ListNode](https://github.com/fluency03/leetcode-java/blob/master/src/ListNode.java) |
 | [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeNode.java) |
 | [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/TrieNode.java) |
@@ -10,7 +10,7 @@
 
 
 
-Total: **39**
+## Total: **39**
 
 
 | Question | Solution | Difficulty |
