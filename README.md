@@ -10,7 +10,7 @@
 
 
 
-# Total: 41
+# Total: 43
 
 
 | Question | Solution | Difficulty |
@@ -23,9 +23,10 @@
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java) | Easy |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GenerateParentheses22.java) | Medium |
-| [Add to List25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseNodesInKGroup25.java) | Hard |
+| [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseNodesInKGroup25.java) | Hard |
 | [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
+| [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SudokuSolver37.java) | Hard |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java) | Hard |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Permutations46.java) | Medium |
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java) | Hard |
@@ -35,6 +36,7 @@
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java) | Hard |
+| [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortColors75.java) | Medium |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java) | Medium |
 | [79. Word Search](https://leetcode.com/problems/word-search/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearch79.java) | Medium |
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) | Medium |

@@ -50,18 +50,17 @@ public class SudokuSolver37 {
             // System.out.println(x + ", " + y);
             if (board[x][y] == '.') {
                 boolean found = false;
-                Set<Character> r = rows.get(x);
-                Set<Character> co = cols.get(y);
-                Set<Character> ce = cells.get((x/3) * 3 + y/3);
 
                 for (int n = 49; n<=57; n++) {
                     char c = (char)n;
-                    if (!r.contains(c) && !co.contains(c) && !ce.contains(c)) {
+                    if (!rows.get(x).contains(c) &&
+                            !cols.get(y).contains(c) &&
+                            !cells.get(cellPos(x, y)).contains(c)) {
                         board[x][y] = c;
                         // System.out.println(x + ", " + y + ",    get: " + c);
-                        r.add(c);
-                        co.add(c);
-                        ce.add(c);
+                        rows.get(x).add(c);
+                        cols.get(y).add(c);
+                        cells.get(cellPos(x, y)).add(c);
                         st.push(Arrays.asList(x, y));
                         found = true;
                         break;
@@ -78,12 +77,9 @@ public class SudokuSolver37 {
                         // System.out.println(x + ", " + y + ",    old: " + old);
 
                         while (old == '9') {
-                            r = rows.get(x);
-                            co = cols.get(y);
-                            ce = cells.get((x/3) * 3 + y/3);
-                            r.remove(old);
-                            co.remove(old);
-                            ce.remove(old);
+                            rows.get(x).remove(old);
+                            cols.get(y).remove(old);
+                            cells.get(cellPos(x, y)).remove(old);
                             st.pop();
                             board[x][y] = '.';
                             p = st.peek();
@@ -92,15 +88,14 @@ public class SudokuSolver37 {
                             old = board[x][y];
                             // System.out.println(x + ", " + y + ",    old: " + old);
                         }
-                        r = rows.get(x);
-                        co = cols.get(y);
-                        ce = cells.get((x/3) * 3 + y/3);
-                        r.remove(old);
-                        co.remove(old);
-                        ce.remove(old);
+                        rows.get(x).remove(old);
+                        cols.get(y).remove(old);
+                        cells.get(cellPos(x, y)).remove(old);
                         newChar = (char)(old + 1);
                         // System.out.println(x + ", " + y + ",    new: " + newChar);
-                        while ((r.contains(newChar) || co.contains(newChar) || ce.contains(newChar)) && (int)newChar <= 57) {
+                        while ((rows.get(x).contains(newChar) ||
+                                cols.get(y).contains(newChar) ||
+                                cells.get(cellPos(x, y)).contains(newChar)) && (int)newChar <= 57) {
                             newChar = (char)(newChar + 1);
                             // System.out.println(x + ", " + y + ",    new: " + newChar);
                         }
@@ -109,14 +104,11 @@ public class SudokuSolver37 {
                             board[x][y] = '.';
                         }
                     }
-                    r = rows.get(x);
-                    co = cols.get(y);
-                    ce = cells.get((x/3) * 3 + y/3);
                     board[x][y] = newChar;
+                    rows.get(x).add(newChar);
+                    cols.get(y).add(newChar);
+                    cells.get(cellPos(x, y)).add(newChar);
                     // System.out.println(x + ", " + y + ",    new: " + newChar);
-                    r.add(newChar);
-                    co.add(newChar);
-                    ce.add(newChar);
                 }
             }
 
@@ -128,6 +120,10 @@ public class SudokuSolver37 {
             }
         }
 
+    }
+
+    private int cellPos(int x, int y) {
+        return (x/3) * 3 + y/3;
     }
 
     public static void main(String[] args) {
@@ -151,6 +147,7 @@ public class SudokuSolver37 {
         System.out.println("\n");
 
         ss.solveSudoku(board);
+
         for (int j=0; j<9; j++) {
             System.out.println(Arrays.toString(board[j]));
         }
