@@ -66,6 +66,9 @@ public class SortColors75 {
     }
 
 
+    /**
+     * https://discuss.leetcode.com/topic/6968/four-different-solutions
+     */
     // two pass O(m+n) space
     public void sortColors2(int A[]) {
         int num0 = 0, num1 = 0, num2 = 0;
