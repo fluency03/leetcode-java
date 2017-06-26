@@ -10,7 +10,7 @@
 
 
 
-# Total: 45
+# Total: 46
 
 
 | Question | Solution | Difficulty |
@@ -36,6 +36,7 @@
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateList61.java) | Medium |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
+| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SqrtX69.java) | Easy |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java) | Hard |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortColors75.java) | Medium |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java) | Medium |
