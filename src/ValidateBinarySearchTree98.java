@@ -51,7 +51,7 @@ public class ValidateBinarySearchTree98 {
     /**
      * https://discuss.leetcode.com/topic/46016/learn-one-iterative-inorder-traversal-apply-it-to-multiple-tree-questions-java-solution
      */
-    public boolean isValidBST(TreeNode root) {
+    public boolean isValidBST2(TreeNode root) {
         if (root == null) return true;
         Stack<TreeNode> stack = new Stack<>();
         TreeNode pre = null;
