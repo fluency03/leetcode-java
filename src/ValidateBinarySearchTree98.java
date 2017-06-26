@@ -33,26 +33,17 @@
 public class ValidateBinarySearchTree98 {
     public boolean isValidBST(TreeNode root) {
         if (root == null || (root.left == null && root.right == null)) return true;
-        return helper(root, null, null);
+        return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    private boolean helper(TreeNode root, Integer min, Integer max) {
+    private boolean helper(TreeNode root, Long min, Long max) {
         if (root == null) return true;
 
-        boolean l = helper(root.left, min, (max == null) ? root.val : Math.min(root.val, max));
-        if (!l) return false;
-
-        boolean r = helper(root.right, (min == null) ? root.val : Math.max(root.val, min), max);
-        if (!r) return false;
-
-        if (min != null && root.val <= min) {
-            return false;
-        }
-        if (max != null && root.val >= max) {
+        if (root.val <= min || root.val >= max) {
             return false;
         }
 
-        return true;
+        return helper(root.left, min, Math.min(root.val, max)) && helper(root.right, Math.max(root.val, min), max);
     }
 
 
