@@ -10,7 +10,7 @@
 
 
 
-# Total: 48
+# Total: 49
 
 
 | Question | Solution | Difficulty |
@@ -19,6 +19,7 @@
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java) | Medium |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithoutRepeatingCharacters3.java) | Medium |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestPalindromicSubstring5.java) | Medium |
+| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringToInteger8.java) | Medium |
 | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSum15.java) | Medium |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java) | Easy |
