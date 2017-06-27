@@ -37,7 +37,20 @@ public class SimplifyPath71 {
     }
 
 
+    /**
+     * https://discuss.leetcode.com/topic/7675/java-10-lines-solution-with-stack
+     */
 
-
+    public String simplifyPath2(String path) {
+        Deque<String> stack = new LinkedList<>();
+        Set<String> skip = new HashSet<>(Arrays.asList("..",".",""));
+        for (String dir : path.split("/")) {
+            if (dir.equals("..") && !stack.isEmpty()) stack.pop();
+            else if (!skip.contains(dir)) stack.push(dir);
+        }
+        String res = "";
+        for (String dir : stack) res = "/" + dir + res;
+        return res.isEmpty() ? "/" : res;
+    }
 
 }
