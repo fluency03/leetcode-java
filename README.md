@@ -10,7 +10,7 @@
 
 
 
-# Total: 49
+# Total: 50
 
 
 | Question | Solution | Difficulty |
@@ -25,6 +25,7 @@
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java) | Easy |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GenerateParentheses22.java) | Medium |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseNodesInKGroup25.java) | Hard |
+| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArray33.java) | Medium |
 | [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SudokuSolver37.java) | Hard |
