@@ -37,4 +37,49 @@ public class LongestCommonPrefix14 {
 
         return lcp;
     }
+
+
+    /**
+     * https://discuss.leetcode.com/topic/6987/java-code-with-13-lines
+     */
+    public String longestCommonPrefix2(String[] strs) {
+        if(strs == null || strs.length == 0)    return "";
+        String pre = strs[0];
+        int i = 1;
+        while(i < strs.length){
+            while(strs[i].indexOf(pre) != 0)
+                pre = pre.substring(0,pre.length()-1);
+            i++;
+        }
+        return pre;
+    }
+
+
+    /**
+     * https://discuss.leetcode.com/topic/27913/sorted-the-array-java-solution-2-ms
+     */
+    public String longestCommonPrefix3(String[] strs) {
+        StringBuilder result = new StringBuilder();
+
+        if (strs!= null && strs.length > 0){
+
+            Arrays.sort(strs);
+
+            char [] a = strs[0].toCharArray();
+            char [] b = strs[strs.length-1].toCharArray();
+
+            for (int i = 0; i < a.length; i ++){
+                if (b.length > i && b[i] == a[i]){
+                    result.append(b[i]);
+                }
+                else {
+                    return result.toString();
+                }
+            }
+        }
+        return result.toString();
+    }
+
+
+
 }
