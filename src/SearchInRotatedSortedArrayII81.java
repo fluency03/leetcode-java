@@ -54,7 +54,7 @@ public class SearchInRotatedSortedArrayII81 {
 
 
     //now, let's truncate it, and do not use array copy
-    public boolean search(int[] nums, int target) {
+    public boolean search2(int[] nums, int target) {
         int L = nums.length;
         if (L == 0) return false;
 
