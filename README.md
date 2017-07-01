@@ -7,10 +7,11 @@
 | [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeNode.java) |
 | [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/TrieNode.java) |
 | [Interval](https://github.com/fluency03/leetcode-java/blob/master/src/Interval.java) |
+| [LRUCache](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache.java) |
 
 
 
-# Total: 54
+# Total: 55
 
 
 | Question | Solution | Difficulty |
@@ -60,6 +61,7 @@
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java) | Medium |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
+| [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache146.java) | Hard |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [219. Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
