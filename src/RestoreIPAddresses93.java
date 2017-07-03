@@ -11,7 +11,7 @@
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Stack;
 
 
 public class RestoreIPAddresses93 {
@@ -20,19 +20,19 @@ public class RestoreIPAddresses93 {
         int L = s.length();
         if (L < 4) return results;
 
-        List<String> one = new LinkedList<>();
+        Stack<String> st = new Stack<>();
 
-        helper(s, results, one, 0, L);
+        helper(s, results, st, 0, L);
 
         return results;
     }
 
 
-    private void helper(String s, List<String> results, List<String> one, int start, int L) {
-        if (one.size() == 3 && (start + 3) < L) return;
+    private void helper(String s, List<String> results, Stack<String> st, int start, int L) {
+        if (st.size() == 3 && (start + 3) < L) return;
 
-        if (one.size() == 4) {
-            if (start == L) results.add(String.join(".", one));
+        if (st.size() == 4) {
+            if (start == L) results.add(String.join(".", st));
             return;
         }
 
@@ -40,9 +40,9 @@ public class RestoreIPAddresses93 {
             String current = s.substring(start, start+i);
             if (!isValid(current)) continue;
 
-            one.add(current);
-            helper(s, results, one, start+i, L);
-            one.remove(one.size()-1);
+            st.push(current);
+            helper(s, results, st, start+i, L);
+            st.pop();
         }
     }
 
@@ -53,7 +53,6 @@ public class RestoreIPAddresses93 {
         if (Integer.valueOf(current) > 255) return false;
         return true;
     }
-
 
     /**
      * https://discuss.leetcode.com/topic/3919/my-code-in-java
