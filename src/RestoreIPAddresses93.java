@@ -22,16 +22,16 @@ public class RestoreIPAddresses93 {
 
         List<String> one = new LinkedList<>();
 
-        helper(s, results, one, 0, 0, L);
+        helper(s, results, one, 0, L);
 
         return results;
     }
 
 
-    private void helper(String s, List<String> results, List<String> one, int start, int level, int L) {
-        if (level == 3 && (start + 3) < L) return;
+    private void helper(String s, List<String> results, List<String> one, int start, int L) {
+        if (one.size() == 3 && (start + 3) < L) return;
 
-        if (level >= 4) {
+        if (one.size() == 4) {
             if (start == L) results.add(String.join(".", one));
             return;
         }
@@ -41,7 +41,7 @@ public class RestoreIPAddresses93 {
             if (!isValid(current)) continue;
 
             one.add(current);
-            helper(s, results, one, start+i, level+1, L);
+            helper(s, results, one, start+i, L);
             one.remove(one.size()-1);
         }
     }
