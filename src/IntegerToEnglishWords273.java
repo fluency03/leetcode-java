@@ -25,10 +25,10 @@ public class IntegerToEnglishWords273 {
         String words = "";
         while (num > 0) {
             if (num % 1000 != 0) {
-        	    words = threeDigits(num % 1000) + THOUSANDS[i] + " " + words;
+        	      words = threeDigits(num % 1000) + " " + THOUSANDS[i] + " " + words;
             }
-        	num /= 1000;
-        	i++;
+          	num /= 1000;
+          	i++;
         }
 
         return words.trim();
@@ -38,7 +38,8 @@ public class IntegerToEnglishWords273 {
     private String threeDigits(int num) {
         if (num >= 100) {
             int h = num/100;
-            return UNITS[h] + " Hundred " + twoDigits(num%100);
+            String twoDigits = twoDigits(num%100);
+            return UNITS[h] + " Hundred" + ((twoDigits.length() == 0) ? "" : " " + twoDigits);
         }
         return twoDigits(num);
     }
@@ -47,13 +48,13 @@ public class IntegerToEnglishWords273 {
         if (num == 0) return "";
 
         if (num > 0 && num < 20) {
-            return UNITS[num] + " ";
+            return UNITS[num];
         }
 
         int t = num/10;
         int n = num%10;
 
-        return TENS[t-2] + ((n == 0) ? "": (" " + UNITS[n])) + " ";
+        return TENS[t-2] + ((n == 0) ? "": (" " + UNITS[n]));
     }
 
 
