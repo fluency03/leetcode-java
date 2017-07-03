@@ -11,7 +11,7 @@
 
 
 
-# Total: 56
+# Total: 57
 
 
 | Question | Solution | Difficulty |
@@ -49,6 +49,7 @@
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArrayII81.java) | Medium |
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) | Medium |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWays91.java) | Medium |
+| [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RestoreIPAddresses93.java) | Medium |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java) | Medium |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidateBinarySearchTree98.java) | Medium |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) | Medium |
