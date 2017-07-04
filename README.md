@@ -11,7 +11,7 @@
 
 
 
-# Total: 61
+# Total: 62
 
 
 | Question | Solution | Difficulty |
@@ -70,6 +70,7 @@
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [219. Contains Duplicates II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
+| [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
