@@ -12,7 +12,7 @@
 
 
 
-# Total: 64
+# Total: 66
 
 
 | Question | Solution | Difficulty |
@@ -25,6 +25,7 @@
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestCommonPrefix14.java) | Easy |
 | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSum15.java) | Medium |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java) | Medium |
+| [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LetterCombinationsOfAPhoneNumber17.java) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java) | Easy |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GenerateParentheses22.java) | Medium |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseNodesInKGroup25.java) | Hard |
@@ -62,6 +63,7 @@
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BalancedBinaryTree110.java) | Easy |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PathSum112.java) | Easy |
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlattenBinaryTreeToLinkedList114.java) | Medium |
+| [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PopulatingNextRightPointersInEachNode116.java) | Medium |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeMaximumPathSum124.java) | Hard |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java) | Medium |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
