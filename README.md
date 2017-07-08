@@ -12,11 +12,11 @@
 
 
 
-# Total: 68
+# Total: 69
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 10 | 42 | 16 |
+| 11 | 42 | 16 |
 
 
 
@@ -63,6 +63,7 @@
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java) | Medium |
 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InterleavingString97.java) | Hard |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidateBinarySearchTree98.java) | Medium |
+| [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SymmetricTree101.java) | Easy |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) | Medium |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumDepthOfBinaryTree104.java) | Easy |
 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedListToBST109.java) | Medium |
