@@ -12,11 +12,11 @@
 
 
 
-# Total: 69
+# Total: 70
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 11 | 42 | 16 |
+| 11 | 43 | 16 |
 
 
 
@@ -75,6 +75,7 @@
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java) | Medium |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
+| [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReorderList143.java) | Medium |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache146.java) | Hard |
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
