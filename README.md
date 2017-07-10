@@ -12,11 +12,11 @@
 
 
 
-# Total: 72
+# Total: 73
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 11 | 44 | 17 |
+| 11 | 45 | 17 |
 
 
 
@@ -90,6 +90,7 @@
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
+| [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
