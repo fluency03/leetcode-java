@@ -12,11 +12,11 @@
 
 
 
-# Total: 73
+# Total: 75
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 11 | 45 | 17 |
+| 11 | 46 | 18 |
 
 
 
@@ -56,6 +56,7 @@
 | [79. Word Search](https://leetcode.com/problems/word-search/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearch79.java) | Medium |
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArrayII81.java) | Medium |
 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveDuplicatesFromSortedListII82.java) | Medium |
+| [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestRectangleInHistogram84.java) | Hard |
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) | Medium |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWays91.java) | Medium |
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseLinkedListII92.java) | Medium |
@@ -93,5 +94,6 @@
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
+| [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInABST450.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
