@@ -16,11 +16,11 @@
 |        Search        |      Sort      |
 |:--------------------:|:--------------:|
 | [Linear Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/LinearSearch.java) | Selection Sort |
-| Binary Search | Bubble Sort |
+| [Binary Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/BinarySearch.java) | Bubble Sort |
 | Jump Search | Insertion Sort |
 | Interpolation Search | Merge Sort |
 | Exponential Search | Heap Sort |
-| Ternary Search | Quick Sort |
+| Ternary Search | Quick Sort | 
 |  | Radix Sort |
 |  | Counting Sort |
 |  | Bucket Sort |

@@ -5,7 +5,9 @@
  * Space complexity: O(1).
  *
  * Start from the leftmost element of the array and one by one compare x with
- * each element. If found, return the index, otherwise, return -1.
+ * each element.
+ *    - If found, return the index;
+ *    - Otherwise, return -1.
  *
  */
 
