@@ -13,14 +13,14 @@
 
 # Search and Sort
 
-|        Search        |      Sort      |
-|:--------------------:|:--------------:|
+| Search | Sort |
+|:-:|:-:|
 | [Linear Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/LinearSearch.java) | Selection Sort |
 | [Binary Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/BinarySearch.java) | Bubble Sort |
 | Jump Search | Insertion Sort |
 | Interpolation Search | Merge Sort |
 | Exponential Search | Heap Sort |
-| Ternary Search | Quick Sort | 
+| Ternary Search | Quick Sort |
 |  | Radix Sort |
 |  | Counting Sort |
 |  | Bucket Sort |
@@ -40,7 +40,7 @@
 
 
 | Question | Solution | Difficulty |
-|------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------:|:----------:|
+|-|:-:|:-:|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSum1.java) | Easy |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java) | Medium |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithoutRepeatingCharacters3.java) | Medium |
