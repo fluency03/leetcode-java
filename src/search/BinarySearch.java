@@ -17,9 +17,9 @@
 public class BinarySearch {
     public static int search(int arr[], int x) {
         // Recursively
-        // return binarySearch(arr, 0, arr.length - 1, x);
+        return binarySearch(arr, 0, arr.length - 1, x);
         // Iteratively
-        return binarySearch(arr, x);
+        // return binarySearch(arr, x);
     }
 
     // Recursively
@@ -46,10 +46,10 @@ public class BinarySearch {
 
             if (arr[m] == x) return m;
 
-            if (arr[m] < x) {
-                l = m + 1;
-            } else {
+            if (arr[m] > x) {
                 r = m - 1;
+            } else {
+                l = m + 1;
             }
         }
 
