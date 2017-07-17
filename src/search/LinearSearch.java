@@ -1,5 +1,8 @@
 /**
- * LinearSearch: search an array of int linearly. Time complexity: O(n).
+ * LinearSearch: search an array of int linearly.
+ *
+ * Time complexity: O(n).
+ * Space complexity: O(1).
  *
  * Start from the leftmost element of the array and one by one compare x with
  * each element. If found, return the index, otherwise, return -1.
