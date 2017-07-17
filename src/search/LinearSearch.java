@@ -19,8 +19,9 @@ public class LinearSearch {
     }
 
     public static void main(String[] args) {
-        System.out.println(LinearSearch.search(new int[]{3, 5, 7, 10, 15, 20}, 10));
-        System.out.println(LinearSearch.search(new int[]{3, 5, 7, 10, 15, 20}, 1));
+        int[] arr = {3, 5, 7, 10, 15, 20};
+        System.out.println(LinearSearch.search(arr, 10));
+        System.out.println(LinearSearch.search(arr, 1));
     }
 
 }
