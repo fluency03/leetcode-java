@@ -11,12 +11,31 @@
 | [TreeLinkNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeLinkNode.java) |
 
 
+# Search and Sort
+
+|        Search        |      Sort      |
+|:--------------------:|:--------------:|
+| [Linear Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/LinearSearch.java) | Selection Sort |
+| Binary Search | Bubble Sort |
+| Jump Search | Insertion Sort |
+| Interpolation Search | Merge Sort |
+| Exponential Search | Heap Sort |
+| Ternary Search | Quick Sort |
+|  | Radix Sort |
+|  | Counting Sort |
+|  | Bucket Sort |
+|  | Shell Sort |
+|  | Comb Sort |
+| ... | ... |
+
+
+ , ,
 
 # Total: 76
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-| 11 | 46 | 19 |
+|  11  |   46   |  19  |
 
 
 
