@@ -19,14 +19,14 @@
 | [Binary Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/BinarySearch.java) | Bubble Sort |
 | [Jump Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/JumpSearch.java) | Insertion Sort |
 | [Interpolation Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/InterpolationSearch.java) | Merge Sort |
-| Exponential Search | Heap Sort |
-| Ternary Search | Quick Sort |
-|  | Radix Sort |
+| [Exponential Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/ExponentialSearch.java) | Heap Sort |
+| [Ternary Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/TernarySearch.java) | Quick Sort |
+| ... | Radix Sort |
 |  | Counting Sort |
 |  | Bucket Sort |
 |  | Shell Sort |
 |  | Comb Sort |
-| ... | ... |
+|  | ... |
 
 
 
