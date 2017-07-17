@@ -7,9 +7,10 @@
  * Start from the leftmost element of the array and one by one compare x with
  * each element.
  *    - If found, return the index;
- *    - Otherwise, return -1.
+ *    - Otherwise, not found, return -1.
  *
  */
+
 
 public class LinearSearch {
     public static int search(int arr[], int x) {

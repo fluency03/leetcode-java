@@ -6,7 +6,7 @@
  *    - Recursively: O(Logn).
  *    - Iteratively: O(1).
  *
- * Everytime, compare x with the middle element of the array.
+ * Every time, compare x with the middle element of the array.
  *    - If x matches with the middle element, return the mid index;
  *    - Else if x is greater than the mid element, go to right half of the array;
  *    - Otherwise, go to the left half.
