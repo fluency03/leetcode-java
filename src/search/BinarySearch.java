@@ -23,7 +23,7 @@ public class BinarySearch {
     }
 
     // Recursively
-    private static int binarySearch(int arr[], int l, int r, int x) {
+    public static int binarySearch(int arr[], int l, int r, int x) {
         if (r >= l) {
             int mid = l + (r - l)/2;
 
@@ -38,7 +38,7 @@ public class BinarySearch {
     }
 
     // Iteratively
-    private static int binarySearch(int arr[], int x) {
+    public static int binarySearch(int arr[], int x) {
         int l = 0;
         int r = arr.length - 1;
         while (l <= r) {
