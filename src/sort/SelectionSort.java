@@ -27,9 +27,17 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {10, 3, 7, 5, 1, 15, 20};
-        SelectionSort.sort(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] arr1 = {10, 3, 7, 5, 1, 15, 20};
+        SelectionSort.sort(arr1);
+        System.out.println(Arrays.toString(arr1));
+
+        int[] arr2 = {};
+        SelectionSort.sort(arr2);
+        System.out.println(Arrays.toString(arr2));
+
+        int[] arr3 = {10};
+        SelectionSort.sort(arr3);
+        System.out.println(Arrays.toString(arr3));
     }
 
 }
