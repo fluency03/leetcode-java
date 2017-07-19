@@ -15,7 +15,7 @@
 
 | Search ([*README*](https://github.com/fluency03/leetcode-java/tree/master/src/search)) | Sort ([*README*](https://github.com/fluency03/leetcode-java/tree/master/src/sort)) |
 |:-:|:-:|
-| [Linear Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/LinearSearch.java) | Selection Sort |
+| [Linear Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/LinearSearch.java) | [Selection Sort](https://github.com/fluency03/leetcode-java/blob/master/src/sort/SelectionSort.java) |
 | [Binary Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/BinarySearch.java) | Bubble Sort |
 | [Jump Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/JumpSearch.java) | Insertion Sort |
 | [Interpolation Search](https://github.com/fluency03/leetcode-java/blob/master/src/search/InterpolationSearch.java) | Merge Sort |
