@@ -2,7 +2,10 @@
  * RadixSort: sort an array of integers digit by digit sort starting from least
  * significant digit to most significant digit. For every single digit, counting
  * sort is considered.
- * 
+ *
+ * Time Complexity: O(wn) for n keys which are integers of word size w.
+ * Space Complexity: O(w + N).
+ *
  */
 
 import java.util.Arrays;
