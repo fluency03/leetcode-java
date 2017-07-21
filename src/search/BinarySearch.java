@@ -15,11 +15,12 @@
 
 
 public class BinarySearch {
-    public static int search(int arr[], int x) {
-        // Recursively
+    public static int searchRecursively(int arr[], int x) {
         return binarySearch(arr, 0, arr.length - 1, x);
-        // Iteratively
-        // return binarySearch(arr, x);
+    }
+
+    public static int searchIteratively(int arr[], int x) {
+        return binarySearch(arr, x);
     }
 
     // Recursively

@@ -15,10 +15,11 @@
 
 
 public class TernarySearch {
-    public static int search(int arr[], int x) {
-        // Recursively
-        // return ternarySearch(arr, 0, arr.length - 1, x);
-        // Iteratively
+    public static int searchRecursively(int arr[], int x) {
+        return ternarySearch(arr, 0, arr.length - 1, x);
+    }
+
+    public static int searchIteratively(int arr[], int x) {
         return ternarySearch(arr, x);
     }
 
@@ -64,8 +65,8 @@ public class TernarySearch {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 10, 15, 20};
-        System.out.println(TernarySearch.search(arr, 10));
-        System.out.println(TernarySearch.search(arr, 1));
+        System.out.println(TernarySearch.searchIteratively(arr, 10));
+        System.out.println(TernarySearch.searchIteratively(arr, 1));
     }
 
 }
