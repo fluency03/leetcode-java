@@ -1,13 +1,19 @@
 /**
- * QuickSort:
+ * QuickSort: every time, it picks one element as a pivot and partitions the
+ * array to two parts, where the elements of the first part before pivot are
+ * always less or equal to the pivot, and the elements of the second part after.
  *
+ * Worst Case Time Complexity: O(n^2).
+ * Best and Average Case Time Complexity: O(nlogn).
+ * Space Complexity: O(n).
  *
+ * Different ways of picking the pivot:
  *
- *
- *
- *
- *
- *
+ *    - Always pick first element as pivot.
+ *    - Always pick last element as pivot (implemented below)
+ *    - Pick a random element as pivot.
+ *    - Pick median as pivot.
+ *    
  */
 
 import java.util.Arrays;
