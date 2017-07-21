@@ -13,22 +13,52 @@
  *    - Always pick last element as pivot (implemented below)
  *    - Pick a random element as pivot.
  *    - Pick median as pivot.
- *    
+ *
  */
 
 import java.util.Arrays;
 
 public class QuickSort {
-    public static void sort(int[] nums) {
-        quickSort(nums, 0, nums.length - 1);
+    public static void sortRecursively(int[] nums) {
+        quickSortRecursively(nums, 0, nums.length - 1);
     }
 
-    private static void quickSort(int[] nums, int left, int right) {
+    public static void sortIteratively(int[] nums) {
+        if (nums.length == 0 || nums.length == 1) return;
+        quickSortIteratively(nums, 0, nums.length - 1);
+    }
+
+    private static void quickSortRecursively(int[] nums, int left, int right) {
         if (left >= right) return;
 
-        int mid = partition(nums, left, right);
-        quickSort(nums, left, mid - 1);
-        quickSort(nums, mid + 1, right);
+        int p = partition(nums, left, right);
+        quickSortRecursively(nums, left, p - 1);
+        quickSortRecursively(nums, p + 1, right);
+    }
+
+    private static void quickSortIteratively(int arr[], int l, int h) {
+        int stack[] = new int[h-l+1];
+
+        int top = -1;
+        stack[++top] = l;
+        stack[++top] = h;
+
+        while (top >= 0) {
+            h = stack[top--];
+            l = stack[top--];
+
+            int p = partition(arr, l, h);
+
+            if (p-1 > l) {
+                stack[++top] = l;
+                stack[++top] = p - 1;
+            }
+
+            if (p+1 < h) {
+                stack[++top] = p + 1;
+                stack[++top] = h;
+            }
+       }
     }
 
     private static int partition(int[] nums, int left, int right) {
@@ -52,15 +82,15 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] arr1 = {10, 3, 7, 5, 20, 15, 1};
-        QuickSort.sort(arr1);
+        QuickSort.sortIteratively(arr1);
         System.out.println(Arrays.toString(arr1));
 
         int[] arr2 = {};
-        QuickSort.sort(arr2);
+        QuickSort.sortIteratively(arr2);
         System.out.println(Arrays.toString(arr2));
 
         int[] arr3 = {10};
-        QuickSort.sort(arr3);
+        QuickSort.sortIteratively(arr3);
         System.out.println(Arrays.toString(arr3));
     }
 }
