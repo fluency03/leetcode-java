@@ -31,16 +31,16 @@
 
 
 
-# Total: 76
+# Total: 78
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  11  |   46   |  19  |
+|  11  |   48   |  19  |
 
 
 
 | Question | Solution | Difficulty |
-|-|:-:|:-:|
+|------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------:|:----------:|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSum1.java) | Easy |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java) | Medium |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithoutRepeatingCharacters3.java) | Medium |
@@ -117,3 +117,5 @@
 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInABST450.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
+| [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
+| [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddOneRowToTree623.java) | Medium |
