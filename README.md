@@ -31,11 +31,11 @@
 
 
 
-# Total: 80
+# Total: 81
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  12  |   49   |  19  |
+|  13  |   49   |  19  |
 
 
 
@@ -101,6 +101,7 @@
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReorderList143.java) | Medium |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache146.java) | Hard |
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
+| [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobber198.java) | Easy |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
