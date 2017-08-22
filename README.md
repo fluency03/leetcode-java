@@ -31,11 +31,11 @@
 
 
 
-# Total: 83
+# Total: 84
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  14  |   49   |  20  |
+|  15  |   49   |  20  |
 
 
 | Question | Solution | Difficulty |
@@ -98,6 +98,7 @@
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [139. Word Break](https://leetcode.com/problems/word-break/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordBreak139.java) | Medium |
+| [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListCycle141.java) | Easy |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReorderList143.java) | Medium |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache146.java) | Hard |
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
