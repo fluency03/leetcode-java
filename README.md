@@ -31,11 +31,11 @@
 
 
 
-# Total: 82
+# Total: 83
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  13  |   49   |  20  |
+|  14  |   49   |  20  |
 
 
 | Question | Solution | Difficulty |
@@ -107,6 +107,7 @@
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
+| [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InvertBinaryTree226.java) | Easy |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
