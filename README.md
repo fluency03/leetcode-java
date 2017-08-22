@@ -31,11 +31,11 @@
 
 
 
-# Total: 86
+# Total: 87
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  16  |   50   |  20  |
+|  16  |   51   |  20  |
 
 
 | Question | Solution | Difficulty |
@@ -113,6 +113,7 @@
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
+| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
