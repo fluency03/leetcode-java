@@ -31,11 +31,11 @@
 
 
 
-# Total: 87
+# Total: 88
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  16  |   51   |  20  |
+|  16  |   51   |  21  |
 
 
 | Question | Solution | Difficulty |
@@ -127,3 +127,4 @@
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddOneRowToTree623.java) | Medium |
+| [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
