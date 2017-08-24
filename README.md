@@ -31,11 +31,11 @@
 
 
 
-# Total: 89
+# Total: 90
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  16  |   52   |  21  |
+|  17  |   52   |  21  |
 
 
 | Question | Solution | Difficulty |
@@ -127,5 +127,6 @@
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
+| [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddOneRowToTree623.java) | Medium |
 | [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
