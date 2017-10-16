@@ -31,11 +31,11 @@
 
 
 
-# Total: 92
+# Total: 93
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   53   |  21  |
+|  18  |   53   |  22  |
 
 
 | Question | Solution | Difficulty |
@@ -43,6 +43,7 @@
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSum1.java) | Easy |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbers2.java) | Medium |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithoutRepeatingCharacters3.java) | Medium |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MedianOfTwoSortedArrays4.java) | Hard |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestPalindromicSubstring5.java) | Medium |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringToInteger8.java) | Medium |
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestCommonPrefix14.java) | Easy |
