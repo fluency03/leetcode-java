@@ -35,7 +35,7 @@
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   53   |  22  |
+|  18  |   53   |  23  |
 
 
 | Question | Solution | Difficulty |
@@ -73,6 +73,7 @@
 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SimplifyPath71.java) | Medium |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java) | Hard |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortColors75.java) | Medium |
+| [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumWindowSubstring76.java) | Hard |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java) | Medium |
 | [79. Word Search](https://leetcode.com/problems/word-search/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearch79.java) | Medium |
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArrayII81.java) | Medium |
