@@ -31,11 +31,11 @@
 
 
 
-# Total: 93
+# Total: 96
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   53   |  23  |
+|  18  |   54   |  23  |
 
 
 | Question | Solution | Difficulty |
@@ -62,6 +62,7 @@
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWater42.java) | Hard |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Permutations46.java) | Medium |
+| [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GroupAnagrams49.java) | Medium |
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java) | Hard |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java) | Hard |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java) | Easy |
