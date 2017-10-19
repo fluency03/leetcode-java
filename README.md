@@ -35,7 +35,7 @@
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   54   |  23  |
+|  18  |   54   |  24  |
 
 
 | Question | Solution | Difficulty |
