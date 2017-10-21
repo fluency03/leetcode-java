@@ -32,11 +32,11 @@
 
 
 
-# Total: 97
+# Total: 98
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   55   |  24  |
+|  18  |   56   |  24  |
 
 
 | Question | Solution | Difficulty |
@@ -126,6 +126,7 @@
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
+| [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKPairsWithSmallestSums373.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInABST450.java) | Medium |
