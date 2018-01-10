@@ -32,11 +32,11 @@
 
 
 
-# Total: 104
+# Total: 105
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   62   |  24  |
+|  19  |   62   |  24  |
 
 
 | Question | Solution | Difficulty |
@@ -111,6 +111,7 @@
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MajorityElement169.java) | Easy |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobber198.java) | Easy |
+| [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
