@@ -49,8 +49,44 @@ public class SubsetsII90 {
     }
 
 
+    public List<List<Integer>> subsetsWithDup2(int[] nums) {
+        Arrays.sort(nums);
+        Set<List<Integer>> res = new HashSet<>();
+        List<Integer> each = new ArrayList<>();
+        helper2(0, nums, each, res);
+        return new ArrayList<List<Integer>>(res);
+    }
+
+    public void helper2(int pos, int[] nums, List<Integer> each, Set<List<Integer>> res) {
+        if (pos >= nums.length) {
+            res.add(new ArrayList<Integer>(each));
+            return;
+        }
+        res.add(new ArrayList<Integer>(each));
+        helper(pos+1, nums, each, res);
+        each.add(nums[pos]);
+        helper(pos+1, nums, each, res);
+        each.remove(each.size()-1);
+    }
 
 
+    public List<List<Integer>> subsetsWithDup3(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+        helper3(0, nums, new ArrayList<>(), res);
+        return res;
+    }
+
+    public void helper3(int pos, int[] nums, List<Integer> each, List<List<Integer>> res) {
+        if (pos <= nums.length) res.add(new ArrayList<Integer>(each));
+
+        for(int i=pos; i < nums.length; i++){
+            if(i > pos && nums[i] == nums[i-1]) continue;
+            each.add(nums[i]);
+            helper(i+1, nums, each, res);
+            each.remove(each.size()-1);
+        }
+    }
 
 
 }
