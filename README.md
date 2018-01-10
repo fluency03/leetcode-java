@@ -32,11 +32,11 @@
 
 
 
-# Total: 101
+# Total: 104
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  18  |   61   |  24  |
+|  18  |   62   |  24  |
 
 
 | Question | Solution | Difficulty |
@@ -123,6 +123,7 @@
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
+| [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Hard |
