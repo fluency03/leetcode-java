@@ -25,50 +25,23 @@ public class QueueReconstructionByHeight406 {
         int y = people.length;
         if (y == 0) return people;
 
-        List<Person> persons = new ArrayList<>();
-        for (int i = 0; i < y; i++) {
-            int[] p = people[i];
-            persons.add(new Person(p[0], p[1]));
-        }
-        Collections.sort(persons, new SortRule());
+        Arrays.sort(people, new SortRule());
 
-        LinkedList<Person> resTemp = new LinkedList<>();
-        for (int i = 0; i < y; i++) {
-            Person s = persons.get(i);
-            resTemp.add(s.k , s);
+        LinkedList<int[]> res = new LinkedList<>();
+        for(int[] p: people){
+            res.add(p[1], p);
         }
 
-        int[][] res = new int[y][2];
-        int c = 0;
-        for (Person e: resTemp) {
-            res[c][0] = e.h;
-            res[c][1] = e.k;
-            c++;
-        }
-
-        return res;
+        return res.toArray(new int[people.length][]);
     }
 
-    class SortRule implements Comparator<Person> {
+    class SortRule implements Comparator<int[]> {
         @Override
-        public int compare(Person a, Person b) {
-            int diff = a.h - b.h;
+        public int compare(int[] a, int[] b) {
+            int diff = a[0] - b[0];
             if (diff < 0) return 1;
             else if (diff > 0) return -1;
-            else return a.k - b.k;
+            else return a[1] - b[1];
         }
     }
-
-    class Person {
-        Integer h;
-        Integer k;
-        Person(Integer h, Integer k) {
-            this.h = h;
-            this.k = k;
-        }
-
-
-    }
-
-
 }
