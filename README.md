@@ -32,11 +32,11 @@
 
 
 
-# Total: 108
+# Total: 109
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  19  |   65   |  24  |
+|  19  |   65   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -128,6 +128,7 @@
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
+| [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BurstBalloons312.java) | Hard |
 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Hard |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Medium |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
