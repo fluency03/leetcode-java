@@ -32,11 +32,11 @@
 
 
 
-# Total: 109
+# Total: 110
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  19  |   65   |  25  |
+|  19  |   66   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -56,6 +56,7 @@
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeKSortedLists23.java) | Hard |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseNodesInKGroup25.java) | Hard |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveDuplicatesFromSortedArray26.java) | Easy |
+| [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextPermutation31.java) | Medium |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArray33.java) | Medium |
 | [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
