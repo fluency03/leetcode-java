@@ -32,11 +32,11 @@
 
 
 
-# Total: 115
+# Total: 116
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  22  |   68   |  25  |
+|  22  |   69   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -69,6 +69,7 @@
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java) | Hard |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java) | Easy |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JumpGame55.java) | Medium |
+| [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeIntervals56.java) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateList61.java) | Medium |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
