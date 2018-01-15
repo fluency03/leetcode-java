@@ -32,11 +32,11 @@
 
 
 
-# Total: 116
+# Total: 117
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  22  |   69   |  25  |
+|  22  |   70   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -72,6 +72,7 @@
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeIntervals56.java) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateList61.java) | Medium |
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniquePaths62.java) | Medium |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SqrtX69.java) | Easy |
 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SimplifyPath71.java) | Medium |
