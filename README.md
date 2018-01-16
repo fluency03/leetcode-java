@@ -32,11 +32,11 @@
 
 
 
-# Total: 120
+# Total: 121s
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   72   |  25  |
+|  23  |   73   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -124,6 +124,7 @@
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
+| [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InvertBinaryTree226.java) | Easy |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
