@@ -32,11 +32,11 @@
 
 
 
-# Total: 119
+# Total: 120
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   71   |  25  |
+|  23  |   72   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -153,6 +153,7 @@
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
+| [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
