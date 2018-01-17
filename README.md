@@ -32,11 +32,11 @@
 
 
 
-# Total: 122
+# Total: 123
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   74   |  25  |
+|  23  |   75   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -132,6 +132,7 @@
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
+| [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PerfectSquares279.java) | Medium |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
