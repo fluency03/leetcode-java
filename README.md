@@ -32,11 +32,11 @@
 
 
 
-# Total: 121s
+# Total: 122
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   73   |  25  |
+|  23  |   74   |  25  |
 
 
 | Question | Solution | Difficulty |
@@ -149,6 +149,7 @@
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/QueueReconstructionByHeight406.java) | Medium |
+| [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionEqualSubsetSum416.java) | Medium |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInABST450.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
