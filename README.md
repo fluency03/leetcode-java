@@ -32,11 +32,11 @@
 
 
 
-# Total: 127
+# Total: 128
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   78   |  26  |
+|  23  |   79   |  26  |
 
 
 | Question | Solution | Difficulty |
@@ -150,6 +150,7 @@
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
 | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKPairsWithSmallestSums373.java) | Medium |
+| [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInASortedMatrix378.java) | Medium |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
