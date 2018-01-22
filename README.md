@@ -32,11 +32,11 @@
 
 
 
-# Total: 131
+# Total: 132
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   82   |  26  |
+|  23  |   83   |  26  |
 
 
 | Question | Solution | Difficulty |
@@ -167,6 +167,7 @@
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
+| [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TaskScheduler621.java) | Medium |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddOneRowToTree623.java) | Medium |
