@@ -32,11 +32,11 @@
 
 
 
-# Total: 135
+# Total: 136
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   85   |  27  |
+|  23  |   86   |  27  |
 
 
 | Question | Solution | Difficulty |
@@ -122,6 +122,7 @@
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FractionToRecurringDecimal166.java) | Medium |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MajorityElement169.java) | Easy |
+| [179. Largest Number](https://leetcode.com/problems/largest-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestNumber179.java) | Medium |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobber198.java) | Easy |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfIslands200.java) | Medium |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
