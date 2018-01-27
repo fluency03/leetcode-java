@@ -32,11 +32,11 @@
 
 
 
-# Total: 136
+# Total: 137
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   86   |  27  |
+|  23  |   86   |  28  |
 
 
 | Question | Solution | Difficulty |
@@ -110,6 +110,7 @@
 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStock121.java) | Easy |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeMaximumPathSum124.java) | Hard |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java) | Medium |
+| [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestConsecutiveSequence128.java) | Hard |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CloneGraph133.java) | Medium |
