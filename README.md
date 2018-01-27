@@ -32,11 +32,11 @@
 
 
 
-# Total: 133
+# Total: 134
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   84   |  26  |
+|  23  |   84   |  27  |
 
 
 | Question | Solution | Difficulty |
@@ -47,6 +47,7 @@
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MedianOfTwoSortedArrays4.java) | Hard |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestPalindromicSubstring5.java) | Medium |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringToInteger8.java) | Medium |
+| [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RegularExpressionMatching10.java) | Hard |
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestCommonPrefix14.java) | Easy |
 | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSum15.java) | Medium |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java) | Medium |
