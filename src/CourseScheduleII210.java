@@ -93,9 +93,59 @@ public class CourseScheduleII210 {
     }
 
 
+    public int[] findOrder2(int numCourses, int[][] prerequisites) {
+        int[] inbound = new int[numCourses];
+        Map<Integer, Set<Integer>> graph = getGraph(numCourses, prerequisites, inbound);
 
+        Queue<Integer> q = new LinkedList<>();
+        boolean[] visited = new boolean[numCourses];
+        int[] res = new int[numCourses];
+        int count = 0;
+        for (int i=0; i<numCourses; i++) {
+            if (inbound[i] == 0) {
+                q.add(i);
+                // System.out.println(i);
+                res[count] = i;
+                count++;
+                visited[i] = true;
+            }
+        }
 
+        if (q.isEmpty()) return new int[0];
+        while (!q.isEmpty()) {
+            Integer curr = q.poll();
+            for (Integer i: graph.get(curr)) {
+                if (visited[i]) return new int[0];
+                inbound[i]--;
+                if (inbound[i] == 0) {
+                    System.out.println(i);
+                    q.add(i);
+                    res[count] = i;
+                    count++;
+                    visited[i] = true;
+                }
+            }
+        }
 
+        return (count >= numCourses-1) ? res : new int[0];
+    }
+
+    private Map<Integer, Set<Integer>> getGraph(int numCourses, int[][] prerequisites, int[] inbound) {
+        Map<Integer, Set<Integer>> graph = new HashMap<>();
+        for (int i=0; i<numCourses; i++) {
+            graph.put(i, new HashSet<Integer>());
+        }
+
+        for (int[] edge: prerequisites) {
+            Set<Integer> adj = graph.get(edge[1]);
+            if (!adj.contains(edge[0])) {
+                inbound[edge[0]]++;
+                adj.add(edge[0]);
+                graph.put(edge[1], adj);
+            }
+        }
+        return graph;
+    }
 
 
 }
