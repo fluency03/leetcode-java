@@ -32,11 +32,11 @@
 
 
 
-# Total: 138
+# Total: 139
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   87   |  28  |
+|  23  |   88   |  28  |
 
 
 | Question | Solution | Difficulty |
@@ -161,6 +161,7 @@
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
+| [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateDivision399.java) | Medium |
 | [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/QueueReconstructionByHeight406.java) | Medium |
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionEqualSubsetSum416.java) | Medium |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
