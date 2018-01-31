@@ -32,11 +32,11 @@
 
 
 
-# Total: 139
+# Total: 140
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   88   |  28  |
+|  23  |   89   |  28  |
 
 
 | Question | Solution | Difficulty |
@@ -127,6 +127,7 @@
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobber198.java) | Easy |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfIslands200.java) | Medium |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
+| [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseSchedule207.java) | Medium |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseScheduleII210.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
