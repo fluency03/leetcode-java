@@ -32,11 +32,11 @@
 
 
 
-# Total: 144
+# Total: 145
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  23  |   91   |  30  |
+|  23  |   92   |  30  |
 
 
 | Question | Solution | Difficulty |
@@ -185,3 +185,4 @@
 | [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
+| [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
