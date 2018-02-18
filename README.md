@@ -172,7 +172,6 @@
 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInABST450.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
-| [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindBottomLeftTreeValue513.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
@@ -186,5 +185,6 @@
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumProductOfThreeNumbers628.java) | Easy |
 | [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
+| [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
