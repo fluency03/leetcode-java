@@ -129,7 +129,7 @@ public class RedundantConnection684 {
      * https://leetcode.com/problems/redundant-connection/discuss/107984/10-line-Java-solution-Union-Find
      */
     public int[] findRedundantConnection4(int[][] edges) {
-        int[] parent = new int[2001];
+        int[] parent = new int[1001];
         for (int i = 0; i < parent.length; i++) parent[i] = i;
 
         for (int[] edge: edges){
