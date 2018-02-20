@@ -32,11 +32,11 @@
 
 
 
-# Total: 149
+# Total: 150
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  24  |   94   |  31  |
+|  25  |   94   |  31  |
 
 
 | Question | Solution | Difficulty |
@@ -164,6 +164,7 @@
 | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKPairsWithSmallestSums373.java) | Medium |
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInASortedMatrix378.java) | Medium |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
+| [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstUniqueCharacterInAString387.java) | Easy |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateDivision399.java) | Medium |
