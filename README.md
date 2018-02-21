@@ -32,11 +32,11 @@
 
 
 
-# Total: 150
+# Total: 151
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  25  |   94   |  31  |
+|  26  |   94   |  31  |
 
 
 | Question | Solution | Difficulty |
@@ -54,6 +54,7 @@
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LetterCombinationsOfAPhoneNumber17.java) | Medium |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LetterCombinationsOfAPhoneNumber17.java) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java) | Easy |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeTwoSortedLists21.java) | Easy |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GenerateParentheses22.java) | Medium |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeKSortedLists23.java) | Hard |
 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseNodesInKGroup25.java) | Hard |
