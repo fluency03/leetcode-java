@@ -32,11 +32,11 @@
 
 
 
-# Total: 154
+# Total: 155
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  28  |   95   |  31  |
+|  28  |   96   |  31  |
 
 
 | Question | Solution | Difficulty |
@@ -194,4 +194,5 @@
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
+| [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AccountsMerge721.java) | Medium |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
