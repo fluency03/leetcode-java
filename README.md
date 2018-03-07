@@ -32,11 +32,11 @@
 
 
 
-# Total: 159
+# Total: 160
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  32  |   96   |  31  |
+|  32  |   96   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -163,6 +163,7 @@
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
 | [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfRangeSum327.java) | Hard |
 | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OddEvenLinkedList328.java) | Medium |
+| [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePairs336.java) | Hard |
 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobberIII337.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
