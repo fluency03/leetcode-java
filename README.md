@@ -32,11 +32,11 @@
 
 
 
-# Total: 163
+# Total: 164
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  33  |   98   |  32  |
+|  34  |   98   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -129,6 +129,7 @@
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinStack.java) | Easy |
+| [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoLinkedLists160.java) | Easy |
 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FractionToRecurringDecimal166.java) | Medium |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MajorityElement169.java) | Easy |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestNumber179.java) | Medium |
