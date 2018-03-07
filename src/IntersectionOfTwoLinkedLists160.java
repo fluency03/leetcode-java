@@ -68,6 +68,13 @@ public class IntersectionOfTwoLinkedLists160 {
 
     /**
      * https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/49785/Java-solution-without-knowing-the-difference-in-len!
+     *
+     * You can prove that: say A length = a + c, B length = b + c, after
+     * switching pointer, pointer A will move another b + c steps, pointer B
+     * will move a + c more steps, since a + c + b + c = b + c + a + c, it
+     * does not matter what value c is. Pointer A and B must meet after
+     * a + c + b (b + c + a) steps. If c == 0, they meet at NULL.
+     *
      */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         //boundary check
