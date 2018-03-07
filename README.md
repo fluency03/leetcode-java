@@ -32,11 +32,11 @@
 
 
 
-# Total: 162
+# Total: 163
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  32  |   98   |  32  |
+|  33  |   98   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -135,6 +135,7 @@
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobber198.java) | Easy |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfIslands200.java) | Medium |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
+| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseLinkedList206.java) | Easy |
 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseSchedule207.java) | Medium |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumSizeSubarraySum209.java) | Medium |
