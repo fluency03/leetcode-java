@@ -12,7 +12,24 @@
  */
 
 public class TrappingRainWater42 {
+
+    /**
+     * https://leetcode.com/problems/trapping-rain-water/solution/
+     */
+    // brute force
     public int trap(int[] height) {
+        int res = 0;
+        for (int i=1; i<height.length-1; i++) {
+            int l = 0;
+            int r = 0;
+            for (int j = i; j >= 0; j--) l = Math.max(l, height[j]);
+            for (int j = i; j < height.length; j++) r = Math.max(r, height[j]);
+            res += Math.min(l, r) - height[i];
+        }
+        return res;
+    }
+
+    public int trap2(int[] height) {
         if (height.length <= 2) {
             return 0;
         }
@@ -39,7 +56,7 @@ public class TrappingRainWater42 {
     /**
      * https://discuss.leetcode.com/topic/3016/share-my-short-solution
      */
-    public int trap(int[] A){
+    public int trap3(int[] A){
         int a=0;
         int b=A.length-1;
         int max=0;
@@ -58,6 +75,52 @@ public class TrappingRainWater42 {
             }
         }
         return max;
+    }
+
+
+    /**
+     * https://leetcode.com/problems/trapping-rain-water/solution/
+     */
+    // DP
+    public int trap3(int[] height) {
+        if (height == null || height.length <= 2) return 0;
+
+        int res = 0;
+        int[] l = new int[height.length];
+        l[0] = height[0];
+        for (int i=1; i<height.length; i++) l[i] = Math.max(l[i-1], height[i]);
+
+        int[] r = new int[height.length];
+        r[height.length-1] = height[height.length-1];
+        for (int i=height.length-2; i>=0; i--) r[i] = Math.max(r[i+1], height[i]);
+
+        for (int i=1; i<height.length-1; i++) res += Math.min(l[i], r[i]) - height[i];
+
+        return res;
+    }
+
+
+    public int trap(int[] height) {
+        if (height == null || height.length <= 2) return 0;
+
+        int res = 0;
+        int l = 1;
+        int r = 0;
+        Stack<Integer> st = new Stack<>();
+        while (l < height.length) {
+            if (height[l] > height[l-1] && !st.isEmpty()) {
+                int top = st.pop();
+                res += (l-top-1) * (Math.min(height[l], height[top]) - height[l-1]);
+
+            }
+
+            if (l <= height.length-3 && height[l] > height[l+1]) {
+                st.add(l);
+            }
+            l++;
+        }
+
+        return res;
     }
 
 }
