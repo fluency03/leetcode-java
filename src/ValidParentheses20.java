@@ -71,6 +71,51 @@ public class ValidParentheses20 {
     }
 
 
+
+    public boolean isValid3(String s) {
+        if (s == null || s.length()%2 == 1) return false;
+        if (s.length() == 0) return true;
+
+        Stack<Character> st = new Stack<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '[' || c == '{') {
+                st.push(c);
+                continue;
+            }
+
+            if (st.isEmpty()) return false;
+
+            switch (c) {
+                case ')':
+                    if (st.peek() == '(') {
+                        st.pop();
+                        break;
+                    } else {
+                        return false;
+                    }
+                case ']':
+                    if (st.peek() == '[') {
+                        st.pop();
+                        break;
+                    } else {
+                        return false;
+                    }
+                case '}':
+                    if (st.peek() == '{') {
+                        st.pop();
+                        break;
+                    } else {
+                        return false;
+                    }
+                default: return false;
+            }
+
+        }
+
+        return st.isEmpty();
+    }
+
+
     public static void main(String[] args) {
         ValidParentheses20 vp = new ValidParentheses20();
 
