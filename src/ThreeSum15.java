@@ -26,38 +26,36 @@ public class ThreeSum15 {
     /**
      * https://discuss.leetcode.com/topic/8125/concise-o-n-2-java-solution
      */
-
     public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null || nums.length < 3) return res;
         Arrays.sort(nums);
+        if (nums[0] > 0 || nums[nums.length-1] < 0) return res;
 
-        List<List<Integer>> returned = new LinkedList<>();
+        for (int i=0; i<nums.length-2; i++) {
+            if (i > 0 && nums[i] == nums[i-1]) continue;
 
-        for (int i = 0; i < nums.length - 2; i++) {
-            if (i == 0 || (i > 0 && nums[i] != nums[i-1])) {
-                int low = i + 1;
-                int high = nums.length - 1;
-                int sum = 0 - nums[i];
-                while (low < high) {
-                    if (nums[low] + nums[high] == sum) {
-                        returned.add(Arrays.asList(nums[i], nums[low], nums[high]));
-                        while (low < high && nums[low] == nums[low + 1]) {
-                          low++;
-                        }
-                        while (low < high && nums[high] == nums[high - 1]) {
-                          high--;
-                        }
-                        low++;
-                        high--;
-                    } else if (nums[low] + nums[high] < sum) {
-                        low++;
-                    }
-                    else {
-                        high--;
-                    }
-               }
+            int l = i+1;
+            int r = nums.length-1;
+            int left = 0 - nums[i];
+            while (l < r) {
+                if (nums[l] + nums[r] == left) {
+                    res.add(Arrays.asList(nums[i], nums[l], nums[r]));
+                    while (l < r && nums[l] == nums[l+1]) l++;
+                    while (l < r && nums[r] == nums[r-1]) r--;
+                    l++;
+                    r--;
+                } else if (nums[l] + nums[r] > left) {
+                    // while (l < r && nums[r] == nums[r-1]) r--;
+                    r--;
+                } else {
+                    // while (l < r && nums[l] == nums[l+1]) l++;
+                    l++;
+                }
             }
         }
-        return returned;
+
+        return res;
     }
 
     public static void main(String[] args) {
