@@ -13,35 +13,24 @@
 
 public class AddTwoNumbers2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-
-        int n1 = l1.val;
-        int n2 = l2.val;
-        int sum = n1 + n2;
-        l1 = (l1 == null) ? null : l1.next;
-        l2 = (l2 == null) ? null : l2.next;
-
-        ListNode result = new ListNode(sum % 10);
-        ListNode pointer = result;
-        sum /= 10;
-
-        while (l1 != null || (l2 != null)) {
-            n1 = (l1 == null) ? 0 : l1.val;
-            n2 = (l2 == null) ? 0 : l2.val;
-
-            sum += n1 + n2;
-            pointer.next = new ListNode(sum % 10);
-            pointer = pointer.next;
-            sum /= 10;
-
-            l1 = (l1 == null) ? null : l1.next;
-            l2 = (l2 == null) ? null : l2.next;
+        ListNode dummy = new ListNode(0);
+        ListNode p = dummy;
+        int carry = 0;
+        while (l1 != null || l2 != null) {
+            int a = l1 == null ? 0 : l1.val;
+            int b = l2 == null ? 0 : l2.val;
+            int sum = a + b + carry;
+            ListNode n = new ListNode(sum%10);
+            p.next = n;
+            p = p.next;
+            carry = sum/10;
+            l1 = l1 == null ? null : l1.next;
+            l2 = l2 == null ? null : l2.next;
         }
 
-        if (sum == 1) {
-            pointer.next = new ListNode(1);
-        }
+        if (carry != 0) p.next = new ListNode(carry);
 
-        return result;
+        return dummy.next;
     }
 
 }
