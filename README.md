@@ -32,11 +32,11 @@
 
 
 
-# Total: 164
+# Total: 165
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  34  |   98   |  32  |
+|  35  |   98   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -102,6 +102,7 @@
 | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueBinarySearchTrees96.java) | Medium |
 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InterleavingString97.java) | Hard |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidateBinarySearchTree98.java) | Medium |
+| [100. Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SameTree100.java) | Easy |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SymmetricTree101.java) | Easy |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) | Medium |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumDepthOfBinaryTree104.java) | Easy |
