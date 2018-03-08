@@ -64,6 +64,61 @@ public class FlattenBinaryTreeToLinkedList114 {
         }
     }
 
+    public void flatten2(TreeNode root) {
+        helper(root);
+    }
+
+    private TreeNode helper(TreeNode root) {
+        if (root == null || (root.left == null && root.right == null)) return root;
+
+        TreeNode leftLast = helper(root.left);
+
+        if (leftLast != null) {
+            leftLast.right = root.right;
+            root.right = root.left;
+            root.left = null;
+        }
+
+        return helper(root.right);
+    }
+
+
+    /**
+     * https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/37010/Share-my-simple-NON-recursive-solution-O(1)-space-complexity!
+     */
+    public void flatten3(TreeNode root) {
+    	TreeNode cur = root;
+    	while (cur != null) {
+    		if (cur.left != null) {
+    			TreeNode last = cur.left;
+    			while (last.right != null) last = last.right;
+    			last.right = cur.right;
+    			cur.right = cur.left;
+    			cur.left = null;
+    		}
+    		cur = cur.right;
+    	}
+    }
+
+
+    /**
+     * https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/36977/My-short-post-order-traversal-Java-solution-for-share
+     */
+    public void flatten4(TreeNode root) {
+        flatten(root,null);
+    }
+
+    private TreeNode flatten(TreeNode root, TreeNode pre) {
+        if(root==null) return pre;
+        pre=flatten(root.right,pre);
+        pre=flatten(root.left,pre);
+        root.right=pre;
+        root.left=null;
+        pre=root;
+        return pre;
+    }
+
+
     public static void main(String[] args) {
         FlattenBinaryTreeToLinkedList114 fbt2ll = new FlattenBinaryTreeToLinkedList114();
 
