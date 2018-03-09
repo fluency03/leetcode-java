@@ -32,11 +32,11 @@
 
 
 
-# Total: 165
+# Total: 166
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  35  |   98   |  32  |
+|  36  |   98   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -152,6 +152,7 @@
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
+| [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PerfectSquares279.java) | Medium |
