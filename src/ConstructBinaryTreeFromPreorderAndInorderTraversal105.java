@@ -37,7 +37,8 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal105 {
     }
 
 
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
+
+    public TreeNode buildTree2(int[] preorder, int[] inorder) {
         if (inorder == null || inorder.length == 0) return null;
         if (inorder.length == 1) return new TreeNode(inorder[0]);
         return buildTree(preorder, 0, preorder.length-1, inorder, 0, inorder.length-1);
@@ -63,10 +64,33 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal105 {
     }
 
 
+
+    public TreeNode buildTree3(int[] preorder, int[] inorder) {
+        if (preorder.length == 0) return null;
+        return buildTree(preorder, 0, inorder, 0, inorder.length);
+    }
+
+    private TreeNode buildTree(int[] preorder, int p, int[] inorder, int i, int j) {
+        if (p >= inorder.length || i > j) return null;
+
+        int curr = preorder[p];
+        TreeNode res = new TreeNode(curr);
+
+        int mid = i;
+        while (inorder[mid] != curr) mid++;
+
+        res.left = buildTree(preorder, p+1, inorder, i, mid-1);
+        res.right = buildTree(preorder, p+(mid-i)+1, inorder, mid+1, j);
+
+        return res;
+    }
+
+
+
     /**
      * https://discuss.leetcode.com/topic/29838/5ms-java-clean-solution-with-caching
      */
-    public TreeNode buildTree3(int[] preorder, int[] inorder) {
+    public TreeNode buildTree4(int[] preorder, int[] inorder) {
         Map<Integer, Integer> inMap = new HashMap<Integer, Integer>();
 
         for(int i = 0; i < inorder.length; i++) {
