@@ -32,11 +32,11 @@
 
 
 
-# Total: 168
+# Total: 169
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  37  |   99   |  32  |
+|  38  |   99   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -155,6 +155,7 @@
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
+| [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstBadVersion278.java) | Easy |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PerfectSquares279.java) | Medium |
 | [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ExpressionAddOperators282.java) | Hard |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
