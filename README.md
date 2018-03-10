@@ -32,11 +32,11 @@
 
 
 
-# Total: 167
+# Total: 168
 
 | Easy | Medium | Hard |
 |:----:|:------:|:----:|
-|  37  |   98   |  32  |
+|  37  |   99   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -163,6 +163,7 @@
 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithCooldown309.java) | Medium |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
 | [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BurstBalloons312.java) | Hard |
+| [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeVerticalOrderTraversal314.java) | Medium |
 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Hard |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Medium |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
