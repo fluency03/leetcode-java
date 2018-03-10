@@ -36,7 +36,7 @@
 
 | Easy |  Medium | Hard |
 |:----:|:-------:|:----:|
-|  39  |   100   |  32  |
+|  38  |   101   |  32  |
 
 
 | Question | Solution | Difficulty |
