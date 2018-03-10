@@ -32,11 +32,11 @@
 
 
 
-# Total: 169
+# Total: 170
 
-| Easy | Medium | Hard |
-|:----:|:------:|:----:|
-|  38  |   99   |  32  |
+| Easy |  Medium | Hard |
+|:----:|:-------:|:----:|
+|  38  |   100   |  32  |
 
 
 | Question | Solution | Difficulty |
