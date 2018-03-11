@@ -106,4 +106,64 @@ public class SmallestRange632 {
     		}
   	}
 
+
+    // Time Limit Exceeded
+    public int[] smallestRange3(List<List<Integer>> nums) {
+        int minx = 0, miny = Integer.MAX_VALUE;
+        int[] next = new int[nums.size()];
+        while (true) {
+            int min_i = 0, max_i = 0;
+            for (int k = 0; k < nums.size(); k++) {
+                if (nums.get(min_i).get(next[min_i]) > nums.get(k).get(next[k]))
+                    min_i = k;
+                if (nums.get(max_i).get(next[max_i]) < nums.get(k).get(next[k]))
+                    max_i = k;
+            }
+            if (miny - minx > nums.get(max_i).get(next[max_i]) - nums.get(min_i).get(next[min_i])) {
+                miny = nums.get(max_i).get(next[max_i]);
+                minx = nums.get(min_i).get(next[min_i]);
+            }
+            next[min_i]++;
+            if (next[min_i] == nums.get(min_i).size()) break;
+        }
+        return new int[] {minx, miny};
+    }
+
+    /**
+     * https://leetcode.com/problems/smallest-range/solution/
+     */
+    public int[] smallestRange4(List<List<Integer>> nums) {
+        int minx = 0, miny = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+        int[] next = new int[nums.size()];
+        PriorityQueue<Integer> q = new PriorityQueue<Integer>(
+            (i, j) -> nums.get(i).get(next[i]) - nums.get(j).get(next[j])
+        );
+        for (int i = 0; i < nums.size(); i++) {
+            q.offer(i);
+            max = Math.max(max, nums.get(i).get(0));
+        }
+        while (true) {
+            int min_i = q.poll();
+            if (miny - minx > max - nums.get(min_i).get(next[min_i])) {
+                miny = max;
+                minx = nums.get(min_i).get(next[min_i]);
+            }
+            next[min_i]++;
+            if (next[min_i] == nums.get(min_i).size()) {
+                // flag = false;
+                break;
+            }
+            q.offer(min_i);
+            max = Math.max(max, nums.get(min_i).get(next[min_i]));
+        }
+        return new int[] {minx, miny};
+    }
+
+
+
+
+
+
+
+
 }
