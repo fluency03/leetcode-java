@@ -47,7 +47,6 @@ public class MergeIntervals56 {
         }
     }
 
-
     /**
      * https://discuss.leetcode.com/topic/38628/beat-98-java-sort-start-end-respectively
      */
@@ -73,5 +72,29 @@ public class MergeIntervals56 {
       	return res;
     }
 
+
+    public List<Interval> merge3(List<Interval> intervals) {
+        List<Interval> res = new ArrayList<>();
+        if (intervals.size() == 0) return res;
+        Collections.sort(intervals, new Comparator<Interval>() {
+            @Override
+            public int compare(Interval i1, Interval i2) {
+                return Integer.compare(i1.start, i2.start);
+            }
+        });
+        int s = intervals.get(0).start;
+        int e = intervals.get(0).end;
+        for (int i=1; i<intervals.size(); i++) {
+            if (intervals.get(i).start <= e) {
+                e = Math.max(intervals.get(i).end, e);
+            } else {
+                res.add(new Interval(s, e));
+                s = intervals.get(i).start;
+                e = intervals.get(i).end;
+            }
+        }
+        res.add(new Interval(s, e));
+        return res;
+    }
 
 }
