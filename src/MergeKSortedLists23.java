@@ -110,4 +110,59 @@ public class MergeKSortedLists23 {
         return dmHead.next;
     }
 
+
+    public ListNode mergeKLists4(ListNode[] lists) {
+        if (lists == null || lists.length == 0) return null;
+        ListNode dummy = new ListNode(0);
+        ListNode p = dummy;
+        PriorityQueue<ListNode> q = new PriorityQueue<ListNode>((l1, l2) -> Integer.compare(l1.val, l2.val));
+        for (ListNode node: lists) {
+            if (node != null) q.add(node);
+        }
+        while (!q.isEmpty()) {
+            ListNode curr = q.poll();
+            if (curr.next != null) q.add(curr.next);
+            curr.next = null;
+            p.next = curr;
+            p = p.next;
+        }
+
+        return dummy.next;
+    }
+
+
+    public ListNode mergeKLists5(ListNode[] lists) {
+        if (lists == null || lists.length == 0) return null;
+
+        int len = lists.length;
+        int interval = 1;
+        while (interval < len) {
+            for (int i=0; i < len-interval; i+=interval*2)
+                lists[i] = mergeTwoLists5(lists[i], lists[i + interval]);
+            interval *= 2;
+        }
+
+        return lists[0];
+    }
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode p = dummy;
+        while (l1 != null && l2 != null) {
+            if (l1.val >= l2.val) {
+                p.next = l2;
+                l2 = l2.next;
+            } else {
+                p.next = l1;
+                l1 = l1.next;
+            }
+            p = p.next;
+            p.next = null;
+        }
+        if (l1 != null) p.next = l1;
+        if (l2 != null) p.next = l2;
+        return dummy.next;
+    }
+
+
 }
