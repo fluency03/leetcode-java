@@ -9,7 +9,6 @@
  */
 
 
-
 public class SearchInRotatedSortedArray33 {
     public int search(int[] nums, int target) {
         int L = nums.length;
@@ -33,7 +32,6 @@ public class SearchInRotatedSortedArray33 {
         if (nums[s] > nums[e] && target < nums[s] && nums[e] < target) {
             return -1;
         }
-
 
         int left = searchHelper(nums, target, s, mid-1);
         if (left != -1) return left;
