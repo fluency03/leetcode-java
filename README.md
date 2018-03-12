@@ -32,11 +32,11 @@
 
 
 
-# Total: 171
+# Total: 172
 
 | Easy |  Medium | Hard |
 |:----:|:-------:|:----:|
-|  38  |   101   |  32  |
+|  38  |   102   |  32  |
 
 
 | Question | Solution | Difficulty |
@@ -69,6 +69,7 @@
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWater42.java) | Hard |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Permutations46.java) | Medium |
+| [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PermutationsII47.java) | Medium |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateImage48.java) | Medium |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GroupAnagrams49.java) | Medium |
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java) | Hard |

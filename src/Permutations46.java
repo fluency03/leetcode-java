@@ -102,13 +102,13 @@ public class Permutations46 {
      * https://discuss.leetcode.com/topic/23036/java-clean-code-two-recursive-solutions
      */
     public List<List<Integer>> permute4(int[] nums) {
-   		List<List<Integer>> permutations = new ArrayList<>();
-   		if (nums.length == 0) {
-   			  return permutations;
-   		}
+     		List<List<Integer>> permutations = new ArrayList<>();
+     		if (nums.length == 0) {
+     			  return permutations;
+     		}
 
-   		collectPermutations(nums, 0, new ArrayList<>(), permutations);
-   		return permutations;
+     		collectPermutations(nums, 0, new ArrayList<>(), permutations);
+     		return permutations;
     }
 
    	private void collectPermutations(int[] nums, int start, List<Integer> permutation,
