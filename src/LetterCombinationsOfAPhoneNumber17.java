@@ -64,4 +64,34 @@ public class LetterCombinationsOfAPhoneNumber17 {
       }
     }
 
+
+
+    private String[] alphas = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+
+    public List<String> letterCombinations4(String digits) {
+        List<String> res = new ArrayList<>();
+        if (digits == null || digits.length() == 0) return res;
+
+        String[] letters = new String[digits.length()];
+        for (int i=0; i<digits.length(); i++) letters[i] = alphas[Character.getNumericValue(digits.charAt(i))];
+
+        helper(res, letters, 0, new StringBuilder());
+
+        return res;
+    }
+
+    private void helper(List<String> res, String[] letters, int i, StringBuilder sb) {
+        if (i >= letters.length) {
+            res.add(sb.toString());
+            return;
+        }
+
+        char[] chars = letters[i].toCharArray();
+        for (char c: chars) {
+            sb.append(c);
+            helper(res, letters, i+1, sb);
+            sb.deleteCharAt(sb.length()-1);
+        }
+    }
+
 }
