@@ -157,4 +157,34 @@ public class Permutations46 {
         		}
       	}
     }
+
+
+    public List<List<Integer>> permute6(int[] nums) {
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+      	perm(result, nums, 0);
+      	return result;
+    }
+
+    private static void perm(List<List<Integer>> result, int[] nums, int start){
+      	if (start == nums.length-1) {
+            Integer[] ele = new Integer[nums.length];
+            for(int i = 0; i < nums.length; i++){
+                ele[i] = nums[i];
+            }
+            result.add(Arrays.asList(ele));
+            return;
+        }
+        for (int i = start; i < nums.length; i++){
+            swap(nums, start, i);
+            perm(result, nums, start + 1);
+            swap(nums, start, i);
+        }
+    }
+
+    private static void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
 }
