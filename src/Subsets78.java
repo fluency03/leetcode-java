@@ -31,10 +31,8 @@ public class Subsets78 {
     /**
      * https://discuss.leetcode.com/topic/46159/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning
      */
-
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
-        Arrays.sort(nums);
         backtrack(list, new ArrayList<>(), nums, 0);
         return list;
     }
