@@ -62,7 +62,7 @@ public class DecodeWays91 {
     /**
      * https://discuss.leetcode.com/topic/2562/dp-solution-java-for-reference
      */
-    public int numDecodings1(String s) {
+    public int numDecodings2(String s) {
         int n = s.length();
         if (n == 0) return 0;
 
@@ -81,7 +81,7 @@ public class DecodeWays91 {
     /**
      * https://discuss.leetcode.com/topic/35840/java-clean-dp-solution-with-explanation
      */
-    public int numDecodings2(String s) {
+    public int numDecodings3(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
@@ -102,7 +102,7 @@ public class DecodeWays91 {
     }
 
 
-    public int numDecodings3(String s) {
+    public int numDecodings4(String s) {
         if (s == null || s.length() == 0) return 0;
         if (s.charAt(0) == '0') return 0;
         int[] dp = new int[s.length()+1];
@@ -118,6 +118,24 @@ public class DecodeWays91 {
         }
 
         return dp[s.length()];
+    }
+
+
+    /**
+     * https://leetcode.com/problems/decode-ways/discuss/30416/Simple-java-solution-with-O(1)-space
+     */
+    public int numDecodings5(String s) {
+        int n1 =1, n2=1, n3=0;
+        if(s.length() == 0 || s.charAt(0) == '0') return 0;
+        for (int i=2; i<=s.length(); i++) {
+            n3=0;
+            if(s.charAt(i-1)!='0') n3=n2;
+            int num = Integer.parseInt(s.substring(i-2,i));
+            if(num>=10 && num<=26) n3+=n1;
+            n1=n2;
+            n2=n3;
+        }
+        return n2;
     }
 
 }
