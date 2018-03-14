@@ -23,7 +23,6 @@
 public class WildcardMatching44 {
     // time limit exceeded
     public boolean isMatch(String s, String p) {
-        if (s == null && p == null) return true;
         if (s == null || p == null) return false;
         return isMatch(s, 0, p, 0);
     }
@@ -54,7 +53,6 @@ public class WildcardMatching44 {
 
     // DP, 2D space
     public boolean isMatch2(String s, String p) {
-        if (s == null && p == null) return true;
         if (s == null || p == null) return false;
 
         boolean[][] dp = new boolean[p.length()+1][s.length()+1];
@@ -84,7 +82,6 @@ public class WildcardMatching44 {
 
     // DP, 1D space
     public boolean isMatch3(String s, String p) {
-        if (s == null && p == null) return true;
         if (s == null || p == null) return false;
 
         boolean[] dp = new boolean[s.length()+1];

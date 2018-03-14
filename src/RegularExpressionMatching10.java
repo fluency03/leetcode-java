@@ -122,4 +122,41 @@ public class RegularExpressionMatching10 {
         return ans;
     }
 
+
+    public boolean isMatch5(String s, String p) {
+        if (s == null || p == null) return false;
+
+        boolean[][] dp = new boolean[s.length()+1][p.length()+1];
+        dp[0][0] = true;
+        for (int j=1; j<=p.length(); j++) dp[0][j] = p.charAt(j-1) == '*' ? dp[0][j-2] : false;
+        for (int i=1; i<=s.length(); i++) dp[i][0] = false;
+
+        for (int i=1; i<=s.length(); i++) {
+            for (int j=1; j<=p.length(); j++) {
+                char c = p.charAt(j-1);
+                switch (c) {
+                    case '.':
+                        dp[i][j] = dp[i-1][j-1];
+                        break;
+                    case '*':
+                        dp[i][j] = dp[i][j-2] || isMatch(dp, s, i, p, j);
+                        break;
+                    default:
+                        dp[i][j] = s.charAt(i-1) == p.charAt(j-1) && dp[i-1][j-1];
+                }
+            }
+        }
+        return dp[s.length()][p.length()];
+    }
+
+    private boolean isMatch(boolean[][] dp, String s, int i, String p, int j) {
+        char c = p.charAt(j-2);
+        while (i >= 1 && (c == '.' || s.charAt(i-1) == c)) {
+            if (dp[i][j-1]) return true;
+            else i--;
+        }
+        return false;
+    }
+
+
 }
