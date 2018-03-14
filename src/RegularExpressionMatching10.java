@@ -139,7 +139,7 @@ public class RegularExpressionMatching10 {
                         dp[i][j] = dp[i-1][j-1];
                         break;
                     case '*':
-                        dp[i][j] = dp[i][j-2] || isMatch(dp, s, i, p, j);
+                        dp[i][j] = dp[i][j-2] || ((p.charAt(j-2) == '.' || p.charAt(j-2) == s.charAt(i-1)) && dp[i-1][j]);
                         break;
                     default:
                         dp[i][j] = s.charAt(i-1) == p.charAt(j-1) && dp[i-1][j-1];
@@ -148,15 +148,5 @@ public class RegularExpressionMatching10 {
         }
         return dp[s.length()][p.length()];
     }
-
-    private boolean isMatch(boolean[][] dp, String s, int i, String p, int j) {
-        char c = p.charAt(j-2);
-        while (i >= 1 && (c == '.' || s.charAt(i-1) == c)) {
-            if (dp[i][j-1]) return true;
-            else i--;
-        }
-        return false;
-    }
-
 
 }
