@@ -62,7 +62,7 @@ public class DecodeWays91 {
     /**
      * https://discuss.leetcode.com/topic/2562/dp-solution-java-for-reference
      */
-    public int numDecodings(String s) {
+    public int numDecodings1(String s) {
         int n = s.length();
         if (n == 0) return 0;
 
@@ -81,7 +81,7 @@ public class DecodeWays91 {
     /**
      * https://discuss.leetcode.com/topic/35840/java-clean-dp-solution-with-explanation
      */
-    public int numDecodings(String s) {
+    public int numDecodings2(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
@@ -102,6 +102,22 @@ public class DecodeWays91 {
     }
 
 
+    public int numDecodings3(String s) {
+        if (s == null || s.length() == 0) return 0;
+        if (s.charAt(0) == '0') return 0;
+        int[] dp = new int[s.length()+1];
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i=2; i<=s.length(); i++) {
+            int now = s.charAt(i-1) - '0';
+            int prenow = (s.charAt(i-2) - '0')*10 + now;
+            if (now == 0 && prenow != 10 && prenow != 20) return 0;
+            int a = now == 0 ? 0 : dp[i-1];
+            int b = (prenow >= 10 && prenow <= 26) ? dp[i-2] : 0;
+            dp[i] = a + b;
+        }
 
+        return dp[s.length()];
+    }
 
 }
