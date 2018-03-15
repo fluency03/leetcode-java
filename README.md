@@ -32,11 +32,11 @@
 
 
 
-# Total: 176
+# Total: 177
 
 | Easy |  Medium | Hard |
 |:----:|:-------:|:----:|
-|  39  |   102   |  35  |
+|  39  |   103   |  35  |
 
 
 | Question | Solution | Difficulty |
@@ -180,6 +180,7 @@
 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePairs336.java) | Hard |
 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobberIII337.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
+| [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
