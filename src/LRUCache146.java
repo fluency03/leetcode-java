@@ -153,3 +153,71 @@ public class LRUCache {
         map.put(key, value);
     }
 }
+
+
+// class LRUCache {
+//
+//     private Map<Integer, Node> map = new HashMap<>();
+//     private Node head = new Node(-1, -1);
+//     private Node tail = new Node(-1, -1);
+//     private int capacity;
+//
+//     public LRUCache(int capacity) {
+//         this.capacity = capacity;
+//         head.next = tail;
+//         tail.pre = head;
+//     }
+//
+//     public int get(int key) {
+//         Node n = map.get(key);
+//         if (n == null) return -1;
+//         detach(n);
+//         toEnd(n);
+//         return n.val;
+//     }
+//
+//     public void put(int key, int value) {
+//         Node n = map.get(key);
+//         if (n == null) {
+//             n = new Node(key, value);
+//             if (map.size() >= capacity) {
+//                 Node first = head.next;
+//                 if (first.val != -1) {
+//                     detach(first);
+//                     map.remove(first.key);
+//                 }
+//             }
+//             toEnd(n);
+//             map.put(key, n);
+//         } else {
+//             n.key = key;
+//             n.val = value;
+//             detach(n);
+//             toEnd(n);
+//         }
+//     }
+//
+//     private void detach(Node n) {
+//         n.pre.next = n.next;
+//         n.next.pre = n.pre;
+//     }
+//
+//     private void toEnd(Node n) {
+//         n.pre = tail.pre;
+//         tail.pre.next = n;
+//         tail.pre = n;
+//         n.next = tail;
+//     }
+//
+//     class Node {
+//         int val;
+//         int key;
+//         Node pre;
+//         Node next;
+//         public Node(int key, int val) {
+//             this.key = key;
+//             this.val = val;
+//         }
+//     }
+//
+// }
