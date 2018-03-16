@@ -32,11 +32,11 @@
 
 
 
-# Total: 177
+# Total: 178
 
 | Easy |  Medium | Hard |
 |:----:|:-------:|:----:|
-|  39  |   103   |  35  |
+|  39  |   104   |  35  |
 
 
 | Question | Solution | Difficulty |
@@ -147,6 +147,7 @@
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumSizeSubarraySum209.java) | Medium |
 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseScheduleII210.java) | Medium |
+| [211. Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordDictionary.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
