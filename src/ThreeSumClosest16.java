@@ -56,6 +56,7 @@ public class ThreeSumClosest16 {
         int result = num[0] + num[1] + num[num.length - 1];
         Arrays.sort(num);
         for (int i = 0; i < num.length - 2; i++) {
+            if (i > 0 && num[i] == num[i-1]) continue;
             int start = i + 1, end = num.length - 1;
             while (start < end) {
                 int sum = num[i] + num[start] + num[end];
