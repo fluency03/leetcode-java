@@ -165,4 +165,36 @@ public class MergeKSortedLists23 {
     }
 
 
+    public ListNode mergeKLists6(ListNode[] lists) {
+        if (lists == null || lists.length == 0) return null;
+        return mergeKLists(lists, 0, lists.length-1);
+    }
+
+
+    public ListNode mergeKLists(ListNode[] lists, int i, int j) {
+        if (i == j) return lists[i];
+        else if (j - i == 1) return mergeTwoLists(lists[i], lists[j]);
+        else {
+            int mid = (i + j) / 2;
+            return mergeTwoLists(mergeKLists(lists, i, mid), mergeKLists(lists, mid+1, j));
+        }
+    }
+
+    private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode prehead = new ListNode(-1);
+        ListNode prev = prehead;
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                prev.next = l1;
+                l1 = l1.next;
+            } else {
+                prev.next = l2;
+                l2 = l2.next;
+            }
+            prev = prev.next;
+        }
+        prev.next = l1 == null ? l2 : l1;
+        return prehead.next;
+    }
+
 }
