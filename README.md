@@ -32,11 +32,11 @@
 
 
 
-# Total: 188
+# Total: 189
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  40  |   109   |  38  | 1 |
+|  40  |   110   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -133,6 +133,7 @@
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReorderList143.java) | Medium |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache146.java) | Hard |
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
+| [148. Sort List](https://leetcode.com/problems/sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortList148.java) | Medium |
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinStack.java) | Easy |
 | [157. Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenReadFour157.java) | Easy |
