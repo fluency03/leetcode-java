@@ -32,11 +32,11 @@
 
 
 
-# Total: 186
+# Total: 187
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  39  |   108   |  38  | 1 |
+|  39  |   109   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -102,6 +102,7 @@
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseLinkedListII92.java) | Medium |
 | [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RestoreIPAddresses93.java) | Medium |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeInorderTraversal94.java) | Medium |
+| [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueBinarySearchTreesII95.java) | Medium |
 | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueBinarySearchTrees96.java) | Medium |
 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InterleavingString97.java) | Hard |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidateBinarySearchTree98.java) | Medium |
