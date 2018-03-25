@@ -129,4 +129,25 @@ public class ConvertSortedListToBST109 {
     }
 
 
+    public TreeNode sortedListToBST4(ListNode head) {
+        if (head == null) return null;
+        if (head.next == null) return new TreeNode(head.val);
+
+        ListNode fast = head;
+        ListNode slow = head;
+        ListNode beforeSlow = null;
+        while (slow != null && fast != null && fast.next != null) {
+            fast = fast.next.next;
+            beforeSlow = slow;
+            slow = slow.next;
+        }
+
+        beforeSlow.next = null;
+        TreeNode res = new TreeNode(slow.val);
+        res.left = sortedListToBST(head);
+        res.right = sortedListToBST(slow.next);
+
+        return res;
+    }
+
 }
