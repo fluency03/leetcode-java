@@ -30,7 +30,7 @@ public class CountingSort {
         for (int i=1; i<=R-1; ++i)
             count[i] += count[i-1];
 
-        for (int i = 0; i<n; ++i) {
+        for (int i = n-1; i>=0; i--) {
             output[count[arr[i]]-1] = arr[i];
             --count[arr[i]];
         }
