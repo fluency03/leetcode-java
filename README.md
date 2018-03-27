@@ -32,11 +32,11 @@
 
 
 
-# Total: 189
+# Total: 190
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  40  |   110   |  38  | 1 |
+|  40  |   111   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -156,6 +156,7 @@
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
 | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
+| [223. Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InvertBinaryTree226.java) | Easy |
 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInABST230.java) | Medium |
