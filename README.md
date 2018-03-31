@@ -41,11 +41,11 @@
 
 
 
-# Total: 193
+# Total: 194
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  42  |   112   |  38  | 1 |
+|  42  |   113   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -167,6 +167,7 @@
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicate217.java) | Easy |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
+| [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicateIII220.java) | Medium |
 | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [223. Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
