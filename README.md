@@ -41,11 +41,11 @@
 
 
 
-# Total: 194
+# Total: 195
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  42  |   113   |  38  | 1 |
+|  43  |   113   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -136,6 +136,7 @@
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CloneGraph133.java) | Medium |
+| [136. Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleNumber136.java) | Easy |
 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CopyListWithRandomPointer138.java) | Medium |
 | [139. Word Break](https://leetcode.com/problems/word-break/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordBreak139.java) | Medium |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListCycle141.java) | Easy |
