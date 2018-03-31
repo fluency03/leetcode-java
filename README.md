@@ -41,11 +41,11 @@
 
 
 
-# Total: 192
+# Total: 193
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  41  |   112   |  38  | 1 |
+|  42  |   112   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -165,6 +165,7 @@
 | [211. Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordDictionary.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
+| [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicate217.java) | Easy |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
 | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [223. Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
