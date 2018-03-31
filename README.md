@@ -41,11 +41,11 @@
 
 
 
-# Total: 196
+# Total: 197
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  43  |   114   |  38  | 1 |
+|  44  |   114   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -91,6 +91,7 @@
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateList61.java) | Medium |
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniquePaths62.java) | Medium |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
+| [66. Plus One](https://leetcode.com/problems/plus-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PlusOne66.java) | Easy |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBinary67.java) | Easy |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SqrtX69.java) | Easy |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ClimbingStairs70.java) | Easy |
