@@ -41,11 +41,11 @@
 
 
 
-# Total: 197
+# Total: 198
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  44  |   114   |  38  | 1 |
+|  44  |   115   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -74,6 +74,7 @@
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArray33.java) | Medium |
 | [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
+| [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidSudoku36.java) | Medium |
 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SudokuSolver37.java) | Hard |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWater42.java) | Hard |
