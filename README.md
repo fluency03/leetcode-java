@@ -41,11 +41,11 @@
 
 
 
-# Total: 205
+# Total: 206
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  46  |   120   |  38  | 1 |
+|  47  |   120   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -182,6 +182,7 @@
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InvertBinaryTree226.java) | Easy |
 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInABST230.java) | Medium |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
+| [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromeLinkedList234.java) | Easy |
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidAnagram242.java) | Easy |
