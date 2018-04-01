@@ -41,11 +41,11 @@
 
 
 
-# Total: 202
+# Total: 203
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  45  |   118   |  38  | 1 |
+|  46  |   118   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -182,6 +182,7 @@
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
+| [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidAnagram242.java) | Easy |
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRoomsII253.java) | Medium |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
