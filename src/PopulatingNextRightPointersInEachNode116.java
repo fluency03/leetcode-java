@@ -108,4 +108,28 @@ public class PopulatingNextRightPointersInEachNode116 {
         connect3(root.right);
     }
 
+
+    public void connect4(TreeLinkNode root) {
+        if (root == null) return;
+        LinkedList<TreeLinkNode> level = new LinkedList<>();
+        level.add(root);
+        connect(level);
+    }
+
+    private void connect(LinkedList<TreeLinkNode> level) {
+        LinkedList<TreeLinkNode> newLevel = new LinkedList<>();
+        if (level.isEmpty()) return;
+        while (!level.isEmpty()) {
+            TreeLinkNode n = level.remove();
+            if (n == null) return;
+            n.next = level.peek();
+            if (n.left != null) {
+                newLevel.add(n.left);
+                newLevel.add(n.right);
+            }
+        }
+
+        connect(newLevel);
+    }
+
 }
