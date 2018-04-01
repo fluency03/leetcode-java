@@ -53,7 +53,7 @@ public class BinaryTreeInorderTraversal94 {
     /**
      * https://discuss.leetcode.com/topic/6478/iterative-solution-in-java-simple-and-readable
      */
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
 
         Stack<TreeNode> stack = new Stack<TreeNode>();
@@ -70,6 +70,20 @@ public class BinaryTreeInorderTraversal94 {
         }
 
         return list;
+    }
+
+
+    public List<Integer> inorderTraversal3(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        inorderTraversal(root, res);
+        return res;
+    }
+
+    private void inorderTraversal(TreeNode root, List<Integer> res) {
+        if (root == null) return;
+        inorderTraversal(root.left, res);
+        res.add(root.val);
+        inorderTraversal(root.right, res);
     }
 
 }
