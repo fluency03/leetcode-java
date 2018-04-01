@@ -41,11 +41,11 @@
 
 
 
-# Total: 203
+# Total: 204
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  46  |   118   |  38  | 1 |
+|  46  |   119   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -122,6 +122,7 @@
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SameTree100.java) | Easy |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SymmetricTree101.java) | Easy |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLevelOrderTraversal102.java) | Medium |
+| [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeZigzagLevelOrderTraversal103.java) | Medium |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumDepthOfBinaryTree104.java) | Easy |
 | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java) | Medium |
 | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedArrayToBinarySearchTree108.java) | Easy |
