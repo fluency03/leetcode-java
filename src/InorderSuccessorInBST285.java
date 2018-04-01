@@ -58,4 +58,23 @@ public class InorderSuccessorInBST285 {
         }
     }
 
+
+    public TreeNode inorderSuccessor3(TreeNode root, TreeNode p) {
+        return inorderSuccessor(root, p, null);
+    }
+
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p, TreeNode pre) {
+        if (root.val == p.val) {
+            if (root.right == null) {
+                return pre;
+            } else {
+                return findMin(root.right);
+            }
+        } else if (root.val > p.val) {
+            return inorderSuccessor(root.left, p, root);
+        } else {
+            return inorderSuccessor(root.right, p, pre);
+        }
+    }
+
 }
