@@ -32,4 +32,17 @@ public class HouseRobber198 {
         return dp[nums.length];
     }
 
+
+    public int rob2(int[] nums) {
+        int pre = 0;
+        int now = 0;
+        for (int i=0; i<nums.length; i++) {
+            int n = Math.max(now, pre+nums[i]);
+            pre = now;
+            now = n;
+        }
+
+        return now;
+    }
+
 }
