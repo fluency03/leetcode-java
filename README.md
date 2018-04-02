@@ -41,11 +41,11 @@
 
 
 
-# Total: 208
+# Total: 209
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  49  |   120   |  38  | 1 |
+|  50  |   120   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -256,5 +256,6 @@
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
 | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AccountsMerge721.java) | Medium |
 | [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumWindowSubsequence727.java) | Hard |
+| [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
