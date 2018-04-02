@@ -40,11 +40,11 @@
 
 
 
-# Total: 212
+# Total: 213
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  50  |   123   |  38  | 1 |
+|  50  |   124   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -201,6 +201,7 @@
 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InorderSuccessorInBST285.java) | Medium |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Codec.java) | Hard |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestIncreasingSubsequence300.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithCooldown309.java) | Medium |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
