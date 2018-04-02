@@ -71,4 +71,17 @@ public class HouseRobberIII337 {
         }
     }
 
+
+    public int rob2(TreeNode root) {
+        int[] res = helper(root);
+        return res[1];
+    }
+
+    public int[] helper(TreeNode root) {
+        if (root == null) return new int[]{0, 0};
+        int[] left = helper(root.left);
+        int[] right = helper(root.right);
+        return new int[]{left[1] + right[1], Math.max(left[0] + right[0] + root.val, left[1] + right[1])};
+    }
+
 }
