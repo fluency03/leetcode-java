@@ -124,5 +124,59 @@ public class SearchInRotatedSortedArrayII81 {
      }
 
 
+     public boolean search4(int[] nums, int target) {
+         int L = nums.length;
+         if (L == 0) return false;
+         return searchHelper2(nums, target, 0, L-1);
+     }
+
+     private boolean searchHelper2(int[] nums, int target, int s, int e) {
+         if (s > e) return false;
+
+         int mid = (e+s)/2;
+         if (nums[mid] == target) {
+             return true;
+         }
+
+         if (nums[s] < nums[mid]) {
+             if (target >= nums[s] && target <= nums[mid]) {
+                 return searchHelper2(nums, target, s, mid-1);
+             } else {
+                 return searchHelper2(nums, target, mid+1, e);
+             }
+         } else if (nums[s] > nums[mid]) {
+             if (target >= nums[mid] && target <= nums[e]) {
+                 return searchHelper2(nums, target, mid+1, e);
+             } else {
+                 return searchHelper2(nums, target, s, mid-1);
+             }
+         } else {
+             return searchHelper2(nums, target, s+1, e);
+         }
+     }
+
+
+     /**
+      * https://leetcode.com/problems/search-in-rotated-sorted-array-ii/discuss/28212/When-there-are-duplicates-the-worst-case-is-O(n).-Could-we-do-better
+      */
+     public boolean search5(int A[], int key) {
+         int l = 0, r = A.length - 1;
+         while (l <= r) {
+             int m = l + (r - l)/2;
+             if (A[m] == key) return true; //return m in Search in Rotated Array I
+             if (A[l] < A[m]) { //left half is sorted
+                 if (A[l] <= key && key < A[m])
+                     r = m - 1;
+                 else
+                     l = m + 1;
+             } else if (A[l] > A[m]) { //right half is sorted
+                 if (A[m] < key && key <= A[r])
+                     l = m + 1;
+                 else
+                     r = m - 1;
+             } else l++;
+         }
+         return false;
+     }
 
 }

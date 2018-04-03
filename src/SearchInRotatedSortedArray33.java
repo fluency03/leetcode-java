@@ -69,4 +69,33 @@ public class SearchInRotatedSortedArray33 {
     }
 
 
+    public int search3(int[] nums, int target) {
+        int L = nums.length;
+        if (L == 0) return -1;
+        return searchHelper2(nums, target, 0, L-1);
+    }
+
+    private int searchHelper2(int[] nums, int target, int s, int e) {
+        if (s > e) return -1;
+
+        int mid = (e+s)/2;
+        if (nums[mid] == target) {
+            return mid;
+        }
+
+        if (nums[s] <= nums[mid]) {
+            if (target >= nums[s] && target <= nums[mid]) {
+                return searchHelper2(nums, target, s, mid-1);
+            } else {
+                return searchHelper2(nums, target, mid+1, e);
+            }
+        }
+        if (target >= nums[mid] && target <= nums[e]) {
+            return searchHelper2(nums, target, mid+1, e);
+        }
+
+        return searchHelper2(nums, target, s, mid-1);
+    }
+
+
 }
