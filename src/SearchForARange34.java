@@ -108,7 +108,7 @@ public class SearchForARange34 {
     /**
      * https://discuss.leetcode.com/topic/10692/simple-and-strict-o-logn-solution-in-java-using-recursion
      */
-    public int[] searchRange(int[] A, int target) {
+    public int[] searchRange4(int[] A, int target) {
         int[] range = {A.length, -1};
         searchRange(A, target, 0, A.length - 1, range);
         if (range[0] > range[1]) range[0] = -1;
@@ -133,4 +133,69 @@ public class SearchForARange34 {
             searchRange(A, target, left, mid - 1, range);
         }
     }
+
+
+    public int[] searchRange5(int[] nums, int target) {
+        if (nums == null || nums.length == 0) return new int[]{-1, -1};
+        return searchRange(nums, target, 0, nums.length-1);
+    }
+
+    public int[] searchRange(int[] nums, int target, int lo, int hi) {
+        if (lo > hi) return new int[]{-1, -1};
+
+        int mid = (lo + hi) / 2;
+        if (nums[mid] > target) {
+            return searchRange(nums, target, lo, mid-1);
+        } else if (nums[mid] < target) {
+            return searchRange(nums, target, mid+1, hi);
+        } else {
+            int[] res = new int[]{mid, mid};
+            int[] left = searchRange(nums, target, lo, mid-1);
+            int[] right = searchRange(nums, target, mid+1, hi);
+            if (left[0] != -1) res[0] = left[0];
+            if (right[1] != -1) res[1] = right[1];
+            return res;
+        }
+    }
+
+
+    /**
+     * https://leetcode.com/problems/search-for-a-range/solution/
+     */
+    // returns leftmost (or rightmost) index at which `target` should be
+    // inserted in sorted array `nums` via binary search.
+    private int extremeInsertionIndex(int[] nums, int target, boolean left) {
+        int lo = 0;
+        int hi = nums.length;
+
+        while (lo < hi) {
+            int mid = (lo+hi)/2;
+            if (nums[mid] > target || (left && target == nums[mid])) {
+                hi = mid;
+            }
+            else {
+                lo = mid+1;
+            }
+        }
+
+        return lo;
+    }
+
+    public int[] searchRange6(int[] nums, int target) {
+        int[] targetRange = {-1, -1};
+
+        int leftIdx = extremeInsertionIndex(nums, target, true);
+
+        // assert that `leftIdx` is within the array bounds and that `target`
+        // is actually in `nums`.
+        if (leftIdx == nums.length || nums[leftIdx] != target) {
+            return targetRange;
+        }
+
+        targetRange[0] = leftIdx;
+        targetRange[1] = extremeInsertionIndex(nums, target, false)-1;
+
+        return targetRange;
+    }
+
 }
