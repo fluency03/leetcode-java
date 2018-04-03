@@ -40,11 +40,11 @@
 
 
 
-# Total: 213
+# Total: 214
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  50  |   124   |  38  | 1 |
+|  50  |   125   |  38  | 1 |
 
 
 | Question | Solution | Difficulty |
@@ -157,6 +157,7 @@
 | [157. Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenReadFour157.java) | Easy |
 | [158. Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenRead4IICallMultipleTimes158.java) | Hard |
 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoLinkedLists160.java) | Easy |
+| [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindPeakElement162.java) | Medium |
 | [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MissingRanges163.java) | Medium |
 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FractionToRecurringDecimal166.java) | Medium |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MajorityElement169.java) | Easy |
