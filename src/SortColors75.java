@@ -126,6 +126,24 @@ public class SortColors75 {
         }
     }
 
+    // bucket sort
+    public void sortColors6(int[] nums) {
+        int[] buckets = new int[3];
+
+        for (int i=0; i<nums.length; i++) {
+            buckets[nums[i]]++;
+        }
+
+        int idx = 0;
+        for (int i=0; i<3; i++) {
+            int count = buckets[i];
+            for (int j=0; j<count; j++) {
+                nums[idx++] = i;
+            }
+        }
+
+    }
+
 
     public static void main(String[] args) {
         SortColors75 sc = new SortColors75();
