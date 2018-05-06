@@ -44,7 +44,7 @@
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  50  |   126   |  38  | 1 |
+|  50  |   127   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -224,6 +224,7 @@
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
+| [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BombEnemy361.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
 | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKPairsWithSmallestSums373.java) | Medium |
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInASortedMatrix378.java) | Medium |
@@ -264,3 +265,4 @@
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
+| HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
