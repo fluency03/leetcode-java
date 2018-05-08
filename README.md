@@ -40,11 +40,11 @@
 
 
 
-# Total: 215
+# Total: 218
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  50  |   127   |  38  | 2 |
+|  50  |   128   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -245,6 +245,7 @@
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiameterOfBinaryTree543.java) | Easy |
+| [544. Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OutputContestMatches544.java) | Medium |
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
