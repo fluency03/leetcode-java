@@ -40,11 +40,11 @@
 
 
 
-# Total: 220
+# Total: 221
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  52  |   128   |  38  | 2 |
+|  52  |   129   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -190,6 +190,7 @@
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidAnagram242.java) | Easy |
+| [249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GroupShiftedStrings249.java) | Medium |
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRoomsII253.java) | Medium |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumSmaller259.java) | Medium |
