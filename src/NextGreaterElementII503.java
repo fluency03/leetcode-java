@@ -91,4 +91,58 @@ public class NextGreaterElementII503 {
         return res;
     }
 
+
+    /**
+     * https://leetcode.com/problems/next-greater-element-ii/discuss/130338/Why-need-to-use-a-stack-for-index
+     */
+    public int[] nextGreaterElements4(int[] nums) {
+        Stack<Integer> st = new Stack<>();
+        for (int e = nums.length -1; e >= 0; e --) {
+            st.push(nums[e]);
+        }
+        int[] r = new int[nums.length];
+        for (int i = nums.length -1; i >= 0; i--) {
+            while (!st.isEmpty() && st.peek() <= nums[i]) st.pop();
+            r[i] = st.isEmpty() ? -1 : st.peek();
+            st.push(nums[i]);
+        }
+        return r;
+    }
+
+
+    /**
+     * https://leetcode.com/problems/next-greater-element-ii/discuss/98276/21ms-Java-Solution-beats-99.84-with-comments-and-explanations
+     */
+    public int[] nextGreaterElements5(int[] nums) {
+        if (nums==null||nums.length==0) return new int[0];
+        int maxIndex = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > nums[maxIndex]) {
+                maxIndex = i;  //find the largest element
+            }
+        }  
+        int[] index = new int[nums.length]; //declare an array that holds the index of next greater element
+        index[maxIndex] = -1; //set the max element's value to -1
+        for (int i = (maxIndex - 1 + nums.length) % nums.length; i != maxIndex; i = (i - 1 + nums.length) % nums.length) { //the array is circular. pay attention to 'i'
+            if (nums[i] < nums[(i + 1) % nums.length]) {
+                index[i] = (i + 1) % nums.length; //set index[i] = (i+1)%nums.length if index[(i+1)%nums.length]>index[i]
+            } else {
+                int res = index[(i + 1 + nums.length) % nums.length]; //res = index of the cloest element whose value greater than nums[(i+1)%nums.length]
+                while (res != -1 && index[res] != -1 && nums[i] >= nums[res]) {  //find the closet index makes nums[index] > nums[i]
+                    res = index[res]; //if nums[i] >= nums[res], try nums[index[res]], index[res] is the index of the closest element whose value is greater than nums[res]. repeat the process until we find such an element. 
+                }
+                if (res != -1 && nums[res] == nums[i]) { //res==-1 or index[res]==-1 means current element is another largest element, just set index[i] = -1.
+                    res = -1;
+                }
+                index[i] = res;
+            }
+        }
+        int[] result = new int[nums.length]; // retrieve value with index recorded previously
+        for (int i = 0; i < result.length; i++) {
+            int temp = index[i] != -1 ? nums[index[i]] : -1;
+            result[i] = temp;
+        }
+        return result;
+    }
+
 }
