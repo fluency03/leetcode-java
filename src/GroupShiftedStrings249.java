@@ -59,9 +59,7 @@ public class GroupShiftedStrings249 {
      * https://leetcode.com/problems/group-shifted-strings/discuss/127090/Short-Java-solution
      */
     public List<List<String>> groupStrings2(String[] strings) {
-        
         Map<String, List<String>> groups = new HashMap<String, List<String>>();
-        
         for (String s : strings) {
             int shift = 'z' - s.charAt(0);
             StringBuilder sb = new StringBuilder();
@@ -73,9 +71,7 @@ public class GroupShiftedStrings249 {
             }
             groups.get(sb.toString()).add(s);
         }
-        
         return new ArrayList<List<String>>(groups.values());
-        
     }
 
 }

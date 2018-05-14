@@ -40,11 +40,11 @@
 
 
 
-# Total: 221
+# Total: 222
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  52  |   129   |  38  | 2 |
+|  52  |   130   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -241,6 +241,7 @@
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
 | [490. The Maze](https://leetcode.com/problems/the-maze/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMaze490.java) | Medium |
+| [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementII503.java) | Medium |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindBottomLeftTreeValue513.java) | Medium |
 | [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CoinChangeII518.java) | Medium |
