@@ -40,11 +40,11 @@
 
 
 
-# Total: 222
+# Total: 223
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  52  |   130   |  38  | 2 |
+|  52  |   131   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -253,6 +253,7 @@
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
+| [616. Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBoldTagInString616.java) | Medium |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TaskScheduler621.java) | Medium |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddOneRowToTree623.java) | Medium |
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumProductOfThreeNumbers628.java) | Easy |
