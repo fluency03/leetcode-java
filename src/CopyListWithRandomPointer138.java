@@ -15,12 +15,10 @@
  * };
  */
 
-
 public class CopyListWithRandomPointer138 {
     public RandomListNode copyRandomList(RandomListNode head) {
         return deepCopy(head, new HashMap<RandomListNode, RandomListNode>());
     }
-
 
     public RandomListNode deepCopy(RandomListNode node, Map<RandomListNode, RandomListNode> map) {
         if (node == null) return null;
