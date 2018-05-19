@@ -40,11 +40,11 @@
 
 
 
-# Total: 223
+# Total: 224
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  52  |   131   |  38  | 2 |
+|  52  |   132   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -153,6 +153,7 @@
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
 | [148. Sort List](https://leetcode.com/problems/sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortList148.java) | Medium |
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
+| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArray153.java) | Medium |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinStack.java) | Easy |
 | [157. Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenReadFour157.java) | Easy |
 | [158. Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenRead4IICallMultipleTimes158.java) | Hard |
