@@ -46,7 +46,6 @@ public class AddBinary67 {
     }
 
 
-
     public String addBinary3(String a, String b) {
         StringBuilder sb = new StringBuilder();
         int carry = 0;
@@ -81,6 +80,37 @@ public class AddBinary67 {
         if (carry == 1) sb.insert(0, '1');
 
         return sb.toString();
+    }
+
+    public String addBinary4(String a, String b) {
+        char[] intToChar = new char[]{'0', '1'};
+        int len = Math.max(a.length(), b.length());
+        char[] res = new char[len + 1];
+        int carry = 0;
+        int s = len;
+        int i = a.length() - 1;
+        int j = b.length() - 1;
+        while (i >= 0 && j >= 0) {
+            int sum = charToInt(a.charAt(i--)) + charToInt(b.charAt(j--)) + carry;
+            carry = sum >> 1;
+            res[s--] = intToChar[sum & 1];
+        }
+        while (i >= 0) {
+            int sum = charToInt(a.charAt(i--)) + carry;
+            carry = sum >> 1;
+            res[s--] = intToChar[sum & 1];
+        }
+        while (j >= 0) {
+            int sum = charToInt(b.charAt(j--)) + carry;
+            carry = sum >> 1;
+            res[s--] = intToChar[sum & 1];
+        }
+        res[0] = intToChar[carry];
+        return res[0] == '0' ? (new String(res)).substring(1) : new String(res);
+    }
+    
+    private int charToInt(char c) {
+        return c - '0';
     }
 
 }
