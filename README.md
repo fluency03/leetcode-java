@@ -40,11 +40,11 @@
 
 
 
-# Total: 227
+# Total: 228
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  54  |   133   |  38  | 2 |
+|  55  |   133   |  38  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -265,6 +265,7 @@
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
+| [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
