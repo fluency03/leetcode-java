@@ -39,7 +39,6 @@ public class BestTimeToBuyAndSellStock121 {
         return res;
     }
 
-
     public int maxProfit2(int[] prices) {
         int buy = Integer.MIN_VALUE;
         int sell = 0;
