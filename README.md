@@ -40,11 +40,11 @@
 
 
 
-# Total: 232
+# Total: 233
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  56  |   134   |  40  | 2 |
+|  57  |   134   |  40  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -230,6 +230,7 @@
 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
+| [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArrays349.java) | Easy |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
 | [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BombEnemy361.java) | Medium |
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
