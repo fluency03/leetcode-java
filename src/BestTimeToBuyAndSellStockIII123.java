@@ -12,18 +12,31 @@
  */
 
 public class BestTimeToBuyAndSellStockIII123 {
-    public int maxProfit(int[] prices) {
-        int buy0 = Integer.MIN_VALUE;
-        int sell0 = 0;
-        int buy1 = Integer.MIN_VALUE;
-        int sell1 = 0;
-        for (int p: prices) {
-            sell1 = Math.max(sell1, buy1 + p);
-            buy1 = Math.max(buy1, sell0 - p);
-            sell0 = Math.max(sell0, buy0 + p);
-            buy0 = Math.max(buy0, -p);
+    public int maxProfit(int k, int[] prices) {
+        if (prices == null || prices.length <= 1 || k <= 0) return 0;
+        
+        if (k >= prices.length >>> 1) {
+            int profit = 0;
+            for(int i=1; i<prices.length; i++){
+                if(prices[i] > prices[i-1]){
+                    profit += prices[i] - prices[i-1];
+                }
+            }
+            return profit;
         }
-        return sell1;
+        
+        int[] buy = new int[k+1];
+        int[] sell = new int[k+1];
+        for (int j=0; j<=k; j++) {
+            buy[j] = Integer.MIN_VALUE;
+        }
+        for (int price : prices) {
+            for (int j=1; j<=k; j++) {
+                buy[j] = Math.max(buy[j], sell[j-1] - price);
+                sell[j] = Math.max(sell[j], buy[j] + price);
+            }
+        }
+        return sell[k];
     }
 
 }
