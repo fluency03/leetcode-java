@@ -18,6 +18,7 @@
  */
 
 public class NextGreaterElementII503 {
+    // brute force
     public int[] nextGreaterElements(int[] nums) {
         if (nums == null || nums.length == 0) return nums;
         if (nums.length == 1) return new int[]{-1};
@@ -143,6 +144,34 @@ public class NextGreaterElementII503 {
             result[i] = temp;
         }
         return result;
+    }
+
+
+    public int[] nextGreaterElements6(int[] nums) {
+        if (nums == null || nums.length == 0) return new int[]{};
+
+        int len = nums.length;
+        int[] idx = new int[len];
+        Arrays.fill(idx, -1);
+        for (int i=2*len-1; i>=0; i--) {
+            int nextIdx = (i + 1) % len;
+            while (idx[nextIdx] != -1 && nums[nextIdx] <= nums[i % len]) {
+                nextIdx = idx[nextIdx];
+            }
+            if (nums[nextIdx] > nums[i % len]) {
+                idx[i % len] = nextIdx;
+            }
+        }
+        
+        int[] res = new int[len];
+        for (int i=0; i<len; i++) {
+            if (idx[i] == -1) {
+                res[i] = -1;
+            } else {
+                res[i] = nums[idx[i]];
+            }
+        }
+        return res;
     }
 
 }
