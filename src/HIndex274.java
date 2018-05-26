@@ -131,7 +131,6 @@ public class HIndex274 {
         int len=citations.length;
         for(int i=0;i<len;i++){
             if(citations[i]>=len-i) return len-i;
-
         }
         return 0;
     }
@@ -150,6 +149,22 @@ public class HIndex274 {
         for (int s = papers[n]; k > s; s += papers[k])
             k--;
         return k;
+    }
+
+    public int hIndex7(int[] citations) {
+        if (citations == null || citations.length == 0) return 0;
+        Arrays.sort(citations);
+        
+        if (citations[citations.length-1] == 0) return 0;
+        int i = 1;
+        while (i < citations.length) {
+            if (citations[citations.length-i] >= i && citations[citations.length-i-1] <= i) {
+                return i;
+            }
+            i++;
+        }
+        
+        return citations.length;
     }
 
 }
