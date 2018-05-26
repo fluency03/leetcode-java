@@ -127,4 +127,44 @@ public class SplitArrayIntoConsecutiveSubsequences659 {
         return (p1 == 0 && p2 == 0);
     }
 
+
+    public boolean isPossible3(int[] nums) {
+        int pre = Integer.MIN_VALUE;
+        int p1 = 0;
+        int p2 = 0;
+        int p3 = 0;
+        
+        int i = 0;
+        while (i < nums.length) {
+            int cur = nums[i];
+            int count = 0;
+            while (i < nums.length && nums[i] == cur) {
+                i++;
+                count++;
+            }
+            
+            int c1 = 0;
+            int c2 = 0;
+            int c3 = 0;
+            if (cur == pre + 1) {
+                if (count < p1 + p2) return false;
+                c1 = Math.max(0, count - (p1 + p2 + p3));
+                c2 = p1;
+                c3 = p2 + Math.min(p3, count - (p1 + p2));
+            } else {
+                if (p1 != 0 || p2 != 0) return false;
+                c1 = count;
+                c2 = 0;
+                c3 = 0;
+            }
+            
+            pre = cur;
+            p1 = c1;
+            p2 = c2;
+            p3 = c3;
+        }
+        
+        return (p1 == 0 && p2 == 0);
+    }
+
 }
