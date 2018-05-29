@@ -40,11 +40,11 @@
 
 
 
-# Total: 236
+# Total: 237
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  57  |   137   |  40  | 2 |
+|  58  |   137   |  40  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -272,6 +272,7 @@
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
+| [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
