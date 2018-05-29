@@ -40,11 +40,11 @@
 
 
 
-# Total: 234
+# Total: 235
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  57  |   135   |  40  | 2 |
+|  57  |   136   |  40  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -262,6 +262,7 @@
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
+| [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidTriangleNumber611.java) | Medium |
 | [616. Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBoldTagInString616.java) | Medium |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TaskScheduler621.java) | Medium |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddOneRowToTree623.java) | Medium |
