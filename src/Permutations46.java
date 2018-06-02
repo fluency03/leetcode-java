@@ -89,8 +89,8 @@ public class Permutations46 {
             for (int j = 0; j<=i; ++j){
                 for (List<Integer> l : ans){
                     List<Integer> new_l = new ArrayList<Integer>(l);
-           	        new_l.add(j,num[i]);
-             	      new_ans.add(new_l);
+                    new_l.add(j,num[i]);
+                    new_ans.add(new_l);
                 }
             }
             ans = new_ans;
