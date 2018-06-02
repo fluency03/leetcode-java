@@ -40,11 +40,11 @@
 
 
 
-# Total: 238
+# Total: 239
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  58  |   137   |  41  | 2 |
+|  59  |   137   |  41  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -130,6 +130,7 @@
 | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedArrayToBinarySearchTree108.java) | Easy |
 | [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertSortedListToBST109.java) | Medium |
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BalancedBinaryTree110.java) | Easy |
+| [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDepthOfBinaryTree111.java) | Easy |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PathSum112.java) | Easy |
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlattenBinaryTreeToLinkedList114.java) | Medium |
 | [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PopulatingNextRightPointersInEachNode116.java) | Medium |
