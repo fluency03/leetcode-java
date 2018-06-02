@@ -46,6 +46,25 @@ public class Subsets78 {
         }
     }
 
+
+    public List<List<Integer>> subsets2(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null) return res;
+        
+        res.add(new ArrayList<Integer>());
+        for (Integer n: nums) {
+            int size = res.size();
+            for (int i=0; i<size; i++) { 
+                List<Integer> newList = new ArrayList<Integer>(res.get(i));
+                newList.add(n);
+                res.add(newList);
+            }
+        }
+
+        return res;
+    }
+
+
     public static void main(String[] args) {
         Subsets78 ss = new Subsets78();
 
