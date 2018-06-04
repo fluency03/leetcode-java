@@ -40,11 +40,11 @@
 
 
 
-# Total: 241
+# Total: 242
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  60  |   138   |  41  | 2 |
+|  61  |   138   |  41  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -289,5 +289,6 @@
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
+| [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
