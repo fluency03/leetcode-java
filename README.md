@@ -40,11 +40,11 @@
 
 
 
-# Total: 243
+# Total: 244
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  62  |   138   |  41  | 2 |
+|  62  |   138   |  42  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -194,6 +194,7 @@
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromeLinkedList234.java) | Easy |
 | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInALinkedList237.java) | Easy |
+| [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMaximum239.java) | Hard |
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidAnagram242.java) | Easy |
