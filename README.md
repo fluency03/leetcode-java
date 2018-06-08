@@ -40,11 +40,11 @@
 
 
 
-# Total: 250
+# Total: 251
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  65  |   141   |  42  | 2 |
+|  65  |   142   |  42  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -90,6 +90,7 @@
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JumpGame55.java) | Medium |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeIntervals56.java) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
+| [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SpiralMatrixII59.java) | Medium |
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateList61.java) | Medium |
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniquePaths62.java) | Medium |
 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniquePathsII63.java) | Medium |
