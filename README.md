@@ -40,11 +40,11 @@
 
 
 
-# Total: 249
+# Total: 250
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  65  |   140   |  42  | 2 |
+|  65  |   141   |  42  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -86,6 +86,7 @@
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java) | Hard |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java) | Hard |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java) | Easy |
+| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/solution/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SpiralMatrix54.java) | Medium |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JumpGame55.java) | Medium |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeIntervals56.java) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
