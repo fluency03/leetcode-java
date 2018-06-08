@@ -40,11 +40,11 @@
 
 
 
-# Total: 252
+# Total: 253
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  66  |   142   |  42  | 2 |
+|  66  |   143   |  42  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -196,6 +196,7 @@
 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInABST230.java) | Medium |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromeLinkedList234.java) | Easy |
+| [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LowestCommonAncestorOfABinaryTree236.java) | Medium |
 | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInALinkedList237.java) | Easy |
 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMaximum239.java) | Hard |
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
