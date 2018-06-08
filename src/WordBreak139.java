@@ -36,4 +36,18 @@ public class WordBreak139 {
         return dp[L];
     }
 
+
+    public boolean wordBreak2(String s, List<String> wordDict) {
+        boolean[] dp = new boolean[s.length()+1];
+        dp[0] = true;
+
+        for (int j=1; j<=s.length(); j++) {
+            for (String word: wordDict) {
+                if (j >= word.length() && s.startsWith(word, j - word.length()) && dp[j - word.length()]) dp[j] = true;
+            }
+        }
+
+        return dp[s.length()];
+    }
+
 }
