@@ -82,7 +82,7 @@ public class TrappingRainWater42 {
      * https://leetcode.com/problems/trapping-rain-water/solution/
      */
     // DP
-    public int trap3(int[] height) {
+    public int trap4(int[] height) {
         if (height == null || height.length <= 2) return 0;
 
         int res = 0;
@@ -100,7 +100,7 @@ public class TrappingRainWater42 {
     }
 
 
-    public int trap(int[] height) {
+    public int trap5(int[] height) {
         if (height == null || height.length <= 2) return 0;
 
         int res = 0;
