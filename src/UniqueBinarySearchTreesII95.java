@@ -78,4 +78,46 @@ public class UniqueBinarySearchTreesII95 {
         return res;
     }
 
+
+    public List<TreeNode> generateTrees3(int n) {
+        if (n == 0) return new ArrayList<TreeNode>();
+        List<TreeNode>[][] dp = new List[n][n];
+        
+        List<TreeNode> lefts;
+        List<TreeNode> rights;
+        for (int len=1; len<=n; len++) {
+            for (int start=1; start<=n+1-len; start++) {
+                int end = start + len - 1;
+                List<TreeNode> list = new ArrayList<>();
+                for (int k=start; k<=end; k++) {
+                    
+                    if (start > k-1) {
+                        lefts = new ArrayList<TreeNode>();
+                        lefts.add(null);
+                    } else {
+                        lefts = dp[start-1][k-2];
+                    }
+                    
+                    if (k+1 > end) {
+                        rights = new ArrayList<TreeNode>();
+                        rights.add(null);
+                    } else {
+                        rights = dp[k][end-1];
+                    }
+                    for (TreeNode left: lefts) {
+                        for (TreeNode right: rights) {
+                            TreeNode curr = new TreeNode(k);
+                            curr.left = left;
+                            curr.right = right;
+                            list.add(curr);
+                        }
+                    }
+                }
+                dp[start-1][end-1] = list;
+            }
+        }
+        
+        return dp[0][n-1];
+    }
+
 }
