@@ -77,4 +77,25 @@ public class PopulatingNextRightPointersInEachNodeII117 {
         }
     }
 
+
+    public void connect3(TreeLinkNode root) {
+        if (root == null) return;
+        Queue<TreeLinkNode> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            int size = q.size();
+            TreeLinkNode pre = q.remove();
+            if (pre.left != null) q.add(pre.left);
+            if (pre.right != null) q.add(pre.right);
+            TreeLinkNode curr = null;
+            for (int i=1; i<size; i++) {
+                curr = q.remove();
+                if (curr.left != null) q.add(curr.left);
+                if (curr.right != null) q.add(curr.right);
+                pre.next = curr;
+                pre = curr;
+            }
+        }
+    }
+
 }
