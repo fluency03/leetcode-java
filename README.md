@@ -40,11 +40,11 @@
 
 
 
-# Total: 256
+# Total: 257
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  68  |   144   |  42  | 2 |
+|  68  |   144   |  43  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -297,6 +297,7 @@
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithTransactionFee714.java) | Medium |
+| [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxStack716.java) | Hard |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
 | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AccountsMerge721.java) | Medium |
 | [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumWindowSubsequence727.java) | Hard |
