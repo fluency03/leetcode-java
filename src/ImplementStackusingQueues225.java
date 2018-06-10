@@ -17,7 +17,7 @@
  */
 
 
-public class ImplementStackusingQueues225 {
+public class ImplementStackUsingQueues225 {
     
     public class MyStack {
         private Queue<Integer> q1 = new LinkedList<>();

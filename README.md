@@ -40,11 +40,11 @@
 
 
 
-# Total: 255
+# Total: 256
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  67  |   144   |  42  | 2 |
+|  68  |   144   |  42  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -191,9 +191,10 @@
 | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [223. Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximalSquare221.java) | Medium |
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
-| [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementStackusingQueues225.java) | Easy |
+| [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementStackUsingQueues225.java) | Easy |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InvertBinaryTree226.java) | Easy |
 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInABST230.java) | Medium |
+| [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementQueueUsingStacks232.java) | Easy |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromeLinkedList234.java) | Easy |
 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LowestCommonAncestorOfABinaryTree236.java) | Medium |
