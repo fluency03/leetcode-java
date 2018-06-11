@@ -53,6 +53,9 @@ public class AlienDictionary269 {
     private Set<Character> vertices = new HashSet<>();
     private Set<Character>[] graph = new Set[26];
 
+    /**
+     * DFS based topological sort
+     */
     public String alienOrder(String[] words) {
         initMap(words);
         updateOrderMap(words);
@@ -112,10 +115,53 @@ public class AlienDictionary269 {
 
 
     /**
+     * Kahn’s algorithm for Topological Sorting
+     */
+    private int[] incomming = new int[26];
+    public String alienOrder2(String[] words) {
+        initMap(words);
+        updateOrderMap(words);
+
+        for (Character v: vertices) {
+            Set<Character> adjs = graph[v - 'a'];
+            if (adjs != null) {
+                for (Character c: adjs) {
+                    incomming[c - 'a']++;
+                }
+            }
+        }
+        
+        Queue<Character> q = new LinkedList<>();
+        for (Character c: vertices) {
+            if (incomming[c - 'a'] == 0) {
+                q.add(c);
+            }
+        }
+
+        int visited = 0;
+        StringBuilder sb = new StringBuilder();
+        while (!q.isEmpty()) {
+            char c = q.remove();
+            sb.append(c);
+            for (Character next: graph[c - 'a']) {
+                incomming[next - 'a']--;
+                if (incomming[next - 'a'] == 0) {
+                    q.add(next);
+                }
+            }
+            visited++;
+        }
+        if (visited != vertices.size()) return "";
+        
+        return sb.toString();
+    }
+
+
+    /**
      * https://leetcode.com/problems/alien-dictionary/discuss/70115/3ms-Clean-Java-Solution-(DFS)
      */
     private final int N = 26;
-    public String alienOrder2(String[] words) {
+    public String alienOrder3(String[] words) {
         boolean[][] adj = new boolean[N][N];
         int[] visited = new int[N];
         buildGraph(words, adj, visited);
