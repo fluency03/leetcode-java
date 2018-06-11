@@ -40,11 +40,11 @@
 
 
 
-# Total: 257
+# Total: 258
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  68  |   144   |  43  | 2 |
+|  68  |   144   |  44  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -207,7 +207,8 @@
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRoomsII253.java) | Medium |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumSmaller259.java) | Medium |
-| [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeStrings271.java) | Medium |
+| [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AlienDictionary269.java) | Hard |
+| [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeStrings271.java) | Medium |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
 | [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheCelebrity277.java) | Medium |
@@ -296,7 +297,7 @@
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
-| [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithTransactionFee714.java) | Medium |
+| [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithTransactionFee714.java) | Medium |
 | [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxStack716.java) | Hard |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
 | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AccountsMerge721.java) | Medium |
