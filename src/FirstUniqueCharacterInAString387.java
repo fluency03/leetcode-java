@@ -95,12 +95,12 @@ public class FirstUniqueCharacterInAString387 {
      * https://leetcode.com/problems/first-unique-character-in-a-string/discuss/86359/my-4-lines-Java-solution
      */
     public static int firstUniqChar4(String s) {
-    		char[] a = s.toCharArray();
+        char[] a = s.toCharArray();
 
-    		for(int i=0; i<a.length;i++){
-    			if(s.indexOf(a[i])==s.lastIndexOf(a[i])){return i;}
-    		}
-    		return -1;
+        for(int i=0; i<a.length;i++){
+            if(s.indexOf(a[i])==s.lastIndexOf(a[i])){return i;}
+        }
+        return -1;
     }
 
 }

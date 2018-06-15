@@ -10,7 +10,7 @@
  */
 
 
-public class BestTimeToBuyAndSellStock121 {
+public class BestTimeToBuyAndSellStockII122 {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length <= 1) return 0;
 
