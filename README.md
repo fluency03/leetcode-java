@@ -40,11 +40,11 @@
 
 
 
-# Total: 262
+# Total: 263
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  70  |   146   |  44  | 2 |
+|  70  |   146   |  45  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -71,6 +71,7 @@
 | [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementStrStr28.java) | Easy |
 | [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DivideTwoIntegers29.java) | Easy |
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextPermutation31.java) | Medium |
+| [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestValidParentheses32.java) | Hard |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArray33.java) | Medium |
 | [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
