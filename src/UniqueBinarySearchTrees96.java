@@ -45,7 +45,7 @@ public class UniqueBinarySearchTrees96 {
 
     public int numTrees2(int n) {
         int[] dp = new int[n];
-        return helper(n-1, dp);
+        return helper2(n-1, dp);
     }
 
     private int helper2(int i, int[] dp) {
