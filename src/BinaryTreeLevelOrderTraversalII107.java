@@ -29,26 +29,38 @@
 
 public class BinaryTreeLevelOrderTraversalII107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
+        LinkedList<List<Integer>> res = new LinkedList<>();
         if (root == null) return res;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            int size = q.size();
             List<Integer> level = new ArrayList<>();
-            int cnt = queue.size();
-            for (int i = 0; i < cnt; i++) {
-                TreeNode node = queue.poll();
+            for (int i=0; i<size; i++) {
+                TreeNode node = q.remove();
                 level.add(node.val);
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
+                if (node.left != null) q.add(node.left);
+                if (node.right != null) q.add(node.right);
             }
-            res.add(0, level);
+            res.addFirst(level);
         }
         return res;
+    }
+
+
+    public List<List<Integer>> levelOrderBottom2(TreeNode root) {
+        LinkedList<List<Integer>> res = new LinkedList<>();
+        if (root == null) return res;
+        levelOrder(root, 0, res);
+        return res;
+    }
+
+    private void levelOrder(TreeNode root, int level, LinkedList<List<Integer>> res) {
+        if (root == null) return;
+        if (res.size() <= level) res.addFirst(new ArrayList<>());
+        levelOrder(root.left, level+1, res);
+        levelOrder(root.right, level+1, res);
+        res.get(res.size()-level-1).add(root.val);
     }
 
 }
