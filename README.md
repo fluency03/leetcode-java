@@ -40,11 +40,11 @@
 
 
 
-# Total: 264
+# Total: 265
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  70  |   147   |  45  | 2 |
+|  71  |   147   |  45  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -198,6 +198,7 @@
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementQueueUsingStacks232.java) | Easy |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromeLinkedList234.java) | Easy |
+| [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LowestCommonAncestorOfABinarySearchTree235.java) | Easy |
 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LowestCommonAncestorOfABinaryTree236.java) | Medium |
 | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInALinkedList237.java) | Easy |
 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMaximum239.java) | Hard |
