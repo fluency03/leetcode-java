@@ -66,6 +66,39 @@ public class IntersectionOfTwoLinkedLists160 {
     }
 
 
+    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) return null;
+        ListNode a = headA;
+        ListNode b = headB;
+        while (a != null && b != null) {
+            if (a == b) return a;
+            a = a.next;
+            b = b.next;
+        }
+        if (a == null && b == null) return null;
+        if (a == null) {
+            a = headB;
+        } else {
+            b = headA;
+        }
+        while (a != null && b != null) {
+            a = a.next;
+            b = b.next;
+        }
+        if (a == null) {
+            a = headB;
+        } else {
+            b = headA;
+        }
+        while (a != null && b != null) {
+            if (a == b) return a;
+            a = a.next;
+            b = b.next;
+        }
+        
+        return null;
+    }
+
     /**
      * https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/49785/Java-solution-without-knowing-the-difference-in-len!
      *
@@ -76,7 +109,7 @@ public class IntersectionOfTwoLinkedLists160 {
      * a + c + b (b + c + a) steps. If c == 0, they meet at NULL.
      *
      */
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public ListNode getIntersectionNode3(ListNode headA, ListNode headB) {
         //boundary check
         if(headA == null || headB == null) return null;
 
