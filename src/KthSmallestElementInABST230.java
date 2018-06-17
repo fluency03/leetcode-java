@@ -60,4 +60,22 @@ public class KthSmallestElementInABST230 {
         if (root.right != null) kthSmallest(root.right, k, i);
     }
 
+
+    public int kthSmallest3(TreeNode root, int k) {
+        int l = kth(root.left);
+        if (l >= k) {
+            return kthSmallest3(root.left, k);
+        } else if (l + 1 == k) {
+            return root.val;
+        } else {
+            return kthSmallest3(root.right, k-l-1);
+        }
+    }
+
+    public int kth(TreeNode root) {
+        if (root == null) return 0; 
+        return kth(root.left) + kth(root.right) + 1;
+    }
+
+
 }
