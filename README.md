@@ -44,7 +44,7 @@
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  71  |   148   |  45  | 2 |
+|  71  |   147   |  46  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -161,7 +161,7 @@
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseWordsInAString151.java) | Medium |
 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArray153.java) | Medium |
-| [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArrayII154.java) | Medium |
+| [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArrayII154.java) | Hard |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinStack.java) | Easy |
 | [157. Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenReadFour157.java) | Easy |
 | [158. Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReadNCharactersGivenRead4IICallMultipleTimes158.java) | Hard |
