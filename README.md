@@ -40,11 +40,11 @@
 
 
 
-# Total: 267
+# Total: 268
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  71  |   148   |  46  | 2 |
+|  71  |   148   |  47  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -227,6 +227,7 @@
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestIncreasingSubsequence300.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
+| [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfIslandsII305.java) | Hard |
 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithCooldown309.java) | Medium |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
 | [311. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SparseMatrixMultiplication311.java) | Medium |
