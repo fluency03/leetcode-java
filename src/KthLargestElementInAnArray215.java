@@ -112,4 +112,39 @@ public class KthLargestElementInAnArray215 {
         }
     }
     
+
+    public int findKthLargest5(int[] nums, int k) {
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int n: nums) {
+            min = Math.min(min, n);
+            max = Math.max(max, n);
+        }
+        if (min == max) return min;
+        
+        while (min < max) {
+            int mid = (min + max) / 2;
+            int[] c = count(nums, mid);
+            int large = c[0];
+            int equal = c[1];
+            if (large < k && (large + equal) >= k) return mid;
+            if (large >= k) {
+                min = mid + 1;
+            } else {
+                max = mid - 1;
+            }
+        }
+
+        return min;
+    }
+
+    private int[] count(int[] nums, int mid) {
+        int[] res = new int[2];
+        for (int n: nums) {
+            if (n > mid) res[0]++;
+            else if (n == mid) res[1]++;
+        }
+        return res;
+    }
+
 }
