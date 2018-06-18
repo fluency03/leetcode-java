@@ -40,11 +40,11 @@
 
 
 
-# Total: 268
+# Total: 269
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  71  |   148   |  47  | 2 |
+|  71  |   149   |  47  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -77,6 +77,7 @@
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidSudoku36.java) | Medium |
 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SudokuSolver37.java) | Hard |
+| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CombinationSum39.java) | Medium |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWater42.java) | Hard |
 | [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WildcardMatching44.java) | Hard |
