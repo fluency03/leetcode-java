@@ -21,7 +21,7 @@
 /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
 
-public class FindTheCelebrity277 extends Relation {
+public class FindTheCelebrity277 {
     // brutal force, accepted
     public int findCelebrity(int n) {
         boolean[] notCelebrity = new boolean[n];
@@ -96,6 +96,37 @@ public class FindTheCelebrity277 extends Relation {
         for (int i = 0; i < x; ++i) if (knows(x, i)) return -1;
         for (int i = 0; i < n; ++i) if (!knows(i, x)) return -1;
         return x;
+    }
+
+
+    public int findCelebrity5(int n) {
+        if (n == 0) return -1;
+        if (n == 1) return 0;
+        
+        int left = 0;
+        int right = 1;
+        while (left < n) {
+            if (!knows(left, right) && knows(right, left)) {
+                right++;
+            } else {
+                left = right;
+                right++;
+            }
+            while (right == n) {
+                boolean found = true;
+                for (int i=0; i<left; i++) {
+                    if (knows(left, i) || !knows(i, left)) {
+                        found = false;
+                        break;
+                    }
+                }
+                if (found) return left;
+                left++;
+                right = left + 1;
+            }
+        }
+        
+        return -1;
     }
 
 }
