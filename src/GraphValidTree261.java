@@ -62,17 +62,15 @@ public class GraphValidTree261 {
     
     public boolean validTree2(int n, int[][] edges) {
         DisjointSet djs = new DisjointSet(n);
-        boolean[] visited = new boolean[n];
         for (int[] edge: edges) {
             int x = djs.find(edge[0]);
             int y = djs.find(edge[1]);
             if (x == y) return false;
-            visited[edge[0]] = true;
-            visited[edge[1]] = true;
             djs.union(x, y);
         }
-        for (int i=0; i<n; i++) {
-            if (!visited[i]) return false;
+        int root = djs.find(0);
+        for (int i=1; i<n; i++) {
+            if (djs.find(i) != root) return false;
         }
         return true;
     }
@@ -88,7 +86,7 @@ public class GraphValidTree261 {
         }
 
         public int find(int x) {
-            if (parent[x] != i) {
+            if (parent[x] != x) {
                 parent[x] = find(parent[x]);
             }
             return parent[x];
