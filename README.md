@@ -40,11 +40,11 @@
 
 
 
-# Total: 272
+# Total: 273
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  72  |   151   |  47  | 2 |
+|  72  |   152   |  47  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -213,6 +213,7 @@
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRoomsII253.java) | Medium |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumSmaller259.java) | Medium |
+| [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GraphValidTree261.java) | Medium |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AlienDictionary269.java) | Hard |
 | [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ClosestBinarySearchTreeValue270.java) | Easy |
 | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeStrings271.java) | Medium |
