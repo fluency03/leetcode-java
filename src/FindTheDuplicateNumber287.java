@@ -33,7 +33,7 @@ public class FindTheDuplicateNumber287 {
         }
         return low;
     }
-  
+
     public int findDuplicate2(int[] nums) {
         int fast = nums[0];
         int slow = nums[0];
