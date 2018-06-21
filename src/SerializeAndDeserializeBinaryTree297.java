@@ -37,7 +37,6 @@
  */
 
 public class SerializeAndDeserializeBinaryTree297 {
-
     class Codec {
         // Encodes a tree to a single string.
         public String serialize(TreeNode root) {
