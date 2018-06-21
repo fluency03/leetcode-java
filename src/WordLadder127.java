@@ -34,72 +34,7 @@ import java.util.HashSet;
 
 
 public class WordLadder127 {
-    // too slow
-    // public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-    //     boolean[] selected = new boolean[wordList.size()];;
-    //
-    //     List<String> result = new ArrayList<>();
-    //     result.add(beginWord);
-    //     int shortest = Integer.MAX_VALUE;
-    //
-    //     for (int i = 0; i < wordList.size(); i++) {
-    //         String word = wordList.get(i);
-    //         if (diff(beginWord, word) == 1 && !selected[i]) {
-    //             System.out.println(word);
-    //             selected[i] = true;
-    //             result.add(word);
-    //             int newLength = shortest(word, endWord, wordList, selected, result, shortest);
-    //             shortest = Math.min(shortest, newLength);
-    //             selected[i] = false;
-    //             result.remove(result.size() - 1);
-    //         }
-    //     }
-    //
-    //     return shortest == Integer.MAX_VALUE ? 0 : shortest;
-    // }
-    //
-    // private int shortest(String now, String endWord, List<String> wordList, boolean[] selected, List<String> result, int shortest) {
-    //     System.out.println(Arrays.toString(selected));
-    //     System.out.println(Arrays.toString(result.toArray()));
-    //     if (now.equals(endWord)) {
-    //         System.out.println("D:    " + Math.min(shortest, result.size()));
-    //         return Math.min(shortest, result.size());
-    //     }
-    //
-    //     int localShortest = shortest;
-    //
-    //     for (int i = 0; i < wordList.size(); i++) {
-    //         String word = wordList.get(i);
-    //         if (diff(now, word) == 1 && !selected[i]) {
-    //             System.out.println(word);
-    //             selected[i] = true;
-    //             result.add(word);
-    //             int newLength = shortest(word, endWord, wordList, selected, result, shortest);
-    //             localShortest = Math.min(localShortest, newLength);
-    //             selected[i] = false;
-    //             result.remove(result.size() - 1);
-    //         }
-    //     }
-    //
-    //     System.out.println("L:    " + localShortest);
-    //     return localShortest;
-    // }
-    //
-    //
-    // private int diff(String word1, String word2) {
-    //     int length = word1.length();
-    //     int diff = 0;
-    //
-    //     for (int i = 0; i < length; i++) {
-    //         if (word1.charAt(i) != word2.charAt(i)) {
-    //             diff++;
-    //         }
-    //     }
-    //
-    //     System.out.println(word1 + ", " + word2 + ", " + diff);
-    //     return diff;
-    // }
-
+    // DFS too slow
 
     /**
      * https://discuss.leetcode.com/topic/17890/another-accepted-java-solution-bfs
