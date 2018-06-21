@@ -228,7 +228,8 @@
 | [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WallsAndGates286.java) | Medium |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheDuplicateNumber287.java) | Medium |
 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GameOfLife289.java) | Medium |
-| [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Codec.java) | Hard |
+| [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMedianFromDataStream295.java) | Hard |
+| [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SerializeAndDeserializeBinaryTree297.java) | Hard |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestIncreasingSubsequence300.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
