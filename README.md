@@ -6,10 +6,12 @@
 | [ListNode](https://github.com/fluency03/leetcode-java/blob/master/src/ListNode.java) |
 | [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeNode.java) |
 | [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/TrieNode.java) |
+| [Trie](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) |
 | [Interval](https://github.com/fluency03/leetcode-java/blob/master/src/Interval.java) |
 | [LRUCache](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache.java) |
 | [TreeLinkNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeLinkNode.java) |
 | [UndirectedGraphNode](https://github.com/fluency03/leetcode-java/blob/master/src/UndirectedGraphNode.java) |
+| [Point](https://github.com/fluency03/leetcode-java/blob/master/src/Point.java) |
 
 
 # Search and Sort
