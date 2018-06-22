@@ -16,7 +16,6 @@ public class KthLargestElementInAnArray215 {
         return nums[nums.length - k];
     }
 
-
     /**
      * https://discuss.leetcode.com/topic/14597/solution-explained
      */
@@ -32,7 +31,6 @@ public class KthLargestElementInAnArray215 {
         }
         return pq.peek();
     }
-
 
     /**
      * https://discuss.leetcode.com/topic/14597/solution-explained
@@ -80,7 +78,6 @@ public class KthLargestElementInAnArray215 {
     private boolean less(int v, int w) {
         return v < w;
     }
-
 
     /**
      * https://discuss.leetcode.com/topic/14597/solution-explained
@@ -145,6 +142,48 @@ public class KthLargestElementInAnArray215 {
             else if (n == mid) res[1]++;
         }
         return res;
+    }
+
+
+    public int findKthLargest6(int[] nums, int k) {
+        int len = nums.length;
+        
+        int lo = 0;
+        int hi = len - 1;
+        while (lo < hi) {
+            int p = partition2(nums, lo, hi);
+            if (p == (len - k)) return nums[p];
+            if (p > (len - k)) {
+                hi = p - 1;
+            } else {
+                lo = p + 1;
+            }
+        }
+        
+        return nums[lo];
+    }
+
+    private int partition2(int[] nums, int lo, int hi) {
+        if (lo == hi) return lo;
+        
+        int slow = lo+1;
+        int fast = lo+1;
+        while (fast <= hi) {
+            if (nums[fast] < nums[lo]) {
+                swap(nums, slow, fast);
+                slow++;
+            }
+            fast++;
+        }
+        swap(nums, lo, slow-1);
+        return slow-1;
+    }
+    
+    private void swap(int[] nums, int i, int j) {
+        if (i == j) return ;
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 
 }
