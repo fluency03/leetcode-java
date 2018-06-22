@@ -30,7 +30,7 @@
 
 
 
-# [Data Structures](https://github.com/fluency03/leetcode-java/tree/master/src/data-structures))
+# [Data Structures](https://github.com/fluency03/leetcode-java/tree/master/src/data-structures)
 
 | Data Structures |
 |:----------------------------------------------------------------------------------:|
@@ -40,11 +40,11 @@
 
 
 
-# Total: 277
+# Total: 279
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  73  |   154   |  47  | 2 |
+|  74  |   155   |  48  | 2 |
 
 
 | Question | Solution | Difficulty |
