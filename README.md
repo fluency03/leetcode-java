@@ -5,10 +5,7 @@
 |:----------------------------------------------------------------------------------:|
 | [ListNode](https://github.com/fluency03/leetcode-java/blob/master/src/ListNode.java) |
 | [TreeNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeNode.java) |
-| [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/TrieNode.java) |
-| [Trie](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) |
 | [Interval](https://github.com/fluency03/leetcode-java/blob/master/src/Interval.java) |
-| [LRUCache](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache.java) |
 | [TreeLinkNode](https://github.com/fluency03/leetcode-java/blob/master/src/TreeLinkNode.java) |
 | [UndirectedGraphNode](https://github.com/fluency03/leetcode-java/blob/master/src/UndirectedGraphNode.java) |
 | [Point](https://github.com/fluency03/leetcode-java/blob/master/src/Point.java) |
@@ -33,12 +30,13 @@
 
 
 
-<!-- # [Data Structures](https://github.com/fluency03/leetcode-java/tree/master/src/data-structures))
-
+# [Data Structures](https://github.com/fluency03/leetcode-java/tree/master/src/data-structures))
 
 | Data Structures |
 |:----------------------------------------------------------------------------------:|
-| [ListNode](https://github.com/fluency03/leetcode-java/blob/master/src/ListNode.java) | -->
+| [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/TrieNode.java) |
+| [Trie](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/Trie.java) |
+| [LRUCache](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/LRUCache.java) |
 
 
 
@@ -184,7 +182,7 @@
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseLinkedList206.java) | Easy |
 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseSchedule207.java) | Medium |
-| [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Trie.java) | Medium |
+| [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementTriePrefixTree208.java) | Medium |
 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumSizeSubarraySum209.java) | Medium |
 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseScheduleII210.java) | Medium |
 | [211. Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordDictionary.java) | Medium |
