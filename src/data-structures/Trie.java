@@ -7,7 +7,10 @@
  * You may assume that all inputs are consist of lowercase letters a-z.
  */
 
-
+/**
+ * For Recursive version of the Trie implementation, see
+ * https://github.com/fluency03/leetcode-java/blob/master/src/ImplementTriePrefixTree208.java
+ */
 
 public class Trie {
 
