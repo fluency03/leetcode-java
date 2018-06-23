@@ -42,11 +42,11 @@
 | [MinHeap](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/MinHeap.java) |
 
 
-# Total: 280
+# Total: 281
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  74  |   156   |  48  | 2 |
+|  74  |   156   |  49  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -146,6 +146,7 @@
 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockIII123.java) | Hard |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeMaximumPathSum124.java) | Hard |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindrome125.java) | Easy |
+| [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadderII126.java) | Hard |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordLadder127.java) | Medium |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestConsecutiveSequence128.java) | Hard |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
