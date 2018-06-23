@@ -6,6 +6,7 @@ public class BinarySearchTree {
 
     public Node search(int x) {
         return search(this.root, x);
+        // return searchIteratively(this.root, x);
     }
 
     private Node search(Node node, int x) {
@@ -17,20 +18,55 @@ public class BinarySearchTree {
         }
     }
 
+    private Node searchIteratively(Node node, int x) {
+        Node res = node;
+        while (res != null && res.val != x) {
+            if (res.val > x) {
+                res = res.left;
+            } else {
+                res = res.right;
+            }
+        }
+        return res;
+    }
+
+
     public void insert(int x) {
         this.root = insert(this.root, x);
+        // this.root = insertIteratively(this.root, x);
     }
 
     public Node insert(Node node, int x) {
         if (node == null) return new Node(x);
         if (node.val > x) {
             node.left = insert(node.left, x);
-        } else {
+        } else if (node.val < x) {
             node.right = insert(node.right, x);
         }
         return node;
     }
 
+    public Node insertIteratively(Node node, int x) {
+        Node newNode = new Node(x);
+        if (node == null) return newNode;
+        Node res = node;
+        while (res != null && res.val != x) {
+            if (res.val > x) {
+                if (res.left == null) {
+                    res.left = newNode;
+                } else {
+                    res = res.left;
+                }
+            } else {
+                if (res.right == null) {
+                    res.right = newNode;
+                } else {
+                    res = res.right;
+                }
+            }
+        }
+        return node;
+    }
 
     /**
      * 1) Node to be deleted is leaf: Simply remove from the tree.
@@ -77,7 +113,7 @@ public class BinarySearchTree {
         return this.root;
     }
 
-    public class Node {
+    class Node {
         int val;
         Node left;
         Node right;
