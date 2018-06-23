@@ -31,13 +31,17 @@ public class MinHeap {
     }
 
     private void heapify(int idx) {
+        heapify(this.arr, this.size, idx);
+    }
+
+    private void heapify(int[] A, int size, int idx) {
         int l = left(idx);
         int r = right(idx);
         int minIdx = idx;
-        if (l < this.size && this.arr[l] < this.arr[minIdx]) minIdx = l;
-        if (r < this.size && this.arr[r] < this.arr[minIdx]) minIdx = r;
+        if (l < size && A[l] < A[minIdx]) minIdx = l;
+        if (r < size && A[r] < A[minIdx]) minIdx = r;
         if (minIdx != idx) {
-            swap(this.arr, minIdx, idx);
+            swap(A, minIdx, idx);
             heapify(minIdx);
         }
     }
@@ -72,6 +76,21 @@ public class MinHeap {
     public int delete(int idx) {
         decreaseKey(idx, Integer.MIN_VALUE);
         return extractMin();
+    }
+
+
+    public void buildHeap(int[] A) {
+        for (int i = parent(A.length-1); i >= 0; i++) {
+            heapify(A, A.length, i);
+        }
+    }
+
+    public void sort(int[] A) {
+        buildHeap(A);
+        for (int i = A.length-1; i >= 0; i--) {
+            swap(A, 0, i);
+            heapify(A, i, 0);
+        }
     }
 
 
