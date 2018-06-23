@@ -42,11 +42,11 @@
 | [MinHeap](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/MinHeap.java) |
 
 
-# Total: 279
+# Total: 280
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  74  |   155   |  48  | 2 |
+|  74  |   156   |  48  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -150,6 +150,7 @@
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestConsecutiveSequence128.java) | Hard |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumRootToLeafNumbers129.java) | Medium |
+| [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePartitioning131.java) | Medium |
 | [133. Clone Graph](https://leetcode.com/problems/clone-graph/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CloneGraph133.java) | Medium |
 | [136. Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleNumber136.java) | Easy |
 | [137. Single Number II](https://leetcode.com/problems/single-number-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleNumberII137.java) | Medium |
