@@ -1,4 +1,8 @@
-public class BinarySearchTree {
+/**
+ * This class is having two more methods that BinarySearchTree: inorderSuccessor and inorderPredecessor
+ */
+
+public class BinarySearchTreeWithParent {
     private Node root;
 
     BinarySearchTree() { 
@@ -117,9 +121,49 @@ public class BinarySearchTree {
         int val;
         Node left;
         Node right;
+        Node parent;
+
         Node(int x) {
             this.val = x;
         }
+
+        Node(int x, Node p) {
+            this.val = x;
+            this.parent = p;
+        }
+
+        public Node inorderSuccessor() {
+            if (this.right == null) {
+                Node res = this;
+                while (res.parent != null && res.parent.right == res) {
+                    res = res.parent;
+                }
+                return res.parent;
+            } else {
+                Node res = this.right;
+                while (res.left != null) {
+                    res = res.left;
+                }
+                return res;
+            }
+        }
+        
+        public Node inorderPredecessor() {
+            if (this.left == null) {
+                Node res = this;
+                while (res.parent != null && res.parent.left == res) {
+                    res = res.parent;
+                }
+                return res.parent;
+            } else {
+                Node res = this.left;
+                while (res.right != null) {
+                    res = res.right;
+                }
+                return res;
+            }
+        }
+
     }
 
 }
