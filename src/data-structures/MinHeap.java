@@ -80,16 +80,17 @@ public class MinHeap {
 
 
     public void buildHeap(int[] A) {
-        for (int i = parent(A.length-1); i >= 0; i++) {
+        for (int i = parent(A.length-1); i >= 0; i--) {
             heapify(A, A.length, i);
         }
     }
 
+    // Heap Sort in Descending Order
     public void sort(int[] A) {
         buildHeap(A);
-        for (int i = A.length-1; i >= 0; i--) {
-            swap(A, 0, i);
-            heapify(A, i, 0);
+        for (int i = 0; i < A.length; i++) {
+            swap(A, i, A.length - 1);
+            heapify(A, A.length - i - 1, 0);
         }
     }
 
