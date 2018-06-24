@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 283
+# Total: 284
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  74  |   158   |  49  | 2 |
+|  74  |   158   |  50  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -320,6 +320,7 @@
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextClosestTime681.java) | Medium |
+| [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KEmptySlots683.java) | hard |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RepeatedStringMatch686.java) | Easy |
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestUnivaluePath687.java) | Easy |
