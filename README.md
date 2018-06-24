@@ -40,6 +40,7 @@
 | [BinarySearchTree](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/BinarySearchTree.java) |
 | [BinarySearchTreeWithParent](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/BinarySearchTreeWithParent.java) |
 | [MinHeap](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/MinHeap.java) |
+| [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
 # Total: 281
