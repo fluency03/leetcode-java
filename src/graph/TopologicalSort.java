@@ -11,22 +11,17 @@ public class TopologicalSort {
         if (graph == null || graph.length == 0) return new ArrayList<>();
         int len = graph.length;
         boolean[] visited = new boolean[len];
-        Stack<Integer> stack = new Stack<>();
+        LinkedList<Integer> ll = new LinkedList<>();
 
         for (int i=0; i<len; i++) {
             if (!visited[i]) {
                 sortByStack(graph, i, visited, stack);
             }
         }
-        
-        List<Integer> sorted = new ArrayList<>();
-        while (!stack.isEmpty()) {
-            sorted.add(stack.poll());
-        }
-        return sorted;
+        return ll;
     }
 
-    public void sortByStack(Set<Integer>[] graph, int i, int[] visited, Stack<Integer> stack) {
+    public void sortByStack(Set<Integer>[] graph, int i, int[] visited, LinkedList<Integer> ll) {
         if (visited[i]) return;
         visited[i] = true;
 
@@ -36,7 +31,7 @@ public class TopologicalSort {
             }
         }
 
-        stack.add(i);
+        ll.addFirst(i);
     }
 
 
