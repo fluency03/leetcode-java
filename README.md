@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 282
+# Total: 283
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  74  |   157   |  49  | 2 |
+|  74  |   158   |  49  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -259,6 +259,7 @@
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MovingAverageFromDataStream346.java) | Easy |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
+| [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTicTacToe348.java) | Medium |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArrays349.java) | Easy |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
 | [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BombEnemy361.java) | Medium |
