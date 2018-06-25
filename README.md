@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 285
+# Total: 286
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  74  |   159   |  50  | 2 |
+|  75  |   159   |  50  | 2 |
 
 
 | Question | Solution | Difficulty |
@@ -258,6 +258,7 @@
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
+| [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseVowelsOfAString345.java) | Easy |
 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MovingAverageFromDataStream346.java) | Easy |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTicTacToe348.java) | Medium |
