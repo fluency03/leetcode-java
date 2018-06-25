@@ -72,6 +72,29 @@ public class EditDistance72 {
     }
 
 
+    public int minDistance3(String word1, String word2) {
+        int len1 = word1.length();
+        int len2 = word2.length();
+        if (len1 == 0) return len2;
+        if (len2 == 0) return len1;
+
+        int[] dp = new int[len2+1];
+        for (int j=0; j<=len2; j++) dp[j] = j;
+        
+        for (int i=1; i<=len1; i++) {
+            int pre = dp[0];
+            dp[0] = i;
+            for (int j=1; j<=len2; j++) {
+                int nextPre = dp[j];
+                dp[j] = Math.min(pre + (word1.charAt(i-1) == word2.charAt(j-1) ? 0 : 1),
+                                   Math.min(dp[j], dp[j-1]) + 1);
+                pre = nextPre;
+            }
+            
+        }
+        return dp[len2];
+    }
+
     public static void main(String[] args) {
         EditDistance72 ed = new EditDistance72();
 
