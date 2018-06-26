@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 288
+# Total: 289
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  76  |   159   |  50  | 3 |
+|  76  |   159   |  51  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -257,6 +257,7 @@
 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePairs336.java) | Hard |
 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobberIII337.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
+| [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithAtMostKDistinctCharacters340.java) | Hard |
 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
 | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseVowelsOfAString345.java) | Easy |
