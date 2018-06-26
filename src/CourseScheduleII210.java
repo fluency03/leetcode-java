@@ -104,7 +104,6 @@ public class CourseScheduleII210 {
         for (int i=0; i<numCourses; i++) {
             if (inbound[i] == 0) {
                 q.add(i);
-                // System.out.println(i);
                 res[count] = i;
                 count++;
                 visited[i] = true;
