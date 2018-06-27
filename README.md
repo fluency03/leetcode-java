@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 290
+# Total: 291
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  76  |   159   |  52  | 3 |
+|  76  |   160   |  52  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -230,6 +230,7 @@
 | [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheCelebrity277.java) | Medium |
 | [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstBadVersion278.java) | Easy |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PerfectSquares279.java) | Medium |
+| [280. Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSort280.java) | Medium |
 | [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ExpressionAddOperators282.java) | Hard |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InorderSuccessorInBST285.java) | Medium |
