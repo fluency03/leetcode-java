@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 289
+# Total: 290
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  76  |   159   |  51  | 3 |
+|  76  |   159   |  52  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -324,8 +324,9 @@
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextClosestTime681.java) | Medium |
-| [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KEmptySlots683.java) | hard |
+| [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KEmptySlots683.java) | Hard |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
+| [685. Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnectionII685.java) | Hard |
 | [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RepeatedStringMatch686.java) | Easy |
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestUnivaluePath687.java) | Easy |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
