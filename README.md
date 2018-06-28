@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 293
+# Total: 294
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  77  |   161   |  52  | 3 |
+|  77  |   162   |  52  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -231,6 +231,7 @@
 | [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstBadVersion278.java) | Easy |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PerfectSquares279.java) | Medium |
 | [280. Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSort280.java) | Medium |
+| [281. Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ZigzagIterator281.java) | Medium |
 | [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ExpressionAddOperators282.java) | Hard |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
 | [284. Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PeekingIterator284.java) | Medium |
