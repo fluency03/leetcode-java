@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 292
+# Total: 293
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  77  |   160   |  52  | 3 |
+|  77  |   161   |  52  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -233,6 +233,7 @@
 | [280. Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSort280.java) | Medium |
 | [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ExpressionAddOperators282.java) | Hard |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MoveZeroes283.java) | Easy |
+| [284. Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PeekingIterator284.java) | Medium |
 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InorderSuccessorInBST285.java) | Medium |
 | [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WallsAndGates286.java) | Medium |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheDuplicateNumber287.java) | Medium |
