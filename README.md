@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 294
+# Total: 295
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  77  |   162   |  52  | 3 |
+|  78  |   162   |  52  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -324,6 +324,7 @@
 | [657. Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JudgeRouteCircle657.java) | Easy |
 | [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements//) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKClosestElements658.java) | Medium |
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
+| [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImageSmoother661.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
