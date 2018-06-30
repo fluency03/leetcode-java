@@ -60,12 +60,8 @@ public class InsertInterval57 {
     }
 
 
-
     public static void main(String[] args) {
         InsertInterval57 ii = new InsertInterval57();
-
-
-
         System.out.println(ii.insert(new ArrayList<Interval>(Arrays.asList(new Interval(1, 3), new Interval(6, 9))), new Interval(2, 5)));
     }
 
