@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 295
+# Total: 296
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  78  |   162   |  52  | 3 |
+|  79  |   162   |  52  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -296,6 +296,7 @@
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
 | [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LicenseKeyFormatting482.java) | Easy |
+| [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnes485.java) | Easy |
 | [490. The Maze](https://leetcode.com/problems/the-maze/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMaze490.java) | Medium |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementII503.java) | Medium |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
