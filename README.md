@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 301
+# Total: 302
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  80  |   164   |  54  | 3 |
+|  80  |   165   |  54  | 3 |
 
 
 | Question | Solution | Difficulty |
@@ -302,6 +302,7 @@
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnes485.java) | Easy |
 | [487. Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnesII487.java) | Medium |
 | [490. The Maze](https://leetcode.com/problems/the-maze/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMaze490.java) | Medium |
+| [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiagonalTraverse498.java) | Medium |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementII503.java) | Medium |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindBottomLeftTreeValue513.java) | Medium |
