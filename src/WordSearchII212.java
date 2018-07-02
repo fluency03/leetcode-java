@@ -114,4 +114,130 @@ public class WordSearchII212 {
         }
     }
 
+
+    private int[][] dirs = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    public List<String> findWords2(char[][] board, String[] words) {
+        if (board == null || board.length == 0 || board[0].length == 0 || words.length == 0) return new ArrayList<>();
+        int M = board.length;
+        int N = board[0].length;
+        Trie trie = constructTrie(words);
+        
+        Set<String> set = new HashSet<>();
+        boolean[][] visited = new boolean[M][N];
+        for (int i=0; i<M; i++) {
+            for (int j=0; j<N; j++) {
+                dfs(board, visited, trie, i, j, M, N, set);
+            }
+        }
+        
+        return new ArrayList<>(set);
+    }
+
+    
+    private void dfs(char[][] board, boolean[][] visited, Trie trie, int i, int j, int M, int N, Set<String> set) {
+        if (trie == null) return;
+        if (trie.word != null) set.add(trie.word);
+        if (i < 0 || j < 0 || i >= M || j >= N || visited[i][j]) return;
+        visited[i][j] = true;
+        char c = board[i][j];
+        Trie next = trie.get(c);
+        // if (next == null) return;
+        for (int[] d: dirs) {
+            dfs(board, visited, next, i+d[0], j+d[1], M, N, set);
+        }
+        visited[i][j] = false;
+    }
+    
+    
+    private Trie constructTrie(String[] words) {
+        Trie t = new Trie();
+        for (String word: words) t.addWord(word);
+        return t;
+    }
+
+    class Trie {
+        Trie[] children = new Trie[26];
+        String word = null;
+    
+        public void addWord(String word) {
+            addWord(word.toCharArray(), 0);
+        }
+
+        public void addWord(char[] chars, int i) {
+            if (i == chars.length) {
+                word = new String(chars);
+                return;
+            }
+            if (children[chars[i]-'a'] == null) {
+                children[chars[i]-'a'] = new Trie();
+            }
+            children[chars[i]-'a'].addWord(chars, i+1);
+        }
+        
+        public Trie get(char c) {
+            return children[c-'a'];
+        }
+        
+    }
+
+    /**
+     * https://leetcode.com/problems/word-search-ii/discuss/59780/Java-15ms-Easiest-Solution-(100.00)
+     * 
+     * 59ms: Use search and startsWith in Trie class like this popular solution.
+     * 33ms: Remove Trie class which unnecessarily starts from root in every dfs call.
+     * 30ms: Use w.toCharArray() instead of w.charAt(i).
+     * 22ms: Use StringBuilder instead of c1 + c2 + c3.
+     * 20ms: Remove StringBuilder completely by storing word instead of boolean in TrieNode.
+     * 20ms: Remove visited[m][n] completely by modifying board[i][j] = '#' directly.
+     * 18ms: check validity, e.g., if(i > 0) dfs(...), before going to the next dfs.
+     * 17ms: De-duplicate c - a with one variable i.
+     * 15ms: Remove HashSet completely. dietpepsi's idea is awesome.
+     */
+    public List<String> findWords3(char[][] board, String[] words) {
+        List<String> res = new ArrayList<>();
+        TrieNode root = buildTrie2(words);
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[0].length; j++) {
+                dfs (board, i, j, root, res);
+            }
+        }
+        return res;
+    }
+    
+    public void dfs(char[][] board, int i, int j, TrieNode p, List<String> res) {
+        char c = board[i][j];
+        if (c == '#' || p.next[c - 'a'] == null) return;
+        p = p.next[c - 'a'];
+        if (p.word != null) {   // found one
+            res.add(p.word);
+            p.word = null;     // de-duplicate
+        }
+    
+        board[i][j] = '#';
+        if (i > 0) dfs(board, i - 1, j ,p, res); 
+        if (j > 0) dfs(board, i, j - 1, p, res);
+        if (i < board.length - 1) dfs(board, i + 1, j, p, res); 
+        if (j < board[0].length - 1) dfs(board, i, j + 1, p, res); 
+        board[i][j] = c;
+    }
+    
+    public TrieNode buildTrie2(String[] words) {
+        TrieNode root = new TrieNode();
+        for (String w : words) {
+            TrieNode p = root;
+            for (char c : w.toCharArray()) {
+                int i = c - 'a';
+                if (p.next[i] == null) p.next[i] = new TrieNode();
+                p = p.next[i];
+           }
+           p.word = w;
+        }
+        return root;
+    }
+    
+    class TrieNode {
+        TrieNode[] next = new TrieNode[26];
+        String word;
+    }
+
 }
