@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 308
+# Total: 309
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  81  |   169   |  54  | 4 |
+|  82  |   169   |  54  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -354,6 +354,7 @@
 | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKthSmallestPairDistance719.java) | Hard |
 | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AccountsMerge721.java) | Medium |
 | [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumWindowSubsequence727.java) | Hard |
+| [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarity734.java) | Easy |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
