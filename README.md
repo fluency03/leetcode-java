@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 306
+# Total: 307
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  81  |   167   |  54  | 4 |
+|  81  |   168   |  54  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -272,6 +272,7 @@
 | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTicTacToe348.java) | Medium |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArrays349.java) | Easy |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
+| [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AndroidUnlockPatterns351.java) | Medium |
 | [360. Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortTransformedArray360.java) | Medium |
 | [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BombEnemy361.java) | Medium |
 | [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHitCounter362.java) | Medium |
