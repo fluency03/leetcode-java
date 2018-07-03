@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 311
+# Total: 312
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  83  |   170   |  54  | 4 |
+|  83  |   171   |  54  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -284,6 +284,7 @@
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RansomNote383.java) | Easy |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstUniqueCharacterInAString387.java) | Easy |
+| [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestAbsoluteFilePath388.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateDivision399.java) | Medium |
