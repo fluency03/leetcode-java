@@ -40,7 +40,6 @@ public class KeysAndRooms841 {
 
         Queue<Integer> q = new LinkedList<>();
         q.add(0);
-        // visited.add(0);
         while (!q.isEmpty()) {
             int curr = q.poll();
             if (visited.contains(curr)) continue;
@@ -53,6 +52,25 @@ public class KeysAndRooms841 {
         }
 
         return visited.size() == N;
+    }
+
+
+    /**
+     * https://leetcode.com/problems/keys-and-rooms/discuss/133895/Clean-Code
+     */
+    HashSet<Integer> enteredRooms = new HashSet<>();
+
+    public boolean canVisitAllRooms2(List<List<Integer>> rooms) {
+        enterRoom(0, rooms);
+        return enteredRooms.size() == rooms.size();
+    }
+    
+    private void enterRoom(int roomId, List<List<Integer>> rooms) {
+        enteredRooms.add(roomId);
+        List<Integer> keysInRoom = rooms.get(roomId);
+        for (int key: keysInRoom)
+            if (!enteredRooms.contains(key))
+                enterRoom(key, rooms);
     }
 
 }
