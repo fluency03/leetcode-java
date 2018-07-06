@@ -82,4 +82,23 @@ public class SearchA2DMatrixII240 {
     }
 
 
+    public boolean searchMatrix4(int[][] matrix, int target) {
+        if (matrix == null) return false;
+        if (matrix.length == 0 || matrix[0].length == 0) return false; 
+        return searchMatrix(0, 0, matrix.length-1, matrix[0].length-1, matrix, target);
+    }
+    
+    public boolean searchMatrix(int loi, int loj, int hii, int hij, int[][] matrix, int target) {
+        if (loi > hii || loj > hij) return false;
+        if (matrix[loi][loj] > target|| matrix[hii][hij] < target) return false;
+        
+        int midi = (loi + hii) / 2;
+        int midj = (loj + hij) / 2;
+        if (matrix[midi][midj] == target) return true;
+        if (searchMatrix(loi, midj+1, midi, hij, matrix, target) ||
+            searchMatrix(midi+1, loj, hii, midj, matrix, target)) return true;
+        if (matrix[midi][midj] > target) return searchMatrix(loi, loj, midi, midj, matrix, target);
+        return searchMatrix(midi+1, midj+1, hii, hij, matrix, target);
+    }
+
 }
