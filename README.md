@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 314
+# Total: 315
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  83  |   173   |  54  | 4 |
+|  83  |   174   |  54  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -195,6 +195,7 @@
 | [211. Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordDictionary.java) | Medium |
 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSearchII212.java) | Hard |
 | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobberII213.java) | Medium |
+| [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestPalindrome214.java) | Medium |
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthLargestElementInAnArray215.java) | Medium |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicate217.java) | Easy |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainsDuplicatesII219.java) | Easy |
