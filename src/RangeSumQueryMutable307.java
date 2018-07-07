@@ -261,6 +261,56 @@ public class RangeSumQueryMutable307 {
     }
 
 
+    class NumArray5 {
+
+        private int[] nums;
+        private int[] tree;
+        private int L;
+        
+        public NumArray(int[] nums) {
+            this.nums = nums;
+            this.L = nums.length;
+            constructTree(nums);
+        }
+        
+        private void constructTree(int[] nums) {
+            this.tree = new int[nums.length + 1];
+            for (int i=0; i<L; i++) {
+                updateDiff(i, nums[i]);
+            }
+        }
+    
+        private void updateDiff(int i, int val) {
+            int idx = i + 1;
+            while (idx <= L) {
+                this.tree[idx] += val;
+                idx += idx & -idx;
+            }
+        }
+        
+        public void update(int i, int val) {
+            int diff = val - this.nums[i];
+            this.nums[i] = val;
+            updateDiff(i, diff);
+        }
+    
+        public int sumRange(int i, int j) {
+            return getSum(j) - getSum(i-1);
+        }
+        
+        public int getSum(int i) {
+            int res = 0;
+            int idx = i + 1;
+            while (idx > 0) {
+                res += this.tree[idx];
+                idx -= idx & -idx;
+            }
+            return res;
+        }
+    
+    }
+
+
 /**
  * Your NumArray object will be instantiated and called as such:
  * NumArray obj = new NumArray(nums);
