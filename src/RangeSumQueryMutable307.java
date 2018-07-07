@@ -184,6 +184,83 @@ public class RangeSumQueryMutable307 {
         }
     }
 
+
+    class NumArray4 {
+
+        private int[] tree;
+        private int L;
+        
+        public NumArray(int[] nums) {
+            tree = new int[nums.length * 3];
+            L = nums.length;
+            constructTree(nums);
+        }
+        
+        private void constructTree(int[] nums) {
+            constructTree(nums, 0, nums.length-1, 0); 
+        }
+        
+        private void constructTree(int[] nums, int l, int r, int i) {
+            if (l > r) return;
+            if (l == r) {
+                tree[i] = nums[l];
+                return;
+            }
+            
+            int mid = (l + r) / 2;
+            constructTree(nums, l, mid, left(i));
+            constructTree(nums, mid+1, r, right(i));
+            tree[i] = tree[left(i)] + tree[right(i)];
+        }
+        
+        public void update(int i, int val) {
+            update(0, L-1, i, val, 0);
+        }
+        
+        public void update(int l, int r, int i, int val, int n) {
+            if (l == r && l == i) {
+                tree[n] = val;
+                return;
+            }
+            int mid = (l + r) / 2;
+            
+            if (i <= mid) {
+                update(l, mid, i, val, left(n));
+            } else {
+                update(mid + 1, r, i, val, right(n));
+            }
+            tree[n] = tree[left(n)] + tree[right(n)];
+        }
+        
+        public int sumRange(int i, int j) {
+            return sumRange(0, L-1, i, j, 0);
+        }
+        
+        private int sumRange(int l, int r, int i, int j, int n) {
+            if (l == i && r == j) {
+                return tree[n];
+            }
+            int mid = (l + r) / 2;
+            
+            if (mid < i) {
+                return sumRange(mid+1, r, i, j, right(n));
+            } else if (mid >= j) {
+                return sumRange(l, mid, i, j, left(n));
+            } else {
+                return sumRange(l, mid, i, mid, left(n)) + sumRange(mid+1, r, mid+1, j, right(n));
+            }
+        }
+        
+        private int left(int i) {
+            return 2 * i + 1;
+        }
+        private int right(int i) {
+            return 2 * i + 2;
+        }
+        
+    }
+
+
 /**
  * Your NumArray object will be instantiated and called as such:
  * NumArray obj = new NumArray(nums);
