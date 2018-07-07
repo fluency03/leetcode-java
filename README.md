@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 316
+# Total: 317
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  84  |   174   |  54  | 4 |
+|  84  |   175   |  54  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -248,6 +248,7 @@
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestIncreasingSubsequence300.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeSumQueryImmutable303.java) | Easy |
+| [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeSumQuery2DImmutable304.java) | Medium |
 | [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfIslandsII305.java) | Hard |
 | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithCooldown309.java) | Medium |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
