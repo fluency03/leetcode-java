@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 320
+# Total: 321
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  84  |   177   |  55  | 4 |
+|  84  |   177   |  56  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -358,6 +358,7 @@
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithTransactionFee714.java) | Medium |
+| [715. Range Module](https://leetcode.com/problems/range-module/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeModule715.java) | Hard |
 | [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxStack716.java) | Hard |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
 | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKthSmallestPairDistance719.java) | Hard |
