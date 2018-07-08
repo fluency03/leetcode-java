@@ -60,7 +60,7 @@ public class MinimumWindowSubstring76 {
     /**
      * https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems
      */
-    public String minWindow(String s, String t) {
+    public String minWindow2(String s, String t) {
         int start = 0 , end = 0;
         int map[] = new int[256];
         for (int i = 0; i < t.length() ; i++) {
@@ -87,6 +87,5 @@ public class MinimumWindowSubstring76 {
 
         return min == Integer.MAX_VALUE? "": s.substring(ts,te);
     }
-
 
 }
