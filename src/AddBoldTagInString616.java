@@ -131,6 +131,101 @@ public class AddBoldTagInString616 {
     }
 
 
+    /**
+     * https://leetcode.com/problems/add-bold-tag-in-string/discuss/104263/Java-solution-Same-as-Merge-Interval.
+     */
+    public String addBoldTag4(String s, String[] dict) {
+        List<Interval> intervals = new ArrayList<>();
+        for (String str : dict) {
+            int index = -1;
+            index = s.indexOf(str, index);
+            while (index != -1) {
+                intervals.add(new Interval(index, index + str.length()));
+                index +=1;
+                index = s.indexOf(str, index);
+            }
+        }
+        intervals = merge(intervals);
+        int prev = 0;
+        StringBuilder sb = new StringBuilder();
+        for (Interval interval : intervals) {
+            sb.append(s.substring(prev, interval.start));
+            sb.append("<b>");
+            sb.append(s.substring(interval.start, interval.end));
+            sb.append("</b>");
+            prev = interval.end;
+        }
+        if (prev < s.length()) {
+        	sb.append(s.substring(prev));
+        }
+        return sb.toString();
+    }
+
+    class Interval {
+        int start, end;
+        public Interval(int s, int e) {
+            start = s;
+            end = e;
+        }
+        
+        public String toString() {
+            return "[" + start + ", " + end + "]" ;
+        }
+    }
+
+    public List<Interval> merge(List<Interval> intervals) {
+        if (intervals == null || intervals.size() <= 1) {
+            return intervals;
+        }
+        Collections.sort(intervals, new Comparator<Interval>(){
+            public int compare(Interval a, Interval b) {
+                return a.start - b.start;
+            }
+        });
+        
+        int start = intervals.get(0).start;
+        int end = intervals.get(0).end;
+        List<Interval> res = new ArrayList<>();
+        for (Interval i : intervals) {
+            if (i.start <= end) {
+                end = Math.max(end, i.end);
+            } else {
+                res.add(new Interval(start, end));
+                start = i.start;
+                end = i.end;
+            }
+        }
+        res.add(new Interval(start, end));
+        return res;
+    }
+
+
+    /**
+     * https://leetcode.com/problems/add-bold-tag-in-string/discuss/104262/short-java-solution
+     */
+    public String addBoldTag5(String s, String[] dict) {
+        int n = s.length();
+        int[] mark = new int[n+1];
+        for(String d : dict) {
+            int i = -1;
+            while((i = s.indexOf(d, i+1)) >= 0) {
+                mark[i]++;
+                mark[i + d.length()]--;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        int sum = 0;
+        for(int i = 0; i <= n; i++) {
+            int cur = sum + mark[i];
+            if (cur > 0 && sum == 0) sb.append("<b>");
+            if (cur == 0 && sum > 0) sb.append("</b>");
+            if (i == n) break;
+            sb.append(s.charAt(i));
+            sum = cur;
+        }
+        return sb.toString();
+    }
+
 }
 
 class Trie {
