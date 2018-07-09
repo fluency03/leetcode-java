@@ -93,7 +93,6 @@ public class MaximumVacationDays568 {
                     
                 }
                 dp[i][k] = temp + days[i][k];
-                // System.out.println(dp[i][k]);
             }
         }
         int res = 0;
@@ -138,4 +137,25 @@ public class MaximumVacationDays568 {
         return res;
     }
   
+
+    /**
+     * https://leetcode.com/problems/maximum-vacation-days/discuss/138174/Beats-99.82-without-any-extra-space.-DP-solution
+     */
+    public int maxVacationDays3(int[][] flights, int[][] days) {
+        for(int day=days[0].length-2;day>=0;day--){
+            for(int city=0;city<flights.length;city++){
+                int max=days[city][day+1];
+                for(int flight=0;flight<flights.length;flight++){
+                    max=Math.max(days[flight][day+1]*flights[city][flight],max);
+                }
+                days[city][day]+=max;
+            }
+        }       
+        int ans=days[0][0];
+        for(int city=0;city<flights.length;city++){
+                ans=Math.max(days[city][0]*flights[0][city],ans);
+            }
+        return ans;
+    }
+
 }
