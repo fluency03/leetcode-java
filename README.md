@@ -166,6 +166,7 @@
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
 | [148. Sort List](https://leetcode.com/problems/sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortList148.java) | Medium |
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
+| [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateReversePolishNotation150.java) | Medium |
 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseWordsInAString151.java) | Medium |
 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArray153.java) | Medium |
 | [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArrayII154.java) | Hard |
