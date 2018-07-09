@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 322
+# Total: 323
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  84  |   177   |  57  | 4 |
+|  84  |   177   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -101,6 +101,7 @@
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniquePaths62.java) | Medium |
 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniquePathsII63.java) | Medium |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumPathSum64.java) | Medium |
+| [65. Valid Number](https://leetcode.com/problems/valid-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidNumber65.java) | Hard |
 | [66. Plus One](https://leetcode.com/problems/plus-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PlusOne66.java) | Easy |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBinary67.java) | Easy |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SqrtX69.java) | Easy |
