@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 325
+# Total: 326
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  85  |   178   |  58  | 4 |
+|  86  |   178   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -180,6 +180,7 @@
 | [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MissingRanges163.java) | Medium |
 | [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CompareVersionNumbers165.java) | Medium |
 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FractionToRecurringDecimal166.java) | Medium |
+| [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSumIIInputArrayIsSorted167.java) | Easy |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MajorityElement169.java) | Easy |
 | [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BSTIterator.java) | Medium |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestNumber179.java) | Medium |
