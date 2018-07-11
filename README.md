@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 324
+# Total: 325
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  84  |   178   |  58  | 4 |
+|  85  |   178   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -372,6 +372,7 @@
 | [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarityII737.java) | Medium |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
+| [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAnagramMappings760.java) | Easy |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
