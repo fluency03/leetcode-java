@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 326
+# Total: 327
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  86  |   178   |  58  | 4 |
+|  86  |   179   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -208,6 +208,7 @@
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BasicCalculator224.java) | Hard |
 | [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementStackUsingQueues225.java) | Easy |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InvertBinaryTree226.java) | Easy |
+| [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SummaryRanges228.java) | Medium |
 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInABST230.java) | Medium |
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementQueueUsingStacks232.java) | Easy |
 | [233. Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfDigitOne233.java) | Hard |
