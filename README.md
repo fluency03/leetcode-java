@@ -48,7 +48,7 @@
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  86  |   180   |  58  | 4 |
+|  86  |   181   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -170,6 +170,7 @@
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Hard |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateReversePolishNotation150.java) | Medium |
 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseWordsInAString151.java) | Medium |
+| [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumProductSubarray152.java) | Medium |
 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArray153.java) | Medium |
 | [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMinimumInRotatedSortedArrayII154.java) | Hard |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinStack.java) | Easy |
