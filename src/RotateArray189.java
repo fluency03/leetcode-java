@@ -89,4 +89,32 @@ public class RotateArray189 {
         }
     }
 
+
+    public void rotate5(int[] nums, int k) {
+        if (nums == null || nums.length <= 1) return;
+        int len = nums.length;
+        
+        k = k % len;
+        if (k == 0) return;        
+        int count = 0;
+        for (int i=0; i<k && count < len; i++) {
+            count += cipher(nums, k, i, len);
+        }
+    }
+    
+    private int cipher(int[] nums, int k, int start, int len) {
+        int res = 0;
+        int i = start;
+        int pre = nums[i];
+        do {
+            i = (i + k) % len;
+            int old = nums[i];
+            nums[i] = pre;
+            pre = old;
+            res++;
+        } while (i != start);
+        return res;
+    }
+    
+
 }
