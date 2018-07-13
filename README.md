@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 328
+# Total: 329
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  86  |   181   |  58  | 4 |
+|  86  |   182   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -333,6 +333,7 @@
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseStringII541.java) | Easy |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiameterOfBinaryTree543.java) | Easy |
 | [544. Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OutputContestMatches544.java) | Medium |
+| [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoundaryOfBinaryTree545.java) | Medium |
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementIII556.java) | Medium |
