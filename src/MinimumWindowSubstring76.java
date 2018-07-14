@@ -88,4 +88,54 @@ public class MinimumWindowSubstring76 {
         return min == Integer.MAX_VALUE? "": s.substring(ts,te);
     }
 
+
+    public String minWindow3(String s, String t) {
+        if (s == null || s.length() == 0 || t == null || t.length() == 0) return "";
+        
+        int lenS = s.length();
+        int lenT = t.length();
+        int start = 0;
+        int len = Integer.MAX_VALUE;
+        int l = 0;
+        int r = 0;
+        char[] charsInS = s.toCharArray();
+        int[] map = new int[256];
+        boolean[] contains = new boolean[256];
+        char[] charsInT = t.toCharArray();
+        for (char c: charsInT) {
+            map[c]++;
+            contains[c] = true;
+        }
+        int count = 0;
+        while (r < lenS) {
+            if (!contains[charsInS[r]]) {
+                r++;
+                continue;
+            }
+            map[charsInS[r]]--;
+            if (map[charsInS[r]] >= 0) {
+                count++;
+            }
+            r++;
+            
+            while (l <= r && count == lenT) {
+                if (r - l < len) {
+                    len = r - l;
+                    start = l;
+                }
+                
+                if (contains[charsInS[l]]) {
+                    map[charsInS[l]]++;
+                    if (map[charsInS[l]] > 0) {
+                        count--;
+                    }
+                }
+                l++;
+            }
+            
+        }
+        
+        return len == Integer.MAX_VALUE ? "" : s.substring(start, start + len);
+    }
+
 }
