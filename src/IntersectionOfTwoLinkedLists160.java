@@ -126,4 +126,19 @@ public class IntersectionOfTwoLinkedLists160 {
         return a;
     }
 
+
+    public ListNode getIntersectionNode4(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) return null;
+        ListNode pa = headA;
+        ListNode pb = headB;
+        while (pa != pb) {
+            pa = pa.next;
+            pb = pb.next;
+            if (pa == pb) return pa;
+            if (pa == null) pa = headB;
+            if (pb == null) pb = headA; 
+        }
+        return pa;
+    }
+
 }
