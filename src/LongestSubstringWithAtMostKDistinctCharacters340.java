@@ -9,36 +9,34 @@
 
 
 public class LongestSubstringWithAtMostKDistinctCharacters340 {
-    public int lengthOfLongestSubstringKDistinct(String s, int k){
-        if (s == null || s.length() == 0 || k == 0) return 0;
+    public int lengthOfLongestSubstringKDistinct(String s, int k) {
+        if (s == null || s.length() == 0) return 0;
+        int len = s.length();
+        int left = 0;
+        int right = 0;
+        int res = 0;
+        int count = 0;
         int[] map = new int[256];
-        
-        int slow = 0;
-        int fast = 0;
-        int longestLen = 0;
         char[] chars = s.toCharArray();
-        int numChar = 0;
-        while (fast < s.length()) {
-            char c = chars[fast];
-            if (map[c] == 0) {
-                numChar++;
+        while (right < len) {
+            if (map[chars[right]] == 0) {
+                count++;
             }
-            map[c]++;
-            if (fast - slow > longestLen) longestLen = fast - slow;
-            if (numChar > k) {
-                while (slow < fast) {
-                    char cs = chars[slow];
-                    map[cs]--;
-                    slow++;
-                    if (map[cs] == 0) {
-                        numChar--;
-                        break;
-                    }
+            map[chars[right]]++;
+            right++;
+            
+            if (count <= k && right - left > res) {
+                res = right - left;
+            }
+            while (count == k + 1) {
+                map[chars[left]]--;
+                if (map[chars[left]] == 0) {
+                    count--;
                 }
+                left++;
             }
-            fast++;
         }
-        return Math.max(longestLen, fast - slow);
+        return res;
     }
 
 }
