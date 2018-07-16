@@ -44,46 +44,36 @@ public class SlidingWindowMedian480 {
         for (int j = 0; j < k; j++) {
             window.add(nums[j]);
         }
-
         Collections.sort(window);
 
         if ((k & 1) == 0) {
             int lenNew = len - 2 * mid + 1;
             double[] returned = new double[lenNew];
-
             for (int i = 0; i < lenNew - 1; i++) {
-                System.out.println(window);
                 returned[i] = findMedianFromEven(window, mid);
                 int idx = window.indexOf(nums[i]);
                 int newValue = nums[i + k];
                 updateWindow(window, newValue, idx, k);
             }
-            System.out.println(window);
             returned[lenNew - 1] = findMedianFromEven(window, mid);
             return returned;
         } else {
             int lenNew = len - 2 * mid;
             double[] returned = new double[lenNew];
-
             for (int i = 0; i < lenNew - 1; i++) {
-                System.out.println(window);
                 returned[i] = findMedianFromOdd(window, mid);
                 int idx = window.indexOf(nums[i]);
                 int newValue = nums[i + k];
                 updateWindow(window, newValue, idx, k);
             }
-            System.out.println(window);
             returned[lenNew - 1] = findMedianFromOdd(window, mid);
             return returned;
         }
-
-
     }
 
     private double findMedianFromEven(List<Integer> window, int mid) {
         return ((long)window.get(mid - 1) + (long)window.get(mid)) / 2.0;
     }
-
 
     private double findMedianFromOdd(List<Integer> window, int mid) {
         return window.get(mid);
@@ -106,14 +96,64 @@ public class SlidingWindowMedian480 {
     }
 
 
-    /** -------------------------------------------------------------------
-     * Top Solution:
-     *
-     * --------------------------------------------------------------------
-     */
 
+    public double[] medianSlidingWindow2(int[] nums, int k) {
+        Comparator<Pair> comp = new Comparator<Pair>(){
+            public int compare(Pair p1, Pair p2) {
+                int diff = Integer.compare(p1.value, p2.value);
+                if (diff != 0) return diff;
+                return Integer.compare(p1.index, p2.index);  
+            }
+        };
+        TreeSet<Pair> left = new TreeSet<>(comp);
+        TreeSet<Pair> right = new TreeSet<>(comp);
+        boolean isOdd = k % 2 == 1;
+        for (int i=0; i<k; i++) {
+            addNew(i, nums[i], left, right);
+        }
 
+        int len = nums.length;
+        double[] res = new double[len - k + 1];
+        for (int i=0; i<=len-k; i++) {
+            res[i] = left.size() == right.size() ? ((double) left.last().value + (double) right.first().value) / 2.0 : (double) left.last().value;
+            if (i == len-k) break;
+            Pair oldP = new Pair(i, nums[i]);
+            boolean inLeft = left.remove(oldP);
+            if (!inLeft) right.remove(oldP);
+            addNew(i+k, nums[i+k], left, right);
+        }
+        return res;
+    }
+    
+    private void addNew(int index, int value, TreeSet<Pair> left, TreeSet<Pair> right) {
+        Pair p = new Pair(index, value);
+        if (right.size() != 0 && value > right.first().value) {
+            right.add(p);
+        } else {
+            left.add(p);
+        }
+        balance(left, right);
+    }
+    
+    private void balance(TreeSet<Pair> left, TreeSet<Pair> right) {
+        while (left.size() > right.size() + 1) {
+            Pair topLeft = left.pollLast();
+            right.add(topLeft);
+        }
+        while (left.size() < right.size()) {
+            Pair bottomRight = right.pollFirst();
+            left.add(bottomRight);
+        }
+    }
 
+    class Pair {
+        int index;
+        int value;
+        Pair(int i, int v) {
+            index = i;
+            value = v;
+        }
+    }
 
 
     public static void main(String[] args) {
