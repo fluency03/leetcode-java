@@ -30,97 +30,72 @@
 
 
 public class RangeModule715 {
-    // class RangeModule {
-    //     private TreeNode root;
-        
-    //     public RangeModule() {
-    //     }
-        
-    //     public void addRange(int left, int right) {
-    //         this.root = addRange(root, left, right);
-    //     }
-        
-    //     public TreeNode addRange(TreeNode root, int left, int right) {
-    //         if (left >= right) return root;
-    //         if (root == null) return new TreeNode(left, right);
-    //         if (left >= root.left && right <= root.right) return root;
-
-    //         if (root.left >= right) {
-    //             root.leftNode = addRange(root.leftNode, left, right);
-    //         } else if (root.right <= left) {
-    //             root.rightNode = addRange(root.rightNode, left, right);
-    //         } else {
-    //             if (left < root.left) {
-    //                 root.leftNode = addRange(root.leftNode, left, root.left);
-    //             }
-    //             if (right > root.right) {
-    //                 root.rightNode = addRange(root.rightNode, root.right, right);
-    //             }
-    //         }
-    //         return root;
-    //     }
-        
-    //     public boolean queryRange(int left, int right) {
-    //         return queryRange(this.root, left, right);
-    //     }
-        
-    //     public boolean queryRange(TreeNode root, int left, int right) {
-    //         if (root == null) return false;
-    //         if (left >= root.left && right <= root.right) return true;
-
-    //         if (root.left >= right) return queryRange(root.leftNode, left, right);
-    //         if (root.right <= left) return queryRange(root.rightNode, left, right);
-
-    //         if (left < root.left && !queryRange(root.leftNode, left, root.left)) return false;
-    //         if (right > root.right && !queryRange(root.rightNode, root.right, right)) return false; 
-    //         return true;
-    //     }
-        
-    //     public void removeRange(int left, int right) {
-    //         this.root = removeRange(this.root, left, right);
-    //     }
-
-    //     public TreeNode removeRange(TreeNode root, int left, int right) {
-    //         if (root == null || left >= right) return root;
-            
-    //         if (root.left >= right) {
-    //             root.leftNode = removeRange(root.leftNode, left, right);
-    //         } else if (root.right <= left) {
-    //             root.rightNode = removeRange(root.rightNode, left, right);
-    //         } else if (left > root.left && right < root.right) {
-    //             TreeNode tmp = new TreeNode(right, root.right);
-    //             tmp.rightNode = root.rightNode;
-    //             root.rightNode = tmp;
-    //             root.right = left;
-    //         } else if (left <= root.left && right >= root.right) {
-    //             root.right = root.left;
-    //             root.leftNode = removeRange(root.leftNode, left, root.left);
-    //             root.rightNode = removeRange(root.rightNode, root.right, right);
-    //         } else if (left <= root.left) {
-    //             root.leftNode = removeRange(root.leftNode, left, root.left);
-    //             root.left = right;
-    //         } else {
-    //             root.rightNode = removeRange(root.rightNode, root.right, right);
-    //             root.right = left;
-    //         }
-    //         return root;
-    //     }
-
-    //     class TreeNode {
-    //         TreeNode leftNode;
-    //         TreeNode rightNode;
-    //         int left;
-    //         int right;
-    //         TreeNode(int left, int right) {
-    //             this.left = left;
-    //             this.right = right;
-    //         }
-    //     }
-      
-    // }
-
-
     class RangeModule {
+        private TreeMap<Integer, Integer> ranges;
+        
+        public RangeModule() {
+            ranges = new TreeMap<>();
+        }
+        
+        public void addRange(int left, int right) {
+            Integer l = left;
+            Integer r = right;
+            Integer floor = ranges.floorKey(l);
+            if (floor != null && l <= ranges.get(floor)) {
+                if (r <= ranges.get(floor)) return;
+                l = floor;
+                r = Math.max(ranges.get(floor), r);
+                ranges.remove(floor);
+            }
+    
+            Integer higher = ranges.higherKey(l);
+            while (higher != null && higher <= r) {
+                r = Math.max(ranges.get(higher), r);
+                ranges.remove(higher);
+                higher = ranges.higherKey(l);
+            }
+    
+            ranges.put(l, r);
+        }
+        
+        public boolean queryRange(int left, int right) {
+            Integer floor = ranges.floorKey(left);
+            return floor != null && ranges.get(floor) >= right;
+        }
+        
+        public void removeRange(int left, int right) {
+            Integer l = left;
+            Integer r = right;
+            Map.Entry<Integer, Integer> lower = ranges.lowerEntry(l);
+            if (lower != null && l < lower.getValue()) {
+                ranges.remove(lower.getKey());
+                ranges.put(lower.getKey(), l);
+                if (lower.getValue() > r) {
+                    ranges.put(r, lower.getValue());
+                    return;
+                } else if (lower.getValue() == r) {
+                    return;
+                } else {
+                    l = lower.getValue();
+                }
+            }
+    
+            Map.Entry<Integer, Integer> ceiling = ranges.ceilingEntry(l);
+            while (ceiling != null && ceiling.getKey() <= r) {
+                ranges.remove(ceiling.getKey());
+                if (ceiling.getValue() > r) {
+                    ranges.put(r, ceiling.getValue());
+                    return;
+                }
+                ceiling = ranges.ceilingEntry(l);
+            }
+        }
+    
+        
+    }
+
+
+    class RangeModule2 {
         private TreeSet<Range> ranges = new TreeSet<>((r1, r2) -> Integer.compare(r1.left, r2.left));
         public RangeModule() {
         }
