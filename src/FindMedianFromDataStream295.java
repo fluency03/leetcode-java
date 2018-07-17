@@ -183,12 +183,49 @@ public class FindMedianFromDataStream295 {
     };
 
 
-    /**
-    * Your MedianFinder object will be instantiated and called as such:
-    * MedianFinder obj = new MedianFinder();
-    * obj.addNum(num);
-    * double param_2 = obj.findMedian();
-    */
+    class MedianFinder4 {
+        private PriorityQueue<Integer> left;
+        private PriorityQueue<Integer> right;
+        
+        /** initialize your data structure here. */
+        public MedianFinder() {
+            left = new PriorityQueue<>((i1, i2) -> Integer.compare(i2, i1));
+            right = new PriorityQueue<>((i1, i2) -> Integer.compare(i1, i2));
+        }
+        
+        public void addNum(int num) {
+            if (right.size() != 0 && right.peek() < num) {
+                right.add(num);
+                if (left.size() < right.size()) {
+                    left.add(right.poll());
+                }
+            } else { 
+                left.add(num);
+                if (left.size() > right.size() + 1) {
+                    right.add(left.poll());
+                }
+            }
+    
+        }
+        
+        public double findMedian() {
+            if (left.size() == right.size()) {
+                return ((double) left.peek() + (double) right.peek()) / 2.0;
+            } else {
+                return (double) left.peek();
+            }
+            
+        }
+    }
+
+
+/**
+ * Your MedianFinder object will be instantiated and called as such:
+ * MedianFinder obj = new MedianFinder();
+ * obj.addNum(num);
+ * double param_2 = obj.findMedian();
+ */
+
 }
 
 
