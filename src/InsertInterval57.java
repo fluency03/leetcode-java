@@ -37,13 +37,12 @@ public class InsertInterval57 {
         boolean newAdded = false;
 
         for (Interval in: intervals) {
-
             if (in.end < start) {
                 result.add(in);
             } else if (in.start > end) {
                 if (!newAdded) {
-                  result.add(new Interval(start, end));
-                  newAdded = true;
+                    result.add(new Interval(start, end));
+                    newAdded = true;
                 }
                 result.add(in);
             } else {
