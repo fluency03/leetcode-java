@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 334
+# Total: 335
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  86  |   186   |  58  | 4 |
+|  87  |   186   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -236,6 +236,7 @@
 | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeStrings271.java) | Medium |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Hard |
 | [274. H-Index](https://leetcode.com/problems/h-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerToEnglishWords273.java) | Medium |
+| [276. Paint Fence](https://leetcode.com/problems/paint-fence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PaintFence276.java) | Easy |
 | [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheCelebrity277.java) | Medium |
 | [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstBadVersion278.java) | Easy |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PerfectSquares279.java) | Medium |
