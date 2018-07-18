@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 336
+# Total: 337
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  88  |   186   |  58  | 4 |
+|  88  |   187   |  58  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -226,6 +226,7 @@
 | [246. Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StrobogrammaticNumber246.java) | Easy |
 | [247. Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StrobogrammaticNumberII247.java) | Medium |
 | [249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GroupShiftedStrings249.java) | Medium |
+| [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Flatten2DVector251.java) | Medium |
 | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRooms252.java) | Easy |
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRoomsII253.java) | Medium |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
