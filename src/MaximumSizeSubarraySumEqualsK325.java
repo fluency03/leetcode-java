@@ -56,4 +56,27 @@ public class MaximumSizeSubarraySumEqualsK325 {
         return max;
     }
 
+
+    public int maxSubArrayLen3(int[] nums, int k) {
+        if (nums == null || nums.length == 0) return 0; 
+
+        Map<Integer, Integer> map = new HashMap<>();
+        int len = nums.length;
+        int res = 0;
+        int sum = 0;
+        map.put(0, -1);
+        for (int i=0; i<len; i++) {
+            sum += nums[i];
+            int remain = sum - k;
+            if (map.containsKey(remain)) {
+                int idx = map.get(remain);
+                // System.out.println(idx + ", " + i);
+                if (i - idx > res) res = i - idx;
+            }
+            if (!map.containsKey(sum)) map.put(sum, i);
+        }
+
+        return res;
+    }
+
 }
