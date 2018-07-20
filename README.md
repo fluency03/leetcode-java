@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 339
+# Total: 340
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  89  |   187   |  59  | 4 |
+|  90  |   187   |  59  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -359,6 +359,7 @@
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImageSmoother661.java) | Easy |
 | [568. Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumVacationDays568.java) | Hard |
 | [604. Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignCompressedStringIterator604.java) | Easy |
+| [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
