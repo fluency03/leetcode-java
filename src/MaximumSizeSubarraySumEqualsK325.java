@@ -70,7 +70,6 @@ public class MaximumSizeSubarraySumEqualsK325 {
             int remain = sum - k;
             if (map.containsKey(remain)) {
                 int idx = map.get(remain);
-                // System.out.println(idx + ", " + i);
                 if (i - idx > res) res = i - idx;
             }
             if (!map.containsKey(sum)) map.put(sum, i);
