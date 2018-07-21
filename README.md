@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 341
+# Total: 342
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  90  |   187   |  60  | 4 |
+|  90  |   188   |  60  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -331,6 +331,7 @@
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindBottomLeftTreeValue513.java) | Medium |
 | [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CoinChangeII518.java) | Medium |
+| [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContinuousSubarraySum523.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseStringII541.java) | Easy |
