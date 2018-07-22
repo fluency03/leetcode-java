@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 349
+# Total: 350
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  91  |   193   |  61  | 4 |
+|  92  |   193   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -376,6 +376,7 @@
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestUnivaluePath687.java) | Easy |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
+| [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHashMap706.java) | Easy |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/）| [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarrayProductLessThanK713.java) | Medium |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithTransactionFee714.java) | Medium |
 | [715. Range Module](https://leetcode.com/problems/range-module/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeModule715.java) | Hard |
