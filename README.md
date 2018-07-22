@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 342
+# Total: 344
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  90  |   188   |  60  | 4 |
+|  90  |   190   |  60  | 4 |
 
 
 | Question | Solution | Difficulty |
