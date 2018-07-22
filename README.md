@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 350
+# Total: 351
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  92  |   193   |  61  | 4 |
+|  93  |   193   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -145,6 +145,7 @@
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlattenBinaryTreeToLinkedList114.java) | Medium |
 | [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PopulatingNextRightPointersInEachNode116.java) | Medium |
 | [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PopulatingNextRightPointersInEachNodeII117.java) | Medium |
+| [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PascalsTriangleII119.java) | Easy |
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStock121.java) | Easy |
 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockII122.java) | Easy |
 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockIII123.java) | Hard |
