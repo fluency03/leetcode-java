@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 344
+# Total: 345
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  90  |   190   |  60  | 4 |
+|  90  |   190   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -304,6 +304,7 @@
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateDivision399.java) | Medium |
 | [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/QueueReconstructionByHeight406.java) | Medium |
+| [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWaterII407.java) | Medium |
 | [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThirdMaximumNumber414.java) | Easy |
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionEqualSubsetSum416.java) | Medium |
 | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PacificAtlanticWaterFlow417.java) | Medium |
