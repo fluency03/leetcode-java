@@ -363,6 +363,7 @@
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
+| [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MapSumPairs677.java) | Medium |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextClosestTime681.java) | Medium |
 | [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KEmptySlots683.java) | Hard |
