@@ -54,11 +54,21 @@ public class SingleElementInASortedArray540 {
 
         if ((nums[mid] == nums[mid-1]) == b) {
             if (nums[mid] != nums[mid-1]) mid--;
-            return singleNonDuplicate(nums, lo, mid);
+            return singleNonDuplicate2(nums, lo, mid);
         }
 
         if (nums[mid] == nums[mid-1]) mid++;
-        return singleNonDuplicate(nums, mid, hi);
+        return singleNonDuplicate2(nums, mid, hi);
+    }
+
+
+    private int singleNonDuplicate3(int[] nums, int lo, int hi) {
+        if (lo == hi) return nums[lo]; 
+        int mid = (lo + hi) / 2;
+        if (nums[mid] != nums[mid-1] && nums[mid] != nums[mid+1]) return nums[mid];
+        if (mid % 2 == 1) mid--;
+        if (nums[mid] != nums[mid+1]) return singleNonDuplicate3(nums, lo, mid);
+        return singleNonDuplicate3(nums, mid+2, hi);
     }
 
 
