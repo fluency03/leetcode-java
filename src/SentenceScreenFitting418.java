@@ -120,4 +120,24 @@ public class SentenceScreenFitting418 {
         return count / n;
     }
 
+
+    public int wordsTyping4(String[] sentence, int rows, int cols) {
+        char[] words = (String.join(" ", sentence) + " ").toCharArray();
+        int len = words.length;
+        int[] marks = new int[len];
+        int j = 0;
+        for (int i=0; i<len; i++) {
+            if (words[i] == ' ') j = i + 1;
+            marks[i] = j;
+        }
+        int row = 0;
+        int idx = 0;
+        while (row < rows) {
+            idx += cols;
+            idx = (idx / len) * len + marks[idx % len];
+            row++;
+        }
+        return idx / len;
+    }
+
 }
