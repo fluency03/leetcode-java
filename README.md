@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 348
+# Total: 349
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  91  |   192   |  61  | 4 |
+|  91  |   193   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -395,8 +395,9 @@
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
-| [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestSubarrayWithSumAtLeastK862.java) | Hard |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
+| [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestSubarrayWithSumAtLeastK862.java) | Hard |
+| [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KokoEatingBananas875.java) | Easy |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
