@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 352
+# Total: 353
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  93  |   194   |  61  | 4 |
+|  93  |   195   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -290,6 +290,7 @@
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArrays349.java) | Easy |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AndroidUnlockPatterns351.java) | Medium |
+| [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTwitter355.java) | Medium |
 | [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountNumbersWithUniqueDigits357.java) | Medium |
 | [360. Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortTransformedArray360.java) | Medium |
 | [361. Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BombEnemy361.java) | Medium |
