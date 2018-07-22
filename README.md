@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 345
+# Total: 346
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  90  |   190   |  61  | 4 |
+|  90  |   191   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -335,6 +335,7 @@
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContinuousSubarraySum523.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
+| [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleElementInASortedArray540.java) | Medium |
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseStringII541.java) | Easy |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiameterOfBinaryTree543.java) | Easy |
 | [544. Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OutputContestMatches544.java) | Medium |
