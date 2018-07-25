@@ -79,7 +79,6 @@ public class FindKClosestElements658 {
     public List<Integer> findClosestElements3(int[] arr, int k, int x) {
         List<Integer> res = new ArrayList<>();
         int N = arr.length;
-        // binary search to find the starting point of the range K
         int start = 0;
         int end = N - k;
 
