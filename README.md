@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 354
+# Total: 355
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  93  |   196   |  61  | 4 |
+|  93  |   197   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -397,6 +397,7 @@
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
 | [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAnagramMappings760.java) | Easy |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
+| [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SwapAdjacentInLRString777.java) | Medium |
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
