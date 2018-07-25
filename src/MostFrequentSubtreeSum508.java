@@ -49,7 +49,6 @@ public class MostFrequentSubtreeSum508 {
 
         List<Integer> list = new ArrayList<>();
         for (Map.Entry<Integer, Integer> e: sums.entrySet()) {
-            // System.out.println(e.getKey() + " : " + e.getValue());
             if (e.getValue().equals(cache[0])) {
                 list.add(e.getKey());
             }
@@ -70,6 +69,41 @@ public class MostFrequentSubtreeSum508 {
         cache[0] = Math.max(cache[0], t);
         sums.put(sum, t);
 
+        return sum;
+    }
+
+
+    public int[] findFrequentTreeSum2(TreeNode root) {
+        Map<Integer, Integer> map = new HashMap<>();
+        findFrequentTreeSum(root, map);
+        
+        int freq = 0;
+        Set<Integer> sums = new HashSet<>();
+        for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+            if (entry.getValue() == freq) {
+                sums.add(entry.getKey());
+            } else if (entry.getValue() > freq) {
+                freq = entry.getValue();
+                sums.clear();
+                sums.add(entry.getKey());
+            }
+        }
+        
+        int[] res = new int[sums.size()];
+        int i = 0;
+        for (int n: sums) {
+            res[i++] = n;
+        }
+        return res;
+    }
+
+    public int findFrequentTreeSum(TreeNode root, Map<Integer, Integer> map) {
+        if (root == null) return 0;
+        
+        int l = findFrequentTreeSum(root.left, map);
+        int r = findFrequentTreeSum(root.right, map);
+        int sum = l + r + root.val;
+        map.put(sum, map.getOrDefault(sum, 0) + 1);
         return sum;
     }
 
