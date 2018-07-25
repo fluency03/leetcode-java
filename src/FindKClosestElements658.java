@@ -76,25 +76,40 @@ public class FindKClosestElements658 {
     // }
 
 
-    /**
-     * https://leetcode.com/problems/find-k-closest-elements/discuss/106430/Updated-Java-Solution
-     */
     public List<Integer> findClosestElements3(int[] arr, int k, int x) {
-        int lo = 0;
-        int hi = arr.length - k;
-        int mid;
-        while(lo < hi){
-            mid = lo + (hi - lo) / 2;
-            if(x - arr[mid] > arr[mid+k] - x)
-                lo = mid + 1;
-            else
-                hi = mid;
-        }
+        List<Integer> res = new ArrayList<>();
+        int N = arr.length;
+        // binary search to find the starting point of the range K
+        int start = 0;
+        int end = N - k;
 
-        List<Integer> list = new ArrayList<>();
-        for(int i = 0; i < k; i++)
-            list.add(arr[lo+i]);
-        return list;
+        /*
+        0...............................mid.....|....mid+k................(N-k)
+        
+        arr[mid] >= x, end = mid
+        
+        arr[mid] < x:
+            x - arr[mid] > arr[mid+k] - x, start = mid + 1;
+            x - arr[mid] <= arr[mid+k] - x, end = mid
+        */
+
+        while (start < end) {
+            int mid = (end + start) / 2;
+            // if (arr[mid] >= x) {
+            //     end = mid;
+            // } else { // arr[mid] < x
+                if (x - arr[mid] > arr[mid+k] - x) {
+                    start = mid + 1;
+                } else {
+                    end = mid;
+                }
+            // }
+        }
+        
+        for (int i=0; i<k; i++) {
+            res.add(arr[start+i]);
+        }
+        return res;
     }
 
 }
