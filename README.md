@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 356
+# Total: 357
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  93  |   198   |  61  | 4 |
+|  94  |   198   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -317,6 +317,7 @@
 | [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReconstructOriginalDigitsFromEnglish423.java) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSquares425.java) | Hard |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
+| [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAllAnagramsInAString438.java) | Easy |
 | [443. String Compression](https://leetcode.com/problems/string-compression/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringCompression443.java) | Easy |
 | [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddTwoNumbersII445.java) | Medium |
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAllNumbersDisappearedInAnArray448.java) | Easy |
