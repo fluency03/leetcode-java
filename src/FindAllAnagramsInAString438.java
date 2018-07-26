@@ -33,7 +33,7 @@ public class FindAllAnagramsInAString438 {
         for (char c: p.toCharArray()) {
             map[c - 'a']++;
         }
-        
+
         List<Integer> res = new ArrayList<>();
         int lenS = s.length();
         int count = p.length();
@@ -46,21 +46,49 @@ public class FindAllAnagramsInAString438 {
             while (i <= j && map[c - 'a'] <= 0) {
                 map[chars[i] - 'a']++;
                 i++;
-                count++;
             }
-            if (i >= lenS) break;
-            map[c - 'a']--;  
+            map[c - 'a']--;
             j++;
-            count--;
-            if (count == 0) {
+            if (j - i == count) {
                 res.add(i);
                 map[chars[i] - 'a']++;
-                count++;
                 i++;
             }
         }
-        
+
         return res;
+    }
+
+
+    public List<Integer> findAnagrams2(String s, String p) {
+        int[] map = new int[26];
+        for (char c: p.toCharArray()) {
+            map[c - 'a']++;
+        }
+
+        List<Integer> res = new ArrayList<>();
+        int lenS = s.length();
+        int lenP = p.length();
+        if (lenS < lenP) return res;
+        char[] chars = s.toCharArray();
+        int[] window = new int[26];
+        for (int i=0; i<lenP; i++) {
+            window[chars[i] - 'a']++;
+        }
+        if (compare(map, window)) res.add(0);
+        for (int i=0; i<(lenS-lenP); i++) {
+            window[chars[i] - 'a']--;
+            window[chars[i+lenP] - 'a']++;
+            if (compare(map, window)) res.add(i+1);
+        }
+        return res;
+    }
+
+    private boolean compare(int[] map, int[] window) {
+        for (int i=0; i<26; i++) {
+            if (map[i] != window[i]) return false;
+        }
+        return true;
     }
 
 }
