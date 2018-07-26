@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 355
+# Total: 356
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  93  |   197   |  61  | 4 |
+|  93  |   198   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -350,7 +350,9 @@
 | [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementIII556.java) | Medium |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseWordsInAStringIII557.java) | Easy |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
+| [568. Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumVacationDays568.java) | Hard |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
+| [604. Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignCompressedStringIterator604.java) | Easy |
 | [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidTriangleNumber611.java) | Medium |
 | [616. Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBoldTagInString616.java) | Medium |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TaskScheduler621.java) | Medium |
@@ -358,6 +360,7 @@
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumProductOfThreeNumbers628.java) | Easy |
 | [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
+| [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
 | [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSumIVInputIsABST653.java) | Easy |
 | [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumBinaryTree654.java) | Medium |
@@ -365,12 +368,10 @@
 | [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements//) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKClosestElements658.java) | Medium |
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImageSmoother661.java) | Easy |
-| [568. Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumVacationDays568.java) | Hard |
-| [604. Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignCompressedStringIterator604.java) | Easy |
-| [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MapSumPairs677.java) | Medium |
+| [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParenthesisString678.java) | Medium |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextClosestTime681.java) | Medium |
 | [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KEmptySlots683.java) | Hard |
