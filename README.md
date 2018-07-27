@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 357
+# Total: 358
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  94  |   198   |  61  | 4 |
+|  95  |   198   |  61  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -375,6 +375,7 @@
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParenthesisString678.java) | Medium |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
 | [681. Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextClosestTime681.java) | Medium |
+| [682. Baseball Game](https://leetcode.com/problems/baseball-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BaseballGame682.java) | Easy |
 | [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KEmptySlots683.java) | Hard |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnection684.java) | Medium |
 | [685. Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RedundantConnectionII685.java) | Hard |
