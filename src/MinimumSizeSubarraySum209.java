@@ -32,4 +32,24 @@ public class MinimumSizeSubarraySum209 {
         return min == Integer.MAX_VALUE ? 0 : min;
     }
 
+    public int minSubArrayLen2(int s, int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        
+        int minLen = Integer.MAX_VALUE;
+        int sum = 0;
+        int left = 0;
+        int right = 0;
+        while (right < nums.length) {
+            sum += nums[right++];
+            while (sum >= s) {
+                if (right - left < minLen) {
+                    minLen = right - left;
+                }
+                sum -= nums[left++];
+            }
+        }
+        
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
+    }
+
 }

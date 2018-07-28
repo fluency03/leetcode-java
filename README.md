@@ -48,7 +48,7 @@
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  95  |   199   |  63  | 4 |
+|  96  |   199   |  62  | 4 |
 
 
 | Question | Solution | Difficulty |
