@@ -54,7 +54,7 @@
  * the maze won't exceed 100.
  */
 
-class TheMaze490 {
+public class TheMaze490 {
     private boolean[][] visited;
       
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
@@ -158,10 +158,67 @@ class TheMaze490 {
     }
 
 
+    public boolean hasPath3(int[][] maze, int[] start, int[] destination) {
+        if (maze == null || maze.length == 0 || maze[0].length == 0 || start == null || destination == null) return false;
+        if (start[0] == destination[0] && start[1] == destination[1]) return true;
+        int M = maze.length;
+        int N = maze[0].length;
+        boolean[][] visited = new boolean[M][N];
+        Queue<int[]> q = new LinkedList<>();
+        q.add(start);
+        visited[start[0]][start[1]] = true;
+        while (!q.isEmpty()) {
+            int[] curr = q.poll();
+            if (curr[0] == destination[0] && curr[1] == destination[1]) return true;
+            addNextSteps(maze, q, visited, curr, M, N);
+        }
+        
+        return false;
+    }
+    
+    private void addNextSteps(int[][] maze, Queue<int[]> q, boolean[][] visited, int[] curr, int M, int N) {
+        int i = curr[0];
+        while (i >= 0 && maze[i][curr[1]] == 0) {
+            i--;
+        }
+        if (!visited[i+1][curr[1]]) {
+            q.add(new int[]{i+1, curr[1]});
+            visited[i+1][curr[1]] = true;
+        }
+        
+        i = curr[0];
+        while (i < M && maze[i][curr[1]] == 0) {
+            i++;
+        }
+        if (!visited[i-1][curr[1]]) {
+            q.add(new int[]{i-1, curr[1]});
+            visited[i-1][curr[1]] = true;
+        }
+        
+        i = curr[1];
+        while (i >= 0 && maze[curr[0]][i] == 0) {
+            i--;
+        }
+        if (!visited[curr[0]][i+1]) {
+            q.add(new int[]{curr[0], i+1});
+            visited[curr[0]][i+1] = true;
+        }
+        
+        
+        i = curr[1];
+        while (i < N && maze[curr[0]][i] == 0) {
+            i++;
+        }
+        if (!visited[curr[0]][i-1]) {
+            q.add(new int[]{curr[0], i-1});
+            visited[curr[0]][i-1] = true;
+        }
+    }
+
     /**
      * https://leetcode.com/problems/the-maze/solution/
      */
-    public boolean hasPath3(int[][] maze, int[] start, int[] destination) {
+    public boolean hasPath4(int[][] maze, int[] start, int[] destination) {
         boolean[][] visited = new boolean[maze.length][maze[0].length];
         int[][] dirs={{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
         Queue < int[] > queue = new LinkedList < > ();
