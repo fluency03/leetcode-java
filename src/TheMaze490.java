@@ -27,6 +27,7 @@
  * 
  * Output: true
  * Explanation: One possible way is : left -> down -> left -> down -> right -> down -> right.
+ * https://leetcode.com/static/images/problemset/maze_1_example_1.png
  * 
  * Example 2
  * 
@@ -43,6 +44,7 @@
  * 
  * Output: false
  * Explanation: There is no way for the ball to stop at the destination.
+ * https://leetcode.com/static/images/problemset/maze_1_example_2.png
  * 
  * Note:
  * There is only one ball and one destination in the maze.
