@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 360
+# Total: 361
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  95  |   199   |  62  | 4 |
+|  95  |   199   |  63  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -335,6 +335,7 @@
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementI496.java) | Easy |
 | [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiagonalTraverse498.java) | Medium |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementII503.java) | Medium |
+| [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMazeII505.java) | Hard |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindBottomLeftTreeValue513.java) | Medium |
 | [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CoinChangeII518.java) | Medium |
