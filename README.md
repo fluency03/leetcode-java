@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 358
+# Total: 359
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  95  |   198   |  61  | 4 |
+|  95  |   198   |  62  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -371,6 +371,7 @@
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImageSmoother661.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
+| [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CutOffTreesForGolfEvent675.java) | Hard |
 | [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MapSumPairs677.java) | Medium |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParenthesisString678.java) | Medium |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
