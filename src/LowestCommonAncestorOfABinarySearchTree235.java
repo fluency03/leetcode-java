@@ -69,4 +69,33 @@ public class LowestCommonAncestorOfABinarySearchTree235 {
               lowestCommonAncestor(p.val < root.val ? root.left : root.right, p, q);
     }
 
+
+    // in case the node p or q is not in the BST
+    public TreeNode lowestCommonAncestor4(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || p == null || q == null) return null;
+        
+        if (root.val > p.val && root.val > q.val) {
+            return lowestCommonAncestor(root.left, p, q);
+        } else if (root.val < p.val && root.val < q.val) {
+            return lowestCommonAncestor(root.right, p, q);
+        } else if (find(root, p) && find(root, q)) {
+            return root;
+        } else {
+            return null;
+        }
+    }
+
+    private boolean find(TreeNode root, TreeNode n) {
+        if (root == null || n == null) return false;
+        
+        if (root.val == n.val) {
+            return true;
+        } else if (root.val > n.val) {
+            return find(root.left, n);
+        } else {
+            return find(root.right, n);
+        }
+        
+    }
+
 }
