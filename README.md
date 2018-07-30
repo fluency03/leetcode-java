@@ -412,6 +412,7 @@
 | [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LengthOfLongestFibonacciSubsequence873.java) | Medium |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KokoEatingBananas875.java) | Easy |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MiddleOfTheLinkedList876.java) | Easy |
+| [877. Stone Game](https://leetcode.com/problems/stone-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StoneGame877.java) | Medium |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
