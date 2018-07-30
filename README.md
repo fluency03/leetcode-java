@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 363
+# Total: 366
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  97  |   200   |  62  | 4 |
+|  98  |   201   |  63  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -311,6 +311,7 @@
 | [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/QueueReconstructionByHeight406.java) | Medium |
 | [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWaterII407.java) | Medium |
 | [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThirdMaximumNumber414.java) | Easy |
+| [415. Add Strings](https://leetcode.com/problems/add-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddStrings415.java) | Easy |
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionEqualSubsetSum416.java) | Medium |
 | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PacificAtlanticWaterFlow417.java) | Medium |
 | [418. Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceScreenFitting418.java) | Medium |
@@ -413,6 +414,7 @@
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KokoEatingBananas875.java) | Easy |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MiddleOfTheLinkedList876.java) | Easy |
 | [877. Stone Game](https://leetcode.com/problems/stone-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StoneGame877.java) | Medium |
+| [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProfitableSchemes879.java) | Hard |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
