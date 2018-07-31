@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 370
+# Total: 371
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  99  |   204   |  63  | 4 |
+|  99  |   205   |  63  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -413,6 +413,7 @@
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
+| [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestMountainInArray845.java) | Medium |
 | [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestSubarrayWithSumAtLeastK862.java) | Hard |
 | [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LengthOfLongestFibonacciSubsequence873.java) | Medium |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KokoEatingBananas875.java) | Easy |
