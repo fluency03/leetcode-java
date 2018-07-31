@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 369
+# Total: 370
 
 | Easy |  Medium | Hard | - |
 |:----:|:-------:|:----:|:-:|
-|  99  |   203   |  63  | 4 |
+|  99  |   204   |  63  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -341,6 +341,7 @@
 | [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMazeII505.java) | Hard |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindBottomLeftTreeValue513.java) | Medium |
+| [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindLargestValueInEachTreeRow515.java) | Medium |
 | [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CoinChangeII518.java) | Medium |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContinuousSubarraySum523.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
