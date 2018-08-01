@@ -62,4 +62,19 @@ public class NonDecreasingArray665 {
         return true;
     }
 
+
+    /**
+     * https://leetcode.com/problems/non-decreasing-array/solution/
+     */
+    public boolean checkPossibility3(int[] a) {
+        int p = -1;
+        for (int i = 0; i<a.length-1; i++) {
+            if (a[i] > a[i+1]) {
+                if (p != -1) return false;
+                p = i;
+            }
+        }
+        return (p == -1 || p == 0 || p == a.length-2 || a[p-1] <= a[p+1] || a[p] <= a[p+2]);
+    }
+
 }
