@@ -411,6 +411,7 @@
 | [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAnagramMappings760.java) | Easy |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionLabels763.java) | Medium |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
+| [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxChunksToMakeSorted769.java) | Medium |
 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JewelsAndStones771.java) | Easy |
 | [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SwapAdjacentInLRString777.java) | Medium |
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
