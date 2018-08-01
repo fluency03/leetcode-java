@@ -155,4 +155,31 @@ public class ProfitableSchemes879 {
     }
 
 
+    /**
+     * https://www.youtube.com/watch?v=MjOIR61txFc
+     */
+    public int profitableSchemes5(int G, int P, int[] group, int[] profit) {
+        int K = group.length;
+        int[][] dp = new int[P + 1][G + 1];
+        dp[0][0] = 1;
+        int mod = (int)1e9 + 7;
+        for (int k=1; k<=K; k++) {
+            int pk = profit[k-1];
+            int gk = group[k-1];
+            for (int i=P; i>=0; i--) {
+                int ip = Math.min(P, i + pk);
+                for (int j=G-gk; j>=0; j--) {
+                    dp[ip][j+gk] = (dp[ip][j+gk] + dp[i][j]) % mod;
+                }
+            }
+        }
+
+        int res = 0;
+        for (int a: dp[P]) {
+            res = (res + a) % mod;
+        }
+        return res;
+    }
+
+
 }
