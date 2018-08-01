@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 375
+# Total: 376
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   101   |   207   |  63  | 4 |
+|   102   |   207   |  63  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -377,6 +377,7 @@
 | [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements//) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKClosestElements658.java) | Medium |
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImageSmoother661.java) | Easy |
+| [665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NonDecreasingArray665.java) | Easy |
 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrimABinarySearchTree669.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
