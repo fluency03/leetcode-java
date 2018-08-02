@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 380
+# Total: 381
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   102   |   208   |  66  | 4 |
+|   102   |   209   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -333,6 +333,7 @@
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortCharactersByFrequency451.java) | Medium |
 | [462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumMovesToEqualArrayElementsII462.java) | Medium |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IslandPerimeter463.java) | Easy |
+| [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OnesAndZeroes474.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
 | [481. Magical String](https://leetcode.com/problems/magical-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MagicalString481.java) | Medium |
