@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 379
+# Total: 380
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   102   |   207   |  66  | 4 |
+|   102   |   208   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -259,6 +259,7 @@
 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GameOfLife289.java) | Medium |
 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMedianFromDataStream295.java) | Hard |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SerializeAndDeserializeBinaryTree297.java) | Hard |
+| [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLongestConsecutiveSequence298.java) | Medium |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestIncreasingSubsequence300.java) | Medium |
 | [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveInvalidParentheses301.java) | Hard |
