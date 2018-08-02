@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 376
+# Total: 377
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   102   |   207   |  63  | 4 |
+|   102   |   207   |  64  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -162,6 +162,11 @@
 | [137. Single Number II](https://leetcode.com/problems/single-number-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleNumberII137.java) | Medium |
 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CopyListWithRandomPointer138.java) | Medium |
 | [139. Word Break](https://leetcode.com/problems/word-break/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordBreak139.java) | Medium |
+
+
+| [140. Word Break II](https://leetcode.com/problems/word-break-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordBreakII140.java) | Hard |
+
+
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListCycle141.java) | Easy |
 | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListCycleII142.java) | Easy |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReorderList143.java) | Medium |
