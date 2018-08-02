@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 381
+# Total: 382
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   102   |   209   |  66  | 4 |
+|   102   |   210   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -422,6 +422,7 @@
 | [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SwapAdjacentInLRString777.java) | Medium |
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
+| [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostProfitAssigningWork826.java) | Medium |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
 | [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestMountainInArray845.java) | Medium |
