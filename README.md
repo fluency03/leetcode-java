@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 378
+# Total: 379
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   102   |   207   |  65  | 4 |
+|   102   |   207   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -411,6 +411,7 @@
 | [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarityII737.java) | Medium |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
+| [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EmployeeFreeTime759.java) | Hard |
 | [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAnagramMappings760.java) | Easy |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionLabels763.java) | Medium |
 | [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CouplesHoldingHands765.java) | Hard |
