@@ -22,7 +22,7 @@
  */
 
 
-publicclass PartitionEqualSubsetSum416 {
+public class PartitionEqualSubsetSum416 {
     public boolean canPartition(int[] nums) {
         if (nums.length == 1) return nums[0] == 0;
         int sum = 0;
