@@ -79,4 +79,39 @@ public class LongestHarmoniousSubsequence594 {
         return res;
     }
 
+
+    public int findLHS4(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        Arrays.sort(nums);
+        int N = nums.length;
+        int res = 0;
+        int preCount = -1;
+        int pre = 0;
+        int count = 1;
+        int curr = nums[0];
+        int i = 1;
+        while (i < N && nums[i] == curr) {
+            count++;
+            i++;
+        }
+        while (i < N) {
+            if (nums[i] == curr) {
+                count++;
+            } else {
+                if (preCount != -1 && curr == pre + 1 && (count + preCount) > res) {
+                    res = count + preCount;
+                }
+                preCount = count;
+                pre = curr;
+                count = 1;
+                curr = nums[i];
+            }
+            i++;
+        }
+        if (preCount != -1 && curr == pre + 1 && (count + preCount) > res) {
+            res = count + preCount;
+        }
+        return res;
+    }
+
 }
