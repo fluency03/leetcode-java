@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 387
+# Total: 388
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   102   |   215   |  66  | 4 |
+|   102   |   216   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -425,6 +425,7 @@
 | [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SwapAdjacentInLRString777.java) | Medium |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSymbolInGrammar779.java) | Medium |
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
+| [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindEventualSafeStates802.java) | Medium |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostProfitAssigningWork826.java) | Medium |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
