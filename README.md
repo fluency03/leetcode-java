@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 391
+# Total: 392
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   103   |   218   |  66  | 4 |
+|   104   |   218   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -368,6 +368,7 @@
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
 | [568. Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumVacationDays568.java) | Hard |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
+| [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestHarmoniousSubsequence594.java) | Easy |
 | [604. Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignCompressedStringIterator604.java) | Easy |
 | [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidTriangleNumber611.java) | Medium |
 | [616. Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBoldTagInString616.java) | Medium |
