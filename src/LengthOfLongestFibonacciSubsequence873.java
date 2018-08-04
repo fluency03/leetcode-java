@@ -56,15 +56,62 @@ public class LengthOfLongestFibonacciSubsequence873 {
                 }
             }
         }
-        
         return longest == Integer.MIN_VALUE ? 0 : longest;
+    }
+
+
+    public int lenLongestFibSubseq2(int[] A) {
+        int N = A.length;
+        int[][] dp = new int[N + 1][N + 1];
+        int res = 0;
+        for (int i=2; i<N; i++) {
+            for (int j=i+1; j<=N; j++) {
+                int toBeFound = A[j-1] - A[i-1];
+                if (toBeFound > A[i-2]) break;
+                int idx = Arrays.binarySearch(A, 0, i-1, toBeFound);
+                if (idx >= 0) {
+                    if (dp[idx+1][i] == 0) {
+                        dp[i][j] = 3;
+                    } else {
+                        dp[i][j] += dp[idx+1][i] + 1;
+                    }
+                }
+                if (dp[i][j] > res) res = dp[i][j];
+            }
+        }
+        return res;
+    }
+
+
+    public int lenLongestFibSubseq3(int[] A) {
+        int N = A.length;
+        Map<Integer, Integer> index = new HashMap();
+        for (int i = 0; i < N; ++i) index.put(A[i], i);
+        int[][] dp = new int[N + 1][N + 1];
+        int res = 0;
+        for (int i=2; i<N; i++) {
+            for (int j=i+1; j<=N; j++) {
+                int toBeFound = A[j-1] - A[i-1];
+                if (toBeFound > A[i-2]) break;
+                if (index.containsKey(toBeFound)) {
+                    int idx = index.get(toBeFound);
+                    if (dp[idx+1][i] == 0) {
+                        dp[i][j] = 3;
+                    } else {
+                        dp[i][j] += dp[idx+1][i] + 1;
+                    }
+                }
+                if (dp[i][j] > res) res = dp[i][j];
+            }
+        }
+        return res;
     }
 
 
     /**
      * https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/solution/
      */
-    public int lenLongestFibSubseq2(int[] A) {
+    public int lenLongestFibSubseq4(int[] A) {
         int N = A.length;
         Map<Integer, Integer> index = new HashMap();
         for (int i = 0; i < N; ++i)
@@ -73,7 +120,7 @@ public class LengthOfLongestFibonacciSubsequence873 {
         Map<Integer, Integer> longest = new HashMap();
         int ans = 0;
 
-        for (int k = 0; k < N; ++k)
+        for (int k = 0; k < N; ++k) {
             for (int j = 0; j < k; ++j) {
                 int i = index.getOrDefault(A[k] - A[j], -1);
                 if (i >= 0 && i < j) {
@@ -83,7 +130,7 @@ public class LengthOfLongestFibonacciSubsequence873 {
                     ans = Math.max(ans, cand);
                 }
             }
-
+        }
         return ans >= 3 ? ans : 0;
     }
 
@@ -91,11 +138,11 @@ public class LengthOfLongestFibonacciSubsequence873 {
     /**
      * https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/discuss/152343/C++JavaPython-Check-Pair
      */
-    public int lenLongestFibSubseq3(int[] A) {
+    public int lenLongestFibSubseq5(int[] A) {
         Set<Integer> s = new HashSet<Integer>();
         for (int x : A) s.add(x);
         int res = 2;
-        for (int i = 0; i < A.length; ++i)
+        for (int i = 0; i < A.length; ++i) {
             for (int j = i + 1; j < A.length; ++j) {
                 int a = A[i], b = A[j], l = 2;
                 while (s.contains(a + b)) {
@@ -105,6 +152,7 @@ public class LengthOfLongestFibonacciSubsequence873 {
                 }
                 res = Math.max(res, l);
             }
+        }
         return res > 2 ? res : 0;
     }
 
@@ -112,7 +160,7 @@ public class LengthOfLongestFibonacciSubsequence873 {
     /**
      * https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/discuss/152343/C++JavaPython-Check-Pair
      */
-    public int lenLongestFibSubseq4(int[] A) {
+    public int lenLongestFibSubseq6(int[] A) {
         int res = 0;
         int[][] dp = new int[A.length][A.length];
         Map<Integer, Integer> index = new HashMap<>();
@@ -126,6 +174,5 @@ public class LengthOfLongestFibonacciSubsequence873 {
         }
         return res > 2 ? res : 0;
     }
-
 
 }
