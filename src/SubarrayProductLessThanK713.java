@@ -38,4 +38,26 @@ public class SubarrayProductLessThanK713 {
         return res;
     }
 
+
+    public int numSubarrayProductLessThanK2(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || k == 0) return 0;
+        int prod = 1;
+        int left = 0;
+        int right = 0;
+        int res = 0;
+        while (right < nums.length) {
+            prod *= nums[right];
+            while (left <= right && prod >= k) {
+                res += right - left;
+                prod /= nums[left++];
+            }
+            right++;
+        }
+        while (left < nums.length) {
+            res += right - left;
+            left++;
+        }
+        return res;
+    }
+
 }
