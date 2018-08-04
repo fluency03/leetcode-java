@@ -83,4 +83,28 @@ public class SubarraySumEqualsK560 {
     }
 
 
+    public int subarraySum5(int[] nums, int k) {
+        Map<Integer, Set<Integer>> map = new HashMap<>();
+        int sum = 0;
+        for (int i=0; i<nums.length; i++) {
+            sum += nums[i];
+            if (!map.containsKey(sum)) {
+                map.put(sum, new HashSet<>());
+            }
+            map.get(sum).add(i);
+        }
+        
+        int res = 0;
+        sum = 0;
+        for (int i=0; i<nums.length; i++) {
+            if (map.containsKey(sum + k)) {
+                for (int idx: map.get(sum + k)) {
+                    if (idx >= i) res++;
+                }
+            }
+            sum += nums[i];
+        }
+        return res;
+    }
+
 }
