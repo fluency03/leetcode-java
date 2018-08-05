@@ -52,4 +52,16 @@ public class FindTheDuplicateNumber287 {
         return slow;
     }
 
+
+    // This modified the input array!
+    // public int findDuplicate(int[] nums) {
+    //     int N = nums.length;
+    //     Arrays.sort(nums);
+        
+    //     for (int i=0; i<N-1; i++) {
+    //         if (nums[i] == nums[i+1]) return nums[i];
+    //     }
+    //     return nums[0];
+    // }
+
 }
