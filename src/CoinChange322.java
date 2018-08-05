@@ -115,4 +115,19 @@ public class CoinChange322 {
         }
     }
 
+
+    public int coinChange5(int[] coins, int amount) {
+        // if (amount == 0) return 0;
+        int N = coins.length;
+        int[] dp = new int[amount + 1];
+        for (int i=1; i<=amount; i++) {
+            int t = Integer.MAX_VALUE;
+            for (int j=0; j<N; j++) {
+                if (i-coins[j] >= 0 && dp[i-coins[j]] != -1 && dp[i-coins[j]] < t) t = dp[i-coins[j]];
+            }
+            dp[i] = t == Integer.MAX_VALUE ? -1 : (t + 1);
+        }
+        return dp[amount];
+    }
+
 }
