@@ -86,4 +86,49 @@ public class FirstMissingPositive41 {
         return nums.length + 1;
     }
 
+
+    /**
+     * https://leetcode.com/problems/first-missing-positive/discuss/17083/O(1)-space-Java-Solution
+     */
+    public int firstMissingPositive3(int[] A) {
+        int i = 0;
+        while(i < A.length){
+            if(A[i] == i+1 || A[i] <= 0 || A[i] > A.length) i++;
+            else if (A[A[i]-1] != A[i]) swap(A, i, A[i]-1);
+            else i++;
+        }
+        i = 0;
+        while(i < A.length && A[i] == i+1) i++;
+        return i+1;
+    }
+    
+    private void swap(int[] A, int i, int j){
+        int temp = A[i];
+        A[i] = A[j];
+        A[j] = temp;
+    }
+
+
+    public int firstMissingPositive4(int[] nums) {
+        if (nums == null || nums.length == 0) return 1;
+        int N = nums.length;
+        for (int i=0; i<N; i++) {
+            int idx = i;
+            int val = nums[idx];
+            while (idx >= 0 && idx < N && val > 0 && val <= N && nums[idx] != idx + 1) {
+                int newVal = nums[val - 1];
+                nums[val - 1] = val;
+                idx = newVal - 1;
+                val = newVal;
+            }
+        }
+        
+        for (int i=0; i<N; i++) {
+            if (nums[i] != i + 1) {
+                return i + 1;
+            }
+        }
+        return N + 1;
+    }
+
 }
