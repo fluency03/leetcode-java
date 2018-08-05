@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 393
+# Total: 394
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   104   |   219   |  66  | 4 |
+|   104   |   220   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -443,6 +443,7 @@
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MiddleOfTheLinkedList876.java) | Easy |
 | [877. Stone Game](https://leetcode.com/problems/stone-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StoneGame877.java) | Medium |
 | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProfitableSchemes879.java) | Hard |
+| [885. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoatsToSavePeople885.java) | Medium |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
