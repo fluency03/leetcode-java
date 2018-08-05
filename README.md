@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 394
+# Total: 396
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   104   |   220   |  66  | 4 |
+|   105   |   221   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -444,7 +444,8 @@
 | [877. Stone Game](https://leetcode.com/problems/stone-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StoneGame877.java) | Medium |
 | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProfitableSchemes879.java) | Hard |
 | [884. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodedStringAtIndex884.java) | Medium |
-| [885. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoatsToSavePeople885.java) | Medium |
+| [885. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoatsToSavePeople885.java) | Medium 
+| [887. Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProjectionAreaOf3DShapes887.java) | Easy |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
