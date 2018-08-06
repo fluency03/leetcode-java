@@ -63,4 +63,22 @@ public class SearchInASortedArrayOfUnknownSize702 {
         return -1;
     }
 
+
+    public int search3(ArrayReader reader, int target) {
+        int lo = 0;
+        int hi = 20000;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            int midVal = reader.get(mid);
+            if (midVal == target) return mid;
+            if (midVal == Integer.MAX_VALUE || midVal > target) {
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
+            }
+        }
+        
+        return reader.get(lo) == target ? lo : -1;
+    }
+
 }
