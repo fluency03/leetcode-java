@@ -17,7 +17,6 @@
  *
  */
 
-
 public class CoinChange322 {
     public int coinChange(int[] coins, int amount) {
         Arrays.sort(coins);
@@ -117,7 +116,6 @@ public class CoinChange322 {
 
 
     public int coinChange5(int[] coins, int amount) {
-        // if (amount == 0) return 0;
         int N = coins.length;
         int[] dp = new int[amount + 1];
         for (int i=1; i<=amount; i++) {
