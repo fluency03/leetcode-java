@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 397
+# Total: 398
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   106   |   221   |  66  | 4 |
+|   106   |   222   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -110,6 +110,7 @@
 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SimplifyPath71.java) | Medium |
 | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EditDistance72.java) | Hard |
 | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SetMatrixZeroes73.java) | Medium |
+| [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrix74.java) | Medium |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortColors75.java) | Medium |
 | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumWindowSubstring76.java) | Hard |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsets78.java) | Medium |
