@@ -120,4 +120,19 @@ public class FirstUniqueCharacterInAString387 {
     }
 
 
+    public int firstUniqChar6(String s) {
+        int[] map = new int[26];
+        char[] chars = s.toCharArray();
+        int slow = 0;
+        int fast = 0;
+        int N = chars.length;
+        while (slow < N) {
+            map[chars[fast]-'a']++;
+            fast++;
+            while (slow < fast && map[chars[slow]-'a'] > 1) slow++;
+            if (fast == N) break;
+        }
+        return slow == N ? -1 : slow;
+    }
+
 }
