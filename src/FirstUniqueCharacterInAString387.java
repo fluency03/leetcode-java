@@ -103,4 +103,21 @@ public class FirstUniqueCharacterInAString387 {
         return -1;
     }
 
+
+    public int firstUniqChar5(String s) {
+        int[] map = new int[26];
+        char[] chars = s.toCharArray();
+        int slow = 0;
+        int fast = 0;
+        int N = chars.length;
+        while (slow < N) {
+            while (slow < fast && map[chars[slow]-'a'] > 1) slow++;
+            if (fast == N) break;
+            map[chars[fast]-'a']++;
+            fast++;
+        }
+        return slow == N ? -1 : slow;
+    }
+
+
 }
