@@ -48,6 +48,24 @@ public class FindMinimumInRotatedSortedArray153 {
 
 
     public int findMin3(int[] nums) {
+        int start = 0;
+        int end = nums.length - 1;
+        int startVal = nums[start];
+        int endVal = nums[end];
+        while (start + 1 < end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] > startVal) {
+                start = mid;
+            } else if (nums[mid] < endVal) {
+                end = mid;
+            }
+        }
+        
+        return Math.min(nums[end], Math.min(nums[start], Math.min(startVal, endVal)));
+    }
+
+
+    public int findMin4(int[] nums) {
         for (int i=1; i<nums.length; i++) {
             if (nums[i] < nums[i-1]) return nums[i];
         }
