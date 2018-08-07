@@ -179,4 +179,39 @@ public class SearchInRotatedSortedArrayII81 {
          return false;
      }
 
+
+     public boolean search6(int[] nums, int target) {
+        if (nums == null || nums.length == 0) return false;
+        int start = 0;
+        int end = nums.length - 1;
+        
+        while (start < end) {
+            int mid = start + (end - start) / 2;
+            int midVal = nums[mid];
+            if (midVal == target) return true;
+            if (midVal > nums[start]) {
+                if (target >= nums[start] && target < midVal) {
+                    end = mid -1;
+                } else {
+                    start = mid + 1;
+                }
+            } else if (midVal < nums[end]) {
+                if (target > midVal && target <= nums[end]) {
+                    start = mid + 1;
+                } else {
+                    end= mid - 1;
+                }
+            } else {
+                if (midVal == nums[start]) {
+                    start++;
+                }
+                if (midVal == nums[end]) {
+                    end--;
+                }
+            }
+        }
+
+        return nums[start] == target;
+    }
+
 }
