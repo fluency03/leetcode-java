@@ -103,7 +103,7 @@ public class SearchInRotatedSortedArrayII81 {
                      end = mid - 1;
                  }
              }else if(nums[start] > nums[mid]){
-                 //right part is rotated
+                 //right part is sorted
 
                  //target is in rotated part
                  if(target < nums[mid] || target > nums[end]){
