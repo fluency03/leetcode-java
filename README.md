@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 398
+# Total: 399
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   106   |   222   |  66  | 4 |
+|   106   |   223   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -325,6 +325,7 @@
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionEqualSubsetSum416.java) | Medium |
 | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PacificAtlanticWaterFlow417.java) | Medium |
 | [418. Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceScreenFitting418.java) | Medium |
+| [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumXOROfTwoNumbersInAnArray421.java) | Medium |
 | [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReconstructOriginalDigitsFromEnglish423.java) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSquares425.java) | Hard |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
