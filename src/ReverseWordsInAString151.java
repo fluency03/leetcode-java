@@ -113,5 +113,33 @@ public class ReverseWordsInAString151 {
         }
     }
 
+
+    public String reverseWords5(String s) {
+        if (s == null || s.length() == 0) return s;
+        char[] chars = s.trim().toCharArray();
+        int N = chars.length;
+        char[] res = new char[N];
+        int right = N - 1;
+        int left = 0;
+        while (right >= 0) {
+            while (right >= 0 && chars[right] == ' ') {
+                right--;
+            }
+            if (right < 0) break;
+            int end = right;
+            while (right >= 0 && chars[right] != ' ') {
+                right--;
+            }
+            
+            int i = right + 1;
+            while (i <= end) {
+                res[left++] = chars[i++];
+            }
+            if (right < 0) break;
+            res[left++] = ' ';
+        }
+        return new String(res, 0, left);
+    }
+
 }
 
