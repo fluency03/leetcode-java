@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 400
+# Total: 401
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   107   |   223   |  66  | 4 |
+|   108   |   223   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -118,6 +118,7 @@
 | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveDuplicatesFromSortedArrayII80.java) | Medium |
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArrayII81.java) | Medium |
 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveDuplicatesFromSortedListII82.java) | Medium |
+| [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveDuplicatesFromSortedList83.java) | Easy |
 | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestRectangleInHistogram84.java) | Hard |
 | [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestRectangleInHistogram84.java) | Hard |
 | [86. Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionList86.java) | Medium |
