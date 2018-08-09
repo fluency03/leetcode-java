@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 399
+# Total: 400
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   106   |   223   |  66  | 4 |
+|   107   |   223   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -369,6 +369,7 @@
 | [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementIII556.java) | Medium |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseWordsInAStringIII557.java) | Easy |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarraySumEqualsK560.java) | Medium |
+| [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PermutationInString567.java) | Easy |
 | [568. Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumVacationDays568.java) | Hard |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubtreeOfAnotherTree572.java) | Easy |
 | [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestHarmoniousSubsequence594.java) | Easy |
