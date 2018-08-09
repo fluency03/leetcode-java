@@ -52,4 +52,39 @@ public class MinimumSizeSubarraySum209 {
         return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
 
+
+    public int minSubArrayLen3(int s, int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        
+        int lo = 1;
+        int hi = nums.length;
+        int minLen = Integer.MAX_VALUE;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (isValid(nums, mid, s)) {
+                if (mid < minLen) minLen = mid;
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
+            }
+        }
+        
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
+    }
+    
+    private boolean isValid(int[] nums, int len, int s) {
+        int sum = 0;
+        for (int i=0; i<len; i++) {
+            sum += nums[i];
+            if (sum >= s) return true;
+        }
+        for (int i=len; i<nums.length; i++) {
+            sum -= nums[i-len];
+            sum += nums[i];
+            if (sum >= s) return true;
+        }
+        return false;
+    }
+
+
 }
