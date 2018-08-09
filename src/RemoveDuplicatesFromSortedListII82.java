@@ -80,9 +80,9 @@ public class RemoveDuplicatesFromSortedListII82 {
             while (head.next != null && head.val == head.next.val) {
                 head = head.next;
             }
-            return deleteDuplicates(head.next);
+            return deleteDuplicates3(head.next);
         } else {
-            head.next = deleteDuplicates(head.next);
+            head.next = deleteDuplicates3(head.next);
         }
         return head;
     }

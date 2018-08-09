@@ -61,7 +61,7 @@ public class RemoveDuplicatesFromSortedList83 {
      */
     public ListNode deleteDuplicates3(ListNode head) {
         if (head == null || head.next == null) return head;
-        head.next = deleteDuplicates(head.next);
+        head.next = deleteDuplicates3(head.next);
         return head.val == head.next.val ? head.next : head;
     }
 
