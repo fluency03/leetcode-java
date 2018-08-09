@@ -108,9 +108,9 @@ public class SortColors75 {
         int j = 0, k = A.length - 1;
         for (int i = 0; i <= k; ++i){
             if (A[i] == 0 && i != j)
-                swap(A[i--], A[j++]);
+                swap(A, i--, j++);
             else if (A[i] == 2 && i != k)
-                swap(A[i--], A[k--]);
+                swap(A, i--, k--);
         }
     }
 
@@ -120,9 +120,9 @@ public class SortColors75 {
         int j = 0, k = n-1;
         for (int i=0; i <= k; i++) {
             if (A[i] == 0)
-                swap(A[i], A[j++]);
+                swap(A, i, j++);
             else if (A[i] == 2)
-                swap(A[i--], A[k--]);
+                swap(A, i--, k--);
         }
     }
 
@@ -142,6 +142,28 @@ public class SortColors75 {
             }
         }
 
+    }
+
+    public void sortColors7(int[] nums) {
+        if (nums == null || nums.length <= 1) return;
+        int left = 0;
+        int right = nums.length - 1;
+        int i = left;
+        while (i <= right) {
+            if (nums[i] == 0) {
+                swap(nums, i++, left++);
+            } else if (nums[i] == 2) {
+                swap(nums, i, right--);
+            } else {
+                i++;
+            }
+        }
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
     }
 
 
