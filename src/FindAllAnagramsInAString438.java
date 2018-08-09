@@ -164,4 +164,33 @@ public class FindAllAnagramsInAString438 {
     }
 
 
+    public List<Integer> findAnagrams5(String s, String p) {
+        List<Integer> res = new ArrayList<>();
+        if (s.length() < p.length()) return res;
+        int[] map = new int[26];
+        int M = 0;
+        for (char c: p.toCharArray()) {
+            if (map[c - 'a'] == 0) M++;
+            map[c - 'a']++;
+        }
+        char[] charS = s.toCharArray();
+        int N = charS.length;
+        int P = p.length();
+        int left = 0;
+        int right = 0;
+        while (right < N) {
+            char rc = charS[right++];
+            map[rc - 'a']--;
+            if (map[rc - 'a'] == 0) M--;
+            if (M == 0) res.add(left);
+            if (right - left == P) {
+                char lc = charS[left++];
+                if (map[lc - 'a'] == 0) M++;
+                map[lc - 'a']++;
+            }
+        }
+        return res;
+    }
+
+
 }
