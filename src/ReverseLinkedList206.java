@@ -54,7 +54,7 @@ public class ReverseLinkedList206 {
     }
 
 
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList3(ListNode head) {
         return helper2(head, null);
     }
 
@@ -62,14 +62,14 @@ public class ReverseLinkedList206 {
         if (head == null) return h;
         ListNode tail = head.next;
         head.next = h;
-        return helper(tail, head);
+        return helper2(tail, head);
     }
 
 
     /**
      * https://leetcode.com/problems/reverse-linked-list/solution/
      */
-    public ListNode reverseList3(ListNode head) {
+    public ListNode reverseList4(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
@@ -82,7 +82,7 @@ public class ReverseLinkedList206 {
     }
 
 
-    public ListNode reverseList4(ListNode head) {
+    public ListNode reverseList5(ListNode head) {
         if (head == null || head.next == null) return head;
         ListNode p = reverseList(head.next);
         head.next.next = head;
