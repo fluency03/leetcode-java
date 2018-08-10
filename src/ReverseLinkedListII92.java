@@ -71,8 +71,7 @@ public class ReverseLinkedListII92 {
         // 1 - 2 -3 - 4 - 5 ; m=2; n =4 ---> pre = 1, start = 2, then = 3
         // dummy-> 1 -> 2 -> 3 -> 4 -> 5
 
-        for(int i=0; i<n-m; i++)
-        {
+        for(int i=0; i<n-m; i++) {
             start.next = then.next;
             then.next = pre.next;
             pre.next = then;
@@ -83,6 +82,39 @@ public class ReverseLinkedListII92 {
         // second reversing: dummy->1 - 4 - 3 - 2 - 5; pre = 1, start = 2, then = 5 (finish)
 
         return dummy.next;
-
     }
+
+
+    public ListNode reverseBetween3(ListNode head, int m, int n) {
+        int i = 1;
+        ListNode dummy = new ListNode(0);
+        ListNode p = dummy;
+        ListNode h = head;
+        while (i < m) {
+            p.next = h;
+            h = h.next;
+            p = p.next;
+            p.next = null;
+            i++;
+        }
+
+        ListNode tail = h;
+        while (i <= n) {
+            ListNode in = h;
+            h = h.next;
+            in.next = p.next;
+            p.next = in;
+            i++;
+        }
+        
+        while (h != null) {
+            tail.next = h;
+            h = h.next;
+            tail = tail.next;
+            tail.next = null;
+        }
+        return dummy.next;
+    }
+
+
 }
