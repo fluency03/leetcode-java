@@ -47,6 +47,7 @@ public class OddEvenLinkedList328 {
         return dummy.next;
     }
 
+
     public ListNode oddEvenList2(ListNode head) {
         if (head == null) return null;
         ListNode dummy = new ListNode(0);
@@ -66,6 +67,7 @@ public class OddEvenLinkedList328 {
         p.next = evens.next;
         return dummy.next;
     }
+
 
     /**
      * https://leetcode.com/problems/odd-even-linked-list/solution/
