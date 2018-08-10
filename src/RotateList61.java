@@ -75,25 +75,25 @@ public class RotateList61 {
      */
     public ListNode rotateRight3(ListNode head, int k) {
         if (head == null)
-        	return head;
+            return head;
 
-      	ListNode copyHead = head;
+        ListNode copyHead = head;
 
-      	int len = 1;
-      	while (copyHead.next != null) {
-      		copyHead = copyHead.next;
-      		len++;
-      	}
+        int len = 1;
+        while (copyHead.next != null) {
+            copyHead = copyHead.next;
+            len++;
+        }
 
-      	copyHead.next = head;
+        copyHead.next = head;
 
-      	for (int i = len - k % len; i > 1; i--)
-      		head = head.next;
+        for (int i = len - k % len; i > 1; i--)
+            head = head.next;
 
-      	copyHead = head.next;
-      	head.next = null;
+        copyHead = head.next;
+        head.next = null;
 
-      	return copyHead;
+        return copyHead;
 
     }
 
