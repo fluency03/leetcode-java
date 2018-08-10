@@ -44,7 +44,6 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
     }
 
     private int remove(int start, int now, char re, Map<Character, Integer> found, String s) {
-
         int j;
         for (j = start; j < now; j++) {
             if (s.charAt(j) == re) {
@@ -75,6 +74,7 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
          return max;
      }
 
+
      public int lengthOfLongestSubstring3(String s) {
          int [] map = new int[256];
          for(int i = 0; i < map.length; i++){
@@ -89,5 +89,28 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
          }
          return max;
      }
+
+
+     public int lengthOfLongestSubstring4(String s) {
+        if (s == null || s.length() == 0) return 0;
+        int[] map = new int[256];
+        int left = 0;
+        int right = 0;
+        int N = s.length();
+        char[] chars = s.toCharArray();
+        int maxLen = 0;
+        while (right < N) {
+            char curr = chars[right++];
+            map[curr]++;
+            if (map[curr] == 1 && right - left > maxLen) {
+                maxLen = right - left;
+            }
+            while (map[curr] > 1) {
+                char leftChar = chars[left++];
+                map[leftChar]--;
+            }
+        }
+        return maxLen;
+    }
 
 }
