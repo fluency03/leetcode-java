@@ -36,4 +36,24 @@ public class LongestContinuousIncreasingSubsequence674 {
         }
         return Math.max(res, len);
     }
+
+
+    public int findLengthOfLCIS2(int[] nums) {
+        int count = 0;
+        int res = 0;
+        for (int i=0; i<nums.length; i++) {
+            if (i == 0) {
+                count++;
+            } else {
+                if (nums[i] > nums[i-1]) {
+                    count++;
+                } else {
+                    count = 1;
+                }
+            }
+            res = Math.max(res, count);
+        }
+        return res;
+    }
+
 }
