@@ -87,45 +87,51 @@ public class CoinChange322 {
     }
 
 
-    int res = Integer.MAX_VALUE;
     public int coinChange4(int[] coins, int amount) {
-        if (coins == null || coins.length == 0) {
-            return -1;
-        }
-        Arrays.sort(coins);
-        dfs(coins, amount, coins.length - 1, 0);
-        return res == Integer.MAX_VALUE ? -1 : res;
-    }
-    private void dfs(int[] coins, int amount, int index, int count) {
-        if (amount == 0) {
-            res = Math.min(res, count);
-            return;
-        }
-        if (index < 0) {
-            return;
-        }
-        int num = amount / coins[index];
-        for (int i = num; i >= 0; i--) {
-            if (count + i < res) {
-                dfs(coins, amount - coins[index] * i, index - 1, count + i);
-            } else {
-                break;
+        int[] dp = new int[amount + 1];
+        for (int i=1; i<=amount; i++) {
+            int t = Integer.MAX_VALUE;
+            for (int c: coins) {
+                if (i >= c && dp[i - c] != -1) {
+                    t = Math.min(t, dp[i - c] + 1);
+                }
             }
+            dp[i] = t == Integer.MAX_VALUE ? -1 : t;
         }
+        return dp[amount];
     }
 
 
     public int coinChange5(int[] coins, int amount) {
-        int N = coins.length;
         int[] dp = new int[amount + 1];
-        for (int i=1; i<=amount; i++) {
-            int t = Integer.MAX_VALUE;
-            for (int j=0; j<N; j++) {
-                if (i-coins[j] >= 0 && dp[i-coins[j]] != -1 && dp[i-coins[j]] < t) t = dp[i-coins[j]];
+        Arrays.fill(dp, amount + 1);
+        dp[0] = 0;
+        for (int c: coins) {
+            for (int i=c; i<=amount; i++) {
+                dp[i] = Math.min(dp[i], dp[i - c] + 1);
             }
-            dp[i] = t == Integer.MAX_VALUE ? -1 : (t + 1);
         }
-        return dp[amount];
+        return (dp[amount] == amount + 1) ? -1 : dp[amount];
+    }
+
+
+    public int coinChange6(int[] coins, int amount) {
+        Arrays.sort(coins);
+        int[] res = new int[]{amount + 1};
+        coinChange(coins, amount, coins.length - 1, res, 0);
+        return (res[0] == amount + 1) ? -1 : res[0];
+    }
+
+    public void coinChange(int[] coins, int amount, int idx, int[] res, int num) {
+        if (amount == 0) {
+            res[0] = Math.min(res[0], num);
+            return;
+        }
+        if (idx < 0) return;
+        int k = amount / coins[idx];
+        for (int j=k; j>=0 && num + j < res[0]; j--) {
+            coinChange(coins, amount - j * coins[idx], idx-1, res, num + j);
+        }
     }
 
 }
