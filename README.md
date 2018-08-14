@@ -30,6 +30,15 @@
 
 
 
+# [Knapsack Problem](https://github.com/fluency03/leetcode-java/tree/master/src/knapsack)
+
+| Knapsack Problem |
+|:----------------------------------------------------------------------------------:|
+| [ZeroOneKnapsack](https://github.com/fluency03/leetcode-java/blob/master/src/knapsack/ZeroOneKnapsack.java) |
+| [CompleteKnapsack](https://github.com/fluency03/leetcode-java/blob/master/src/knapsack/CompleteKnapsack.java) |
+
+
+
 # [Data Structures](https://github.com/fluency03/leetcode-java/tree/master/src/data-structures)
 
 | Data Structures |
