@@ -44,11 +44,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 402
+# Total: 403
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   109   |   223   |  66  | 4 |
+|   109   |   224   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -66,6 +66,7 @@
 | [15. 3Sum](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSum15.java) | Medium |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumClosest16.java) | Medium |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LetterCombinationsOfAPhoneNumber17.java) | Medium |
+| [18. 4Sum](https://leetcode.com/problems/4sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FourSum18.java) | Medium |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LetterCombinationsOfAPhoneNumber17.java) | Medium |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParentheses20.java) | Easy |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeTwoSortedLists21.java) | Easy |
