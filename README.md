@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 403
+# Total: 404
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   109   |   224   |  66  | 4 |
+|   110   |   224   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -449,6 +449,7 @@
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindEventualSafeStates802.java) | Medium |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostProfitAssigningWork826.java) | Medium |
+| [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlippingAnImage832.java) | Easy |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
 | [842. Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoFibonacciSequence842.java) | Medium |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
