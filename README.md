@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 405
+# Total: 406
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   110   |   225   |  66  | 4 |
+|   111   |   225   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -340,6 +340,7 @@
 | [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumXOROfTwoNumbersInAnArray421.java) | Medium |
 | [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReconstructOriginalDigitsFromEnglish423.java) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSquares425.java) | Hard |
+| [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NaryTreeLevelOrderTraversal429.java) | Easy |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
 | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAllAnagramsInAString438.java) | Easy |
 | [443. String Compression](https://leetcode.com/problems/string-compression/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringCompression443.java) | Easy |
