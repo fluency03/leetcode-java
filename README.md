@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 404
+# Total: 405
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   110   |   224   |  66  | 4 |
+|   110   |   225   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -435,6 +435,7 @@
 | [731. My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MyCalendarII731.java) | Medium |
 | [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarity734.java) | Easy |
 | [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarityII737.java) | Medium |
+| [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DailyTemperatures739.java) | Medium |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
 | [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EmployeeFreeTime759.java) | Hard |
