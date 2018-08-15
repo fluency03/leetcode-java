@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 406
+# Total: 408
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   111   |   225   |  66  | 4 |
+|   112   |   226   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -209,6 +209,7 @@
 | [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BitwiseANDOfNumbersRange201.java) | Medium |
 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveLinkedListElements203.java) | Easy |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
+| [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IsomorphicStrings205.java) | Easy |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseLinkedList206.java) | Easy |
 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CourseSchedule207.java) | Medium |
 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementTriePrefixTree208.java) | Medium |
@@ -408,6 +409,7 @@
 | [665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NonDecreasingArray665.java) | Easy |
 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrimABinarySearchTree669.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
+| [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfLongestIncreasingSubsequence673.java) | Medium |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CutOffTreesForGolfEvent675.java) | Hard |
 | [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MapSumPairs677.java) | Medium |
