@@ -111,4 +111,46 @@ public class FindKClosestElements658 {
         return res;
     }
 
+
+    public List<Integer> findClosestElements4(int[] arr, int k, int x) {
+        List<Integer> res = new ArrayList<>();
+        if (arr == null || arr.length == 0) return res;
+        int idx = binarySearch(arr, x);
+        int lo = idx - 1;
+        int hi = idx;
+        while (hi - lo - 1 < k) {
+            if (lo < 0 && hi >= arr.length) break;
+            if (lo < 0) {
+                hi++;
+            } else if (hi >= arr.length) {
+                lo--;
+            } else {
+                if (Math.abs(arr[lo] - x) <= Math.abs(arr[hi] - x)) {
+                    lo--;
+                } else {
+                    hi++;
+                }
+            }
+        }
+        
+        for (int i=lo+1; i<hi; i++) {
+            res.add(arr[i]);
+        }
+        return res;
+    }
+
+    private int binarySearch(int[] arr, int x) {
+        int lo = 0;
+        int hi = arr.length - 1;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (arr[mid] < x) {
+                lo++;
+            } else {
+                hi--;
+            }
+        }
+        return lo;
+    }
+
 }
