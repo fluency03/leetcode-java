@@ -114,7 +114,86 @@ public class DesignLinkedList707 {
     }
 
 
+    class MyLinkedList2 {
+        private Node head;
 
+        /** Initialize your data structure here. */
+        public MyLinkedList() {
+            head = new Node(0);
+        }
+
+        /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
+        public int get(int index) {
+            int i = 0;
+            Node p = head.next;
+            while (i < index && p != null) {
+                p = p.next;
+                i++;
+            }
+            if (p == null) return -1;
+            return p.val;
+        }
+
+        /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
+        public void addAtHead(int val) {
+            Node newNode = new Node(val);
+            newNode.next = head.next;
+            if (head.next != null) head.next.prev = newNode;
+            head.next = newNode;
+            newNode.prev = head;
+        }
+
+        /** Append a node of value val to the last element of the linked list. */
+        public void addAtTail(int val) {
+            Node p = head;
+            while (p.next != null) {
+                p = p.next;
+            }
+            Node newNode = new Node(val);
+            newNode.next = p.next;
+            if (p.next != null) p.next.prev = newNode;
+            p.next = newNode;
+            newNode.prev = p;
+        }
+
+        /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
+        public void addAtIndex(int index, int val) {
+            int i = 0;
+            Node p = head;
+            while (i < index && p != null) {
+                p = p.next;
+                i++;
+            }
+            if (p == null) return;
+            Node newNode = new Node(val);
+            newNode.next = p.next;
+            if (p.next != null) p.next.prev = newNode;
+            p.next = newNode;
+            newNode.prev = p;
+        }
+
+        /** Delete the index-th node in the linked list, if the index is valid. */
+        public void deleteAtIndex(int index) {
+            int i = 0;
+            Node p = head;
+            while (i < index && p != null) {
+                p = p.next;
+                i++;
+            }
+            if (p == null || p.next == null) return;
+            p.next = p.next.next;
+            if (p.next != null) p.next.prev = p;
+        }
+
+        class Node {
+            Node prev;
+            Node next;
+            int val;
+            Node (int x) {
+                this.val = x;
+            }
+        }
+    }
 
 
 /**
