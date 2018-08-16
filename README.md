@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 412
+# Total: 414
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   113   |   229   |  66  | 4 |
+|   113   |   231   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -462,7 +462,9 @@
 | [842. Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoFibonacciSequence842.java) | Medium |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
 | [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestMountainInArray845.java) | Medium |
+| [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HandOfStraights846.java) | Medium |
 | [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestSubarrayWithSumAtLeastK862.java) | Hard |
+| [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AllNodesDistanceKInBinaryTree863.java) | Medium |
 | [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LengthOfLongestFibonacciSubsequence873.java) | Medium |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KokoEatingBananas875.java) | Easy |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MiddleOfTheLinkedList876.java) | Easy |
