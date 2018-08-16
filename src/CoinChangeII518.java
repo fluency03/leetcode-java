@@ -62,4 +62,17 @@ public class CoinChangeII518 {
         return dp[amount];
     }
 
+
+    public int change3(int amount, int[] coins) {
+        int[][] dp = new int[coins.length+1][amount + 1];
+        for (int i=0; i<=coins.length; i++) dp[i][0] = 1;
+        for (int j=1; j<=amount; j++) {
+            for (int i=1; i<=coins.length; i++) {
+                int c = coins[i - 1];
+                dp[i][j] = dp[i-1][j] + (j < c ? 0 : dp[i][j-c]);
+            }
+        }
+        return dp[coins.length][amount];
+    }
+
 }
