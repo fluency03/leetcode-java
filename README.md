@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 420
+# Total: 421
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   115   |   235   |  66  | 4 |
+|   115   |   236   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -331,6 +331,7 @@
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RansomNote383.java) | Easy |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstUniqueCharacterInAString387.java) | Easy |
 | [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestAbsoluteFilePath388.java) | Medium |
+| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IsSubsequence392.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [396. Rotate Function](https://leetcode.com/problems/rotate-function/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateFunction396.java) | Medium |
