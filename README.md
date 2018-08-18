@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 421
+# Total: 423
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   115   |   236   |  66  | 4 |
+|   115   |   238   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -367,6 +367,7 @@
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnes485.java) | Easy |
 | [487. Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnesII487.java) | Medium |
 | [490. The Maze](https://leetcode.com/problems/the-maze/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMaze490.java) | Medium |
+| [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IncreasingSubsequences491.java) | Medium |
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TargetSum494.java) | Medium |
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementI496.java) | Easy |
 | [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiagonalTraverse498.java) | Medium |
