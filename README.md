@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 419
+# Total: 420
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   114   |   235   |  66  | 4 |
+|   115   |   235   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -250,6 +250,7 @@
 | [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRooms252.java) | Easy |
 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MeetingRoomsII253.java) | Medium |
 | [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/VerifyPreorderSequenceInBinarySearchTree255.java) | Medium |
+| [256. Paint House](https://leetcode.com/problems/paint-house/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PaintHouse256.java) | Easy |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumSmaller259.java) | Medium |
 | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GraphValidTree261.java) | Medium |
