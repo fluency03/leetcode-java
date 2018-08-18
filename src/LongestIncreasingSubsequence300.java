@@ -15,22 +15,20 @@
 
 public class LongestIncreasingSubsequence300 {
     public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
-        if (n == 0) return 0;
-        int[] dp = new int[n+1];
-        dp[0] = 1;
-        int max = 1;
-        for (int i=1; i<=n; i++) {
-            int c = 1;
-            for (int j=0; j<i-1; j++) {
-                if (nums[i-1] > nums[j]) {
-                    c = Math.max(c, dp[j+1]+1);
+        if (nums == null || nums.length == 0) return 0;
+        int N = nums.length;
+        int[] dp = new int[N + 1];
+        int res = 0;
+        for (int i=1; i<=N; i++) {
+            dp[i] = 1;
+            for (int j=1; j<i; j++) {
+                if (nums[i-1] > nums[j-1]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
             }
-            dp[i] = c;
-            max = Math.max(max, c);
+            if (dp[i] > res) res = dp[i];
         }
-        return max;
+        return res;
     }
 
 
@@ -51,6 +49,35 @@ public class LongestIncreasingSubsequence300 {
             }
         }
         return len;
+    }
+
+
+    /**
+     * https://leetcode.com/problems/longest-increasing-subsequence/solution/
+     */
+    public int lengthOfLIS3(int[] nums) {
+        int memo[][] = new int[nums.length + 1][nums.length];
+        for (int[] l : memo) {
+            Arrays.fill(l, -1);
+        }
+        return lengthofLIS(nums, -1, 0, memo);
+    }
+
+    public int lengthofLIS(int[] nums, int previndex, int curpos, int[][] memo) {
+        if (curpos == nums.length) {
+            return 0;
+        }
+        if (memo[previndex + 1][curpos] >= 0) {
+            return memo[previndex + 1][curpos];
+        }
+        int taken = 0;
+        if (previndex < 0 || nums[curpos] > nums[previndex]) {
+            taken = 1 + lengthofLIS(nums, curpos, curpos + 1, memo);
+        }
+
+        int nottaken = lengthofLIS(nums, previndex, curpos + 1, memo);
+        memo[previndex + 1][curpos] = Math.max(taken, nottaken);
+        return memo[previndex + 1][curpos];
     }
 
 }
