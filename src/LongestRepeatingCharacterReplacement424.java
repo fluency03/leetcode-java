@@ -35,7 +35,6 @@ public class LongestRepeatingCharacterReplacement424 {
         int[] map = new int[26];
         Comparator<Point> comp = (p1, p2) -> Integer.compare(p2.count, p1.count);
         PriorityQueue<Point> pq = new PriorityQueue(26, comp);
-        int total = 0;
         int res = 0;
         int left = 0;
         int right = 0;
@@ -44,14 +43,12 @@ public class LongestRepeatingCharacterReplacement424 {
             pq.remove(new Point(c, map[c-'A']));
             pq.add(new Point(c, map[c-'A'] + 1));
             map[c-'A']++;
-            total++;
 
-            while (total - pq.peek().count > k) {
+            while (right - left - pq.peek().count > k) {
                 char leftC = chars[left++];
                 pq.remove(new Point(leftC, map[leftC-'A']));
                 pq.add(new Point(leftC, map[leftC-'A'] - 1));
                 map[leftC-'A']--;
-                total--;
             }
             if (right - left > res) {
                 res = right - left;
@@ -71,25 +68,21 @@ public class LongestRepeatingCharacterReplacement424 {
     }
 
 
-
     public int characterReplacement2(String s, int k) {
         if (s == null || s.length() == 0) return 0;
         int N = s.length();
         char[] chars = s.toCharArray();
         int[] map = new int[26];
-        int total = 0;
         int res = 0;
         int left = 0;
         int right = 0;
         while (right < N) {
             char c = chars[right++];
             map[c-'A']++;
-            total++;
 
-            while (total - getMax(map) > k) {
+            while (right - left - getMax(map) > k) {
                 char leftC = chars[left++];
                 map[leftC-'A']--;
-                total--;
             }
             if (right - left > res) {
                 res = right - left;
@@ -112,6 +105,12 @@ public class LongestRepeatingCharacterReplacement424 {
 
     /**
      * https://leetcode.com/problems/longest-repeating-character-replacement/discuss/91271/Java-12-lines-O(n)-sliding-window-solution-with-explanation
+     * 
+     * maxCount may be invalid at some points, but this doesn't matter, because
+     * it was valid earlier in the string, and all that matters is finding the
+     * max window that occurred anywhere in the string. Additionally, it will
+     * expand if and only if enough repeating characters appear in the window
+     * to make it expand. So whenever it expands, it's a valid expansion.
      */
     public int characterReplacement3(String s, int k) {
         int len = s.length();
