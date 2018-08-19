@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 426
+# Total: 427
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   115   |   239   |  68  | 4 |
+|   116   |   239   |  68  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -67,6 +67,7 @@
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithoutRepeatingCharacters3.java) | Medium |
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MedianOfTwoSortedArrays4.java) | Hard |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestPalindromicSubstring5.java) | Medium |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromeNumber9.java) | Easy |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringToInteger8.java) | Medium |
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RegularExpressionMatching10.java) | Hard |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContainerWithMostWater11.java) | Medium |
