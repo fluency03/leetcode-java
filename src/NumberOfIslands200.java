@@ -24,7 +24,7 @@
  */
 
 
-publicclass NumberOfIslands200 {
+public class NumberOfIslands200 {
     public int numIslands(char[][] grid) {
         if (grid == null) return 0;
         int n = grid.length;
@@ -194,7 +194,7 @@ publicclass NumberOfIslands200 {
       }
     }
 
-    public int numIslands4s(char[][] grid) {
+    public int numIslands4(char[][] grid) {
       if (grid == null || grid.length == 0) {
         return 0;
       }
