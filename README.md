@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 423
+# Total: 424
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   115   |   238   |  66  | 4 |
+|   115   |   239   |  66  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -346,6 +346,7 @@
 | [418. Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceScreenFitting418.java) | Medium |
 | [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumXOROfTwoNumbersInAnArray421.java) | Medium |
 | [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReconstructOriginalDigitsFromEnglish423.java) | Medium |
+| [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestRepeatingCharacterReplacement424.java) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSquares425.java) | Hard |
 | [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NaryTreeLevelOrderTraversal429.java) | Easy |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
@@ -434,11 +435,11 @@
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestUnivaluePath687.java) | Easy |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
-| [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/）| [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInASortedArrayOfUnknownSize702.java) | Medium |
+| [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInASortedArrayOfUnknownSize702.java) | Medium |
 | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHashMap706.java) | Easy |
 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLinkedList707.java) | Easy |
-| [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/）| [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumASCIIDeleteSumForTwoStrings712.java) | Medium |
-| [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/）| [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarrayProductLessThanK713.java) | Medium |
+| [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumASCIIDeleteSumForTwoStrings712.java) | Medium |
+| [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SubarrayProductLessThanK713.java) | Medium |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockWithTransactionFee714.java) | Medium |
 | [715. Range Module](https://leetcode.com/problems/range-module/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeModule715.java) | Hard |
 | [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxStack716.java) | Hard |
