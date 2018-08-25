@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 429
+# Total: 430
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   116   |   230   |  69  | 4 |
+|   116   |   231   |  69  | 4 |
 
 
 | Question | Solution | Difficulty |
@@ -467,6 +467,7 @@
 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JewelsAndStones771.java) | Easy |
 | [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SwapAdjacentInLRString777.java) | Medium |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSymbolInGrammar779.java) | Medium |
+| [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AllPathsFromSourceToTarget797.java) | Medium |
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindEventualSafeStates802.java) | Medium |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
