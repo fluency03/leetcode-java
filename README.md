@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 433
+# Total: 434
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   116   |   232   |  71  | 5 |
+|   116   |   233   |  71  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -491,6 +491,7 @@
 | [884. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodedStringAtIndex884.java) | Medium |
 | [885. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoatsToSavePeople885.java) | Medium 
 | [887. Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProjectionAreaOf3DShapes887.java) | Easy |
+| [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAndReplacePattern890.java) | Medium 
 | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/explore/interview/card/facebook/5/round-1-phone-interview/283/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBinarySearchTreeToSortedDoublyLinkedList.java) | - |
 | HighestPopulationYear | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HighestPopulationYear.java) | - |
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
