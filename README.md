@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 435
+# Total: 436
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   117   |   233   |  71  | 5 |
+|   118   |   233   |  71  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -342,6 +342,7 @@
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
 | [396. Rotate Function](https://leetcode.com/problems/rotate-function/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateFunction396.java) | Medium |
 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EvaluateDivision399.java) | Medium |
+| [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertANumberToHexadecimal405.java) | Easy |
 | [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/QueueReconstructionByHeight406.java) | Medium |
 | [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWaterII407.java) | Medium |
 | [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayLargestSum410.java) | Hard |
