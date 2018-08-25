@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 432
+# Total: 433
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   116   |   231   |  71  | 5 |
+|   116   |   232   |  71  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -309,6 +309,7 @@
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
 | [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithAtMostKDistinctCharacters340.java) | Hard |
 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
+| [343. Integer Break](https://leetcode.com/problems/integer-break/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerBreak343.java) | Medium |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
 | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseVowelsOfAString345.java) | Easy |
 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MovingAverageFromDataStream346.java) | Easy |
