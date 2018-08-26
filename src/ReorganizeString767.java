@@ -127,5 +127,4 @@ public class ReorganizeString767 {
         return idx;
     }
 
-
 }
