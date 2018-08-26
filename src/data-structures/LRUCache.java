@@ -41,36 +41,67 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class LRUCache {
-    private Map<Integer, Integer> map;
-    private Integer capacity;
 
+    private Map<Integer, Node> map = new HashMap<>();
+    private Node head = new Node(0, 0);
+    private int capacity;
+    
     public LRUCache(int capacity) {
-        map = new LinkedHashMap<Integer, Integer>(capacity) {
-            @Override
-            protected boolean removeEldestEntry(Map.Entry eldest) {
-                return size() > capacity;
-            }
-        };
+        head.next = head;
+        head.prev = head;
         this.capacity = capacity;
     }
-
+    
     public int get(int key) {
-        if (map.containsKey(key)) {
-            Integer i = map.get(key);
-            map.remove(key);
-            map.put(key, i);
-            return i;
+        Node curr = map.get(key);
+        if (curr == null) {
+            return -1;
         }
-        return -1;
+        
+        delete(curr);
+        moveToEnd(curr);
+        return curr.value;
     }
-
+    
+    private void delete(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+        
+    private void moveToEnd(Node node) {
+        head.prev.next = node;
+        node.next = head;
+        node.prev = head.prev;
+        head.prev = node;
+    }
+    
     public void put(int key, int value) {
-        if (value < 0) return;
-
-        if (map.containsKey(key)) {
-            map.remove(key);
+        Node curr = map.get(key);
+        if (curr == null) {
+            Node newNode = new Node(key, value);
+            moveToEnd(newNode);
+            map.put(key, newNode);
+            if (map.size() > capacity) {
+                Node toRemove = head.next;
+                delete(toRemove);
+                map.remove(toRemove.key);
+            }
+            return;
         }
-
-        map.put(key, value);
+    
+        curr.value = value;
+        delete(curr);
+        moveToEnd(curr);
+    }
+    
+    class Node {
+        int key;
+        int value;
+        Node next;
+        Node prev;
+        Node (int k, int v) {
+            this.key = k;
+            this.value = v;
+        }
     }
 }
