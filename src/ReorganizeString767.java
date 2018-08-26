@@ -32,7 +32,7 @@ public class ReorganizeString767 {
             res[ptr] = (char)(max + 'a');
             ptr += 2;
         }
-        
+
         for(int i = 0; i<26; ++i){
             while(hash[i]-- > 0){
                 if(ptr >= S.length()) ptr = 1;
@@ -40,7 +40,7 @@ public class ReorganizeString767 {
                 ptr += 2;
             }
         }
-        
+
         return new String(res);
     }
 
@@ -82,7 +82,6 @@ public class ReorganizeString767 {
         return ans.toString();
     }
 
-
     class MultiChar {
         int count;
         char letter;
@@ -91,5 +90,42 @@ public class ReorganizeString767 {
             letter = ch;
         }
     }
+
+    // use 358. Rearrange String k Distance Apart
+    public String reorganizeString3(String S) {
+        return rearrangeString(S, 2);
+    }
+
+    public String rearrangeString(String str, int k) {
+        int length = str.length();
+        int[] count = new int[26];
+        int[] nextIndex = new int[26];
+        char[] chars = str.toCharArray();
+        for (char ch: chars){
+            count[ch-'a']++;
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i=0; i<length; i++) {
+            int idx = findValidMax(count, nextIndex, i);
+            if (idx == -1) return "";
+            sb.append((char) (idx + 'a'));
+            count[idx]--;
+            nextIndex[idx] = i+k;
+        }
+        return sb.toString();
+    }
+
+    private int findValidMax(int[] count, int[] nextIndex, int index){
+        int max = Integer.MIN_VALUE;
+        int idx = -1;
+        for (int i=0; i<26; i++) {
+            if (count[i] != 0 && count[i] > max && index >= nextIndex[i]) {
+                max = count[i];
+                idx = i;
+            }
+        }
+        return idx;
+    }
+
 
 }
