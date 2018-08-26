@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 441
+# Total: 442
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   119   |   244   |  73  | 5 |
+|   119   |   245   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -390,6 +390,7 @@
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContinuousSubarraySum523.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Minesweeper529.java) | Medium |
+| [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LonelyPixelI531.java) | Medium |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [536. Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConstructBinaryTreeFromString536.java) | Medium |
 | [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleElementInASortedArray540.java) | Medium |
