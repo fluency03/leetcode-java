@@ -53,7 +53,7 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 446
+# Total: 447
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
@@ -422,6 +422,7 @@
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfPairChain646.java) | Medium |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
+| [648. Replace Words](https://leetcode.com/problems/replace-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReplaceWords648.java) | Medium |
 | [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSumIVInputIsABST653.java) | Easy |
 | [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumBinaryTree654.java) | Medium |
 | [657. Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JudgeRouteCircle657.java) | Easy |
