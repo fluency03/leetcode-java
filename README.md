@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 445
+# Total: 446
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   121   |   246   |  73  | 5 |
+|   121   |   247   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -395,6 +395,7 @@
 | [536. Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConstructBinaryTreeFromString536.java) | Medium |
 | [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleElementInASortedArray540.java) | Medium |
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseStringII541.java) | Easy |
+| [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ZeroOneMatrix542.java) | Medium |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiameterOfBinaryTree543.java) | Easy |
 | [544. Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OutputContestMatches544.java) | Medium |
 | [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoundaryOfBinaryTree545.java) | Medium |
