@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 447
+# Total: 448
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   121   |   247   |  73  | 5 |
+|   122   |   247   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -390,6 +390,7 @@
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContinuousSubarraySum523.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Minesweeper529.java) | Medium |
+| [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumAbsoluteDifferenceInBST530.java) | Easy |
 | [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LonelyPixelI531.java) | Medium |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [536. Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConstructBinaryTreeFromString536.java) | Medium |
