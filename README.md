@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 444
+# Total: 445
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   120   |   246   |  73  | 5 |
+|   121   |   246   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -479,6 +479,7 @@
 | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AllPathsFromSourceToTarget797.java) | Medium |
 | [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumDistanceBetweenBSTNodes783.java) | Easy |
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindEventualSafeStates802.java) | Medium |
+| [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueMorseCodeWords804.java) | Easy |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostProfitAssigningWork826.java) | Medium |
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlippingAnImage832.java) | Easy |
