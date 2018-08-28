@@ -57,7 +57,7 @@
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   122   |   249   |  73  | 5 |
+|   122   |   250   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
