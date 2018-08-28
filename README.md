@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 449
+# Total: 450
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   122   |   248   |  73  | 5 |
+|   122   |   249   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -471,6 +471,7 @@
 | [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteAndEarn740.java) | Medium |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
+| [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OpenTheLock752.java) | Medium |
 | [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EmployeeFreeTime759.java) | Hard |
 | [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAnagramMappings760.java) | Easy |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionLabels763.java) | Medium |
