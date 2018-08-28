@@ -31,70 +31,70 @@
  */
 
 public class RandomFlipMatrix519 {
-    // private int[] mem;
-    // private int size;
-    // private int N;
-    // private int nCols;
-    // private Random rand = new Random();
-
-    // public RandomFlipMatrix519(int n_rows, int n_cols) {
-    //     this.N = n_rows * n_cols;
-    //     this.size = this.N;
-    //     this.nCols = n_cols;
-    //     this.mem = new int[N];
-    //     for (int i=0; i<this.N; i++) this.mem[i] = i;
-    // }
-
-    // public int[] flip() {
-    //     int idx = rand.nextInt(this.size);
-    //     int val = this.mem[idx];
-    //     swap(this.size-1, idx);
-    //     this.size--;
-    //     return new int[]{val / this.nCols, val % this.nCols};
-    // }
-
-    // private void swap(int i, int j) {
-    //     int tmp = this.mem[i];
-    //     this.mem[i] = this.mem[j];
-    //     this.mem[j] = tmp;
-    // }
-
-    // public void reset() {
-    //     this.size = this.N;
-    // }
-
     /**
-     * https://leetcode.com/problems/random-flip-matrix/solution/
+     * https://leetcode.com/problems/random-flip-matrix/discuss/154053/Java-AC-Solution-call-Least-times-of-Random.nextInt()-function
      */
-    private Map<Integer, Integer> map = new HashMap<>();
-    private int size;
-    private int N;
-    private int nCols;
-    private Random rand = new Random();
+    class Solution {
+        private Map<Integer, Integer> map = new HashMap<>();
+        private int size;
+        private int N;
+        private int nCols;
+        private Random rand = new Random();
+    
+        public Solution(int n_rows, int n_cols) {
+            this.N = n_rows * n_cols;
+            this.nCols = n_cols;
+            this.size = this.N;        
+        }
+        
+        public int[] flip() {
+            int idx = rand.nextInt(this.size--);
+            int val = map.getOrDefault(idx, idx);
+            map.put(idx, map.getOrDefault(this.size, this.size));
+            return new int[]{val / this.nCols, val % this.nCols};
+        }
+        
+        public void reset() {
+            map.clear();
+            this.size = this.N;
+        }
+    }
+    
 
-    public Solution(int n_rows, int n_cols) {
-        this.N = n_rows * n_cols;
-        this.nCols = n_cols;
-        this.size = this.N;        
+    class Solution2 {
+        private int N;
+        private int nCols;
+        private Random rand = new Random();
+        private Set<Integer> set = new HashSet<>();
+    
+        public Solution(int n_rows, int n_cols) {
+            this.N = n_rows * n_cols;
+            this.nCols = n_cols;
+            // this.size = this.N;        
+        }
+        
+        public int[] flip() {
+            int val = rand.nextInt(this.N);
+            while (set.contains(val)) {
+                val = rand.nextInt(this.N);
+            }
+            set.add(val);
+            return new int[]{val / this.nCols, val % this.nCols};
+        }
+        
+        public void reset() {
+            this.set.clear();
+        }
     }
 
-    public int[] flip() {
-        int idx = rand.nextInt(this.size--);
-        int val = map.getOrDefault(idx, idx);
-        map.put(idx, map.getOrDefault(this.size, this.size));
-        return new int[]{val / this.nCols, val % this.nCols};
-    }
 
-    public void reset() {
-        this.size = this.N;
-        this.map.clear();
-    }
+/**
+ * Your Solution object will be instantiated and called as such:
+ * Solution obj = new Solution(n_rows, n_cols);
+ * int[] param_1 = obj.flip();
+ * obj.reset();
+ */
+
 
 }
 
-/**
-* Your Solution object will be instantiated and called as such:
-* Solution obj = new Solution(n_rows, n_cols);
-* int[] param_1 = obj.flip();
-* obj.reset();
-*/
