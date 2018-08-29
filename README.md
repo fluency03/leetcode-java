@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 452
+# Total: 453
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   122   |   252   |  73  | 5 |
+|   122   |   253   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -259,6 +259,7 @@
 | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GraphValidTree261.java) | Medium |
 | [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UglyNumberII264.java) | Medium |
 | [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PaintHouseII265.java) | Hard |
+| [267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePermutationII267.java) | Medium |
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MissingNumber268.java) | Easy |
 | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AlienDictionary269.java) | Hard |
 | [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ClosestBinarySearchTreeValue270.java) | Easy |
