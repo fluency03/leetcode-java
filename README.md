@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 450
+# Total: 452
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   122   |   250   |  73  | 5 |
+|   122   |   252   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -369,6 +369,7 @@
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortCharactersByFrequency451.java) | Medium |
 | [462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumMovesToEqualArrayElementsII462.java) | Medium |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IslandPerimeter463.java) | Easy |
+| [473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MatchsticksToSquare473.java) | Medium |
 | [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OnesAndZeroes474.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SlidingWindowMedian480.java) | Hard |
@@ -450,6 +451,7 @@
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestUnivaluePath687.java) | Easy |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
+| [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionToKEqualSumSubsets698.java) | Medium |
 | [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInASortedArrayOfUnknownSize702.java) | Medium |
 | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHashMap706.java) | Easy |
 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLinkedList707.java) | Easy |
