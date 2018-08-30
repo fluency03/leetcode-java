@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 456
+# Total: 457
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   123   |   255   |  73  | 5 |
+|   123   |   256   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -476,6 +476,7 @@
 | [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteAndEarn740.java) | Medium |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
 | [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestCompletingWord748.java) | Medium |
+| [750. Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfCornerRectangles750.java) | Medium |
 | [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OpenTheLock752.java) | Medium |
 | [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EmployeeFreeTime759.java) | Hard |
 | [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAnagramMappings760.java) | Easy |
