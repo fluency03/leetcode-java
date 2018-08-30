@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 458
+# Total: 459
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   124   |   256   |  73  | 5 |
+|   124   |   257   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -181,6 +181,7 @@
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListCycle141.java) | Easy |
 | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListCycleII142.java) | Easy |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReorderList143.java) | Medium |
+| [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePreorderTraversal144.java) | Medium |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LRUCache146.java) | Hard |
 | [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertionSortList147.java) | Medium |
 | [148. Sort List](https://leetcode.com/problems/sort-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortList148.java) | Medium |
