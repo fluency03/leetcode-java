@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 455
+# Total: 456
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   123   |   254   |  73  | 5 |
+|   123   |   255   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -321,6 +321,7 @@
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArrays349.java) | Easy |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AndroidUnlockPatterns351.java) | Medium |
+| [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignSnakeGame353.java) | Medium |
 | [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RussianDollEnvelopes354.java) | Hard |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTwitter355.java) | Medium |
 | [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountNumbersWithUniqueDigits357.java) | Medium |
