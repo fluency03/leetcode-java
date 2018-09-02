@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 461
+# Total: 462
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   125   |   258   |  73  | 5 |
+|   126   |   258   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -260,6 +260,7 @@
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreePaths257.java) | Easy |
 | [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThreeSumSmaller259.java) | Medium |
 | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GraphValidTree261.java) | Medium |
+| [263. Ugly Number](https://leetcode.com/problems/ugly-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UglyNumber263.java) | Easy |
 | [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UglyNumberII264.java) | Medium |
 | [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PaintHouseII265.java) | Hard |
 | [267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePermutationII267.java) | Medium |
