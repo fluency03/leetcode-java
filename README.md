@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 463
+# Total: 464
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   126   |   259   |  73  | 5 |
+|   126   |   260   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -345,6 +345,7 @@
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInASortedMatrix378.java) | Medium |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RansomNote383.java) | Easy |
+| [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LexicographicalNumbers386.java) | Medium |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstUniqueCharacterInAString387.java) | Easy |
 | [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestAbsoluteFilePath388.java) | Medium |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IsSubsequence392.java) | Medium |
