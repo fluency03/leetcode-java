@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 462
+# Total: 463
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   126   |   258   |  73  | 5 |
+|   126   |   259   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -299,6 +299,7 @@
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumHeightTrees310.java) | Medium |
 | [311. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SparseMatrixMultiplication311.java) | Medium |
 | [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BurstBalloons312.java) | Hard |
+| [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SuperUglyNumber313.java) | Medium |
 | [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeVerticalOrderTraversal314.java) | Medium |
 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Hard |
 | [317. Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestDistanceFromAllBuildings317.java) | Hard |
