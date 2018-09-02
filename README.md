@@ -248,11 +248,7 @@
 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchA2DMatrixII240.java) | Medium |
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DifferentWaysToAddParentheses241.java) | Medium |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidAnagram242.java) | Easy |
-
-
 | [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestWordDistance243.java) | Easy |
-
-
 | [246. Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StrobogrammaticNumber246.java) | Easy |
 | [247. Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StrobogrammaticNumberII247.java) | Medium |
 | [249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GroupShiftedStrings249.java) | Medium |
