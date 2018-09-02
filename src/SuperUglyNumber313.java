@@ -37,4 +37,29 @@ public class SuperUglyNumber313 {
         }
         return dp[n-1];
     }
+
+
+    public int nthSuperUglyNumber2(int n, int[] primes) {
+        if (n <= 0) return -1;
+        int[] dp = new int[n];
+        dp[0] = 1;
+        int[] pointers = new int[primes.length];
+        for (int i=1; i<n; i++) {
+            int t = Integer.MAX_VALUE;
+            int idx = -1;
+            for (int j=0; j<primes.length; j++) {
+                int now = dp[pointers[j]] * primes[j];
+                if (now < t) {
+                    t = dp[pointers[j]] * primes[j];
+                    idx = j;
+                } else if (now == t) {
+                    pointers[j]++;
+                }
+            }
+            pointers[idx]++;
+            dp[i] = t;
+        }
+        return dp[n-1];
+    }
+
 }
