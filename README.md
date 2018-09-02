@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 460
+# Total: 461
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   125   |   257   |  73  | 5 |
+|   125   |   258   |  73  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -336,6 +336,7 @@
 | [365. Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WaterAndJugProblem365.java) | Medium |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestDivisibleSubset368.java) | Medium |
 | [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PlusOneLinkedList369.java) | Medium |
+| [370. Range Addition](https://leetcode.com/problems/range-addition/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeAddition370.java) | Medium |
 | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKPairsWithSmallestSums373.java) | Medium |
 | [377. Combination Sum IV](https://leetcode.com/problems/wiggle-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSubsequence376.java) | Medium |
 | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CombinationSumIV377.java) | Medium |
