@@ -105,4 +105,20 @@ public class SpiralMatrix54 {
         return ans;
     }
 
+
+    public List<Integer> spiralOrder4(int[][] matrix) {
+        List<Integer> res = new ArrayList<>();
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return res;
+        int M = matrix.length;
+        int N = matrix[0].length;
+        int mid = Math.min((M+1)/2, (N+1)/2);
+        for (int c=0; c<mid; c++) {
+            for (int j=c; j<=N-c-1; j++) res.add(matrix[c][j]);
+            for (int i=c+1; i<=M-c-1; i++) res.add(matrix[i][N-c-1]);
+            if (M-c-1 > c) for (int j=N-c-2; j>=c; j--) res.add(matrix[M-c-1][j]);
+            if (N-c-1 > c) for (int i=M-c-2; i>=c+1; i--) res.add(matrix[i][c]);
+        }
+        return res;
+    }
+
 }
