@@ -15,7 +15,31 @@
 
 
 public class SpiralMatrixII59 {
+    private int[][] directions = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     public int[][] generateMatrix(int n) {
+        int[][] res = new int[n][n];
+        int i = 1;
+        int d = 0;
+        int x = 0;
+        int y = 0;
+        int END = n * n;
+        while (i <= END) {
+            res[x][y] = i;
+            int nx = x + directions[d][0];
+            int ny = y + directions[d][1];
+            if (nx < 0 || ny < 0 || nx >= n || ny >= n || res[nx][ny] != 0) {
+                d = (d + 1) % 4;
+                nx = x + directions[d][0];
+                ny = y + directions[d][1];
+            }
+            x = nx;
+            y = ny;
+            i++;
+        }
+        return res;
+    }
+
+    public int[][] generateMatrix2(int n) {
         if (n == 0) return new int[0][0];
         int[][] matrix = new int[n][n];
         boolean[][] filled = new boolean[n][n];
