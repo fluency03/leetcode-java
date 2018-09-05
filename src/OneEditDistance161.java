@@ -76,4 +76,37 @@ public class OneEditDistance161 {
         return ((l - s) == 1 && diff == 1) || (s == l && diff == 0);
     }
 
+
+    public boolean isOneEditDistance2(String s, String t) {
+        if (s == null || t == null || Math.abs(s.length() - t.length()) >= 2) return false;
+        
+        char[] cs = s.toCharArray();
+        int lenS = s.length();
+        char[] ct = t.toCharArray();
+        int lenT = t.length();
+
+        int i = 0;
+        int j = 0;
+        while (i < lenS && j < lenT) {
+            if (cs[i] == ct[j]) {
+                i++;
+                j++;
+                continue;
+            }
+            return isSame(cs, i+1, lenS, ct, j+1, lenT) || isSame(cs, i+1, lenS, ct, j, lenT) || isSame(cs, i, lenS, ct, j+1, lenT);
+        }
+        
+        return Math.abs(lenS - lenT) == 1;
+    }
+    
+    private boolean isSame(char[] cs, int i, int lenS, char[] ct, int j, int lenT) {
+        if (i == lenS && j == lenT) return true;
+        if (i == lenS || j == lenT) return false;
+        
+        while (i < lenS && j < lenT) {
+            if (cs[i++] != ct[j++]) return false;
+        }
+        return i == lenS && j == lenT;
+    }
+
 }
