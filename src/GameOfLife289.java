@@ -105,5 +105,46 @@ public class GameOfLife289 {
         return lives;
     }
 
+
+    public void gameOfLife3(int[][] board) {
+        int M = board.length;
+        int N = board[0].length;
+        for (int i=0; i<M; i++) {
+            for (int j=0; j<N; j++) {
+                update(board, i, j, M, N);
+            }
+        }
+        for (int i=0; i<M; i++) {
+            for (int j=0; j<N; j++) {
+                refresh(board, i, j);
+            }
+        }
+    }
+
+    private void update(int[][] board, int i, int j, int M, int N) {
+        int lives = 0;
+        for (int x=i-1; x<=i+1; x++) {
+            if (x < 0 || x >= M) continue;
+            for (int y=j-1; y<=j+1; y++) {
+                if (y < 0 || y >= N || (x == i && y == j)) continue;
+                if ((board[x][y] & 1) == 1) lives++;
+            }
+        }
+        boolean wasLive = (board[i][j] & 1) == 1;
+        if (wasLive) {
+            if (lives == 2 || lives == 3) {
+                board[i][j] |= 1 << 1;
+            }
+        } else {
+            if (lives == 3) {
+                board[i][j] |= 1 << 1;
+            }
+        }
+    }
+
+    private void refresh(int[][] board, int i, int j) {
+        board[i][j] = board[i][j] >> 1;
+    }
+
 }
 
