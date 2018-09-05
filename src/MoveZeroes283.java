@@ -22,7 +22,6 @@ public class MoveZeroes283 {
             }
             fast++;
         }
-
         while (slow < nums.length) {
             nums[slow] = 0;
             slow++;
@@ -41,7 +40,6 @@ public class MoveZeroes283 {
             }
 
         }
-
         while (zeros >=0) {
             nums[nums.length-1-zeros] = 0;
             zeros--;
