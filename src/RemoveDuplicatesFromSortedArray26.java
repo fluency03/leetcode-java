@@ -19,10 +19,8 @@ public class RemoveDuplicatesFromSortedArray26 {
         if (nums.length <= 1) {
             return nums.length;
         }
-
         int slow = 0;
         int fast = 1;
-
         while (fast < nums.length) {
             if (nums[fast] != nums[slow]) {
                 slow++;
@@ -30,7 +28,6 @@ public class RemoveDuplicatesFromSortedArray26 {
             }
             fast++;
         }
-
         return slow+1;
     }
 
@@ -46,6 +43,17 @@ public class RemoveDuplicatesFromSortedArray26 {
     }
 
 
-
+    public int removeDuplicates3(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int len = nums.length;
+        int i = 0;
+        int j = 0;
+        while (j < len) {
+            while (j > 0 && j < len && nums[j] == nums[j-1]) j++;
+            if (j == len) break;
+            nums[i++] = nums[j++];
+        }
+        return i;
+    }
 
 }
