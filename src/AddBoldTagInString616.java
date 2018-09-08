@@ -226,6 +226,33 @@ public class AddBoldTagInString616 {
         return sb.toString();
     }
 
+
+    public String addBoldTag6(String s, String[] dict) {
+        if (s == null || s.length() == 0) return s;
+        StringBuilder sb = new StringBuilder();
+        int l = 0;
+        int r = 0;
+        int len = s.length();
+        for (int i=0; i<len; i++) {
+            for (String word: dict) {
+                if (s.startsWith(word, i)) {
+                    r = Math.max(r, i+word.length());
+                }
+            }
+            if (i < r) continue;
+            if (l != r) {
+                sb.append("<b>").append(s.substring(l, r)).append("</b>");
+            }
+            sb.append(s.charAt(i));
+            l = i+1;
+            r = i+1;
+        }
+        if (l != r) {
+            sb.append("<b>").append(s.substring(l, r)).append("</b>");
+        }
+        return sb.toString();
+    }
+
 }
 
 class Trie {

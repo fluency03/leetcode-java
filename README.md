@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 466
+# Total: 467
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   126   |   261   |  74  | 5 |
+|   126   |   262   |  74  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -450,6 +450,7 @@
 | [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfLongestIncreasingSubsequence673.java) | Medium |
 | [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestContinuousIncreasingSubsequence674.java) | Easy |
 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CutOffTreesForGolfEvent675.java) | Hard |
+| [676. Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImplementMagicDictionary676.java) | Medium |
 | [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MapSumPairs677.java) | Medium |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidParenthesisString678.java) | Medium |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidPalindromeII680.java) | Easy |
