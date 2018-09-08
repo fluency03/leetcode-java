@@ -118,4 +118,73 @@ public class CourseSchedule207 {
             return false;
     }
 
+
+    /**
+     * Kahn’s algorithm for Topological Sorting
+     * https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/
+     */
+    public boolean canFinish3(int numCourses, int[][] prerequisites) {
+        int[] indegree = new int[numCourses];
+        Set<Integer>[] graph = new Set[numCourses];
+        for (int[] link: prerequisites) {
+            if (graph[link[1]] == null) graph[link[1]] = new HashSet<Integer>();
+            graph[link[1]].add(link[0]);
+            indegree[link[0]]++;
+        }
+
+        Queue<Integer> q = new LinkedList<>();
+        for (int i=0; i<numCourses; i++) {
+            if (indegree[i] == 0) q.add(i);
+        }
+
+        int count = 0;
+        while (!q.isEmpty()) {
+            int curr = q.poll();
+            if (graph[curr] == null) {
+                count++;
+                continue;
+            }
+            for (int next: graph[curr]) {
+                indegree[next]--;
+                if (indegree[next] == 0) q.add(next);
+            }
+            count++;
+        }
+        return count == numCourses;
+    }
+
+
+    public boolean canFinish4(int numCourses, int[][] prerequisites) {
+        Set<Integer>[] graph = new Set[numCourses];
+        for (int[] link: prerequisites) {
+            if (graph[link[1]] == null) graph[link[1]] = new HashSet<Integer>();
+            graph[link[1]].add(link[0]);
+        }
+        return !isCyclic(graph, numCourses);
+    }
+
+    private boolean isCyclic(Set<Integer>[] graph, int numCourses) {
+        boolean[] visited = new boolean[numCourses];
+        boolean[] trace = new boolean[numCourses];
+        for (int i=0; i<numCourses; i++) {
+            if (isCyclic(graph, i, visited, trace)) return true;
+        }
+        return false;
+    }
+
+    private boolean isCyclic(Set<Integer>[] graph, int start, boolean[] visited, boolean[] trace) {
+        if (trace[start]) return true;
+        if (visited[start]) return false;
+
+        visited[start] = true;
+        if (graph[start] == null) return false;
+
+        trace[start] = true;
+        for (int next: graph[start]) {
+            if (isCyclic(graph, next, visited, trace)) return true;
+        }
+        trace[start] = false;
+        return false;
+    }
+
 }
