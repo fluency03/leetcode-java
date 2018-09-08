@@ -92,8 +92,4 @@ public class ValidateBinarySearchTree98 {
         return true;
     }
 
-
-
-
-
 }
