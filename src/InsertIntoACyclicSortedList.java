@@ -67,4 +67,32 @@ public class InsertIntoACyclicSortedList {
         return head;
     }
 
+
+    public Node insert2(Node head, int insertVal) {
+        Node newNode = new Node();
+        newNode.val = insertVal;
+        if (head == null) {
+            newNode.next = newNode;
+            return newNode;
+        }
+        Node p = head;
+        Node dec = null;
+        while (true) {
+            if (p.val <= insertVal && p.next.val >= insertVal) {
+                newNode.next = p.next;
+                p.next = newNode;
+                return head;
+            }
+            if (p.val > p.next.val) {
+                dec = p;
+            }
+            p = p.next;
+            if (p == head) break;
+        }
+        if (dec == null) dec = head;
+        newNode.next = dec.next;
+        dec.next = newNode;
+        return head;
+    }
+
 }
