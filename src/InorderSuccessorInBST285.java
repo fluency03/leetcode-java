@@ -46,24 +46,24 @@ public class InorderSuccessorInBST285 {
     public TreeNode inorderSuccessor2(TreeNode root, TreeNode x) {
         if (x.right != null)
             return findMin(x.right);
-        return inorderSuccessor(root, x, null);
+        return inorderSuccessor2(root, x, null);
     }
 
-    public TreeNode inorderSuccessor(TreeNode root, TreeNode x, TreeNode succ) {
+    public TreeNode inorderSuccessor2(TreeNode root, TreeNode x, TreeNode succ) {
         if (root == null || x == null || root.val == x.val) return succ;
         if (root.val > x.val) {
-            return inorderSuccessor(root.left, x, root);
+            return inorderSuccessor2(root.left, x, root);
         } else {
-            return inorderSuccessor(root.right, x, succ);
+            return inorderSuccessor2(root.right, x, succ);
         }
     }
 
 
     public TreeNode inorderSuccessor3(TreeNode root, TreeNode p) {
-        return inorderSuccessor(root, p, null);
+        return inorderSuccessor3(root, p, null);
     }
 
-    public TreeNode inorderSuccessor(TreeNode root, TreeNode p, TreeNode pre) {
+    public TreeNode inorderSuccessor3(TreeNode root, TreeNode p, TreeNode pre) {
         if (root.val == p.val) {
             if (root.right == null) {
                 return pre;
@@ -71,9 +71,24 @@ public class InorderSuccessorInBST285 {
                 return findMin(root.right);
             }
         } else if (root.val > p.val) {
-            return inorderSuccessor(root.left, p, root);
+            return inorderSuccessor3(root.left, p, root);
         } else {
-            return inorderSuccessor(root.right, p, pre);
+            return inorderSuccessor3(root.right, p, pre);
+        }
+    }
+
+
+    /**
+     * https://leetcode.com/problems/inorder-successor-in-bst/discuss/72653/Share-my-Java-recursive-solution
+     */
+    public TreeNode inorderSuccessor4(TreeNode root, TreeNode p) {
+        if (root == null)
+            return null;
+        if (root.val <= p.val) {
+            return successor(root.right, p);
+        } else {
+            TreeNode left = successor(root.left, p);
+            return (left != null) ? left : root;
         }
     }
 
