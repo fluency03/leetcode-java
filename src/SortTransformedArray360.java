@@ -56,4 +56,22 @@ public class SortTransformedArray360 {
         return a * x * x + b * x + c;
     }
 
+
+    public int[] sortTransformedArray2(int[] nums, int a, int b, int c) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for (int x: nums) {
+            pq.add(transfer(x, a, b, c));
+        }
+        int[] res = new int[nums.length];
+        int i = 0;
+        while (!pq.isEmpty()) {
+            res[i++] = pq.poll();
+        }
+        return res;
+    }
+
+    private int transfer(int x, int a, int b, int c) {
+        return a * x * x + b * x + c;
+    }
+
 }
