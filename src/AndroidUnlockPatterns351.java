@@ -76,23 +76,6 @@ public class AndroidUnlockPatterns351 {
     }
 
 
-    // cur: the current position
-    // remain: the steps remaining
-    int DFS(boolean vis[], int[][] skip, int cur, int remain) {
-        if(remain < 0) return 0;
-        if(remain == 0) return 1;
-        vis[cur] = true;
-        int rst = 0;
-        for(int i = 1; i <= 9; ++i) {
-            // If vis[i] is not visited and (two numbers are adjacent or skip number is already visited)
-            if(!vis[i] && (skip[cur][i] == 0 || (vis[skip[cur][i]]))) {
-                rst += DFS(vis, skip, i, remain - 1);
-            }
-        }
-        vis[cur] = false;
-        return rst;
-    }
-    
     public int numberOfPatterns2(int m, int n) {
         // Skip array represents number to skip between two pairs
         int skip[][] = new int[10][10];
@@ -110,6 +93,54 @@ public class AndroidUnlockPatterns351 {
             rst += DFS(vis, skip, 5, i - 1);        // 5
         }
         return rst;
+    }
+
+    // cur: the current position
+    // remain: the steps remaining
+    int DFS(boolean vis[], int[][] skip, int cur, int remain) {
+        if(remain < 0) return 0;
+        if(remain == 0) return 1;
+        vis[cur] = true;
+        int rst = 0;
+        for(int i = 1; i <= 9; ++i) {
+            // If vis[i] is not visited and (two numbers are adjacent or skip number is already visited)
+            if(!vis[i] && (skip[cur][i] == 0 || (vis[skip[cur][i]]))) {
+                rst += DFS(vis, skip, i, remain - 1);
+            }
+        }
+        vis[cur] = false;
+        return rst;
+    }
+
+
+    public int numberOfPatterns3(int m, int n) {
+        boolean[][] visited = new boolean[3][3];
+        int[] res = new int[1];
+        
+        for (int i=0; i<3; i++) {
+            for (int j=0; j<3; j++) {
+                dfs(i, j, visited, m, n, 1, res);
+            }
+        }
+        return res[0];
+    }
+    
+    private void dfs(int i, int j, boolean[][] visited, int m, int n, int len, int[] res) {
+        if (visited[i][j] || len > n) return;
+        if (len >= m) res[0]++;
+        visited[i][j] = true;
+        for (int ii=0; ii<3; ii++) {
+            int di = Math.abs(i - ii);
+            for (int jj=0; jj<3; jj++) {
+                int dj = Math.abs(j - jj);
+                if (di == 0 && dj == 0) continue;
+                if ((di == 2 && dj != 1) || (dj == 2 && di != 1)) {
+                    if (!visited[(i+ii)/2][(j+jj)/2]) continue;
+                }
+                dfs(ii, jj, visited, m, n, len+1, res);
+            }
+        }
+        visited[i][j] = false;
     }
 
 }
