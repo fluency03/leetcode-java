@@ -151,6 +151,46 @@ public class WordSquares425 {
         }
     }
 
+
+    public List<List<String>> wordSquares2(String[] words) {
+        Arrays.sort(words);
+        List<List<String>> res = new ArrayList<>();
+        int W = words[0].length();
+        char[][] board = new char[W][W];
+        helper(board, 0, words, res, W);
+        return res;
+    }
+
+    private void helper(char[][] board, int i, String[] words, List<List<String>> res, int W) {
+        if (i >= W) {
+            List<String> r = new ArrayList<>();
+            for (int j=0; j<W; j++) {
+                r.add(new String(board[j]));
+            }
+            res.add(r);
+            return;
+        }
+        for (int j=i; j<W; j++) {
+            board[i][j] = 'a';
+        }
+        String start = new String(board[i]);
+        String prefix = new String(board[i], 0, i);
+        int idx = Arrays.binarySearch(words, start);
+        if (idx < 0) idx = - (idx + 1);
+        for (int k=idx; k<words.length; k++) {
+            String key = words[k];
+            if (!key.startsWith(prefix)) break;
+            char[] chars = key.toCharArray();
+            for (int j=0; j<W; j++) {
+                board[i][j] = chars[j];
+            }
+            for (int j=0; j<W; j++) {
+                board[j][i] = chars[j];
+            }
+            helper(board, i+1, words, res, W);
+        }
+    }
+
 }
 
 

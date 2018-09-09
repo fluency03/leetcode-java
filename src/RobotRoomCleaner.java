@@ -80,7 +80,6 @@ public class RobotRoomCleaner {
     }
 
     public void cleanRoom(Robot robot, Map<Integer, Set<Integer>> map, int[] pos, int dir, boolean in) {
-        // System.out.println(dir + ": " + pos[0] + ", " + pos[1]);
         robot.clean();
         if (!map.containsKey(pos[0])) {
             map.put(pos[0], new HashSet<>());
@@ -147,6 +146,73 @@ public class RobotRoomCleaner {
 
     private int[] right(int[] now) {
         return new int[]{now[0], now[1]+1};
+    }
+
+
+    public void cleanRoom2(Robot robot) {
+        dfs(robot, new HashMap<>(), new int[2], 0);
+    }
+
+    private void dfs(Robot robot, Map<Integer, Set<Integer>> visited, int[] pos, int dir) {
+        // System.out.println(pos[0] + ", " + pos[1] + ": " + dir);
+        if (visited.containsKey(pos[0]) && visited.get(pos[0]).contains(pos[1])) {
+            robot.turnRight();
+            robot.turnRight();
+            robot.move();
+            return;
+        }
+
+        if (!visited.containsKey(pos[0])) visited.put(pos[0], new HashSet<>());
+        visited.get(pos[0]).add(pos[1]);
+        robot.clean();
+
+        if (robot.move()) {
+            dfs(robot, visited, nextPos(pos, dir), dir);
+        } else {
+            robot.turnRight();
+            robot.turnRight();
+        }
+
+        robot.turnRight();
+        dir = nextDir(dir, 3);
+        if (robot.move()) {
+            dfs(robot, visited, nextPos(pos, dir), dir);
+        } else {
+            robot.turnRight();
+            robot.turnRight();
+        }
+
+        dir = nextDir(dir, 2);
+        if (robot.move()) {
+            dfs(robot, visited, nextPos(pos, dir), dir);
+            robot.turnLeft();
+        } else {
+            robot.turnRight();
+        }
+
+        dir = nextDir(dir, 1);
+        if (robot.move()) {
+            dfs(robot, visited, nextPos(pos, dir), dir);
+            robot.turnRight();
+            robot.turnRight();
+        }
+        robot.move();
+    }
+
+    private int nextDir(int dir, int move) {
+        return (dir + move) % 4; 
+    }
+
+    private int[] nextPos(int[] pos, int dir) {
+        if (dir == 0) {
+            return new int[]{pos[0], pos[1]+1};
+        } else if (dir == 1) {
+            return new int[]{pos[0]+1, pos[1]};
+        } else if (dir == 2) {
+            return new int[]{pos[0], pos[1]-1};
+        } else {
+            return new int[]{pos[0]-1, pos[1]};
+        }
     }
 
 }
