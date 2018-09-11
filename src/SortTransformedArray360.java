@@ -45,7 +45,6 @@ public class SortTransformedArray360 {
                     res[index] = ii;
                     i++;
                 }
-                
                 index++;
             }
         }
