@@ -40,7 +40,6 @@ import java.time.temporal.ChronoUnit;
 
 public class DesignLogStorageSystem635 {
     class LogSystem {
-        private static final int YEAR_BASE = 2000;
         private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy:MM:dd:HH:mm:ss");
         private static final int K = 6;
         private TreeMap<String, Integer> treeMap;
@@ -105,6 +104,31 @@ public class DesignLogStorageSystem635 {
             this.chrono = chrono;
         }
     }
+
+
+    /**
+     * https://leetcode.com/problems/design-log-storage-system/discuss/105008/Concise-Java-Solution
+     */
+    class LogSystem2 {
+        List<String[]> timestamps = new LinkedList<>();
+        List<String> units = Arrays.asList("Year", "Month", "Day", "Hour", "Minute", "Second");
+        int[] indices = new int[]{4,7,10,13,16,19};
+        
+        public void put(int id, String timestamp) { timestamps.add(new String[]{Integer.toString(id), timestamp}); }
+    
+        public List<Integer> retrieve(String s, String e, String gra) {
+            List<Integer> res = new LinkedList<>();
+            int idx = indices[units.indexOf(gra)];
+            for (String[] timestamp : timestamps) {
+                if (timestamp[1].substring(0, idx).compareTo(s.substring(0, idx)) >= 0 &&
+                    timestamp[1].substring(0, idx).compareTo(e.substring(0, idx)) <= 0) res.add(Integer.parseInt(timestamp[0]));
+            }
+            return res;
+        }
+    }
+
+
+
 /**
  * Your LogSystem object will be instantiated and called as such:
  * LogSystem obj = new LogSystem();
