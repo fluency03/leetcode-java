@@ -78,6 +78,5 @@ public class FindKthSmallestPairDistance719 {
         return count;
     }
 
-
 }
 
