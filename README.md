@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 469
+# Total: 470
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   126   |   263   |  75  | 5 |
+|   126   |   263   |  76  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -433,6 +433,7 @@
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumProductOfThreeNumbers628.java) | Easy |
 | [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumOfSquareNumbers633.java) | Easy |
+| [635. Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLogStorageSystem635.java) | Hard |
 | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AverageOfLevelsInBinaryTree637.java) | Easy |
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
