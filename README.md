@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 471
+# Total: 472
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   127   |   263   |  76  | 5 |
+|   127   |   264   |  76  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -437,6 +437,7 @@
 | [635. Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLogStorageSystem635.java) | Hard |
 | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AverageOfLevelsInBinaryTree637.java) | Easy |
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
+| [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignCircularDeque641.java) | Medium |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfPairChain646.java) | Medium |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
