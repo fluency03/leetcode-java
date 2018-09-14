@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 470
+# Total: 471
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   126   |   263   |  77  | 5 |
+|   127   |   263   |  76  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -469,6 +469,7 @@
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionToKEqualSumSubsets698.java) | Medium |
 | [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInASortedArrayOfUnknownSize702.java) | Medium |
+| [705. Design HashSet](https://leetcode.com/problems/design-hashset/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHashSet705.java) | Easy |
 | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHashMap706.java) | Easy |
 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLinkedList707.java) | Easy |
 | [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ToLowerCase709.java) | Easy |
