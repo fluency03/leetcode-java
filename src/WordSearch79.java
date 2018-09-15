@@ -20,7 +20,6 @@
  */
 
 
-
 public class WordSearch79 {
     public boolean exist(char[][] board, String word) {
 
@@ -80,7 +79,7 @@ public class WordSearch79 {
     /**
      * https://discuss.leetcode.com/topic/7907/accepted-very-short-java-solution-no-additional-space
      */
-    public boolean exist(char[][] board, String word) {
+    public boolean exist2(char[][] board, String word) {
 
         if (word.length() == 0) {
             return true;
