@@ -43,108 +43,72 @@
 
 public class CourseScheduleII210 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        Map<Integer, Set<Integer>> graph = getGraph(numCourses, prerequisites);
+        Set<Integer>[] graph = new Set[numCourses];
+        for (int[] link: prerequisites) {
+            int src = link[1];
+            int dst = link[0];
+            if (graph[src] == null) graph[src] = new HashSet<>();
+            graph[src].add(dst);
+        }
 
-        Stack<Integer> st = new Stack<>();
-        boolean[] marked = new boolean[numCourses];
-        boolean[] onTrace = new boolean[numCourses];
+        int[] order = new int[numCourses];
+        boolean[] visited = new boolean[numCourses];
+        int[] idx = new int[]{numCourses - 1};
         for (int i=0; i<numCourses; i++) {
-            if (!marked[i] && !dfs(graph, st, marked, onTrace, i)) return new int[0];
-        }
-
-        int[] res = new int[numCourses];
-        int j = 0;
-        while (!st.isEmpty()) {
-            res[j] = st.pop();
-            j++;
-        }
-
-        return res;
-    }
-
-    private boolean dfs(Map<Integer, Set<Integer>> graph, Stack<Integer> st, boolean[] marked, boolean[] onTrace, Integer n) {
-        marked[n] = true;
-        onTrace[n] = true;
-        for (Integer a: graph.get(n)) {
-            if (!marked[a]) {
-                if(!dfs(graph, st, marked, onTrace, a)) return false;
-            } else if (onTrace[a]) {
-                return false;
+            if (!visited[i]) {
+                if (!helper(graph, i, numCourses, new boolean[numCourses], visited, idx, order)) {
+                    return new int[0];
+                }
             }
         }
-        onTrace[n] = false;
-        st.push(n);
-        return true;
+        return order;
     }
 
-    private Map<Integer, Set<Integer>> getGraph(int numCourses, int[][] prerequisites) {
-        Map<Integer, Set<Integer>> graph = new HashMap<>();
-
-        for (int i=0; i<numCourses; i++) {
-            graph.put(i, new HashSet<Integer>());
+    private boolean helper(Set<Integer>[] graph, int curr, int numCourses, boolean[] path, boolean[] visited, int[] idx, int[] order) {
+        if (path[curr]) return false;
+        if (visited[curr]) return true;
+        visited[curr] = true;
+        path[curr] = true;
+        if (graph[curr] != null) {
+            for (int next: graph[curr]) {
+                if (!helper(graph, next, numCourses, path, visited, idx, order)) return false;
+            }
         }
-
-        for (int[] edge: prerequisites) {
-            Set<Integer> adj = graph.get(edge[1]);
-            adj.add(edge[0]);
-            graph.put(edge[1], adj);
-        }
-        return graph;
+        path[curr] = false;
+        order[idx[0]--] = curr;
+        return true;
     }
 
 
     public int[] findOrder2(int numCourses, int[][] prerequisites) {
-        int[] inbound = new int[numCourses];
-        Map<Integer, Set<Integer>> graph = getGraph(numCourses, prerequisites, inbound);
+        Set<Integer>[] graph = new Set[numCourses];
+        int[] indegree = new int[numCourses];
+        for (int[] link: prerequisites) {
+            int src = link[1];
+            int dst = link[0];
+            indegree[dst]++;
+            if (graph[src] == null) graph[src] = new HashSet<>();
+            graph[src].add(dst);
+        }
 
         Queue<Integer> q = new LinkedList<>();
-        boolean[] visited = new boolean[numCourses];
-        int[] res = new int[numCourses];
-        int count = 0;
         for (int i=0; i<numCourses; i++) {
-            if (inbound[i] == 0) {
-                q.add(i);
-                res[count] = i;
-                count++;
-                visited[i] = true;
-            }
+            if (indegree[i] == 0) q.add(i);
         }
-
         if (q.isEmpty()) return new int[0];
+
+        int[] order = new int[numCourses];
+        int i = 0;
         while (!q.isEmpty()) {
-            Integer curr = q.poll();
-            for (Integer i: graph.get(curr)) {
-                if (visited[i]) return new int[0];
-                inbound[i]--;
-                if (inbound[i] == 0) {
-                    System.out.println(i);
-                    q.add(i);
-                    res[count] = i;
-                    count++;
-                    visited[i] = true;
-                }
+            int curr = q.poll();
+            order[i++] = curr;
+            if (graph[curr] == null) continue;
+            for (int next: graph[curr]) {
+                indegree[next]--;
+                if (indegree[next] == 0) q.add(next);
             }
         }
-
-        return (count >= numCourses-1) ? res : new int[0];
+        return i == numCourses ? order : new int[0];
     }
-
-    private Map<Integer, Set<Integer>> getGraph(int numCourses, int[][] prerequisites, int[] inbound) {
-        Map<Integer, Set<Integer>> graph = new HashMap<>();
-        for (int i=0; i<numCourses; i++) {
-            graph.put(i, new HashSet<Integer>());
-        }
-
-        for (int[] edge: prerequisites) {
-            Set<Integer> adj = graph.get(edge[1]);
-            if (!adj.contains(edge[0])) {
-                inbound[edge[0]]++;
-                adj.add(edge[0]);
-                graph.put(edge[1], adj);
-            }
-        }
-        return graph;
-    }
-
 
 }
