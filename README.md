@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 473
+# Total: 474
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   127   |   265   |  76  | 5 |
+|   127   |   265   |  77  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -368,6 +368,7 @@
 | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestRepeatingCharacterReplacement424.java) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSquares425.java) | Hard |
 | [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NaryTreeLevelOrderTraversal429.java) | Easy |
+| [432. All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AllOOneDataStructure432.java) | Hard |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
 | [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAllAnagramsInAString438.java) | Easy |
 | [443. String Compression](https://leetcode.com/problems/string-compression/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/StringCompression443.java) | Easy |
