@@ -32,11 +32,11 @@
 public class RangeModule715 {
     class RangeModule {
         private TreeMap<Integer, Integer> ranges;
-        
+
         public RangeModule() {
             ranges = new TreeMap<>();
         }
-        
+
         public void addRange(int left, int right) {
             Integer l = left;
             Integer r = right;
@@ -47,22 +47,21 @@ public class RangeModule715 {
                 r = Math.max(ranges.get(floor), r);
                 ranges.remove(floor);
             }
-    
+
             Integer higher = ranges.higherKey(l);
             while (higher != null && higher <= r) {
                 r = Math.max(ranges.get(higher), r);
                 ranges.remove(higher);
                 higher = ranges.higherKey(l);
             }
-    
-            ranges.put(l, r);
+           ranges.put(l, r);
         }
-        
+
         public boolean queryRange(int left, int right) {
             Integer floor = ranges.floorKey(left);
             return floor != null && ranges.get(floor) >= right;
         }
-        
+
         public void removeRange(int left, int right) {
             Integer l = left;
             Integer r = right;
@@ -79,7 +78,7 @@ public class RangeModule715 {
                     l = lower.getValue();
                 }
             }
-    
+
             Map.Entry<Integer, Integer> ceiling = ranges.ceilingEntry(l);
             while (ceiling != null && ceiling.getKey() <= r) {
                 ranges.remove(ceiling.getKey());
@@ -90,8 +89,6 @@ public class RangeModule715 {
                 ceiling = ranges.ceilingEntry(l);
             }
         }
-    
-        
     }
 
 
@@ -99,7 +96,7 @@ public class RangeModule715 {
         private TreeSet<Range> ranges = new TreeSet<>((r1, r2) -> Integer.compare(r1.left, r2.left));
         public RangeModule() {
         }
-        
+
         public void addRange(int left, int right) {
             Range newRange = new Range(left, right);
             Range floor = ranges.floor(newRange);
@@ -109,7 +106,7 @@ public class RangeModule715 {
                 newRange.right = Math.max(floor.right, right);
                 ranges.remove(floor);
             }
-            
+
             while (true) {
                 Range ceiling = ranges.ceiling(newRange);
                 if (ceiling == null || ceiling.left > newRange.right) break;
@@ -118,13 +115,13 @@ public class RangeModule715 {
             }
             ranges.add(newRange);
         }
-    
+
         public boolean queryRange(int left, int right) {
             Range floor = ranges.floor(new Range(left, right));
             if (floor == null) return false;
             return floor.right >= right;
         }
-        
+
         public void removeRange(int left, int right) {
             Range toBeRemoved = new Range(left, right);
             Range floor = ranges.floor(toBeRemoved);
@@ -138,7 +135,7 @@ public class RangeModule715 {
                     return;
                 }
             }
-    
+
             while (true) {
                 Range ceiling = ranges.ceiling(toBeRemoved);
                 if (ceiling == null || ceiling.left >= toBeRemoved.right) break;
@@ -150,7 +147,7 @@ public class RangeModule715 {
                 }
             }
         }
-    
+
         class Range {
             int left;
             int right;
