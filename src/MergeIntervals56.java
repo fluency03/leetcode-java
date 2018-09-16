@@ -36,7 +36,6 @@ public class MergeIntervals56 {
             i++;
         }
         res.add(acc);
-
         return res;
     }
 
@@ -47,53 +46,51 @@ public class MergeIntervals56 {
         }
     }
 
-    /**
-     * https://discuss.leetcode.com/topic/38628/beat-98-java-sort-start-end-respectively
-     */
+
     public List<Interval> merge2(List<Interval> intervals) {
-      	// sort start&end
-      	int n = intervals.size();
-      	int[] starts = new int[n];
-      	int[] ends = new int[n];
-      	for (int i = 0; i < n; i++) {
-        		starts[i] = intervals.get(i).start;
-        		ends[i] = intervals.get(i).end;
-      	}
-      	Arrays.sort(starts);
-      	Arrays.sort(ends);
-      	// loop through
-      	List<Interval> res = new ArrayList<Interval>();
-      	for (int i = 0, j = 0; i < n; i++) { // j is start of interval.
-        		if (i == n - 1 || starts[i + 1] > ends[i]) {
-          			res.add(new Interval(starts[j], ends[i]));
-          			j = i + 1;
-        		}
-      	}
-      	return res;
+        List<Interval> res = new ArrayList<>();
+        int N = intervals.size();
+        if (N == 0) return res;
+        int[] starts = new int[N];
+        int[] ends = new int[N];
+        int i = 0;
+        for (Interval inv: intervals) {
+            starts[i] = inv.start;
+            ends[i] = inv.end;
+            i++;
+        }
+        Arrays.sort(starts);
+        Arrays.sort(ends);
+
+        int s = 0;
+        for (int e=1; e<N; e++) {
+            if (starts[e] > ends[e-1]) {
+                res.add(new Interval(starts[s], ends[e-1]));
+                s = e;
+            }
+        }
+        res.add(new Interval(starts[s], ends[N-1]));
+        return res;
     }
 
 
     public List<Interval> merge3(List<Interval> intervals) {
+        Comparator<Interval> comp = (in1, in2) -> Integer.compare(in1.start, in2.start);
+        Collections.sort(intervals, comp);
+
         List<Interval> res = new ArrayList<>();
         if (intervals.size() == 0) return res;
-        Collections.sort(intervals, new Comparator<Interval>() {
-            @Override
-            public int compare(Interval i1, Interval i2) {
-                return Integer.compare(i1.start, i2.start);
-            }
-        });
-        int s = intervals.get(0).start;
-        int e = intervals.get(0).end;
-        for (int i=1; i<intervals.size(); i++) {
-            if (intervals.get(i).start <= e) {
-                e = Math.max(intervals.get(i).end, e);
+        Interval tmp = intervals.get(0);
+        for (Interval inv: intervals) {
+            if (inv.start <= tmp.end) {
+                tmp.start = Math.min(tmp.start, inv.start);
+                tmp.end = Math.max(tmp.end, inv.end);
             } else {
-                res.add(new Interval(s, e));
-                s = intervals.get(i).start;
-                e = intervals.get(i).end;
+                res.add(tmp);
+                tmp = inv;
             }
         }
-        res.add(new Interval(s, e));
+        res.add(tmp);
         return res;
     }
 
