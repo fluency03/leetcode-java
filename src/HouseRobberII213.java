@@ -50,4 +50,25 @@ public class HouseRobberII213 {
         return Math.max(include, exclude);
     }
 
+
+    public int rob3(int[] nums) {
+        int N = nums.length;
+        if (N == 0) return 0;
+        if (N == 1) return nums[0];
+        return Math.max(rob3(nums, 0, N-2), rob3(nums, 1, N-1));
+    }
+
+    public int rob3(int[] nums, int i, int j) {
+        if (i == j) return nums[i];
+        int K = j - i + 1;
+        int pre0 = 0;
+        int pre1 = nums[i];
+        for (int k=2; k<=K; k++) {
+            int curr = Math.max(pre1, pre0 + nums[i+k-1]);
+            pre0 = pre1;
+            pre1 = curr;
+        }
+        return pre1;
+    }
+
 }
