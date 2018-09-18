@@ -34,6 +34,36 @@ public class MovingAverageFromDataStream346 {
         }
     }
 
+
+    class MovingAverage2 {
+        private int size;
+        private int[] window;
+        private int head = 0;
+        private int len = 0 ;
+        private int sum = 0;
+
+        /** Initialize your data structure here. */
+        public MovingAverage2(int size) {
+            this.size = size;
+            this.window = new int[size + 1];
+        }
+
+        public double next(int val) {
+            int nextPos = (this.head + this.len + 1) % this.window.length;
+            this.window[nextPos] = val;
+            this.len++;
+            this.sum += val;
+            
+            if (this.len > this.size) {
+                this.head++;
+                this.head %= this.window.length;
+                this.len--;
+                this.sum -= this.window[this.head];
+            }
+            return this.sum * 1.0 / this.len;
+        }
+    }
+
 }
 
 /**
