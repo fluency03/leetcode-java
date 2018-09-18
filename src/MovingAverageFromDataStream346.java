@@ -36,7 +36,6 @@ public class MovingAverageFromDataStream346 {
 
 
     class MovingAverage2 {
-        private int size;
         private int[] window;
         private int head = 0;
         private int len = 0 ;
@@ -44,7 +43,6 @@ public class MovingAverageFromDataStream346 {
 
         /** Initialize your data structure here. */
         public MovingAverage2(int size) {
-            this.size = size;
             this.window = new int[size + 1];
         }
 
@@ -54,7 +52,7 @@ public class MovingAverageFromDataStream346 {
             this.len++;
             this.sum += val;
             
-            if (this.len > this.size) {
+            if (this.len == this.window.length) {
                 this.head++;
                 this.head %= this.window.length;
                 this.len--;
