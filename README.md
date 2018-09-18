@@ -204,7 +204,7 @@
 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FractionToRecurringDecimal166.java) | Medium |
 | [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSumIIInputArrayIsSorted167.java) | Easy |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MajorityElement169.java) | Easy |
-| [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BSTIterator.java) | Medium |
+| [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinarySearchTreeIterator173.java) | Medium |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestNumber179.java) | Medium |
 | [186. Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseWordsInAStringII186.java) | Easy |
 | [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestTimeToBuyAndSellStockIV188.java) | Hard |
