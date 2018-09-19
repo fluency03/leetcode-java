@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 475
+# Total: 476
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   127   |   266   |  77  | 5 |
+|   127   |   266   |  77  | 6 |
 
 
 | Question | Solution | Difficulty |
@@ -538,4 +538,4 @@
 | Insert into a Cyclic Sorted List | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertIntoACyclicSortedList.java) | - |
 | Robot Room Cleaner | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RobotRoomCleaner.java) | - |
 | AsyncJobMonitor | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AsyncJobMonitor.java) | - |
-
+| Bench | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Bench.java) | - |
