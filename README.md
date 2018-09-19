@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 474
+# Total: 475
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   127   |   265   |  77  | 5 |
+|   127   |   266   |  77  | 5 |
 
 
 | Question | Solution | Difficulty |
@@ -517,6 +517,7 @@
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
 | [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestMountainInArray845.java) | Medium |
 | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HandOfStraights846.java) | Medium |
+| [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximizeDistanceToClosestPerson849.java) | Easy |
 | [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BuddyStrings859.java) | Easy |
 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LemonadeChange860.java) | Easy |
 | [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShortestSubarrayWithSumAtLeastK862.java) | Hard |
