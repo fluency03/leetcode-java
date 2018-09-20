@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 478
+# Total: 479
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   128   |   267   |  77  | 6 |
+|   128   |   267   |  77  | 7 |
 
 
 | Question | Solution | Difficulty |
@@ -541,3 +541,4 @@
 | Robot Room Cleaner | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RobotRoomCleaner.java) | - |
 | AsyncJobMonitor | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AsyncJobMonitor.java) | - |
 | Bench | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Bench.java) | - |
+| FindCenterOfMassInA2DArray | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindCenterOfMassInA2DArray.java) | - |
