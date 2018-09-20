@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 477
+# Total: 478
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   128   |   266   |  77  | 6 |
+|   128   |   267   |  77  | 6 |
 
 
 | Question | Solution | Difficulty |
@@ -531,6 +531,7 @@
 | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProfitableSchemes879.java) | Hard |
 | [884. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodedStringAtIndex884.java) | Medium |
 | [885. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoatsToSavePeople885.java) | Medium |
+| [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PossibleBipartition886.java) | Medium |
 | [887. Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ProjectionAreaOf3DShapes887.java) | Easy |
 | [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindAndReplacePattern890.java) | Medium 
 | [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumFrequencyStack895.java) | Hard |
