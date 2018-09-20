@@ -128,13 +128,13 @@ public class RangeSumQuery2DMutable308 {
      * https://leetcode.com/problems/range-sum-query-2d-mutable/discuss/75870/Java-2D-Binary-Indexed-Tree-Solution-clean-and-short-17ms
      */
     // time should be O(log(m) * log(n)) 
-    class NumMatrix {
+    class NumMatrix2 {
         int[][] tree;
         int[][] nums;
         int m;
         int n;
-        
-        public NumMatrix(int[][] matrix) {
+
+        public NumMatrix2(int[][] matrix) {
             if (matrix.length == 0 || matrix[0].length == 0) return;
             m = matrix.length;
             n = matrix[0].length;
@@ -146,7 +146,7 @@ public class RangeSumQuery2DMutable308 {
                 }
             }
         }
-    
+
         public void update(int row, int col, int val) {
             if (m == 0 || n == 0) return;
             int delta = val - nums[row][col];
@@ -157,12 +157,12 @@ public class RangeSumQuery2DMutable308 {
                 }
             }
         }
-    
+
         public int sumRegion(int row1, int col1, int row2, int col2) {
             if (m == 0 || n == 0) return 0;
             return sum(row2+1, col2+1) + sum(row1, col1) - sum(row1, col2+1) - sum(row2+1, col1);
         }
-        
+
         public int sum(int row, int col) {
             int sum = 0;
             for (int i = row; i > 0; i -= i & (-i)) {
@@ -171,6 +171,41 @@ public class RangeSumQuery2DMutable308 {
                 }
             }
             return sum;
+        }
+    }
+
+
+    class NumMatrix3 {
+        private int[][] sum;
+        private int[][] board;
+
+        public NumMatrix3(int[][] matrix) {
+            this.board = matrix;
+            if (matrix.length != 0 && matrix[0].length != 0) {
+                this.sum = new int[matrix.length][matrix[0].length + 1];
+                for (int i=0; i<matrix.length; i++) {
+                    for (int j=1; j<=matrix[0].length; j++) {
+                        this.sum[i][j] += this.sum[i][j-1] + this.board[i][j-1];
+                    }
+                }
+            }
+        }
+
+        public void update(int row, int col, int val) {
+            int curr = this.board[row][col];
+            int diff = val - curr;
+            for (int j=col+1; j<=this.board[0].length; j++) {
+                this.sum[row][j] += diff;
+            }
+            this.board[row][col] = val;
+        }
+
+        public int sumRegion(int row1, int col1, int row2, int col2) {
+            int res = 0;
+            for (int i=row1; i<=row2; i++) {
+                res += this.sum[i][col2+1] - this.sum[i][col1];
+            }
+            return res;
         }
     }
 
