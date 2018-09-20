@@ -57,7 +57,7 @@
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   127   |   267   |  77  | 6 |
+|   128   |   266   |  77  | 6 |
 
 
 | Question | Solution | Difficulty |

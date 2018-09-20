@@ -32,4 +32,37 @@ public class DailyTemperatures739 {
         return res;
     }
 
+
+    public int[] dailyTemperatures2(int[] temperatures) {
+        if (temperatures == null || temperatures.length == 0) return new int[0];
+        Stack<Integer> stack = new Stack<>();
+        
+        int N = temperatures.length;
+        int[] res = new int[N];
+        for (int i=N-1; i>=0; i--) {
+            while (!stack.isEmpty() && temperatures[i] >= temperatures[stack.peek()]) {
+                stack.pop();
+            }
+            res[i] = stack.isEmpty() ? 0 : (stack.peek() - i);
+            stack.push(i);
+        }
+        
+        return res;
+    }
+
+
+    public int[] dailyTemperatures3(int[] temperatures) {
+        int[] stack = new int[temperatures.length];
+        int top = -1;
+        int[] ret = new int[temperatures.length];
+        for(int i = 0; i < temperatures.length; i++) {
+            while(top > -1 && temperatures[i] > temperatures[stack[top]]) {
+                int idx = stack[top--];
+                ret[idx] = i - idx;
+            }
+            stack[++top] = i;
+        }
+        return ret;
+    }
+
 }
