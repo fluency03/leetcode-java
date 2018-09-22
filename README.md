@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 480
+# Total: 481
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   128   |   268   |  77  | 7 |
+|   128   |   268   |  78  | 7 |
 
 
 | Question | Solution | Difficulty |
@@ -326,6 +326,7 @@
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArrays349.java) | Easy |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntersectionOfTwoArraysII350.java) | Easy |
 | [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AndroidUnlockPatterns351.java) | Medium |
+| [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DataStreamAsDisjointIntervals352.java) | Hard |
 | [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignSnakeGame353.java) | Medium |
 | [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RussianDollEnvelopes354.java) | Hard |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTwitter355.java) | Medium |
@@ -515,6 +516,7 @@
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlippingAnImage832.java) | Easy |
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KeysAndRooms841.java) | Medium |
 | [842. Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoFibonacciSequence842.java) | Medium |
+| [843. Guess the Word](https://leetcode.com/problems/guess-the-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GuessTheWord843.java) | Hard |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BackspaceStringCompare844.java) | Easy |
 | [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestMountainInArray845.java) | Medium |
 | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HandOfStraights846.java) | Medium |
