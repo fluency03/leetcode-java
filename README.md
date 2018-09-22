@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 481
+# Total: 482
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   128   |   268   |  78  | 7 |
+|   128   |   269   |  78  | 7 |
 
 
 | Question | Solution | Difficulty |
@@ -104,7 +104,7 @@
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java) | Hard |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java) | Hard |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java) | Easy |
-| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/solution/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SpiralMatrix54.java) | Medium |
+| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SpiralMatrix54.java) | Medium |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JumpGame55.java) | Medium |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MergeIntervals56.java) | Medium |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertInterval57.java) | Hard |
@@ -319,7 +319,7 @@
 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
 | [343. Integer Break](https://leetcode.com/problems/integer-break/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerBreak343.java) | Medium |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseString344.java) | Easy |
-| [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseVowelsOfAString345.java) | Easy |
+| [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseVowelsOfAString345.java) | Easy |
 | [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MovingAverageFromDataStream346.java) | Easy |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentElements347.java) | Medium |
 | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignTicTacToe348.java) | Medium |
@@ -349,7 +349,7 @@
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RansomNote383.java) | Easy |
 | [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LexicographicalNumbers386.java) | Medium |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstUniqueCharacterInAString387.java) | Easy |
-| [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestAbsoluteFilePath388.java) | Medium |
+| [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestAbsoluteFilePath388.java) | Medium |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IsSubsequence392.java) | Medium |
 | [393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UTF8Validation393.java) | Medium |
 | [394. Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeString394.java) | Medium |
@@ -389,7 +389,8 @@
 | [481. Magical String](https://leetcode.com/problems/magical-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MagicalString481.java) | Medium |
 | [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LicenseKeyFormatting482.java) | Easy |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnes485.java) | Easy |
-| [487. Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnesII487.java) | Medium |
+| [486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PredictTheWinner486.java) | Medium |
+| [487. Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxConsecutiveOnesII487.java) | Medium |
 | [490. The Maze](https://leetcode.com/problems/the-maze/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMaze490.java) | Medium |
 | [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IncreasingSubsequences491.java) | Medium |
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TargetSum494.java) | Medium |
@@ -415,7 +416,7 @@
 | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ZeroOneMatrix542.java) | Medium |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiameterOfBinaryTree543.java) | Easy |
 | [544. Output Contest Matches](https://leetcode.com/problems/output-contest-matches/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OutputContestMatches544.java) | Medium |
-| [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoundaryOfBinaryTree545.java) | Medium |
+| [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BoundaryOfBinaryTree545.java) | Medium |
 | [547. Friend Circles](https://leetcode.com/problems/friend-circles/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FriendCircles547.java) | Medium |
 | [554. Brick Wall](https://leetcode.com/problems/brick-wall/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BrickWall554.java) | Medium |
 | [556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementIII556.java) | Medium |
@@ -446,7 +447,7 @@
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromicSubstrings647.java) | Medium |
 | [648. Replace Words](https://leetcode.com/problems/replace-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReplaceWords648.java) | Medium |
 | [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TwoSumIVInputIsABST653.java) | Easy |
-| [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumBinaryTree654.java) | Medium |
+| [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumBinaryTree654.java) | Medium |
 | [657. Judge Route Circle](https://leetcode.com/problems/judge-route-circle/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JudgeRouteCircle657.java) | Easy |
 | [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements//) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKClosestElements658.java) | Medium |
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
@@ -483,7 +484,7 @@
 | [715. Range Module](https://leetcode.com/problems/range-module/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeModule715.java) | Hard |
 | [716. Max Stack](https://leetcode.com/problems/max-stack/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxStack716.java) | Hard |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumLengthOfRepeatedSubarray718.java) | Medium |
-| [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKthSmallestPairDistance719.java) | Hard |
+| [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKthSmallestPairDistance719.java) | Hard |
 | [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AccountsMerge721.java) | Medium |
 | [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumWindowSubsequence727.java) | Hard |
 | [729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MyCalendarI729.java) | Medium |
