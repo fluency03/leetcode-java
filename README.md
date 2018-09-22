@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 482
+# Total: 483
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   128   |   269   |  78  | 7 |
+|   129   |   269   |  78  | 7 |
 
 
 | Question | Solution | Difficulty |
@@ -285,6 +285,7 @@
 | [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WallsAndGates286.java) | Medium |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheDuplicateNumber287.java) | Medium |
 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GameOfLife289.java) | Medium |
+| [293. Flip Game](https://leetcode.com/problems/flip-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlipGame293.java) | Easy |
 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMedianFromDataStream295.java) | Hard |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SerializeAndDeserializeBinaryTree297.java) | Hard |
 | [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLongestConsecutiveSequence298.java) | Medium |
