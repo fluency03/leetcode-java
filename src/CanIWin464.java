@@ -67,4 +67,33 @@ public class CanIWin464 {
         return sb.toString();
     }
 
+
+
+    public boolean canIWin2(int maxChoosableInteger, int desiredTotal) {
+        if (desiredTotal == 0) return true;
+        if (((1 + maxChoosableInteger) / 2 * maxChoosableInteger) < desiredTotal) {
+            return false;
+        }
+        return helper(0, desiredTotal, new Boolean[1 << maxChoosableInteger], maxChoosableInteger);
+    }
+
+    private boolean helper(int state, int desiredTotal, Boolean[] memo, int M) {
+        if (desiredTotal <= 0) return false;
+        if (memo[state] != null) return memo[state];
+        for (int i=M-1; i>=0; i--) {
+            if ((state & (1 << i)) == 0) {
+                state |= 1 << i;
+                if (!helper(state, desiredTotal-i-1, memo, M)) {
+                    state &= ~(1 << i);
+                    memo[state] = true;
+                    return true;
+                }
+                state &= ~(1 << i);
+            }
+        }
+        memo[state] = false;
+        return false;
+    }
+
+
 }
