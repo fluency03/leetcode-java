@@ -57,7 +57,7 @@
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   129   |   270   |  79  | 7 |
+|   129   |   270   |  80  | 6 |
 
 
 | Question | Solution | Difficulty |
@@ -343,7 +343,7 @@
 | [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PlusOneLinkedList369.java) | Medium |
 | [370. Range Addition](https://leetcode.com/problems/range-addition/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RangeAddition370.java) | Medium |
 | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindKPairsWithSmallestSums373.java) | Medium |
-| [377. Combination Sum IV](https://leetcode.com/problems/wiggle-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSubsequence376.java) | Medium |
+| [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GuessNumberHigherOrLowerII375.java) | Medium |
 | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CombinationSumIV377.java) | Medium |
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInASortedMatrix378.java) | Medium |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
