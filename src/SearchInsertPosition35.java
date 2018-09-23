@@ -37,4 +37,24 @@ public class SearchInsertPosition35 {
         }
         return low;
     }
+
+
+    public int searchInsert3(int[] nums, int target) {
+        if (nums.length == 0) return 0;
+        if (target > nums[nums.length-1]) return nums.length;
+        int l = 0;
+        int r = nums.length-1;
+        
+        while (l < r) {
+            int mid = (r - l) / 2 + l;
+            if (nums[mid] == target) return mid;
+            else if (nums[mid] < target) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
+        return l;
+    }
+
 }
