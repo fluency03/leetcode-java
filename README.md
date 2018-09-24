@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 486
+# Total: 487
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   129   |   270   |  81  | 6 |
+|   129   |   270   |  81  | 7 |
 
 
 | Question | Solution | Difficulty |
@@ -550,3 +550,4 @@
 | AsyncJobMonitor | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AsyncJobMonitor.java) | - |
 | Bench | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Bench.java) | - |
 | FindCenterOfMassInA2DArray | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindCenterOfMassInA2DArray.java) | - |
+| OneEditDistance | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OneEditDistance.java) | - |
