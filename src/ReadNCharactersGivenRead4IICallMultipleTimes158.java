@@ -107,4 +107,26 @@ public class ReadNCharactersGivenRead4IICallMultipleTimes158 extends Reader4 {
         return counter;
     }
 
+    // private char[] cache = new char[4];
+    // private int ptr = 0;
+    // private int len = 0;
+    // /**
+    //  * @param buf Destination buffer
+    //  * @param n   Maximum number of characters to read
+    //  * @return    The number of characters read
+    //  */
+    // public int read(char[] buf, int n) {
+    //     int res = 0;
+    //     while (true) {
+    //         while (ptr < len && res < n) {
+    //             buf[res++] = cache[ptr++];
+    //         }
+    //         if (res == n) break;
+    //         len = read4(cache);
+    //         ptr = 0;
+    //         if (len == 0) break;
+    //     }
+    //     return res;
+    // }
+
 }
