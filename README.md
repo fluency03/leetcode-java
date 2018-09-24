@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 487
+# Total: 488
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   129   |   270   |  81  | 7 |
+|   129   |   270   |  81  | 8 |
 
 
 | Question | Solution | Difficulty |
@@ -551,3 +551,4 @@
 | Bench | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Bench.java) | - |
 | FindCenterOfMassInA2DArray | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindCenterOfMassInA2DArray.java) | - |
 | OneEditDistance | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OneEditDistance.java) | - |
+| CollatzConjecture | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CollatzConjecture.java) | - |
