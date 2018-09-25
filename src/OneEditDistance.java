@@ -64,6 +64,58 @@ public class OneEditDistance {
         }
     }
 
+
+    public boolean oneEditDistance2(String str, String[] wordDict) {
+        for (String word: wordDict) {
+            if (Math.abs(str.length() - word.length()) <= 1 && isOneEditDistance(s, word)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean isOneEditDistance(String s, String w) {
+        return isOneEditDistance(s.toCharArray(), 0, w.toCharArray(), 0, 0);
+    }
+
+    private boolean isOneEditDistance(char[] charsS, int i, char[] charsW, int j, int edit) {
+        if (edit > 1) return false;
+        if (i == charsS.length || j == charsW.length) {
+            return (Math.abs(charsS.length - charsW.length) + edit) == 1;
+        }
+        char chs = charsS[i];
+        char chw = charsW[j];
+        return isOneEditDistance(charsS, i+1, charsW, j+1, edit + chs == chw ? 0 : 1) ||
+                isOneEditDistance(charsS, i, charsW, j+1, edit + 1) ||
+                isOneEditDistance(charsS, i+1, charsW, j, edit + 1);
+    }
+
+
+    public boolean oneEditDistance3(String str, String[] wordDict) {
+        Set<String> dictSet = new HashSet<>();
+        for (String word: wordDict) {
+            char[] chars = wrod.toCharArray();
+            for (int i=0; i<chars.length; i++) {
+                char tmp = chars[i];
+                chars[i] = '*';
+                dictSet.add(new String(chars));
+                chars[i] = tmp;
+            }
+        }
+
+        char[] strChars = wrod.toCharArray();
+        // Set<String> strSet = new HashSet<>();
+        for (int i=0; i<strChars.length; i++) {
+            char tmp = strChars[i];
+            strChars[i] = '*';
+            if (dictSet.contains(new String(strChars))) return true;
+            strChars[i] = tmp;
+        }
+
+        return false;
+    }
+
+
     public static void main(String[] args) {
         OneEditDistance oed = new OneEditDistance();
         System.out.println(oed.oneEditDistance("abc", new String[]{"abc", "abd"})); // true
