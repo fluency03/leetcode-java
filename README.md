@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 489
+# Total: 490
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   129   |   270   |  81  | 9 |
+|   130   |   270   |  81  | 9 |
 
 
 | Question | Solution | Difficulty |
@@ -213,6 +213,7 @@
 | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeRightSideView199.java) | Medium |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfIslands200.java) | Medium |
 | [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BitwiseANDOfNumbersRange201.java) | Medium |
+| [202. Happy Number](https://leetcode.com/problems/happy-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HappyNumber202.java) | Easy |
 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RemoveLinkedListElements203.java) | Easy |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountPrimes204.java) | Easy |
 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IsomorphicStrings205.java) | Easy |
