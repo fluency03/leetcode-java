@@ -19,8 +19,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.LinkedList;
 
-
-
 public class ThreeSum15 {
 
     /**
@@ -46,10 +44,8 @@ public class ThreeSum15 {
                     l++;
                     r--;
                 } else if (nums[l] + nums[r] > left) {
-                    // while (l < r && nums[r] == nums[r-1]) r--;
                     r--;
                 } else {
-                    // while (l < r && nums[l] == nums[l+1]) l++;
                     l++;
                 }
             }
