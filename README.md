@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 491
+# Total: 492
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   131   |   270   |  81  | 9 |
+|   131   |   270   |  81  | 10 |
 
 
 | Question | Solution | Difficulty |
@@ -555,3 +555,4 @@
 | OneEditDistance | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OneEditDistance.java) | - |
 | CollatzConjecture | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CollatzConjecture.java) | - |
 | Insertables | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Insertables.java) | - |
+| TreeToForestByErasingNodes | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TreeToForestByErasingNodes.java) | - |
