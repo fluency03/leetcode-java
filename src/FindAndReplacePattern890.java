@@ -51,4 +51,37 @@ public class FindAndReplacePattern890 {
         }
         return true;
     }
+
+
+    public List<String> findAndReplacePattern2(String[] words, String pattern) {
+        List<String> res = new ArrayList<>();
+        int code = encode(pattern);
+        for (String w: words) {
+            if (code == encode(w)) {
+                res.add(w);
+            }
+        }
+        return res;
+    }
+
+    public int encode(String s) {
+        int res = 0;
+        char[] chars = s.toCharArray();
+        char first = chars[0];
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 0);
+        int i = 1;
+        for (int j=0; j<chars.length; j++) {
+            int offset = chars[j] - first;
+            if (map.containsKey(offset)) {
+                res += map.get(offset) * j;
+            } else {
+                map.put(offset, i);
+                res += i * j;
+                i++;
+            }
+        }
+        return res;
+    }
+
 }
