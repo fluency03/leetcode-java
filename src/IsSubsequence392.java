@@ -61,4 +61,20 @@ public class IsSubsequence392 {
         return true;
     }
 
+    public boolean isSubsequence3(String s, String t) {
+        int i = 0;
+        int j = 0;
+        char[] chars = s.toCharArray();
+        char[] chart = t.toCharArray();
+        while (i < chars.length && j < chart.length) {
+            if (chars[i] == chart[j]) {
+                i++;
+                j++;
+            } else {
+                j++;
+            }
+        }
+        return i == chars.length;
+    }
+
 }
