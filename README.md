@@ -554,5 +554,5 @@
 | FindCenterOfMassInA2DArray | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindCenterOfMassInA2DArray.java) | - |
 | OneEditDistance | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OneEditDistance.java) | - |
 | CollatzConjecture | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CollatzConjecture.java) | - |
-| Insertables | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Insertables.java) | - |
+| Subsequence | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Subsequence.java) | - |
 | TreeToForestByErasingNodes | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TreeToForestByErasingNodes.java) | - |
