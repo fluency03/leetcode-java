@@ -19,29 +19,29 @@
 
 public class NumberOfMatchingSubsequences792 {
 
-    // public int numMatchingSubseq(String S, String[] words) {
-    //     int res = 0;
-    //     for (String w: words) {
-    //         if (isSubsequence(w, S)) res++;
-    //     }
-    //     return res;
-    // }
+    public int numMatchingSubseq(String S, String[] words) {
+        int res = 0;
+        for (String w: words) {
+            if (isSubsequence(w, S)) res++;
+        }
+        return res;
+    }
 
-    // private boolean isSubsequence(String s, String t) {
-    //     int i = 0;
-    //     int j = 0;
-    //     char[] chars = s.toCharArray();
-    //     char[] chart = t.toCharArray();
-    //     while (i < chars.length && j < chart.length) {
-    //         if (chars[i] == chart[j]) {
-    //             i++;
-    //             j++;
-    //         } else {
-    //             j++;
-    //         }
-    //     }
-    //     return i == chars.length;
-    // }
+    private boolean isSubsequence(String s, String t) {
+        int i = 0;
+        int j = 0;
+        char[] chars = s.toCharArray();
+        char[] chart = t.toCharArray();
+        while (i < chars.length && j < chart.length) {
+            if (chars[i] == chart[j]) {
+                i++;
+                j++;
+            } else {
+                j++;
+            }
+        }
+        return i == chars.length;
+    }
 
 
     public int numMatchingSubseq2(String S, String[] words) {
@@ -84,6 +84,60 @@ public class NumberOfMatchingSubsequences792 {
         }
         boolean hasEnded() {
             return this.word.length == pos;
+        }
+    }
+
+
+    public int numMatchingSubseq3(String S, String[] words) {
+        Trie trie = constructTrie(words);
+        int count = 0;
+        for (char c : S.toCharArray()) {
+            Trie curr = trie.children[c-'a'];
+            trie.children[c-'a'] = null;
+            while (curr != null) {
+                count += curr.count;
+                for (int nc=0; nc<26; nc++) {
+                    if (curr.children[nc] == null) continue;
+                    trie.children[nc] = add(curr.children[nc], trie.children[nc]);
+                }
+                curr = curr.next;
+            }
+        }
+        return count;
+    }
+    
+    private Trie add(Trie a, Trie b) {
+        a.next = b;
+        return a;
+    }
+    
+    private Trie constructTrie(String[] words) {
+        Trie trie = new Trie();
+        for (String word: words) {
+            trie.add(word);
+        }
+        return trie;
+    }
+
+    class Trie {
+        Trie[] children = new Trie[26];
+        Trie next;
+        int count = 0;
+        
+        void add(String word) {
+            add(word.toCharArray(), 0);
+        }
+        
+        void add(char[] word, int i) {
+            if (word.length == i) {
+                this.count++;
+                return;
+            }
+            int idx = word[i] - 'a';
+            if (this.children[idx] == null) {
+                this.children[idx] = new Trie();
+            }
+            this.children[idx].add(word, i+1);
         }
     }
 
