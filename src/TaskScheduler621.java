@@ -51,8 +51,7 @@ public class TaskScheduler621 {
     /**
      * https://discuss.leetcode.com/topic/92852/concise-java-solution-o-n-time-o-26-space
      */
-    public int leastInterval(char[] tasks, int n) {
-
+    public int leastInterval2(char[] tasks, int n) {
         int[] c = new int[26];
         for(char t : tasks){
             c[t - 'A']++;
@@ -68,7 +67,7 @@ public class TaskScheduler621 {
     /**
      * https://leetcode.com/problems/task-scheduler/solution/
      */
-    public int leastInterval2(char[] tasks, int n) {
+    public int leastInterval3(char[] tasks, int n) {
         int[] map = new int[26];
         for (char c: tasks)
             map[c - 'A']++;
@@ -89,5 +88,22 @@ public class TaskScheduler621 {
         return time;
     }
 
+
+    public int leastInterval4(char[] tasks, int n) {
+        int N = tasks.length;
+        int[] count = new int[26];
+        int max = -1;
+        int maxCount = -1;
+        for (char ch: tasks) {
+            count[ch-'A']++;
+            if (count[ch-'A'] == max) {
+                maxCount++;
+            } else if (count[ch-'A'] > max) {
+                max = count[ch-'A'];
+                maxCount = 1;
+            }
+        }
+        return Math.max((n+1) * (max-1) + maxCount, N);
+    }
 
 }
