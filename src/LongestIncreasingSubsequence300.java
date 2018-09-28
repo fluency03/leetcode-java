@@ -34,6 +34,7 @@ public class LongestIncreasingSubsequence300 {
 
     /**
      * https://leetcode.com/problems/longest-increasing-subsequence/solution/
+     * https://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
      */
     public int lengthOfLIS2(int[] nums) {
         int[] dp = new int[nums.length];
