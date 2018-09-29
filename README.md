@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 496
+# Total: 497
 
 |   Easy  |  Medium | Hard | - |
 |:-------:|:-------:|:----:|:-:|
-|   133   |   272   |  81  | 10 |
+|   134   |   272   |  81  | 10 |
 
 
 | Question | Solution | Difficulty |
@@ -385,6 +385,7 @@
 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteNodeInABST450.java) | Medium |
 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FourSumII454.java) | Medium |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SortCharactersByFrequency451.java) | Medium |
+| [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RepeatedSubstringPattern459.java) | Easy |
 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LFUCache460.java) | Hard |
 | [462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumMovesToEqualArrayElementsII462.java) | Medium |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IslandPerimeter463.java) | Easy |
