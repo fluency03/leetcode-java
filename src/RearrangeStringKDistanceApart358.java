@@ -61,7 +61,7 @@ public class RearrangeStringKDistanceApart358 {
 
     public String rearrangeString2(String s, int k) {
         if (k == 0) return s;
-        int N = s.length();
+        int N = s.length(); 
         int[] map = new int[26];
         for (char ch: s.toCharArray()) {
             map[ch-'a']++;
@@ -161,7 +161,6 @@ public class RearrangeStringKDistanceApart358 {
                 if(count >= len) count = ++i;
             }
         }
-
         return new String(res);
     }
 
