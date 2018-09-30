@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 501
+# Total: 502
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   134   |   273   |  83  | 11  |
+|   134   |   274   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -349,6 +349,7 @@
 | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CombinationSumIV377.java) | Medium |
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSmallestElementInASortedMatrix378.java) | Medium |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InsertDeleteGetRandomOOne380.java) | Medium |
+| [382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LinkedListRandomNode382.java) | Medium |
 | [383. Ransom Note](https://leetcode.com/problems/ransom-note/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RansomNote383.java) | Easy |
 | [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ShuffleAnArray384.java) | Medium |
 | [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LexicographicalNumbers386.java) | Medium |
