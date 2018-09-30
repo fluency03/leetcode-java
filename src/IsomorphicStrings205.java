@@ -82,4 +82,24 @@ public class IsomorphicStrings205 {
         return true;
     }
 
+
+    public boolean isIsomorphic4(String sString, String tString) {
+        return encode(sString.toCharArray()) == encode(tString.toCharArray());
+    }
+
+    private int encode(char[] chars) {
+        int[] map = new int[256];
+        int res = 0;
+        int id = 1;
+        for (int i=1; i<=chars.length; i++) {
+            char ch = chars[i-1];
+            if (map[ch] == 0) {
+                map[ch] = id;
+                id++;
+            }
+            res += map[ch] * i;
+        }
+        return res;
+    }
+
 }
