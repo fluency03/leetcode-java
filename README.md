@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 504
+# Total: 505
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   135   |   275   |  83  | 11  |
+|   135   |   276   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -285,6 +285,7 @@
 | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/InorderSuccessorInBST285.java) | Medium |
 | [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WallsAndGates286.java) | Medium |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindTheDuplicateNumber287.java) | Medium |
+| [288. Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueWordAbbreviation288.java) | Medium |
 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GameOfLife289.java) | Medium |
 | [290. Word Pattern](https://leetcode.com/problems/word-pattern/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordPattern290.java) | Easy |
 | [293. Flip Game](https://leetcode.com/problems/flip-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlipGame293.java) | Easy |
