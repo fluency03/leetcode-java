@@ -419,6 +419,7 @@
 | [519. Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RandomFlipMatrix519.java) | Medium |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContinuousSubarraySum523.java) | Medium |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ContiguousArray525.java) | Medium |
+| [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordAbbreviation527.java) | Hard |
 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Minesweeper529.java) | Medium |
 | [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumAbsoluteDifferenceInBST530.java) | Easy |
 | [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LonelyPixelI531.java) | Medium |
