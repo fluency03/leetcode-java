@@ -92,4 +92,70 @@ public class EvaluateDivision399 {
     }
 
 
+    public double[] calcEquation2(String[][] equations, double[] values, String[][] queries) {
+        UnionFind uf = new UnionFind();
+        int N = equations.length;
+        
+        for (int i = 0; i<N; i++) {
+            uf.union(equations[i][0], equations[i][1], values[i]);
+        }
+        
+        int M = queries.length;
+        double[] res = new double[M];
+        for (int i=0; i<M; i++) {
+            String[] q = queries[i];
+            Parent PA = uf.find(q[0]);
+            Parent PB = uf.find(q[1]);
+            if (PA == null || PB == null || !PA.parent.equals(PB.parent)) {
+                res[i] = -1.0;
+            } else {
+                res[i] = PB.times / PA.times;
+            }
+        }
+        
+        return res;
+    }
+    
+    class UnionFind {
+        Map<String, Parent> parents = new HashMap<>();
+
+        private Parent find(String A) {
+            if (!parents.containsKey(A)) return null;
+            Parent pa = parents.get(A);
+            if (!pa.parent.equals(A)) {
+                Parent p = find(pa.parent);
+                pa.parent = p.parent;
+                pa.times *= p.times;
+            }
+            return pa;
+        }
+
+        private void union(String A, String B, double times) {
+            boolean hasA = parents.containsKey(A);
+            boolean hasB = parents.containsKey(B);
+            if (!hasA && !hasB) {
+                parents.put(A, new Parent(A, 1.0));
+                parents.put(B, new Parent(A, times));
+            } else if (!hasA) {
+                parents.put(A, new Parent(B, 1.0 / times));
+            } else if (!hasB) {
+                parents.put(B, new Parent(A, times));
+            } else {
+                Parent pa = find(A);
+                Parent pb = find(B);
+                pb.parent = pa.parent;
+                pb.times = (pa.times / pb.times) * times;
+            }
+        }
+    }
+    
+    class Parent {
+        String parent;
+        Double times;
+        Parent(String parent, Double times) {
+            this.parent = parent;
+            this.times = times;
+        }
+    }
+
 }
