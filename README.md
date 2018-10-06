@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 507
+# Total: 508
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   135   |   278   |  83  | 11  |
+|   136   |   278   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -427,6 +427,7 @@
 | [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LonelyPixelI531.java) | Medium |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EncodeAndDecodeTinyURL535.java) | Medium |
 | [536. Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConstructBinaryTreeFromString536.java) | Medium |
+| [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConvertBSTToGreaterTree538.java) | Easy |
 | [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SingleElementInASortedArray540.java) | Medium |
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReverseStringII541.java) | Easy |
 | [542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ZeroOneMatrix542.java) | Medium |
