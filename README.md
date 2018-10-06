@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 506
+# Total: 507
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   135   |   277   |  83  | 11  |
+|   135   |   278   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -311,6 +311,7 @@
 | [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumProductOfWordLengths318.java) | Medium |
 | [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GeneralizedAbbreviation320.java) | Medium |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfSmallerNumbersAfterSelf315.java) | Medium |
+| [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfConnectedComponentsInAnUndirectedGraph323.java) | Medium |
 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WiggleSortII324.java) | Medium |
 | [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSizeSubarraySumEqualsK325.java) | Medium |
 | [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfRangeSum327.java) | Hard |
