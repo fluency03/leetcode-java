@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 511
+# Total: 512
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   138   |   279   |  83  | 11  |
+|   138   |   280   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -317,6 +317,7 @@
 | [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSizeSubarraySumEqualsK325.java) | Medium |
 | [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountOfRangeSum327.java) | Hard |
 | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OddEvenLinkedList328.java) | Medium |
+| [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReconstructItinerary332.java) | Medium |
 | [333. Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LargestBSTSubtree333.java) | Medium |
 | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IncreasingTripletSubsequence334.java) | Medium |
 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePairs336.java) | Hard |
