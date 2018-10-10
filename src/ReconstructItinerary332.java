@@ -28,13 +28,11 @@
 public class ReconstructItinerary332 {
     public List<String> findItinerary(String[][] tickets) {
         Map<String, List<String>> graph = new HashMap<>();
-        Set<String> allTickets = new HashSet<>();
         for (String[] ticket: tickets) {
             if (!graph.containsKey(ticket[0])) {
                 graph.put(ticket[0], new ArrayList<>());
             }
             graph.get(ticket[0]).add(ticket[1]);
-            allTickets.add(ticket[0] + ticket[1]);
         }
         for (List<String> nexts: graph.values()) {
             Collections.sort(nexts);
