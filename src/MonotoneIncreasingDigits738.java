@@ -38,5 +38,42 @@ public class MonotoneIncreasingDigits738 {
         return Integer.valueOf(new String(chars));
     }
 
+
+    /**
+     * https://leetcode.com/problems/monotone-increasing-digits/solution/
+     */
+    public int monotoneIncreasingDigits2(int N) {
+        char[] S = String.valueOf(N).toCharArray();
+        int i = 1;
+        while (i < S.length && S[i-1] <= S[i]) i++;
+        while (0 < i && i < S.length && S[i-1] > S[i]) S[--i]--;
+        for (int j = i+1; j < S.length; ++j) S[j] = '9';
+
+        return Integer.parseInt(String.valueOf(S));
+    }
+
+
+    /**
+     * https://leetcode.com/problems/monotone-increasing-digits/discuss/144404/Simple-Java-from-back-to-front-no-extra-space-and-no-conversion-to-char
+     */
+    public int monotoneIncreasingDigits3(int N) {
+        int res = 0;
+        int pre = Integer.MAX_VALUE;
+        int offset = 1;
+        while(N != 0) {
+            int digit = N % 10;
+            if(digit > pre) {
+                res = digit * offset - 1;
+                pre = digit - 1;
+            }else {
+                res = res + digit * offset;
+                pre = digit;
+            }
+            offset *= 10;
+            N = N / 10;
+        }
+        return res;
+    }
+
 }
 
