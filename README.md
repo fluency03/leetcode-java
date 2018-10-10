@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 512
+# Total: 513
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   138   |   280   |  83  | 11  |
+|   138   |   281   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -514,6 +514,7 @@
 | [731. My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MyCalendarII731.java) | Medium |
 | [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarity734.java) | Easy |
 | [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SentenceSimilarityII737.java) | Medium |
+| [738. Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MonotoneIncreasingDigits738.java) | Medium |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DailyTemperatures739.java) | Medium |
 | [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DeleteAndEarn740.java) | Medium |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinCostClimbingStairs746.java) | Easy |
