@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 510
+# Total: 511
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   137   |   279   |  83  | 11  |
+|   138   |   279   |  83  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -322,6 +322,7 @@
 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PalindromePairs336.java) | Hard |
 | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/HouseRobberIII337.java) | Medium |
 | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CountingBits338.java) | Medium |
+| [339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedListWeightSum339.java) | Easy |
 | [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestSubstringWithAtMostKDistinctCharacters340.java) | Hard |
 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NestedIterator.java) | Medium |
 | [343. Integer Break](https://leetcode.com/problems/integer-break/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IntegerBreak343.java) | Medium |
