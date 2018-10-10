@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 513
+# Total: 514
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   138   |   281   |  83  | 11  |
+|   138   |   281   |  84  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -117,6 +117,7 @@
 | [65. Valid Number](https://leetcode.com/problems/valid-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidNumber65.java) | Hard |
 | [66. Plus One](https://leetcode.com/problems/plus-one/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PlusOne66.java) | Easy |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddBinary67.java) | Easy |
+| [68. Text Justification](https://leetcode.com/problems/text-justification/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TextJustification68.java) | Hard |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SqrtX69.java) | Easy |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ClimbingStairs70.java) | Easy |
 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SimplifyPath71.java) | Medium |
