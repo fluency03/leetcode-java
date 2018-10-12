@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 514
+# Total: 515
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   138   |   281   |  84  | 11  |
+|   138   |   282   |  84  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -540,6 +540,7 @@
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindEventualSafeStates802.java) | Medium |
 | [803. Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BricksFallingWhenHit803.java) | Hard |
 | [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueMorseCodeWords804.java) | Easy |
+| [807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxIncreaseToKeepCitySkyline807.java) | Medium |
 | [819. Most Common Word](https://leetcode.com/problems/most-common-word/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostCommonWord819.java) | Easy |
 | [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostProfitAssigningWork826.java) | Medium |
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlippingAnImage832.java) | Easy |
