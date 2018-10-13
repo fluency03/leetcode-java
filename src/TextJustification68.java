@@ -78,43 +78,46 @@ public class TextJustification68 {
                 i++;
             }
             StringBuilder sb = new StringBuilder();
-            int n = line.size();
-            if (i == N || n <= 1) {
-                for (String w: line) {
-                    sb.append(w);
-                    if (sb.length() < maxWidth) sb.append(' ');
-                }
-                while (sb.length() < maxWidth) {
-                    sb.append(' ');
-                }
-                res.add(sb.toString());
+            if (i == N || line.size() == 1) {
+                res.add(leftJustify(line, maxWidth));
             } else {
-                int spaces = maxWidth - wordsLen;
-                int interval = spaces / (n-1);
-                int rest = spaces - interval * (n-1);
-                for (int k=0; k<n; k++) {
-                    sb.append(line.get(k));
-                    int p = interval;
-                    while (p > 0) {
-                        sb.append(' ');
-                        p--;
-                    }
-                    if (rest > 0) {
-                        sb.append(' ');
-                        rest--;
-                    }
-                }
-                res.add(sb.toString().trim());
+                res.add(middleJustify(line, maxWidth, wordsLen));
             }
         }
         return res;
     }
 
-    public static void main(String[] args) {
-        TextJustification68 slt = new TextJustification68();
-        for (String w: slt.fullJustify(new String[]{"This", "is", "an", "example", "of", "text", "justification."}, 16)) {
-            System.out.println(w);
+    private String leftJustify(List<String> line, int maxWidth) {
+        StringBuilder sb = new StringBuilder();
+        for (String w: line) {
+            sb.append(w);
+            if (sb.length() < maxWidth) sb.append(' ');
         }
+        while (sb.length() < maxWidth) {
+            sb.append(' ');
+        }
+        return sb.toString();
+    }
+
+    private String middleJustify(List<String> line, int maxWidth, int wordsLen) {
+        StringBuilder sb = new StringBuilder();
+        int n = line.size();
+        int spaces = maxWidth - wordsLen;
+        int interval = spaces / (n-1);
+        int rest = spaces - interval * (n-1);
+        for (int k=0; k<n; k++) {
+            sb.append(line.get(k));
+            int p = interval;
+            while (p > 0 && sb.length() < maxWidth) {
+                sb.append(' ');
+                p--;
+            }
+            if (rest > 0 && sb.length() < maxWidth) {
+                sb.append(' ');
+                rest--;
+            }
+        }
+        return sb.toString();
     }
 
 }
