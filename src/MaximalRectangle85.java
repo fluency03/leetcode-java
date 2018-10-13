@@ -12,7 +12,6 @@
  *
  */
 
-
 public class MaximalRectangle85 {
     public int maximalRectangle(char[][] matrix) {
         int N = matrix.length;
@@ -250,6 +249,32 @@ public class MaximalRectangle85 {
                 }
             }
         } return area;
+    }
+
+
+    public int maximalRectangle6(char[][] matrix) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return 0;
+        int M = matrix.length;
+        int N = matrix[0].length;
+        int[][] dp = new int[M][N+1];
+        int res = 0;
+        for (int i=0; i<M; i++) {
+            for (int j=0; j<N; j++) {
+                if (matrix[i][j] == '0') {
+                    dp[i][j] = 0;
+                } else {
+                    int local = 0;
+                    dp[i][j] = (j == 0 ? 0 : dp[i][j-1]) + 1;
+                    int width = Integer.MAX_VALUE;
+                    for (int k=i; k>=0; k--) {
+                        width = Math.min(width, dp[k][j]);
+                        local = Math.max(local, width * (i - k + 1));
+                    }
+                    res = Math.max(res, local);
+                }
+            }
+        }
+        return res;
     }
 
 
