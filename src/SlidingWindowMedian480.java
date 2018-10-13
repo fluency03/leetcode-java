@@ -156,6 +156,57 @@ public class SlidingWindowMedian480 {
     }
 
 
+    public double[] medianSlidingWindow3(int[] nums, int k) {
+        Comparator<Integer> comp = (i1, i2) -> Integer.compare(i2, i1);
+        PriorityQueue<Integer> left = new PriorityQueue<>(comp);
+        PriorityQueue<Integer> right = new PriorityQueue<>();
+
+        for (int i=0; i<k; i++) {
+            if (left.isEmpty() || nums[i] <= left.peek()) {
+                left.add(nums[i]);
+            } else {
+                right.add(nums[i]);
+            }
+            if (left.size() < right.size()) {
+                left.add(right.poll());
+            } else if (left.size() > right.size() + 1) {
+                right.add(left.poll());
+            }
+        }
+
+        int N = nums.length;
+        double[] res = new double[N-k+1];
+        for (int i=k; i<=N; i++) {
+            if (left.size() == right.size() + 1) {
+                res[i-k] = left.peek() * 1.0;
+            } else {
+                res[i-k] = ((long)left.peek() + (long)right.peek()) / 2.0;
+            }
+            if (i == N) break; 
+            int toPop = nums[i-k];
+            int toAdd = nums[i];
+            
+            if (toAdd <= left.peek()) {
+                left.add(toAdd);
+            } else {
+                right.add(toAdd);
+            }
+            
+            if (left.peek() >= toPop) {
+                left.remove(toPop);
+            } else {
+                right.remove(toPop);
+            }
+
+            if (left.size() < right.size()) {
+                left.add(right.poll());
+            } else if (left.size() > right.size() + 1) {
+                right.add(left.poll());
+            }
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         SlidingWindowMedian480 swm = new SlidingWindowMedian480();
 
