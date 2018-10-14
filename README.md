@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 519
+# Total: 520
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   139   |   284   |  84  | 11  |
+|   139   |   284   |  85  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -292,6 +292,7 @@
 | [288. Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/UniqueWordAbbreviation288.java) | Medium |
 | [289. Game of Life](https://leetcode.com/problems/game-of-life/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GameOfLife289.java) | Medium |
 | [290. Word Pattern](https://leetcode.com/problems/word-pattern/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordPattern290.java) | Easy |
+| [291. Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordPatternII291.java) | Hard |
 | [293. Flip Game](https://leetcode.com/problems/flip-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlipGame293.java) | Easy |
 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMedianFromDataStream295.java) | Hard |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SerializeAndDeserializeBinaryTree297.java) | Hard |
