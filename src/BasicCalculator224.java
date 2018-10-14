@@ -163,4 +163,59 @@ public class BasicCalculator224 {
         return result;
     }
 
+
+    public int calculate3(String s) {
+        char[] chars = s.toCharArray();
+        int i = 0;
+        int N = chars.length;
+        int sign = 1;
+        Stack<String> stack = new Stack<>();
+        while (i < N) {
+            char ch = chars[i];
+            if (ch == ' ') {
+                i++;
+            } else if (ch == '+') {
+                sign = 1;
+                i++;
+            } else if (ch == '-') {
+                sign = -1;
+                i++;
+            } else if (ch == '(') {
+                stack.push((sign == 1 ? "+" : "-") + Character.toString(ch));
+                sign = 1;
+                i++;
+            } else if (ch == ')') {
+                int local = 0;
+                while (!stack.isEmpty() && !stack.peek().endsWith("(")) {
+                    local += Integer.valueOf(stack.pop());
+                }
+                if (stack.isEmpty()) {
+                    stack.push(Integer.toString(local));
+                } else {
+                    String op = stack.pop();
+                    if (op.startsWith("+")) {
+                        stack.push(Integer.toString(local));
+                    } else {
+                        stack.push(Integer.toString(-local));
+                    }
+                }
+                i++;
+            } else {
+                int j = getNum(chars, i);
+                stack.push((sign == 1 ? "+" : "-") + s.substring(i, j));
+                i = j;
+            }
+            
+        }
+        int res = 0;
+        while (!stack.isEmpty()) res += Integer.valueOf(stack.pop());
+        return res;
+    }
+
+    private int getNum(char[] chars, int i) {
+        int j = i;
+        while (j < chars.length && Character.isDigit(chars[j])) j++;
+        return j;
+    }
+
 }
