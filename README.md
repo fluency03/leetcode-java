@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 518
+# Total: 519
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   139   |   283   |  84  | 11  |
+|   139   |   284   |  84  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -465,6 +465,7 @@
 | [635. Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLogStorageSystem635.java) | Hard |
 | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AverageOfLevelsInBinaryTree637.java) | Easy |
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
+| [640. Solve the Equation](https://leetcode.com/problems/solve-the-equation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SolveTheEquation640.java) | Medium |
 | [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignCircularDeque641.java) | Medium |
 | [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignSearchAutocompleteSystem642.java) | Hard |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumAverageSubarrayI643.java) | Easy |
