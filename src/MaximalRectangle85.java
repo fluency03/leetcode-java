@@ -64,7 +64,6 @@ public class MaximalRectangle85 {
         h[cLen]=0;
         int max = 0;
 
-
         for (int row=0;row<rLen;row++) {
             Stack<Integer> s = new Stack<Integer>();
             for (int i=0;i<cLen+1;i++) {
@@ -259,12 +258,10 @@ public class MaximalRectangle85 {
         int[][] dp = new int[M][N+1];
         int res = 0;
         for (int i=0; i<M; i++) {
-            for (int j=0; j<N; j++) {
-                if (matrix[i][j] == '0') {
-                    dp[i][j] = 0;
-                } else {
+            for (int j=1; j<=N; j++) {
+                if (matrix[i][j-1] == '1') {
                     int local = 0;
-                    dp[i][j] = (j == 0 ? 0 : dp[i][j-1]) + 1;
+                    dp[i][j] = dp[i][j-1] + 1;
                     int width = Integer.MAX_VALUE;
                     for (int k=i; k>=0; k--) {
                         width = Math.min(width, dp[k][j]);
