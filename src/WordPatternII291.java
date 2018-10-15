@@ -24,16 +24,16 @@ public class WordPatternII291 {
     public boolean wordPatternMatch(String pattern, String str) {
         if (pattern.length() == 0) return str.length() == 0;
         if (str.length() == 0) return false;
-        return match(pattern, 0, str, 0, new HashMap<>(), new HashMap<>());
+        return match(pattern, 0, str, 0, new String[26], new HashMap<>());
     }
 
-    private boolean match(String pattern, int i, String str, int j, Map<Character, String> p2s, Map<String, Character> s2p) {
+    private boolean match(String pattern, int i, String str, int j, String[] p2s, Map<String, Character> s2p) {
         if (i == pattern.length()) return j == str.length();
         if (j == str.length()) return false; 
 
         char p = pattern.charAt(i);
-        if (p2s.containsKey(p)) {
-            String sub = p2s.get(p);
+        if (p2s[p-'a'] != null) {
+            String sub = p2s[p-'a'];
             if (!str.startsWith(sub, j)) return false;
             if (match(pattern, i+1, str, j+sub.length(), p2s, s2p)) return true;
         } else {
@@ -44,10 +44,10 @@ public class WordPatternII291 {
                     if (p0 != p) continue;
                     if (match(pattern, i+1, str, j+sub.length(), p2s, s2p)) return true;
                 } else {
-                    p2s.put(p, sub);
+                    p2s[p-'a'] = sub;
                     s2p.put(sub, p);
                     if (match(pattern, i+1, str, j+sub.length(), p2s, s2p)) return true;
-                    p2s.remove(p);
+                    p2s[p-'a'] = null;
                     s2p.remove(sub);
                 }
             }
