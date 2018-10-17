@@ -43,4 +43,17 @@ public class BestTimeToBuyAndSellStockWithTransactionFee714 {
         return sell;
     }
 
+
+    public int maxProfit2(int[] prices, int fee) {
+        if (prices == null || prices.length <= 1) return 0;
+        
+        int buy = Integer.MIN_VALUE;
+        int sell = 0;
+        for (int p: prices) {
+            buy = Math.max(buy, sell - p);
+            sell = Math.max(sell, buy + p - fee);
+        }
+        return sell;
+    }
+
 }
