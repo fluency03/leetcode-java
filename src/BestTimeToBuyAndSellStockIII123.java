@@ -12,6 +12,28 @@
  */
 
 public class BestTimeToBuyAndSellStockIII123 {
+    public int maxProfit(int[] prices) {
+        if (prices == null || prices.length <= 1) return 0;
+
+        int buy = Integer.MIN_VALUE;
+        int preBuy = Integer.MIN_VALUE;
+        int sell = 0;
+        int preSell = 0;
+
+        for (int p: prices) {
+            sell = Math.max(sell, buy + p);
+            buy = Math.max(buy, preSell - p);
+            preSell = Math.max(preSell, preBuy + p);
+            preBuy = Math.max(preBuy, - p);
+        }
+        return sell;
+    }
+
+
+    public int maxProfit2(int[] prices) {
+        return maxProfit(2, prices);
+    }
+
     public int maxProfit(int k, int[] prices) {
         if (prices == null || prices.length <= 1 || k <= 0) return 0;
         
@@ -38,5 +60,7 @@ public class BestTimeToBuyAndSellStockIII123 {
         }
         return sell[k];
     }
+
+
 
 }
