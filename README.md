@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 520
+# Total: 521
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   139   |   284   |  85  | 11  |
+|   139   |   284   |  86  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -405,6 +405,7 @@
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IslandPerimeter463.java) | Easy |
 | [464. Can I Win](https://leetcode.com/problems/can-i-win/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CanIWin464.java) | Medium |
 | [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OptimalAccountBalancing465.java) | Hard |
+| [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConcatenatedWords472.java) | Hard |
 | [473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MatchsticksToSquare473.java) | Medium |
 | [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/OnesAndZeroes474.java) | Medium |
 | [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TotalHammingDistance477.java) | Medium |
