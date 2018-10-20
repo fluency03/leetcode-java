@@ -275,6 +275,49 @@ public class MaximalRectangle85 {
     }
 
 
+    public int maximalRectangle7(char[][] matrix) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return 0;
+        int M = matrix.length;
+        int N = matrix[0].length;
+        int[] left = new int[N];
+        int[] right = new int[N];
+        Arrays.fill(right, N);
+        int[] height = new int[N];
+        int res = 0;
+        for (int i=0; i<M; i++) {
+            int currLeft = 0;
+            int currRight = N;
+            for (int j=0; j<N; j++) {
+                if (matrix[i][j] == '1') {
+                    height[j]++;
+                } else {
+                    height[j] = 0;
+                }
+            }
+            for (int j=0; j<N; j++) {
+                if (matrix[i][j] == '1') {
+                    left[j] = Math.max(currLeft, left[j]);
+                } else {
+                    left[j] = 0;
+                    currLeft = j + 1;
+                }
+            }
+            for (int j=N-1; j>=0; j--) {
+                if (matrix[i][j] == '1') {
+                    right[j] = Math.min(currRight, right[j]);
+                } else {
+                    right[j] = N;
+                    currRight = j;
+                }
+            }
+            for (int j=0; j<N; j++) {
+                res = Math.max(res, (right[j] - left[j]) * height[j]);
+            }
+        }
+        return res;
+    }
+
+
     public static void main(String[] args) {
         MaximalRectangle85 mr = new MaximalRectangle85();
 
