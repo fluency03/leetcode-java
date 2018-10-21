@@ -53,11 +53,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 521
+# Total: 522
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   139   |   284   |  86  | 11  |
+|   139   |   284   |  87  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -420,6 +420,7 @@
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TargetSum494.java) | Medium |
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementI496.java) | Easy |
 | [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DiagonalTraverse498.java) | Medium |
+| [499. The Maze III](https://leetcode.com/problems/the-maze-iii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMazeIII499.java) | Hard |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextGreaterElementII503.java) | Medium |
 | [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TheMazeII505.java) | Hard |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MostFrequentSubtreeSum508.java) | Medium |
