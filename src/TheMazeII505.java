@@ -62,7 +62,7 @@
  */
 
 public class TheMazeII505 {
-    private int[][] directions = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private int[][] DIRECTIONS = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     public int shortestDistance(int[][] maze, int[] start, int[] destination) {
         int M = maze.length;
         int N = maze[0].length;
@@ -82,7 +82,7 @@ public class TheMazeII505 {
                 min = Math.min(min, curr.dist);
                 continue;
             }
-            for (int[] d: directions) {
+            for (int[] d: DIRECTIONS) {
                 int x = curr.pos[0] + d[0];
                 int y = curr.pos[1] + d[1];
                 int more = 1;
@@ -130,10 +130,8 @@ public class TheMazeII505 {
         }
         int[] dx = new int[] {-1, 0, 1, 0};
         int[] dy = new int[] { 0, 1, 0, -1};
-        
         q.offer(start);
         dist[start[0]][start[1]] = 0;
-        
         while (!q.isEmpty()) {
             int[] p = q.poll();
             for (int i = 0; i < 4; i++) {
@@ -258,6 +256,99 @@ public class TheMazeII505 {
     }
 
 
+    /**
+     * https://leetcode.com/problems/the-maze-ii/solution/
+     */
+    public int shortestDistance5(int[][] maze, int[] start, int[] destination) {
+        int M = maze.length;
+        int N = maze[0].length;
+        int[][] distances = new int[M][N];
+        for (int[] row: distances) Arrays.fill(row, Integer.MAX_VALUE);
+        distances[start[0]][start[1]] = 0;
+        boolean[][] visited = new boolean[M][N];
+        roll(maze, distances, visited, M, N);
+        int res = distances[destination[0]][destination[1]];
+        return res == Integer.MAX_VALUE ? -1 : res;
+    }
 
+    private void roll(int[][] maze, int[][] distances, boolean[][] visited, int M, int N) {
+        while (true) {
+            int[] m = minDistance(distances, visited, M, N);
+            if (m == null) return;
+            visited[m[0]][m[1]] = true;
+            for (int[] dir: DIRECTIONS) {
+                int x = m[0] + dir[0];
+                int y = m[1] + dir[1];
+                int dis = 0;
+                while (x >= 0 && y >= 0 && x < M && y < N && maze[x][y] == 0) {
+                    x += dir[0];
+                    y += dir[1];
+                    dis++;
+                }
+                x -= dir[0];
+                y -= dir[1];
+                int d = distances[m[0]][m[1]] + dis;
+                if (d < distances[x][y]) {
+                    distances[x][y] = d;
+                    
+                }
+            }  
+        }
+    }
+
+    private int[] minDistance(int[][] distances, boolean[][] visited, int M, int N) {
+        int[] res = null;
+        int min = Integer.MAX_VALUE;
+        for (int i=0; i<M; i++) {
+            for (int j=0; j<N; j++) {
+                if (!visited[i][j] && distances[i][j] < min) {
+                    res = new int[]{i, j};
+                    min = distances[i][j];
+                }
+            }
+        }
+        return res;
+    }
+
+
+    /**
+     * https://leetcode.com/problems/the-maze-ii/solution/
+     */
+    public int shortestDistance6(int[][] maze, int[] start, int[] destination) {
+        int M = maze.length;
+        int N = maze[0].length;
+        int[][] distances = new int[M][N];
+        for (int[] row: distances) Arrays.fill(row, Integer.MAX_VALUE);
+        distances[start[0]][start[1]] = 0;
+        roll(maze, distances, start, M, N);
+        int res = distances[destination[0]][destination[1]];
+        return res == Integer.MAX_VALUE ? -1 : res;
+    }
+
+    private void roll(int[][] maze, int[][] distances, int[] start, int M, int N) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
+        pq.add(new int[]{start[0], start[1], 0});
+        while (!pq.isEmpty()) {
+            int[] md = pq.poll();
+            if (distances[md[0]][md[1]] < md[2]) continue; 
+            for (int[] dir: DIRECTIONS) {
+                int x = md[0] + dir[0];
+                int y = md[1] + dir[1];
+                int dis = 0;
+                while (x >= 0 && y >= 0 && x < M && y < N && maze[x][y] == 0) {
+                    x += dir[0];
+                    y += dir[1];
+                    dis++;
+                }
+                x -= dir[0];
+                y -= dir[1];
+                int d = distances[md[0]][md[1]] + dis;
+                if (d < distances[x][y]) {
+                    distances[x][y] = d;
+                    pq.add(new int[]{x, y, d});
+                }
+            }  
+        }
+    }
 
 }
