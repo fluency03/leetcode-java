@@ -157,4 +157,107 @@ public class TheMazeII505 {
         return dist[destination[0]][destination[1]] == Integer.MAX_VALUE ? -1 : dist[destination[0]][destination[1]];
     }
 
+
+    public int shortestDistance3(int[][] maze, int[] start, int[] destination) {
+        int M = maze.length;
+        int N = maze[0].length;
+        int[][] memo = new int[M][N];
+        for (int[] row: memo) Arrays.fill(row, Integer.MAX_VALUE);
+        memo[start[0]][start[1]] = 0;
+        roll(maze, start[0], start[1], memo, M, N);
+        return memo[destination[0]][destination[1]] == Integer.MAX_VALUE ? -1 : memo[destination[0]][destination[1]];
+    }
+
+    private void roll(int[][] maze, int i, int j, int[][] memo, int M, int N) {
+        // top
+        int t = i - 1;
+        int rt = 1;
+        while (t >= 0 && maze[t][j] == 0) {
+            t--;
+            rt++;
+        }
+        t++;
+        rt--;
+        if (memo[i][j] + rt < memo[t][j]) {
+            memo[t][j] = memo[i][j] + rt;
+            roll(maze, t, j, memo, M, N);
+        }
+
+        // bottom
+        int b = i + 1;
+        int rb = 1;
+        while (b < M && maze[b][j] == 0) {
+            b++;
+            rb++;
+        }
+        b--;
+        rb--;
+        if (memo[i][j] + rb < memo[b][j]) {
+            memo[b][j] = memo[i][j] + rb;
+            roll(maze, b, j, memo, M, N);
+        }
+
+        // left
+        int l = j - 1;
+        int rl = 1;
+        while (l >= 0 && maze[i][l] == 0) {
+            l--;
+            rl++;
+        }
+        l++;
+        rl--;
+        if (memo[i][j] + rl < memo[i][l]) {
+            memo[i][l] = memo[i][j] + rl;
+            roll(maze, i, l, memo, M, N);
+        }
+
+        // right
+        int r = j + 1;
+        int rr = 1;
+        while (r < N && maze[i][r] == 0) {
+            r++;
+            rr++;
+        }
+        r--;
+        rr--;
+        if (memo[i][j] + rr < memo[i][r]) {
+            memo[i][r] = memo[i][j] + rr;
+            roll(maze, i, r, memo, M, N);
+        }
+    }
+
+
+    /**
+     * https://leetcode.com/problems/the-maze-ii/solution/
+     */
+    public int shortestDistance4(int[][] maze, int[] start, int[] dest) {
+        int[][] distance = new int[maze.length][maze[0].length];
+        for (int[] row: distance)
+            Arrays.fill(row, Integer.MAX_VALUE);
+        distance[start[0]][start[1]] = 0;
+        dfs(maze, start, distance);
+        return distance[dest[0]][dest[1]] == Integer.MAX_VALUE ? -1 : distance[dest[0]][dest[1]];
+    }
+
+    public void dfs(int[][] maze, int[] start, int[][] distance) {
+        int[][] dirs={{0,1}, {0,-1}, {-1,0}, {1,0}};
+        for (int[] dir: dirs) {
+            int x = start[0] + dir[0];
+            int y = start[1] + dir[1];
+            int count = 0;
+            while (x >= 0 && y >= 0 && x < maze.length && y < maze[0].length && maze[x][y] == 0) {
+                x += dir[0];
+                y += dir[1];
+                count++;
+            }
+            if (distance[start[0]][start[1]] + count < distance[x - dir[0]][y - dir[1]]) {
+                distance[x - dir[0]][y - dir[1]] = distance[start[0]][start[1]] + count;
+                dfs(maze, new int[]{x - dir[0],y - dir[1]}, distance);
+            }
+        }
+    }
+
+
+
+
 }
