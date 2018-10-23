@@ -139,7 +139,7 @@ public class CountOfSmallerNumbersAfterSelf315 {
     /**
      * https://discuss.leetcode.com/topic/31405/9ms-short-java-bst-solution-get-answer-when-building-bst
      */
-    public List<Integer> countSmaller(int[] nums) {
+    public List<Integer> countSmaller4(int[] nums) {
         Integer[] ans = new Integer[nums.length];
         Node root = null;
         for (int i = nums.length - 1; i >= 0; i--) {
@@ -147,6 +147,7 @@ public class CountOfSmallerNumbersAfterSelf315 {
         }
         return Arrays.asList(ans);
     }
+
     private Node insert(int num, Node node, Integer[] ans, int i, int preSum) {
         if (node == null) {
             node = new Node(num, 0);
@@ -175,7 +176,7 @@ public class CountOfSmallerNumbersAfterSelf315 {
     /**
      * https://discuss.leetcode.com/topic/31173/my-simple-ac-java-binary-search-code
      */
-    public List<Integer> countSmaller(int[] nums) {
+    public List<Integer> countSmaller5(int[] nums) {
         Integer[] ans = new Integer[nums.length];
         List<Integer> sorted = new ArrayList<Integer>();
         for (int i = nums.length - 1; i >= 0; i--) {
@@ -185,6 +186,7 @@ public class CountOfSmallerNumbersAfterSelf315 {
         }
         return Arrays.asList(ans);
     }
+
     private int findIndex(List<Integer> sorted, int target) {
         if (sorted.size() == 0) return 0;
         int start = 0;
@@ -201,6 +203,107 @@ public class CountOfSmallerNumbersAfterSelf315 {
         }
         if (sorted.get(start) >= target) return start;
         return end;
+    }
+
+
+    public List<Integer> countSmaller6(int[] nums) {
+        LinkedList<Integer> res = new LinkedList<>();
+        if (nums == null || nums.length == 0) return res;
+        int N = nums.length;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int n: nums) {
+            min = Math.min(min, n);
+        }
+        int[] ranks = new int[N];
+        for (int i = 0; i < N; i++) {
+            ranks[i] = nums[i] - min + 1;
+            max = Math.max(ranks[i], max);
+        }
+
+        BinaryIndexedTree bit = new BinaryIndexedTree(max);
+        for (int i=ranks.length-1; i>=0 ;i--) {
+            res.addFirst(bit.query(ranks[i] - 1));
+            bit.update(ranks[i], 1);
+        }
+        return res;
+    }
+
+    class BinaryIndexedTree {
+        int[] tree;
+        int N;
+
+        BinaryIndexedTree(int N) {
+            this.N = N;
+            this.tree = new int[N+1];
+        }
+
+        void update(int i, int delta) {
+            int k = i + 1;
+            while (k <= this.N) {
+                this.tree[k] += delta;
+                k += lowBit(k);
+            }
+        }
+
+        int query(int i) {
+            int k = i + 1;
+            int res = 0;
+            while (k > 0) {
+                res += this.tree[k];
+                k -= lowBit(k);
+            }
+            return res;
+        }
+
+        private int lowBit(int x) {
+            return x & (-x);
+        }
+    }
+
+
+    public List<Integer> countSmaller7(int[] nums) {
+        LinkedList<Integer> res = new LinkedList<>();
+        if (nums == null || nums.length == 0) return res;
+        int N = nums.length;
+        Node root = new Node(nums[N-1]);
+        res.add(0);
+        for (int i=N-2; i>=0; i--) {
+            res.addFirst(insert(root, nums[i]));
+        }
+        return res;
+    }
+
+    private int insert(Node root, int val) {
+        if (root.val == val) {
+            root.count++;
+            return root.leftCount;
+        } else if (root.val > val) {
+            root.leftCount++;
+            if (root.left == null) {
+                root.left = new Node(val);
+                return 0;
+            }
+            return insert(root.left, val);
+        } else {
+            if (root.right == null) {
+                root.right = new Node(val);
+                return root.count + root.leftCount;
+            }
+            return root.count + root.leftCount + insert(root.right, val);
+        }
+        
+    }
+
+    class Node {
+        Node left;
+        Node right;
+        int val;
+        int count = 1;
+        int leftCount = 0;
+        Node(int v) {
+            this.val = v;
+        }
     }
 
 }
