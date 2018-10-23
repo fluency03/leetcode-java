@@ -190,6 +190,12 @@ public class DesignSearchAutocompleteSystem642 {
         private Node root;
         private Node currNode;
 
+        Comparator<String> comp = (s1, s2) -> {
+            int freqDiff = Integer.compare(this.freq.get(s1), this.freq.get(s2));
+            if (freqDiff != 0) return freqDiff;
+            return -s1.compareTo(s2);
+        };
+
         public AutocompleteSystem2(String[] sentences, int[] times) {
             int N = sentences.length;
             this.freq = new HashMap<>();
@@ -243,11 +249,7 @@ public class DesignSearchAutocompleteSystem642 {
                 }
                 Node nn = next(this.currNode, c);
                 this.currNode = nn;
-                PriorityQueue<String> pq = new PriorityQueue<>(3, (s1, s2) -> {
-                    int freqDiff = Integer.compare(this.freq.get(s1), this.freq.get(s2));
-                    if (freqDiff != 0) return freqDiff;
-                    return -asciiOrder(s1, s2);
-                });
+                PriorityQueue<String> pq = new PriorityQueue<>(3, comp);
                 if (nn != null) {
                     this.currNode = nn.eq;
                     if (nn.sent != null) {
@@ -284,22 +286,6 @@ public class DesignSearchAutocompleteSystem642 {
             getAllSents(n.left, pq);
             getAllSents(n.eq, pq);
             getAllSents(n.right, pq);
-        }
-
-        private int asciiOrder(String s1, String s2) {
-            int i = 0;
-            int len1 = s1.length();
-            int len2 = s2.length();
-            char[] chars1 = s1.toCharArray();
-            char[] chars2 = s2.toCharArray();
-            while (i < len1 && i < len2) {
-                if (chars1[i] == chars2[i]) {
-                    i++;
-                    continue;
-                }
-                return Integer.compare(chars1[i], chars2[i]);
-            }
-            return Integer.compare(len1, len2);
         }
 
         class Node {
