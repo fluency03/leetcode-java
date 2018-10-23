@@ -13,6 +13,11 @@ public class BinaryIndexedTree {
         constructBIT(nums);
     }
 
+    public BinaryIndexedTree(int N) {
+        this.N = N;
+        this.tree = new int[N+1];
+    }
+
     private void constructBIT(int[] nums) {
         int N = nums.length;
         for (int i=0; i<N; i++) {
