@@ -80,6 +80,7 @@
  */
 
 public class DesignSearchAutocompleteSystem642 {
+    // Trie
     class AutocompleteSystem {
         private Map<String, Integer> freq;
         private StringBuilder currSent;
@@ -180,6 +181,139 @@ public class DesignSearchAutocompleteSystem642 {
             }
         }
     }
+
+
+    // Tenary Search Tree
+    class AutocompleteSystem2 {
+        private StringBuilder sb;
+        private Map<String, Integer> freq;
+        private Node root;
+        private Node currNode;
+
+        public AutocompleteSystem2(String[] sentences, int[] times) {
+            int N = sentences.length;
+            this.freq = new HashMap<>();
+            for (int i=0; i<N; i++) {
+                this.freq.put(sentences[i], times[i]);
+                this.root = addNode(this.root, sentences[i]);
+            }
+            this.currNode = this.root;
+            this.sb = new StringBuilder();
+        }
+
+        private Node addNode(Node n, String s) {
+            return addNode(n, s.toCharArray(), 0);
+        }
+
+        private Node addNode(Node n, char[] chars, int i) {
+            if (i == chars.length) {
+                return n;
+            }
+            char ch = chars[i];
+            if (n == null) {
+                n = new Node(ch);
+            }
+
+            if (ch < n.ch) {
+                n.left = addNode(n.left, chars, i);
+            } else if (ch > n.ch) {
+                n.right = addNode(n.right, chars, i);
+            } else {
+                if (i+1 < chars.length) {
+                    n.eq = addNode(n.eq, chars, i+1);
+                } else {
+                    n.sent = new String(chars);
+                }
+            }
+            return n;
+        }
+
+        public List<String> input(char c) {
+            if (c == '#') {
+                String newSent = this.sb.toString();
+                this.sb = new StringBuilder();
+                this.freq.put(newSent, this.freq.getOrDefault(newSent, 0) + 1);
+                this.root = addNode(this.root, newSent);
+                this.currNode = this.root;
+                return new ArrayList<>();
+            } else {
+                this.sb.append(c);
+                if (this.currNode == null) {
+                    return new ArrayList<>();
+                }
+                Node nn = next(this.currNode, c);
+                this.currNode = nn;
+                PriorityQueue<String> pq = new PriorityQueue<>(3, (s1, s2) -> {
+                    int freqDiff = Integer.compare(this.freq.get(s1), this.freq.get(s2));
+                    if (freqDiff != 0) return freqDiff;
+                    return -asciiOrder(s1, s2);
+                });
+                if (nn != null) {
+                    this.currNode = nn.eq;
+                    if (nn.sent != null) {
+                        pq.add(nn.sent);
+                    }
+                    nn = nn.eq;
+                }
+                getAllSents(nn, pq);
+                LinkedList<String> res = new LinkedList<>();
+                while (!pq.isEmpty()) {
+                    res.addFirst(pq.poll());
+                }
+                return res;
+            }
+        }
+
+        private Node next(Node n, char c) {
+            if (n == null) return null;
+            if (c < n.ch) {
+                return next(n.left, c);
+            } else if (c > n.ch) {
+                return next(n.right, c);
+            } else {
+                return n;
+            }
+        }
+
+        private void getAllSents(Node n, PriorityQueue<String> pq) {
+            if (n == null) return;
+            if (n.sent != null) {
+                pq.add(n.sent);
+                if (pq.size() > 3) pq.poll();
+            }
+            getAllSents(n.left, pq);
+            getAllSents(n.eq, pq);
+            getAllSents(n.right, pq);
+        }
+
+        private int asciiOrder(String s1, String s2) {
+            int i = 0;
+            int len1 = s1.length();
+            int len2 = s2.length();
+            char[] chars1 = s1.toCharArray();
+            char[] chars2 = s2.toCharArray();
+            while (i < len1 && i < len2) {
+                if (chars1[i] == chars2[i]) {
+                    i++;
+                    continue;
+                }
+                return Integer.compare(chars1[i], chars2[i]);
+            }
+            return Integer.compare(len1, len2);
+        }
+
+        class Node {
+            char ch;
+            Node left;
+            Node eq;
+            Node right;
+            String sent;
+            Node (char c) {
+                this.ch = c;
+            }
+        }
+    }
+
 
 /**
  * Your AutocompleteSystem object will be instantiated and called as such:
