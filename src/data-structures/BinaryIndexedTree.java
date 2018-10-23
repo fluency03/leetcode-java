@@ -21,7 +21,7 @@ public class BinaryIndexedTree {
     }
 
     public void update(int i, int delta) {
-        int k = i;
+        int k = i + 1;
         while (k <= this.N) {
             this.tree[k] += delta;
             k += lowBit(k);
@@ -29,7 +29,7 @@ public class BinaryIndexedTree {
     }
 
     public int query(int i) {
-        int k = i;
+        int k = i + 1;
         int res = 0;
         while (k > 0) {
             res += this.tree[k];
