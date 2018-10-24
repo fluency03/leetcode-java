@@ -54,11 +54,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 523
+# Total: 524
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   140   |   284   |  87  | 11  |
+|   141   |   284   |  87  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -387,6 +387,7 @@
 | [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ReconstructOriginalDigitsFromEnglish423.java) | Medium |
 | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestRepeatingCharacterReplacement424.java) | Medium |
 | [425. Word Squares](https://leetcode.com/problems/word-squares/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordSquares425.java) | Hard |
+| [427. Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ConstructQuadTree427.java) | Easy |
 | [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NaryTreeLevelOrderTraversal429.java) | Easy |
 | [432. All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AllOOneDataStructure432.java) | Hard |
 | [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MinimumGeneticMutation433.java) | Medium |
