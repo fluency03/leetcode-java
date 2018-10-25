@@ -46,6 +46,7 @@
 | [TrieNode](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/TrieNode.java) |
 | [Trie](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/Trie.java) |
 | [LRUCache](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/LRUCache.java) |
+| [LFUCache](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/LFUCache.java) |
 | [BinarySearchTree](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/BinarySearchTree.java) |
 | [BinarySearchTreeWithParent](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/BinarySearchTreeWithParent.java) |
 | [BinaryIndexedTree](https://github.com/fluency03/leetcode-java/blob/master/src/data-structures/BinaryIndexedTree.java) |
