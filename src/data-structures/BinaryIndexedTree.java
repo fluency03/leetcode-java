@@ -1,5 +1,6 @@
 /**
- * 
+ * https://www.topcoder.com/community/competitive-programming/tutorials/binary-indexed-trees/
+ * https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
  */
 
 public class BinaryIndexedTree {
