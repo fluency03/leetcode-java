@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 526
+# Total: 527
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   141   |   284   |  89  | 11  |
+|   141   |   285   |  89  | 11  |
 
 
 | Question | Solution | Difficulty |
@@ -544,6 +544,7 @@
 | [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SwapAdjacentInLRString777.java) | Medium |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/KthSymbolInGrammar779.java) | Medium |
 | [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/IsGraphBipartite785.java) | Medium |
+| [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/CheapestFlightsWithinKStops787.java) | Medium |
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DominoAndTrominoTiling790.java) | Medium |
 | [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NumberOfMatchingSubsequences792.java) | Medium |
 | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AllPathsFromSourceToTarget797.java) | Medium |
