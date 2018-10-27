@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 524
+# Total: 525
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   141   |   284   |  87  | 11  |
+|   141   |   284   |  88  | 11  |
 
 
 | Question | Solution | Difficulty |
