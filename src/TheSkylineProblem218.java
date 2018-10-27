@@ -46,15 +46,13 @@ public class TheSkylineProblem218 {
         List<int[]> res = new ArrayList<>();
         int N = buildings.length;
         if (N == 0) return res;
-
+        
         // xi, hi, L/R
-        int[][] verts = new int[N * 2][4];
+        int[][] verts = new int[N * 2][3];
         int t = 0;
-        int f = 0;
         for (int[] b: buildings) {
-            verts[t++] = new int[]{b[0], b[2], L, f};
-            verts[t++] = new int[]{b[1], b[2], R, f};
-            f++;
+            verts[t++] = new int[]{b[0], b[2], L};
+            verts[t++] = new int[]{b[1], b[2], R};
         }
         Comparator<int[]> comp1 = new Comparator<int[]>() {
             @Override
@@ -72,45 +70,29 @@ public class TheSkylineProblem218 {
             }
         };
         Arrays.sort(verts, comp1);
-
-        Comparator<int[]> comp2 = (v1, v2) -> Integer.compare(v2[1], v1[1]);
-        List<int[]> hs = new ArrayList<>();
+        
+        Comparator<Integer> comp2 = (h1, h2) -> Integer.compare(h2, h1);
+        PriorityQueue<Integer> pq = new PriorityQueue<>(comp2);
         for (int[] vi: verts) {
             int xi = vi[0];
             int hi = vi[1];
             int Di = vi[2];
-            int flag = vi[3];
 
-            Collections.sort(hs, comp2);
             if (Di == L) { // L
-                if (hs.isEmpty() || hs.get(0)[1] < hi) {
+                if (pq.isEmpty() || pq.peek() < hi) {
                     res.add(new int[]{xi, hi});
                 }
-                hs.add(vi);
+                pq.add(hi);
             } else { // R
-                int size = hs.size();
-                for (int i=0; i<size; i++) {
-                    if (hs.get(i)[3] == flag) {
-                        hs.remove(i);
-                        break;
-                    }
-                }
-                if (hs.isEmpty() || hs.get(0)[1] < hi) {
-                    int y = hs.isEmpty() ? 0 : hs.get(0)[1];
+                pq.remove(hi);
+                if (pq.isEmpty() || pq.peek() < hi) {
+                    int y = pq.isEmpty() ? 0 : pq.peek();
                     res.add(new int[]{xi, y});
                 }
             }
         }
+
         return res;
     }
-
-
-
-
-
-
-
-
-
 
 }
