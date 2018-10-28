@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 530
+# Total: 531
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   141   |   287   |  90  | 12  |
+|   141   |   288   |  90  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -507,6 +507,7 @@
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestUnivaluePath687.java) | Easy |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSumOf3NonOverlappingSubarrays689.java) | Hard |
 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TopKFrequentWords692.java) | Medium |
+| [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaxAreaOfIsland695.java) | Medium |
 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionToKEqualSumSubsets698.java) | Medium |
 | [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInASortedArrayOfUnknownSize702.java) | Medium |
 | [705. Design HashSet](https://leetcode.com/problems/design-hashset/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignHashSet705.java) | Easy |
