@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 537
+# Total: 538
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   142   |   292   |  91  | 12  |
+|   142   |   292   |  92  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -301,6 +301,7 @@
 | [291. Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WordPatternII291.java) | Hard |
 | [293. Flip Game](https://leetcode.com/problems/flip-game/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FlipGame293.java) | Easy |
 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FindMedianFromDataStream295.java) | Hard |
+| [296. Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BestMeetingPoint296.java) | Hard |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SerializeAndDeserializeBinaryTree297.java) | Hard |
 | [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BinaryTreeLongestConsecutiveSequence298.java) | Medium |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/BullsAndCows299.java) | Medium |
