@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 535
+# Total: 536
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   142   |   291   |  90  | 12  |
+|   142   |   292   |  90  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -492,6 +492,7 @@
 | [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayIntoConsecutiveSubsequences659.java) | Medium |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ImageSmoother661.java) | Easy |
 | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumWidthOfBinaryTree662.java) | Medium |
+| [663. Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/EqualTreePartition663.java) | Medium |
 | [665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NonDecreasingArray665.java) | Easy |
 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrimABinarySearchTree669.java) | Easy |
 | [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SecondMinimumNodeInABinaryTree671.java) | Easy |
