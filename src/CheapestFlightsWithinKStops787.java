@@ -131,5 +131,122 @@ public class CheapestFlightsWithinKStops787 {
         return -1;
     }
 
+
+    /**
+     * https://leetcode.com/problems/cheapest-flights-within-k-stops/discuss/128776/5-ms-AC-Java-Solution-based-on-Dijkstra's-Algorithm
+     */
+    private class City implements Comparable<City>{
+        int id;
+        int costFromSrc;
+        int stopFromSrc;
+        public City(int id, int costFromSrc, int stopFromSrc){
+            this.id = id;
+            this.costFromSrc = costFromSrc;
+            this.stopFromSrc = stopFromSrc;
+        }
+        public boolean equals(City c){
+            if(c instanceof City)
+                return this.id == c.id;
+            return false;
+        }
+        public int compareTo(City c){
+            return this.costFromSrc - c.costFromSrc;
+        }
+    }
+
+    public int findCheapestPrice4(int n, int[][] flights, int src, int dst, int K) {
+        int[][] srcToDst = new int[n][n];
+        for(int i = 0; i < flights.length; i++)
+            srcToDst[flights[i][0]][flights[i][1]] = flights[i][2]; 
+
+        PriorityQueue<City> minHeap = new PriorityQueue();
+        minHeap.offer(new City(src,0,0));
+
+        int[] cost = new int[n];
+        Arrays.fill(cost, Integer.MAX_VALUE);
+        cost[src] = 0;
+        int[] stop = new int[n];
+        Arrays.fill(stop, Integer.MAX_VALUE);
+        stop[src] = 0;
+
+        while(!minHeap.isEmpty()){
+            City curCity = minHeap.poll();
+            if(curCity.id == dst) return curCity.costFromSrc;
+            if(curCity.stopFromSrc == K + 1) continue;
+            int[] nexts = srcToDst[curCity.id];
+            for(int i = 0; i < n; i++){
+                if(nexts[i] != 0){
+                    int newCost = curCity.costFromSrc + nexts[i];
+                    int newStop = curCity.stopFromSrc + 1;
+                    if(newCost < cost[i]){
+                        minHeap.offer(new City(i, newCost, newStop));
+                        cost[i] = newCost;
+                    }
+                    else if(newStop < stop[i]){
+                        minHeap.offer(new City(i, newCost, newStop));
+                        stop[i] = newStop;
+                    }
+                }
+            }
+        }
+
+        return cost[dst] == Integer.MAX_VALUE? -1:cost[dst];
+    }
+
+
+    /**
+     * https://leetcode.com/problems/cheapest-flights-within-k-stops/discuss/163698/easy-java-Bellman-Ford
+     */
+    public int findCheapestPrice5(int n, int[][] flights, int src, int dst, int k) {
+        int INF = 0x3F3F3F3F;
+        int[] cost = new int[n];
+        Arrays.fill(cost, INF);
+        cost[src] = 0;
+        int ans = cost[dst];
+        for(int i = k; i >= 0; i--){
+            int[] cur = new int[n];
+            Arrays.fill(cur, INF);
+            for(int[] flight : flights){
+                cur[flight[1]] = Math.min(cur[flight[1]], cost[flight[0]] + flight[2]);
+            }
+            cost = cur;
+            ans = Math.min(ans, cost[dst]);
+        }
+        return ans == INF ? -1 : ans;
+    }
+
+
+    private static int MAX = Integer.MAX_VALUE / 2;
+    public int findCheapestPrice6(int n, int[][] flights, int src, int dst, int K) {
+        int[][] dp = new int[K+2][n];
+        for (int[] row: dp) Arrays.fill(row, MAX);
+        dp[0][src] = 0;
+        for (int i=1; i<=K+1; i++) {
+            for (int[] f: flights) {
+                dp[i][f[1]] = Math.min(dp[i][f[1]], Math.min(dp[i-1][f[1]],
+                                       dp[i-1][f[0]] + f[2]));
+            }
+        }
+        return dp[K+1][dst] >= MAX ? -1 : dp[K+1][dst];
+    }
+
+
+    public int findCheapestPrice7(int n, int[][] flights, int src, int dst, int K) {
+        int[][] dp = new int[2][n];
+        Arrays.fill(dp[0], MAX);
+        Arrays.fill(dp[1], MAX);
+        dp[0][src] = 0;
+        int k = 1;
+        while (k <= K+1) {
+            for (int[] f: flights) {
+                dp[k%2][f[1]] = Math.min(dp[k%2][f[1]], Math.min(dp[(k-1)%2][f[1]],
+                                       dp[(k-1)%2][f[0]] + f[2]));
+            }
+            k++;
+        }
+        k--;
+        return dp[k%2][dst] >= MAX ? -1 : dp[k%2][dst];
+    }
+
 }
 
