@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 536
+# Total: 537
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   142   |   292   |  90  | 12  |
+|   142   |   292   |  91  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -100,6 +100,7 @@
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FirstMissingPositive41.java) | Hard |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/TrappingRainWater42.java) | Hard |
 | [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/WildcardMatching44.java) | Hard |
+| [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/JumpGameII45.java) | Hard |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/Permutations46.java) | Medium |
 | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PermutationsII47.java) | Medium |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateImage48.java) | Medium |
