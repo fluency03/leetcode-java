@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 532
+# Total: 533
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   142   |   288   |  90  | 12  |
+|   142   |   289   |  90  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -104,6 +104,7 @@
 | [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PermutationsII47.java) | Medium |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/RotateImage48.java) | Medium |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/GroupAnagrams49.java) | Medium |
+| [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PowXN50.java) | Medium |
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueens51.java) | Hard |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NQueensII52.java) | Hard |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/MaximumSubarray53.java) | Easy |
