@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 531
+# Total: 532
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   141   |   288   |  90  | 12  |
+|   142   |   288   |  90  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -381,6 +381,7 @@
 | [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidWordAbbreviation408.java) | Easy |
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestPalindrome409.java) | Easy |
 | [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SplitArrayLargestSum410.java) | Hard |
+| [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/FizzBuzz412.java) | Easy |
 | [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ThirdMaximumNumber414.java) | Easy |
 | [415. Add Strings](https://leetcode.com/problems/add-strings/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AddStrings415.java) | Easy |
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/PartitionEqualSubsetSum416.java) | Medium |
