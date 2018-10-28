@@ -55,11 +55,11 @@
 | [Graph](https://github.com/fluency03/leetcode-java/blob/master/src/graph) |
 
 
-# Total: 533
+# Total: 534
 
 |   Easy  |  Medium | Hard |  -  |
 |:-------:|:-------:|:----:|:---:|
-|   142   |   289   |  90  | 12  |
+|   142   |   290   |  90  | 12  |
 
 
 | Question | Solution | Difficulty |
@@ -474,6 +474,7 @@
 | [632. Smallest Range](https://leetcode.com/problems/smallest-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SmallestRange632.java) | Hard |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SumOfSquareNumbers633.java) | Easy |
 | [635. Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DesignLogStorageSystem635.java) | Hard |
+| [636. Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ExclusiveTimeOfFunctions636.java) | Medium |
 | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/AverageOfLevelsInBinaryTree637.java) | Easy |
 | [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/DecodeWaysII639.java) | Hard |
 | [640. Solve the Equation](https://leetcode.com/problems/solve-the-equation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SolveTheEquation640.java) | Medium |
