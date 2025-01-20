@@ -109,3 +109,44 @@ public class PossibleBipartition886 {
     }
 
 }
+
+// My solution, time: 37.75%, memory: 12.35%. Use DFS method.
+import java.util.*;
+
+class Solution {
+    public boolean possibleBipartition(int n, int[][] dislikes) {
+        Set<Integer>[] graph = new Set[n + 1];
+        for (int[] e: dislikes) {
+            if (graph[e[0]] == null) graph[e[0]] = new HashSet<>();
+            if (graph[e[1]] == null) graph[e[1]] = new HashSet<>();
+            graph[e[0]].add(e[1]);
+            graph[e[1]].add(e[0]);
+        }
+
+        int[] visited = new int[n + 1];
+        for (int i = 1; i <= n; i++) {
+            if (visited[i] == 0 && !dfs(graph, visited, i, 1)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private boolean dfs(Set<Integer>[] graph, int[] visited, int currNode, int currColor) {
+        visited[currNode] = currColor;
+
+        if (graph[currNode] == null) 
+            return true;
+
+        for (int next: graph[currNode]) {
+            if (visited[next] == 0 && !dfs(graph, visited, next, -1 * currColor)) {
+                return false;
+            } else if (visited[next] == visited[currNode]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
