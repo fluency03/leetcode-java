@@ -92,7 +92,7 @@
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/NextPermutation31.java) | Medium |
 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/LongestValidParentheses32.java) | Hard |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInRotatedSortedArray33.java) | Medium |
-| [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
+| [34. Search for a Range](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchForARange34.java) | Medium |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SearchInsertPosition35.java) | Easy |
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/ValidSudoku36.java) | Medium |
 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Solution](https://github.com/fluency03/leetcode-java/blob/master/src/SudokuSolver37.java) | Hard |
